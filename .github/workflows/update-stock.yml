@@ -1,35 +1,65 @@
 name: Update GU snapshot
+
 on:
   schedule:
     - cron: "17 */6 * * *"
   push:
     branches: [main]
   workflow_dispatch:
+
 permissions:
   contents: write
+
 concurrency:
   group: gu-data-refresh
   cancel-in-progress: true
+
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
-        with: { python-version: "3.12" }
-      - run: pip install --disable-pip-version-check selenium
-      - name: Render and extract GU data
+        with:
+          python-version: "3.12"
+
+      - name: Install Playwright Firefox
         run: |
-          set +e
-          python scripts/fetch_gu.py > data/run.log 2>&1
-          code=$?
-          echo "exit_code=$code" >> data/run.log
-          exit 0
-      - name: Commit changed snapshot
+          python -m pip install --disable-pip-version-check playwright
+          python -m playwright install --with-deps firefox
+
+      - name: Render and extract GU listing
+        id: scrape
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -o pipefail
+          python scripts/fetch_gu.py 2>&1 | tee data/run.log
+
+      - name: Commit snapshot and diagnostics
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/products.json data/run.log
           git diff --cached --quiet || git commit -m "data: refresh GU sale snapshot"
           git push
+
+      - name: Verify usable product data
+        if: always()
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path("data/products.json").read_text())
+          count = len(data.get("products", []))
+          warning = data.get("warning")
+          print(f"products={count}")
+          print(f"priceTiers={data.get('priceTiers', {})}")
+          if warning:
+              raise SystemExit(f"scrape warning: {warning}")
+          if count < 5:
+              raise SystemExit(f"expected at least 5 products, got {count}")
+          PY
