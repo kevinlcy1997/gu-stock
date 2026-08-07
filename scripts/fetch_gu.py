@@ -1,83 +1,189 @@
-"""Render GU HK's dynamic sale listing and publish a conservative snapshot."""
-import hashlib, json, re, time
+"""Render GU HK's women's sale listing with Playwright Firefox."""
+
+from __future__ import annotations
+
+import json
+import re
+from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
 
-URLS=[
- "https://www.gu-global.com/hk/zh_HK/c/women-saleitems.html",
- "https://m.gu-global.com/hk/home/c_mobile/women-saleitems",
- "https://www.gu-global.com/hk/zh_HK/c/women-saleitems-tops.html",
- "https://www.gu-global.com/hk/zh_HK/c/women-saleitems-bottoms.html",
-]
-OUT=Path(__file__).parents[1]/"data/products.json"
-old=json.loads(OUT.read_text()) if OUT.exists() else {"products":[]}
-options=Options()
-for flag in ("--headless=new","--no-sandbox","--disable-dev-shm-usage","--disable-http2","--window-size=1440,1800","--lang=zh-HK"):
-    options.add_argument(flag)
-options.set_capability("goog:loggingPrefs",{"performance":"ALL"})
-driver=webdriver.Chrome(options=options)
-rows=[]; diagnostics=[]; network=[]; page_meta=[]
+from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
+from playwright.sync_api import sync_playwright
+
+URL = "https://www.gu-global.com/hk/zh_HK/c/women-saleitems.html"
+OUT = Path(__file__).parents[1] / "data/products.json"
+old = json.loads(OUT.read_text()) if OUT.exists() else {"products": []}
+diagnostics: list[dict] = []
+rows: list[dict] = []
+
 try:
-  for source in URLS:
-    try:
-      driver.get(source); time.sleep(8)
-      for _ in range(8):
-        driver.execute_script("window.scrollTo(0, document.body.scrollHeight)"); time.sleep(1)
-      html=driver.page_source
-      body_text=driver.execute_script("return document.body ? document.body.innerText : ''") or ""
-      srcs=re.findall(r'<script[^>]+src=["\\\']([^"\\\']+)',html,re.I)
-      inline=[]
-      for m in re.finditer(r'<script(?![^>]+src=)[^>]*>(.*?)</script>',html,re.I|re.S):
-        s=m.group(1)
-        if re.search(r'api|product|search|stock|inventory|catalog|category',s,re.I):
-          inline.append(re.sub(r"\\s+"," ",s)[:2200])
-          if len(inline)>=8: break
-      page_meta.append({"url":driver.current_url,"bodyText":body_text[:5000],"scripts":srcs[:80],"inlineHints":inline})
-      cards=driver.execute_script(r"""
-        const seen=new Set(), out=[];
-        for (const a of document.querySelectorAll('a[href]')) {
-          let box=a.closest('li,article,[class*="product"],[class*="item"]')||a.parentElement||a;
-          for(let i=0;i<4 && box && !/HK\\$\\s*\\d/i.test(box.innerText||'');i++) box=box.parentElement;
-          const text=(box?.innerText||a.innerText||'').trim();
-          if(!/HK\\$\\s*\\d/i.test(text)) continue;
-          const img=box?.querySelector('img')||a.querySelector('img');
-          const key=a.href+'|'+text.slice(0,80);
-          if(seen.has(key)) continue; seen.add(key);
-          out.push({href:a.href,text,image:img?(img.currentSrc||img.src||img.getAttribute('data-src')):null});
-        }
-        return out;
-      """)
-      diagnostics.append({"requested":source,"finalUrl":driver.current_url,"title":driver.title,
-        "bodyChars":len(driver.page_source),"candidateLinks":len(cards)})
-      rows.extend(cards)
-      if len(cards)>=5: break
-    except Exception as e:
-      diagnostics.append({"requested":source,"error":str(e)[:240]})
-finally:
-  driver.quit()
+    with sync_playwright() as playwright:
+        browser = playwright.firefox.launch(headless=True)
+        page = browser.new_page(
+            viewport={"width": 1440, "height": 1800},
+            locale="zh-HK",
+            timezone_id="Asia/Hong_Kong",
+            user_agent=(
+                "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:141.0) "
+                "Gecko/20100101 Firefox/141.0"
+            ),
+        )
 
-products={}
+        response = page.goto(URL, wait_until="domcontentloaded", timeout=90_000)
+        page.wait_for_timeout(8_000)
+
+        previous = -1
+        stable_rounds = 0
+        counts: list[int] = []
+        for _ in range(30):
+            count = page.locator('a[href*="productCode=" i]').count()
+            counts.append(count)
+            stable_rounds = stable_rounds + 1 if count == previous else 0
+            previous = count
+            if count > 0 and stable_rounds >= 4:
+                break
+            page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+            page.wait_for_timeout(1_200)
+
+        rows = page.evaluate(
+            r"""
+            () => {
+              const out = [];
+              const seen = new Set();
+
+              for (const a of document.querySelectorAll('a[href]')) {
+                let url;
+                try { url = new URL(a.href, location.href); } catch { continue; }
+
+                let productCode = "";
+                for (const [key, value] of url.searchParams.entries()) {
+                  if (key.toLowerCase() === "productcode") productCode = value;
+                }
+                if (!productCode || seen.has(productCode)) continue;
+
+                let box = a.closest('li, article, [class*="product"], [class*="item"]')
+                  || a.parentElement || a;
+                for (let i = 0; i < 6 && box && !/HK\$\s*\d/i.test(box.innerText || ""); i++) {
+                  box = box.parentElement;
+                }
+
+                const text = (box?.innerText || a.innerText || "").trim();
+                if (!/HK\$\s*\d/i.test(text)) continue;
+
+                const image = box?.querySelector("img") || a.querySelector("img");
+                const imageUrl = image
+                  ? (image.currentSrc || image.src || image.dataset.src
+                    || image.dataset.original || image.getAttribute("data-lazy-src"))
+                  : null;
+
+                seen.add(productCode);
+                out.push({
+                  productCode,
+                  href: url.href,
+                  text,
+                  image: imageUrl || null,
+                });
+              }
+              return out;
+            }
+            """
+        )
+
+        diagnostics.append(
+            {
+                "engine": "playwright-firefox",
+                "status": response.status if response else None,
+                "finalUrl": page.url,
+                "title": page.title(),
+                "productLinkCounts": counts,
+                "candidateProducts": len(rows),
+                "bodyPreview": page.locator("body").inner_text()[:1200],
+            }
+        )
+        browser.close()
+except PlaywrightTimeoutError as exc:
+    diagnostics.append({"engine": "playwright-firefox", "error": f"timeout: {exc}"[:500]})
+except Exception as exc:
+    diagnostics.append(
+        {"engine": "playwright-firefox", "error": f"{type(exc).__name__}: {exc}"[:500]}
+    )
+
+products: dict[str, dict] = {}
 for row in rows:
-  text=re.sub(r"\s+"," ",row.get("text") or "").strip()
-  prices=[float(x.replace(",","")) for x in re.findall(r"HK\$\s*([0-9][0-9,]*(?:\.\d+)?)",text,re.I)]
-  if not prices: continue
-  href=row.get("href") or ""
-  q=parse_qs(urlparse(href).query)
-  pid=(q.get("productCode") or q.get("productcode") or [None])[0]
-  if not pid:
-    m=re.search(r"(?:product|item)[^0-9]*([0-9]{5,})",href,re.I); pid=m.group(1) if m else hashlib.sha1(href.encode()).hexdigest()[:12]
-  bits=[x.strip() for x in re.split(r"[\n\r]+",row.get("text") or "") if x.strip()]
-  name=next((x for x in bits if "HK$" not in x and len(x)>2 and x.upper() not in {"SALE","WOMEN"}),"GU 減價商品")
-  products[str(pid)]={"id":str(pid),"name":name[:160],"price":min(prices),
-    "originalPrice":max(prices) if max(prices)>min(prices) else None,
-    "image":row.get("image"),"url":href,"stock":{}}
+    text = re.sub(r"\s+", " ", row.get("text") or "").strip()
+    prices = [
+        float(value.replace(",", ""))
+        for value in re.findall(r"HK\$\s*([0-9][0-9,]*(?:\.\d+)?)", text, re.I)
+    ]
+    if not prices:
+        continue
 
-payload={"updatedAt":datetime.now(timezone.utc).isoformat(timespec="seconds"),"source":URLS[0],
- "products":list(products.values()),"diagnostics":diagnostics,"network":network[:80],"pageMeta":page_meta}
+    product_code = str(row.get("productCode") or "").strip()
+    href = row.get("href") or ""
+    if not product_code:
+        query = parse_qs(urlparse(href).query)
+        product_code = (query.get("productCode") or [""])[0]
+    if not product_code:
+        continue
+
+    lines = [
+        re.sub(r"\s+", " ", line).strip()
+        for line in re.split(r"[\n\r]+", row.get("text") or "")
+        if line.strip()
+    ]
+    item_match = re.search(r"(?:商品編號|Item(?:\s*No\.?))\s*[:：]?\s*(\d{5,})", text, re.I)
+    item_no = item_match.group(1) if item_match else None
+
+    excluded = re.compile(
+        r"HK\$|^(?:SALE|WOMEN|NEW|LIMITED|GU)$|商品編號|Item\s*No|^\d{5,}$",
+        re.I,
+    )
+    name = next(
+        (line for line in lines if len(line) > 2 and not excluded.search(line)),
+        "GU 減價商品",
+    )
+
+    sale_price = min(prices)
+    original_price = max(prices) if max(prices) > sale_price else None
+    products[product_code] = {
+        "id": item_no or product_code,
+        "productCode": product_code,
+        "itemNo": item_no,
+        "name": name[:160],
+        "price": sale_price,
+        "originalPrice": original_price,
+        "image": row.get("image"),
+        "url": href,
+        "stock": {},
+    }
+
+price_tiers = Counter(
+    str(int(product["price"]) if product["price"].is_integer() else product["price"])
+    for product in products.values()
+)
+payload = {
+    "updatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+    "source": URL,
+    "products": list(products.values()),
+    "priceTiers": dict(sorted(price_tiers.items(), key=lambda item: float(item[0]))),
+    "diagnostics": diagnostics,
+}
+
 if not products:
-  payload["products"]=old.get("products",[])
-  payload["warning"]="Rendered pages exposed no recognised product cards; retained previous snapshot."
-OUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n")
+    payload["products"] = old.get("products", [])
+    payload["priceTiers"] = old.get("priceTiers", {})
+    payload["warning"] = (
+        "Playwright Firefox exposed no recognised GU product cards; "
+        "retained previous snapshot."
+    )
+
+OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n")
+print(f"products={len(products)}")
+print(f"priceTiers={payload['priceTiers']}")
+for diagnostic in diagnostics:
+    print(json.dumps(diagnostic, ensure_ascii=False))
+
+if not products:
+    raise SystemExit(1)
