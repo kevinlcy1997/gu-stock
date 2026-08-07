@@ -15,7 +15,7 @@ URLS=[
 OUT=Path(__file__).parents[1]/"data/products.json"
 old=json.loads(OUT.read_text()) if OUT.exists() else {"products":[]}
 options=Options()
-for flag in ("--headless=new","--no-sandbox","--disable-dev-shm-usage","--window-size=1440,1800","--lang=zh-HK"):
+for flag in ("--headless=new","--no-sandbox","--disable-dev-shm-usage","--disable-http2","--window-size=1440,1800","--lang=zh-HK"):
     options.add_argument(flag)
 options.set_capability("goog:loggingPrefs",{"performance":"ALL"})
 driver=webdriver.Chrome(options=options)
@@ -37,13 +37,18 @@ try:
           if len(inline)>=8: break
       page_meta.append({"url":driver.current_url,"bodyText":body_text[:5000],"scripts":srcs[:80],"inlineHints":inline})
       cards=driver.execute_script(r"""
-        const good = h => /product-detail|productcode|\/product\/|\/products\//i.test(h);
-        return [...document.querySelectorAll('a[href]')].filter(a=>good(a.href)).map(a=>{
-          const box=a.closest('li,article,[class*="product"],[class*="item"]')||a;
-          const img=box.querySelector('img');
-          return {href:a.href,text:(box.innerText||a.innerText||'').trim(),
-            image:img?(img.currentSrc||img.src||img.getAttribute('data-src')):null};
-        });
+        const seen=new Set(), out=[];
+        for (const a of document.querySelectorAll('a[href]')) {
+          let box=a.closest('li,article,[class*="product"],[class*="item"]')||a.parentElement||a;
+          for(let i=0;i<4 && box && !/HK\\$\\s*\\d/i.test(box.innerText||'');i++) box=box.parentElement;
+          const text=(box?.innerText||a.innerText||'').trim();
+          if(!/HK\\$\\s*\\d/i.test(text)) continue;
+          const img=box?.querySelector('img')||a.querySelector('img');
+          const key=a.href+'|'+text.slice(0,80);
+          if(seen.has(key)) continue; seen.add(key);
+          out.push({href:a.href,text,image:img?(img.currentSrc||img.src||img.getAttribute('data-src')):null});
+        }
+        return out;
       """)
       diagnostics.append({"requested":source,"finalUrl":driver.current_url,"title":driver.title,
         "bodyChars":len(driver.page_source),"candidateLinks":len(cards)})
