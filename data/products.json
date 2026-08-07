@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-08-07T18:21:05+00:00",
-  "source": "https://m.gu-global.com/hk/home/c_mobile/women-saleitems",
+  "updatedAt": "2026-08-07T18:27:08+00:00",
+  "source": "https://www.gu-global.com/hk/zh_HK/c/women-saleitems.html",
   "products": [],
-  "warning": "GU page contained no supported structured product data; retained previous snapshot."
+  "diagnostics": [
+    {
+      "requested": "https://www.gu-global.com/hk/zh_HK/c/women-saleitems.html",
+      "finalUrl": "https://www.gu-global.com/hk/zh_HK/c/women-saleitems.html",
+      "title": "www.gu-global.com",
+      "bodyChars": 185272,
+      "candidateLinks": 0
+    },
+    {
+      "requested": "https://m.gu-global.com/hk/home/c_mobile/women-saleitems",
+      "finalUrl": "https://www.gu-global.com/hk/zh_HK/c/women-saleitems.html",
+      "title": "www.gu-global.com",
+      "bodyChars": 185272,
+      "candidateLinks": 0
+    },
+    {
+      "requested": "https://www.gu-global.com/hk/zh_HK/c/women-saleitems-tops.html",
+      "finalUrl": "https://www.gu-global.com/hk/zh_HK/c/women-saleitems-tops.html",
+      "title": "www.gu-global.com",
+      "bodyChars": 185287,
+      "candidateLinks": 0
+    },
+    {
+      "requested": "https://www.gu-global.com/hk/zh_HK/c/women-saleitems-bottoms.html",
+      "finalUrl": "https://www.gu-global.com/hk/zh_HK/c/women-saleitems-bottoms.html",
+      "title": "www.gu-global.com",
+      "bodyChars": 185296,
+      "candidateLinks": 0
+    }
+  ],
+  "warning": "Rendered pages exposed no recognised product cards; retained previous snapshot."
 }
