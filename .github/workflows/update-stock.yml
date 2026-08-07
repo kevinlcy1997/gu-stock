@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - run: pip install --disable-pip-version-check selenium==4.34.2
+      - run: pip install --disable-pip-version-check selenium
       - name: Render and extract GU data
         run: |
           set +e
