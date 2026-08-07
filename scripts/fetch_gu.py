@@ -1,32 +1,68 @@
-"""Low-frequency GU sale listing snapshot.
-
-The retailer may change its page schema. This deliberately emits no fabricated
-stock when store inventory is not present in public page data.
-"""
-import json, re
+"""Render GU HK's dynamic sale listing and publish a conservative snapshot."""
+import hashlib, json, re, time
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.request import Request, urlopen
+from urllib.parse import parse_qs, urlparse
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 
-URL="https://m.gu-global.com/hk/home/c_mobile/women-saleitems"
+URLS=[
+ "https://www.gu-global.com/hk/zh_HK/c/women-saleitems.html",
+ "https://m.gu-global.com/hk/home/c_mobile/women-saleitems",
+ "https://www.gu-global.com/hk/zh_HK/c/women-saleitems-tops.html",
+ "https://www.gu-global.com/hk/zh_HK/c/women-saleitems-bottoms.html",
+]
 OUT=Path(__file__).parents[1]/"data/products.json"
-req=Request(URL,headers={"User-Agent":"Mozilla/5.0 (compatible; GU-HK-Stock-Finder/1.0; low-frequency research dashboard)","Accept-Language":"zh-HK,zh;q=0.9,en;q=0.7"})
-html=urlopen(req,timeout=30).read().decode("utf-8","replace")
-products=[]
+old=json.loads(OUT.read_text()) if OUT.exists() else {"products":[]}
+options=Options()
+for flag in ("--headless=new","--no-sandbox","--disable-dev-shm-usage","--window-size=1440,1800","--lang=zh-HK"):
+    options.add_argument(flag)
+options.set_capability("goog:loggingPrefs",{"performance":"ALL"})
+driver=webdriver.Chrome(options=options)
+rows=[]; diagnostics=[]
+try:
+  for source in URLS:
+    try:
+      driver.get(source); time.sleep(8)
+      for _ in range(8):
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight)"); time.sleep(1)
+      cards=driver.execute_script(r"""
+        const good = h => /product-detail|productcode|\/product\/|\/products\//i.test(h);
+        return [...document.querySelectorAll('a[href]')].filter(a=>good(a.href)).map(a=>{
+          const box=a.closest('li,article,[class*="product"],[class*="item"]')||a;
+          const img=box.querySelector('img');
+          return {href:a.href,text:(box.innerText||a.innerText||'').trim(),
+            image:img?(img.currentSrc||img.src||img.getAttribute('data-src')):null};
+        });
+      """)
+      diagnostics.append({"requested":source,"finalUrl":driver.current_url,"title":driver.title,
+        "bodyChars":len(driver.page_source),"candidateLinks":len(cards)})
+      rows.extend(cards)
+      if len(cards)>=5: break
+    except Exception as e:
+      diagnostics.append({"requested":source,"error":str(e)[:240]})
+finally:
+  driver.quit()
 
-# Prefer structured Product JSON-LD when the storefront exposes it.
-for raw in re.findall(r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',html,re.I|re.S):
-    try: nodes=json.loads(raw); nodes=nodes if isinstance(nodes,list) else [nodes]
-    except Exception: continue
-    for node in nodes:
-        if not isinstance(node,dict) or node.get("@type")!="Product": continue
-        offer=node.get("offers") or {}; offer=offer[0] if isinstance(offer,list) and offer else offer
-        try: price=float(offer.get("price"))
-        except Exception: continue
-        url=node.get("url") or URL
-        products.append({"id":str(node.get("sku") or node.get("productID") or len(products)+1),"name":node.get("name") or "GU 減價商品","price":price,"originalPrice":None,"image":(node.get("image") or [None])[0] if isinstance(node.get("image"),list) else node.get("image"),"url":url if url.startswith("http") else "https://m.gu-global.com"+url,"stock":{}})
+products={}
+for row in rows:
+  text=re.sub(r"\s+"," ",row.get("text") or "").strip()
+  prices=[float(x.replace(",","")) for x in re.findall(r"HK\$\s*([0-9][0-9,]*(?:\.\d+)?)",text,re.I)]
+  if not prices: continue
+  href=row.get("href") or ""
+  q=parse_qs(urlparse(href).query)
+  pid=(q.get("productCode") or q.get("productcode") or [None])[0]
+  if not pid:
+    m=re.search(r"(?:product|item)[^0-9]*([0-9]{5,})",href,re.I); pid=m.group(1) if m else hashlib.sha1(href.encode()).hexdigest()[:12]
+  bits=[x.strip() for x in re.split(r"[\n\r]+",row.get("text") or "") if x.strip()]
+  name=next((x for x in bits if "HK$" not in x and len(x)>2 and x.upper() not in {"SALE","WOMEN"}),"GU 減價商品")
+  products[str(pid)]={"id":str(pid),"name":name[:160],"price":min(prices),
+    "originalPrice":max(prices) if max(prices)>min(prices) else None,
+    "image":row.get("image"),"url":href,"stock":{}}
 
-payload={"updatedAt":datetime.now(timezone.utc).isoformat(timespec="seconds"),"source":URL,"products":list({p["id"]:p for p in products}.values())}
-if not payload["products"] and OUT.exists():
-    old=json.loads(OUT.read_text()); payload["products"]=old.get("products",[]); payload["warning"]="GU page contained no supported structured product data; retained previous snapshot."
+payload={"updatedAt":datetime.now(timezone.utc).isoformat(timespec="seconds"),"source":URLS[0],
+ "products":list(products.values()),"diagnostics":diagnostics}
+if not products:
+  payload["products"]=old.get("products",[])
+  payload["warning"]="Rendered pages exposed no recognised product cards; retained previous snapshot."
 OUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n")
