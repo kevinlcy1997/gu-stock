@@ -133,15 +133,27 @@ for row in rows:
         for line in re.split(r"[\n\r]+", row.get("text") or "")
         if line.strip()
     ]
-    item_match = re.search(r"(?:商品編號|Item(?:\s*No\.?))\s*[:：]?\s*(\d{5,})", text, re.I)
-    item_no = item_match.group(1) if item_match else None
-
-    excluded = re.compile(
-        r"HK\$|^(?:SALE|WOMEN|NEW|LIMITED|GU)$|商品編號|Item\s*No|^\d{5,}$",
-        re.I,
+    item_line = next(
+        (
+            match
+            for line in lines
+            if (match := re.match(r"^(.+?)\\s+(\\d{6})$", line))
+        ),
+        None,
     )
-    name = next(
-        (line for line in lines if len(line) > 2 and not excluded.search(line)),
+    item_no = item_line.group(2) if item_line else None
+    name = item_line.group(1) if item_line else next(
+        (
+            line
+            for line in lines
+            if len(line) > 2
+            and not re.search(
+                r"HK\\$|^(?:SALE|WOMEN|NEW|LIMITED|GU)$|"
+                r"^(?:女裝|男裝|男女通用)[,，]|商品編號|Item\\s*No|^\\d{5,}$",
+                line,
+                re.I,
+            )
+        ),
         "GU 減價商品",
     )
 
@@ -154,7 +166,9 @@ for row in rows:
         "name": name[:160],
         "price": sale_price,
         "originalPrice": original_price,
-        "image": row.get("image"),
+        "image": row.get("image") or (
+            f"https://www.gu-global.com/hk/hmall/test/{product_code}/main/first/561/1.jpg"
+        ),
         "url": href,
         "stock": {},
     }
