@@ -19,7 +19,7 @@ for flag in ("--headless=new","--no-sandbox","--disable-dev-shm-usage","--window
     options.add_argument(flag)
 options.set_capability("goog:loggingPrefs",{"performance":"ALL"})
 driver=webdriver.Chrome(options=options)
-rows=[]; diagnostics=[]
+rows=[]; diagnostics=[]; network=[]
 try:
   for source in URLS:
     try:
@@ -61,7 +61,7 @@ for row in rows:
     "image":row.get("image"),"url":href,"stock":{}}
 
 payload={"updatedAt":datetime.now(timezone.utc).isoformat(timespec="seconds"),"source":URLS[0],
- "products":list(products.values()),"diagnostics":diagnostics}
+ "products":list(products.values()),"diagnostics":diagnostics,"network":network[:80]}
 if not products:
   payload["products"]=old.get("products",[])
   payload["warning"]="Rendered pages exposed no recognised product cards; retained previous snapshot."
