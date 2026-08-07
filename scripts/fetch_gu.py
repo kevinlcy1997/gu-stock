@@ -19,13 +19,23 @@ for flag in ("--headless=new","--no-sandbox","--disable-dev-shm-usage","--window
     options.add_argument(flag)
 options.set_capability("goog:loggingPrefs",{"performance":"ALL"})
 driver=webdriver.Chrome(options=options)
-rows=[]; diagnostics=[]; network=[]
+rows=[]; diagnostics=[]; network=[]; page_meta=[]
 try:
   for source in URLS:
     try:
       driver.get(source); time.sleep(8)
       for _ in range(8):
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight)"); time.sleep(1)
+      html=driver.page_source
+      body_text=driver.execute_script("return document.body ? document.body.innerText : ''") or ""
+      srcs=re.findall(r'<script[^>]+src=["\\\']([^"\\\']+)',html,re.I)
+      inline=[]
+      for m in re.finditer(r'<script(?![^>]+src=)[^>]*>(.*?)</script>',html,re.I|re.S):
+        s=m.group(1)
+        if re.search(r'api|product|search|stock|inventory|catalog|category',s,re.I):
+          inline.append(re.sub(r"\\s+"," ",s)[:2200])
+          if len(inline)>=8: break
+      page_meta.append({"url":driver.current_url,"bodyText":body_text[:5000],"scripts":srcs[:80],"inlineHints":inline})
       cards=driver.execute_script(r"""
         const good = h => /product-detail|productcode|\/product\/|\/products\//i.test(h);
         return [...document.querySelectorAll('a[href]')].filter(a=>good(a.href)).map(a=>{
@@ -61,7 +71,7 @@ for row in rows:
     "image":row.get("image"),"url":href,"stock":{}}
 
 payload={"updatedAt":datetime.now(timezone.utc).isoformat(timespec="seconds"),"source":URLS[0],
- "products":list(products.values()),"diagnostics":diagnostics,"network":network[:80]}
+ "products":list(products.values()),"diagnostics":diagnostics,"network":network[:80],"pageMeta":page_meta}
 if not products:
   payload["products"]=old.get("products",[])
   payload["warning"]="Rendered pages exposed no recognised product cards; retained previous snapshot."
