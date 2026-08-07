@@ -137,7 +137,7 @@ for row in rows:
         (
             match
             for line in lines
-            if (match := re.match(r"^(.+?)\\s+(\\d{6})$", line))
+            if (match := re.match(r"^(.+?)\s+(\d{6})$", line))
         ),
         None,
     )
