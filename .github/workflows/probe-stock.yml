@@ -25,10 +25,10 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install Playwright Firefox
+      - name: Install Playwright Chromium
         run: |
           python -m pip install --disable-pip-version-check playwright
-          python -m playwright install --with-deps firefox
+          python -m playwright install --with-deps chromium
 
       - name: Capture one stock lookup
         run: |
@@ -86,7 +86,7 @@ jobs:
 
           try:
               with sync_playwright() as playwright:
-                  browser = playwright.firefox.launch(headless=True)
+                  browser = playwright.chromium.launch(headless=True, args=["--disable-http2"])
                   page = browser.new_page(
                       viewport={"width": 1440, "height": 1800},
                       locale="zh-HK",
