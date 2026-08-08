@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-08T01:53:51+00:00",
+  "updatedAt": "2026-08-08T02:27:31+00:00",
+  "stockUpdatedAt": "2026-08-08T02:27:31+00:00",
   "source": "https://www.gu-global.com/hk/zh_HK/c/women-saleitems.html",
   "products": [
     {
@@ -11,7 +12,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005919/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005919",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 16,
+        "太古城店": 17,
+        "奧海城店": 17,
+        "屯門市廣場店": 17,
+        "康城店": 17,
+        "德福廣場店": 18,
+        "新城市廣場店": 16,
+        "旺角店": 16,
+        "美麗華店": 16,
+        "荷里活廣場店": 16,
+        "青衣城店": 17
+      },
+      "stockUnits": {
+        "啟德零售館店": 99,
+        "太古城店": 130,
+        "奧海城店": 93,
+        "屯門市廣場店": 129,
+        "康城店": 82,
+        "德福廣場店": 209,
+        "新城市廣場店": 110,
+        "旺角店": 131,
+        "美麗華店": 148,
+        "荷里活廣場店": 121,
+        "青衣城店": 125
+      },
+      "stockStatus": "complete",
+      "skuCount": 35,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359596",
@@ -22,7 +51,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005901/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005901",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 5,
+        "太古城店": 5,
+        "奧海城店": 4,
+        "屯門市廣場店": 4,
+        "康城店": 3,
+        "德福廣場店": 10,
+        "新城市廣場店": 3,
+        "旺角店": 12,
+        "美麗華店": 7,
+        "荷里活廣場店": 7,
+        "青衣城店": 4
+      },
+      "stockUnits": {
+        "啟德零售館店": 62,
+        "太古城店": 158,
+        "奧海城店": 64,
+        "屯門市廣場店": 98,
+        "康城店": 24,
+        "德福廣場店": 193,
+        "新城市廣場店": 63,
+        "旺角店": 389,
+        "美麗華店": 124,
+        "荷里活廣場店": 134,
+        "青衣城店": 109
+      },
+      "stockStatus": "complete",
+      "skuCount": 35,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "360032",
@@ -33,7 +90,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005955/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005955",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 12,
+        "太古城店": 12,
+        "奧海城店": 15,
+        "屯門市廣場店": 11,
+        "康城店": 12,
+        "德福廣場店": 12,
+        "新城市廣場店": 14,
+        "旺角店": 13,
+        "美麗華店": 12,
+        "荷里活廣場店": 12,
+        "青衣城店": 12
+      },
+      "stockUnits": {
+        "啟德零售館店": 159,
+        "太古城店": 203,
+        "奧海城店": 98,
+        "屯門市廣場店": 214,
+        "康城店": 98,
+        "德福廣場店": 215,
+        "新城市廣場店": 150,
+        "旺角店": 181,
+        "美麗華店": 212,
+        "荷里活廣場店": 169,
+        "青衣城店": 120
+      },
+      "stockStatus": "complete",
+      "skuCount": 21,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359593",
@@ -44,7 +129,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005856/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005856",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 3,
+        "太古城店": 6,
+        "奧海城店": 0,
+        "屯門市廣場店": 1,
+        "康城店": 1,
+        "德福廣場店": 4,
+        "新城市廣場店": 2,
+        "旺角店": 0,
+        "美麗華店": 4,
+        "荷里活廣場店": 3,
+        "青衣城店": 4
+      },
+      "stockUnits": {
+        "啟德零售館店": 6,
+        "太古城店": 29,
+        "奧海城店": 0,
+        "屯門市廣場店": 4,
+        "康城店": 1,
+        "德福廣場店": 12,
+        "新城市廣場店": 5,
+        "旺角店": 0,
+        "美麗華店": 29,
+        "荷里活廣場店": 22,
+        "青衣城店": 19
+      },
+      "stockStatus": "complete",
+      "skuCount": 28,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359519",
@@ -55,7 +168,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005853/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005853",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 16,
+        "太古城店": 16,
+        "奧海城店": 16,
+        "屯門市廣場店": 16,
+        "康城店": 16,
+        "德福廣場店": 17,
+        "新城市廣場店": 15,
+        "旺角店": 16,
+        "美麗華店": 16,
+        "荷里活廣場店": 16,
+        "青衣城店": 16
+      },
+      "stockUnits": {
+        "啟德零售館店": 152,
+        "太古城店": 178,
+        "奧海城店": 118,
+        "屯門市廣場店": 141,
+        "康城店": 96,
+        "德福廣場店": 129,
+        "新城市廣場店": 132,
+        "旺角店": 180,
+        "美麗華店": 159,
+        "荷里活廣場店": 167,
+        "青衣城店": 139
+      },
+      "stockStatus": "complete",
+      "skuCount": 28,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359991",
@@ -66,7 +207,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005799/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005799",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 14,
+        "太古城店": 11,
+        "奧海城店": 10,
+        "屯門市廣場店": 6,
+        "康城店": 0,
+        "德福廣場店": 10,
+        "新城市廣場店": 13,
+        "旺角店": 1,
+        "美麗華店": 7,
+        "荷里活廣場店": 12,
+        "青衣城店": 8
+      },
+      "stockUnits": {
+        "啟德零售館店": 64,
+        "太古城店": 118,
+        "奧海城店": 73,
+        "屯門市廣場店": 28,
+        "康城店": 0,
+        "德福廣場店": 66,
+        "新城市廣場店": 64,
+        "旺角店": 2,
+        "美麗華店": 61,
+        "荷里活廣場店": 100,
+        "青衣城店": 37
+      },
+      "stockStatus": "complete",
+      "skuCount": 36,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359811",
@@ -77,7 +246,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006160/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006160",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 11,
+        "太古城店": 11,
+        "奧海城店": 10,
+        "屯門市廣場店": 12,
+        "康城店": 0,
+        "德福廣場店": 8,
+        "新城市廣場店": 8,
+        "旺角店": 11,
+        "美麗華店": 10,
+        "荷里活廣場店": 4,
+        "青衣城店": 6
+      },
+      "stockUnits": {
+        "啟德零售館店": 57,
+        "太古城店": 45,
+        "奧海城店": 30,
+        "屯門市廣場店": 67,
+        "康城店": 0,
+        "德福廣場店": 58,
+        "新城市廣場店": 35,
+        "旺角店": 87,
+        "美麗華店": 49,
+        "荷里活廣場店": 24,
+        "青衣城店": 37
+      },
+      "stockStatus": "complete",
+      "skuCount": 24,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359644",
@@ -88,7 +285,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005918/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005918",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 12,
+        "太古城店": 12,
+        "奧海城店": 12,
+        "屯門市廣場店": 12,
+        "康城店": 12,
+        "德福廣場店": 13,
+        "新城市廣場店": 9,
+        "旺角店": 12,
+        "美麗華店": 12,
+        "荷里活廣場店": 12,
+        "青衣城店": 12
+      },
+      "stockUnits": {
+        "啟德零售館店": 85,
+        "太古城店": 154,
+        "奧海城店": 149,
+        "屯門市廣場店": 105,
+        "康城店": 91,
+        "德福廣場店": 112,
+        "新城市廣場店": 49,
+        "旺角店": 299,
+        "美麗華店": 206,
+        "荷里活廣場店": 146,
+        "青衣城店": 160
+      },
+      "stockStatus": "complete",
+      "skuCount": 21,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359603",
@@ -99,7 +324,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005917/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005917",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 24,
+        "太古城店": 23,
+        "奧海城店": 22,
+        "屯門市廣場店": 23,
+        "康城店": 22,
+        "德福廣場店": 24,
+        "新城市廣場店": 24,
+        "旺角店": 25,
+        "美麗華店": 24,
+        "荷里活廣場店": 24,
+        "青衣城店": 24
+      },
+      "stockUnits": {
+        "啟德零售館店": 229,
+        "太古城店": 295,
+        "奧海城店": 189,
+        "屯門市廣場店": 340,
+        "康城店": 94,
+        "德福廣場店": 396,
+        "新城市廣場店": 304,
+        "旺角店": 323,
+        "美麗華店": 594,
+        "荷里活廣場店": 335,
+        "青衣城店": 224
+      },
+      "stockStatus": "complete",
+      "skuCount": 42,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359643",
@@ -110,7 +363,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005894/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005894",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 21,
+        "太古城店": 21,
+        "奧海城店": 20,
+        "屯門市廣場店": 22,
+        "康城店": 19,
+        "德福廣場店": 20,
+        "新城市廣場店": 22,
+        "旺角店": 20,
+        "美麗華店": 20,
+        "荷里活廣場店": 20,
+        "青衣城店": 20
+      },
+      "stockUnits": {
+        "啟德零售館店": 163,
+        "太古城店": 112,
+        "奧海城店": 114,
+        "屯門市廣場店": 158,
+        "康城店": 78,
+        "德福廣場店": 154,
+        "新城市廣場店": 85,
+        "旺角店": 201,
+        "美麗華店": 442,
+        "荷里活廣場店": 190,
+        "青衣城店": 153
+      },
+      "stockStatus": "complete",
+      "skuCount": 35,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359652",
@@ -121,7 +402,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006193/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006193",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 11,
+        "太古城店": 5,
+        "奧海城店": 6,
+        "屯門市廣場店": 7,
+        "康城店": 0,
+        "德福廣場店": 9,
+        "新城市廣場店": 5,
+        "旺角店": 0,
+        "美麗華店": 7,
+        "荷里活廣場店": 7,
+        "青衣城店": 7
+      },
+      "stockUnits": {
+        "啟德零售館店": 66,
+        "太古城店": 47,
+        "奧海城店": 71,
+        "屯門市廣場店": 70,
+        "康城店": 0,
+        "德福廣場店": 103,
+        "新城市廣場店": 57,
+        "旺角店": 0,
+        "美麗華店": 61,
+        "荷里活廣場店": 41,
+        "青衣城店": 74
+      },
+      "stockStatus": "complete",
+      "skuCount": 28,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359734",
@@ -132,7 +441,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005978/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005978",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 5,
+        "太古城店": 6,
+        "奧海城店": 6,
+        "屯門市廣場店": 5,
+        "康城店": 1,
+        "德福廣場店": 5,
+        "新城市廣場店": 6,
+        "旺角店": 7,
+        "美麗華店": 5,
+        "荷里活廣場店": 6,
+        "青衣城店": 4
+      },
+      "stockUnits": {
+        "啟德零售館店": 120,
+        "太古城店": 79,
+        "奧海城店": 84,
+        "屯門市廣場店": 75,
+        "康城店": 1,
+        "德福廣場店": 101,
+        "新城市廣場店": 71,
+        "旺角店": 157,
+        "美麗華店": 173,
+        "荷里活廣場店": 143,
+        "青衣城店": 101
+      },
+      "stockStatus": "complete",
+      "skuCount": 24,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359642",
@@ -143,7 +480,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005944/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005944",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 8,
+        "太古城店": 8,
+        "奧海城店": 8,
+        "屯門市廣場店": 4,
+        "康城店": 1,
+        "德福廣場店": 4,
+        "新城市廣場店": 6,
+        "旺角店": 0,
+        "美麗華店": 4,
+        "荷里活廣場店": 7,
+        "青衣城店": 5
+      },
+      "stockUnits": {
+        "啟德零售館店": 59,
+        "太古城店": 93,
+        "奧海城店": 96,
+        "屯門市廣場店": 62,
+        "康城店": 1,
+        "德福廣場店": 26,
+        "新城市廣場店": 53,
+        "旺角店": 0,
+        "美麗華店": 139,
+        "荷里活廣場店": 111,
+        "青衣城店": 114
+      },
+      "stockStatus": "complete",
+      "skuCount": 28,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "360168",
@@ -154,7 +519,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006113/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006113",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 12,
+        "太古城店": 13,
+        "奧海城店": 12,
+        "屯門市廣場店": 12,
+        "康城店": 12,
+        "德福廣場店": 12,
+        "新城市廣場店": 12,
+        "旺角店": 12,
+        "美麗華店": 13,
+        "荷里活廣場店": 12,
+        "青衣城店": 12
+      },
+      "stockUnits": {
+        "啟德零售館店": 107,
+        "太古城店": 140,
+        "奧海城店": 98,
+        "屯門市廣場店": 157,
+        "康城店": 130,
+        "德福廣場店": 169,
+        "新城市廣場店": 103,
+        "旺角店": 140,
+        "美麗華店": 172,
+        "荷里活廣場店": 136,
+        "青衣城店": 142
+      },
+      "stockStatus": "complete",
+      "skuCount": 18,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359641",
@@ -165,7 +558,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005819/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005819",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 2,
+        "太古城店": 6,
+        "奧海城店": 4,
+        "屯門市廣場店": 3,
+        "康城店": 0,
+        "德福廣場店": 4,
+        "新城市廣場店": 5,
+        "旺角店": 0,
+        "美麗華店": 6,
+        "荷里活廣場店": 5,
+        "青衣城店": 1
+      },
+      "stockUnits": {
+        "啟德零售館店": 6,
+        "太古城店": 19,
+        "奧海城店": 57,
+        "屯門市廣場店": 87,
+        "康城店": 0,
+        "德福廣場店": 142,
+        "新城市廣場店": 74,
+        "旺角店": 0,
+        "美麗華店": 75,
+        "荷里活廣場店": 84,
+        "青衣城店": 3
+      },
+      "stockStatus": "complete",
+      "skuCount": 24,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "360695",
@@ -176,7 +597,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006228/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006228",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 11,
+        "太古城店": 8,
+        "奧海城店": 7,
+        "屯門市廣場店": 8,
+        "康城店": 0,
+        "德福廣場店": 8,
+        "新城市廣場店": 7,
+        "旺角店": 7,
+        "美麗華店": 6,
+        "荷里活廣場店": 7,
+        "青衣城店": 6
+      },
+      "stockUnits": {
+        "啟德零售館店": 37,
+        "太古城店": 61,
+        "奧海城店": 32,
+        "屯門市廣場店": 38,
+        "康城店": 0,
+        "德福廣場店": 83,
+        "新城市廣場店": 35,
+        "旺角店": 62,
+        "美麗華店": 52,
+        "荷里活廣場店": 45,
+        "青衣城店": 59
+      },
+      "stockStatus": "complete",
+      "skuCount": 24,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359617",
@@ -187,7 +636,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006013/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006013",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 1,
+        "太古城店": 3,
+        "奧海城店": 0,
+        "屯門市廣場店": 6,
+        "康城店": 3,
+        "德福廣場店": 4,
+        "新城市廣場店": 1,
+        "旺角店": 9,
+        "美麗華店": 0,
+        "荷里活廣場店": 1,
+        "青衣城店": 8
+      },
+      "stockUnits": {
+        "啟德零售館店": 1,
+        "太古城店": 8,
+        "奧海城店": 0,
+        "屯門市廣場店": 32,
+        "康城店": 10,
+        "德福廣場店": 44,
+        "新城市廣場店": 1,
+        "旺角店": 100,
+        "美麗華店": 0,
+        "荷里活廣場店": 1,
+        "青衣城店": 86
+      },
+      "stockStatus": "complete",
+      "skuCount": 18,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "361477",
@@ -198,7 +675,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006189/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006189",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 3,
+        "奧海城店": 1,
+        "屯門市廣場店": 4,
+        "康城店": 0,
+        "德福廣場店": 2,
+        "新城市廣場店": 2,
+        "旺角店": 4,
+        "美麗華店": 2,
+        "荷里活廣場店": 3,
+        "青衣城店": 4
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 6,
+        "奧海城店": 1,
+        "屯門市廣場店": 16,
+        "康城店": 0,
+        "德福廣場店": 16,
+        "新城市廣場店": 2,
+        "旺角店": 25,
+        "美麗華店": 2,
+        "荷里活廣場店": 35,
+        "青衣城店": 19
+      },
+      "stockStatus": "complete",
+      "skuCount": 24,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "361701",
@@ -209,7 +714,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006226/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006226",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 1,
+        "太古城店": 1,
+        "奧海城店": 3,
+        "屯門市廣場店": 1,
+        "康城店": 0,
+        "德福廣場店": 3,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 3,
+        "荷里活廣場店": 3,
+        "青衣城店": 3
+      },
+      "stockUnits": {
+        "啟德零售館店": 1,
+        "太古城店": 1,
+        "奧海城店": 6,
+        "屯門市廣場店": 1,
+        "康城店": 0,
+        "德福廣場店": 14,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 6,
+        "荷里活廣場店": 5,
+        "青衣城店": 12
+      },
+      "stockStatus": "complete",
+      "skuCount": 28,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "361265",
@@ -220,7 +753,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006221/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006221",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 5,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 1,
+        "新城市廣場店": 0,
+        "旺角店": 8,
+        "美麗華店": 5,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 6,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 1,
+        "新城市廣場店": 0,
+        "旺角店": 66,
+        "美麗華店": 23,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 24,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359527",
@@ -231,7 +792,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006110/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006110",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 2,
+        "康城店": 0,
+        "德福廣場店": 5,
+        "新城市廣場店": 1,
+        "旺角店": 7,
+        "美麗華店": 6,
+        "荷里活廣場店": 2,
+        "青衣城店": 2
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 5,
+        "康城店": 0,
+        "德福廣場店": 21,
+        "新城市廣場店": 1,
+        "旺角店": 16,
+        "美麗華店": 17,
+        "荷里活廣場店": 2,
+        "青衣城店": 9
+      },
+      "stockStatus": "complete",
+      "skuCount": 30,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "357497",
@@ -242,7 +831,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005259/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005259",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 1,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 1,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 24,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "361822",
@@ -253,7 +870,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006229/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006229",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 1,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 1,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 8,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 1,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 1,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 66,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 8,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "360044",
@@ -264,7 +909,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006007/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006007",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 5,
+        "奧海城店": 0,
+        "屯門市廣場店": 10,
+        "康城店": 5,
+        "德福廣場店": 7,
+        "新城市廣場店": 10,
+        "旺角店": 9,
+        "美麗華店": 1,
+        "荷里活廣場店": 1,
+        "青衣城店": 5
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 27,
+        "奧海城店": 0,
+        "屯門市廣場店": 113,
+        "康城店": 9,
+        "德福廣場店": 101,
+        "新城市廣場店": 62,
+        "旺角店": 275,
+        "美麗華店": 1,
+        "荷里活廣場店": 1,
+        "青衣城店": 54
+      },
+      "stockStatus": "complete",
+      "skuCount": 12,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359090",
@@ -275,7 +948,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006098/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006098",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 1,
+        "太古城店": 2,
+        "奧海城店": 3,
+        "屯門市廣場店": 1,
+        "康城店": 0,
+        "德福廣場店": 2,
+        "新城市廣場店": 3,
+        "旺角店": 2,
+        "美麗華店": 1,
+        "荷里活廣場店": 3,
+        "青衣城店": 1
+      },
+      "stockUnits": {
+        "啟德零售館店": 1,
+        "太古城店": 22,
+        "奧海城店": 4,
+        "屯門市廣場店": 22,
+        "康城店": 0,
+        "德福廣場店": 9,
+        "新城市廣場店": 9,
+        "旺角店": 8,
+        "美麗華店": 1,
+        "荷里活廣場店": 9,
+        "青衣城店": 5
+      },
+      "stockStatus": "complete",
+      "skuCount": 18,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "361271",
@@ -286,7 +987,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006232/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006232",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 2,
+        "屯門市廣場店": 1,
+        "康城店": 0,
+        "德福廣場店": 3,
+        "新城市廣場店": 1,
+        "旺角店": 0,
+        "美麗華店": 2,
+        "荷里活廣場店": 3,
+        "青衣城店": 2
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 7,
+        "屯門市廣場店": 1,
+        "康城店": 0,
+        "德福廣場店": 11,
+        "新城市廣場店": 1,
+        "旺角店": 0,
+        "美麗華店": 19,
+        "荷里活廣場店": 27,
+        "青衣城店": 7
+      },
+      "stockStatus": "complete",
+      "skuCount": 18,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "360278",
@@ -297,7 +1026,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005956/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005956",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 4,
+        "太古城店": 4,
+        "奧海城店": 4,
+        "屯門市廣場店": 4,
+        "康城店": 4,
+        "德福廣場店": 4,
+        "新城市廣場店": 4,
+        "旺角店": 6,
+        "美麗華店": 4,
+        "荷里活廣場店": 4,
+        "青衣城店": 5
+      },
+      "stockUnits": {
+        "啟德零售館店": 21,
+        "太古城店": 49,
+        "奧海城店": 32,
+        "屯門市廣場店": 33,
+        "康城店": 37,
+        "德福廣場店": 42,
+        "新城市廣場店": 25,
+        "旺角店": 36,
+        "美麗華店": 23,
+        "荷里活廣場店": 45,
+        "青衣城店": 41
+      },
+      "stockStatus": "complete",
+      "skuCount": 14,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359615",
@@ -308,7 +1065,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006174/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006174",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 3,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 1,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 2,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 16,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 1,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 2,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 6,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359970",
@@ -319,7 +1104,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006003/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006003",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 1,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 1,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 1,
+        "美麗華店": 2,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 1,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 1,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 17,
+        "美麗華店": 30,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 18,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359529",
@@ -330,7 +1143,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006191/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006191",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 1,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 2,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 3,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 8,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 24,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "357003",
@@ -341,7 +1182,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000004179/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000004179",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 1,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 1,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 6,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359615",
@@ -352,7 +1221,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006173/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006173",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 3,
+        "太古城店": 1,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 2,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 1,
+        "荷里活廣場店": 3,
+        "青衣城店": 1
+      },
+      "stockUnits": {
+        "啟德零售館店": 7,
+        "太古城店": 2,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 5,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 3,
+        "荷里活廣場店": 18,
+        "青衣城店": 1
+      },
+      "stockStatus": "complete",
+      "skuCount": 6,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359615",
@@ -363,7 +1260,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006171/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006171",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 3,
+        "太古城店": 3,
+        "奧海城店": 3,
+        "屯門市廣場店": 3,
+        "康城店": 0,
+        "德福廣場店": 5,
+        "新城市廣場店": 3,
+        "旺角店": 0,
+        "美麗華店": 2,
+        "荷里活廣場店": 3,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 27,
+        "太古城店": 15,
+        "奧海城店": 24,
+        "屯門市廣場店": 39,
+        "康城店": 0,
+        "德福廣場店": 90,
+        "新城市廣場店": 39,
+        "旺角店": 0,
+        "美麗華店": 25,
+        "荷里活廣場店": 59,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 6,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359651",
@@ -374,7 +1299,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006164/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006164",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 24,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359563",
@@ -385,7 +1338,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005946/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005946",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 1,
+        "屯門市廣場店": 0,
+        "康城店": 2,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 1,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 1,
+        "屯門市廣場店": 0,
+        "康城店": 2,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 1,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 24,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "360385",
@@ -396,7 +1377,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006089/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006089",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 2,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 4,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 4,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 17,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 6,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359475",
@@ -407,7 +1416,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005801/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005801",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 12,
+        "太古城店": 12,
+        "奧海城店": 12,
+        "屯門市廣場店": 13,
+        "康城店": 12,
+        "德福廣場店": 14,
+        "新城市廣場店": 12,
+        "旺角店": 13,
+        "美麗華店": 13,
+        "荷里活廣場店": 12,
+        "青衣城店": 12
+      },
+      "stockUnits": {
+        "啟德零售館店": 132,
+        "太古城店": 130,
+        "奧海城店": 80,
+        "屯門市廣場店": 164,
+        "康城店": 114,
+        "德福廣場店": 118,
+        "新城市廣場店": 95,
+        "旺角店": 144,
+        "美麗華店": 178,
+        "荷里活廣場店": 124,
+        "青衣城店": 142
+      },
+      "stockStatus": "complete",
+      "skuCount": 28,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "360151",
@@ -418,7 +1455,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005733/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005733",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 2,
+        "奧海城店": 1,
+        "屯門市廣場店": 5,
+        "康城店": 1,
+        "德福廣場店": 1,
+        "新城市廣場店": 3,
+        "旺角店": 2,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 1
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 2,
+        "奧海城店": 1,
+        "屯門市廣場店": 5,
+        "康城店": 1,
+        "德福廣場店": 1,
+        "新城市廣場店": 4,
+        "旺角店": 2,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 1
+      },
+      "stockStatus": "complete",
+      "skuCount": 35,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "360150",
@@ -429,7 +1494,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005724/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005724",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 1,
+        "奧海城店": 2,
+        "屯門市廣場店": 2,
+        "康城店": 1,
+        "德福廣場店": 2,
+        "新城市廣場店": 1,
+        "旺角店": 1,
+        "美麗華店": 3,
+        "荷里活廣場店": 3,
+        "青衣城店": 1
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 1,
+        "奧海城店": 2,
+        "屯門市廣場店": 2,
+        "康城店": 2,
+        "德福廣場店": 3,
+        "新城市廣場店": 1,
+        "旺角店": 1,
+        "美麗華店": 4,
+        "荷里活廣場店": 4,
+        "青衣城店": 1
+      },
+      "stockStatus": "complete",
+      "skuCount": 21,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359459",
@@ -440,7 +1533,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005732/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005732",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 20,
+        "太古城店": 21,
+        "奧海城店": 19,
+        "屯門市廣場店": 24,
+        "康城店": 18,
+        "德福廣場店": 26,
+        "新城市廣場店": 26,
+        "旺角店": 26,
+        "美麗華店": 25,
+        "荷里活廣場店": 19,
+        "青衣城店": 19
+      },
+      "stockUnits": {
+        "啟德零售館店": 161,
+        "太古城店": 134,
+        "奧海城店": 134,
+        "屯門市廣場店": 267,
+        "康城店": 147,
+        "德福廣場店": 305,
+        "新城市廣場店": 183,
+        "旺角店": 222,
+        "美麗華店": 272,
+        "荷里活廣場店": 229,
+        "青衣城店": 176
+      },
+      "stockStatus": "complete",
+      "skuCount": 35,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359460",
@@ -451,7 +1572,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005903/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005903",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 10,
+        "太古城店": 11,
+        "奧海城店": 11,
+        "屯門市廣場店": 14,
+        "康城店": 10,
+        "德福廣場店": 12,
+        "新城市廣場店": 6,
+        "旺角店": 11,
+        "美麗華店": 11,
+        "荷里活廣場店": 10,
+        "青衣城店": 12
+      },
+      "stockUnits": {
+        "啟德零售館店": 60,
+        "太古城店": 131,
+        "奧海城店": 132,
+        "屯門市廣場店": 167,
+        "康城店": 61,
+        "德福廣場店": 101,
+        "新城市廣場店": 62,
+        "旺角店": 88,
+        "美麗華店": 134,
+        "荷里活廣場店": 126,
+        "青衣城店": 130
+      },
+      "stockStatus": "complete",
+      "skuCount": 24,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359466",
@@ -462,7 +1611,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005842/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005842",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 9,
+        "太古城店": 9,
+        "奧海城店": 9,
+        "屯門市廣場店": 11,
+        "康城店": 10,
+        "德福廣場店": 10,
+        "新城市廣場店": 10,
+        "旺角店": 9,
+        "美麗華店": 10,
+        "荷里活廣場店": 9,
+        "青衣城店": 9
+      },
+      "stockUnits": {
+        "啟德零售館店": 126,
+        "太古城店": 189,
+        "奧海城店": 157,
+        "屯門市廣場店": 116,
+        "康城店": 177,
+        "德福廣場店": 123,
+        "新城市廣場店": 136,
+        "旺角店": 253,
+        "美麗華店": 213,
+        "荷里活廣場店": 206,
+        "青衣城店": 144
+      },
+      "stockStatus": "complete",
+      "skuCount": 21,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "360167",
@@ -473,7 +1650,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005927/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005927",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 12,
+        "太古城店": 10,
+        "奧海城店": 12,
+        "屯門市廣場店": 10,
+        "康城店": 12,
+        "德福廣場店": 11,
+        "新城市廣場店": 11,
+        "旺角店": 8,
+        "美麗華店": 9,
+        "荷里活廣場店": 8,
+        "青衣城店": 10
+      },
+      "stockUnits": {
+        "啟德零售館店": 58,
+        "太古城店": 78,
+        "奧海城店": 77,
+        "屯門市廣場店": 72,
+        "康城店": 64,
+        "德福廣場店": 109,
+        "新城市廣場店": 109,
+        "旺角店": 109,
+        "美麗華店": 60,
+        "荷里活廣場店": 75,
+        "青衣城店": 119
+      },
+      "stockStatus": "complete",
+      "skuCount": 28,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359066",
@@ -484,7 +1689,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005421/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005421",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 2,
+        "奧海城店": 1,
+        "屯門市廣場店": 5,
+        "康城店": 0,
+        "德福廣場店": 2,
+        "新城市廣場店": 6,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 3,
+        "青衣城店": 2
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 5,
+        "奧海城店": 1,
+        "屯門市廣場店": 6,
+        "康城店": 0,
+        "德福廣場店": 2,
+        "新城市廣場店": 13,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 4,
+        "青衣城店": 2
+      },
+      "stockStatus": "complete",
+      "skuCount": 46,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359984",
@@ -495,7 +1728,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005905/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005905",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 2,
+        "康城店": 1,
+        "德福廣場店": 1,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 2,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 2,
+        "康城店": 1,
+        "德福廣場店": 1,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 2,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 24,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "358737",
@@ -506,7 +1767,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005821/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005821",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 14,
+        "太古城店": 11,
+        "奧海城店": 14,
+        "屯門市廣場店": 13,
+        "康城店": 13,
+        "德福廣場店": 13,
+        "新城市廣場店": 12,
+        "旺角店": 13,
+        "美麗華店": 11,
+        "荷里活廣場店": 12,
+        "青衣城店": 13
+      },
+      "stockUnits": {
+        "啟德零售館店": 113,
+        "太古城店": 125,
+        "奧海城店": 118,
+        "屯門市廣場店": 136,
+        "康城店": 107,
+        "德福廣場店": 136,
+        "新城市廣場店": 164,
+        "旺角店": 146,
+        "美麗華店": 90,
+        "荷里活廣場店": 92,
+        "青衣城店": 160
+      },
+      "stockStatus": "complete",
+      "skuCount": 35,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359835",
@@ -517,7 +1806,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005845/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005845",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 8,
+        "太古城店": 6,
+        "奧海城店": 6,
+        "屯門市廣場店": 6,
+        "康城店": 0,
+        "德福廣場店": 6,
+        "新城市廣場店": 7,
+        "旺角店": 0,
+        "美麗華店": 7,
+        "荷里活廣場店": 10,
+        "青衣城店": 6
+      },
+      "stockUnits": {
+        "啟德零售館店": 33,
+        "太古城店": 74,
+        "奧海城店": 29,
+        "屯門市廣場店": 34,
+        "康城店": 0,
+        "德福廣場店": 66,
+        "新城市廣場店": 59,
+        "旺角店": 0,
+        "美麗華店": 85,
+        "荷里活廣場店": 64,
+        "青衣城店": 92
+      },
+      "stockStatus": "complete",
+      "skuCount": 28,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359473",
@@ -528,7 +1845,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005773/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005773",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 6,
+        "太古城店": 8,
+        "奧海城店": 5,
+        "屯門市廣場店": 5,
+        "康城店": 10,
+        "德福廣場店": 7,
+        "新城市廣場店": 8,
+        "旺角店": 0,
+        "美麗華店": 4,
+        "荷里活廣場店": 7,
+        "青衣城店": 8
+      },
+      "stockUnits": {
+        "啟德零售館店": 32,
+        "太古城店": 192,
+        "奧海城店": 143,
+        "屯門市廣場店": 123,
+        "康城店": 59,
+        "德福廣場店": 117,
+        "新城市廣場店": 89,
+        "旺角店": 0,
+        "美麗華店": 287,
+        "荷里活廣場店": 177,
+        "青衣城店": 172
+      },
+      "stockStatus": "complete",
+      "skuCount": 28,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359456",
@@ -539,7 +1884,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005559/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005559",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 1,
+        "太古城店": 2,
+        "奧海城店": 3,
+        "屯門市廣場店": 3,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 6,
+        "荷里活廣場店": 4,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 1,
+        "太古城店": 2,
+        "奧海城店": 3,
+        "屯門市廣場店": 3,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 22,
+        "荷里活廣場店": 19,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 28,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "360140",
@@ -550,7 +1923,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005802/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005802",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 8,
+        "太古城店": 10,
+        "奧海城店": 10,
+        "屯門市廣場店": 9,
+        "康城店": 0,
+        "德福廣場店": 9,
+        "新城市廣場店": 5,
+        "旺角店": 10,
+        "美麗華店": 7,
+        "荷里活廣場店": 9,
+        "青衣城店": 10
+      },
+      "stockUnits": {
+        "啟德零售館店": 54,
+        "太古城店": 116,
+        "奧海城店": 82,
+        "屯門市廣場店": 101,
+        "康城店": 0,
+        "德福廣場店": 125,
+        "新城市廣場店": 72,
+        "旺角店": 136,
+        "美麗華店": 123,
+        "荷里活廣場店": 153,
+        "青衣城店": 108
+      },
+      "stockStatus": "complete",
+      "skuCount": 42,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "360371",
@@ -561,7 +1962,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006018/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006018",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 8,
+        "太古城店": 12,
+        "奧海城店": 9,
+        "屯門市廣場店": 9,
+        "康城店": 11,
+        "德福廣場店": 8,
+        "新城市廣場店": 9,
+        "旺角店": 8,
+        "美麗華店": 9,
+        "荷里活廣場店": 8,
+        "青衣城店": 9
+      },
+      "stockUnits": {
+        "啟德零售館店": 61,
+        "太古城店": 81,
+        "奧海城店": 54,
+        "屯門市廣場店": 83,
+        "康城店": 95,
+        "德福廣場店": 74,
+        "新城市廣場店": 104,
+        "旺角店": 91,
+        "美麗華店": 88,
+        "荷里活廣場店": 103,
+        "青衣城店": 99
+      },
+      "stockStatus": "complete",
+      "skuCount": 21,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359457",
@@ -572,7 +2001,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005722/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005722",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 14,
+        "太古城店": 15,
+        "奧海城店": 15,
+        "屯門市廣場店": 13,
+        "康城店": 14,
+        "德福廣場店": 14,
+        "新城市廣場店": 15,
+        "旺角店": 13,
+        "美麗華店": 14,
+        "荷里活廣場店": 13,
+        "青衣城店": 12
+      },
+      "stockUnits": {
+        "啟德零售館店": 144,
+        "太古城店": 159,
+        "奧海城店": 112,
+        "屯門市廣場店": 161,
+        "康城店": 146,
+        "德福廣場店": 222,
+        "新城市廣場店": 108,
+        "旺角店": 120,
+        "美麗華店": 220,
+        "荷里活廣場店": 213,
+        "青衣城店": 132
+      },
+      "stockStatus": "complete",
+      "skuCount": 21,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359088",
@@ -583,7 +2040,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005577/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005577",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 1,
+        "奧海城店": 0,
+        "屯門市廣場店": 4,
+        "康城店": 0,
+        "德福廣場店": 2,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 1
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 1,
+        "奧海城店": 0,
+        "屯門市廣場店": 4,
+        "康城店": 0,
+        "德福廣場店": 3,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 1
+      },
+      "stockStatus": "complete",
+      "skuCount": 53,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "360148",
@@ -594,7 +2079,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005730/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005730",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 7,
+        "太古城店": 7,
+        "奧海城店": 6,
+        "屯門市廣場店": 11,
+        "康城店": 5,
+        "德福廣場店": 8,
+        "新城市廣場店": 5,
+        "旺角店": 8,
+        "美麗華店": 6,
+        "荷里活廣場店": 3,
+        "青衣城店": 6
+      },
+      "stockUnits": {
+        "啟德零售館店": 74,
+        "太古城店": 63,
+        "奧海城店": 41,
+        "屯門市廣場店": 109,
+        "康城店": 34,
+        "德福廣場店": 74,
+        "新城市廣場店": 38,
+        "旺角店": 93,
+        "美麗華店": 68,
+        "荷里活廣場店": 23,
+        "青衣城店": 47
+      },
+      "stockStatus": "complete",
+      "skuCount": 21,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359989",
@@ -605,7 +2118,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005734/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005734",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 1,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 1,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 1,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 1,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 35,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359975",
@@ -616,7 +2157,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005725/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005725",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 2,
+        "奧海城店": 0,
+        "屯門市廣場店": 3,
+        "康城店": 2,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 1,
+        "荷里活廣場店": 1,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 2,
+        "奧海城店": 0,
+        "屯門市廣場店": 3,
+        "康城店": 2,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 1,
+        "荷里活廣場店": 1,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 21,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359086",
@@ -627,7 +2196,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005591/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005591",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 46,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359976",
@@ -638,7 +2235,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005907/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005907",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 1,
+        "奧海城店": 1,
+        "屯門市廣場店": 1,
+        "康城店": 3,
+        "德福廣場店": 0,
+        "新城市廣場店": 1,
+        "旺角店": 1,
+        "美麗華店": 0,
+        "荷里活廣場店": 2,
+        "青衣城店": 1
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 1,
+        "奧海城店": 1,
+        "屯門市廣場店": 1,
+        "康城店": 3,
+        "德福廣場店": 0,
+        "新城市廣場店": 1,
+        "旺角店": 1,
+        "美麗華店": 0,
+        "荷里活廣場店": 2,
+        "青衣城店": 1
+      },
+      "stockStatus": "complete",
+      "skuCount": 24,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359085",
@@ -649,7 +2274,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005588/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005588",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 1,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 1,
+        "新城市廣場店": 0,
+        "旺角店": 1,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 1,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 1,
+        "新城市廣場店": 0,
+        "旺角店": 1,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 46,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "360330",
@@ -660,7 +2313,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005939/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005939",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 1,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 1,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 1,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 1,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 28,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "360527",
@@ -671,7 +2352,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006230/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006230",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 1,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 1,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 14,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359074",
@@ -682,7 +2391,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005499/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005499",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 3,
+        "奧海城店": 1,
+        "屯門市廣場店": 1,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 2
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 28,
+        "奧海城店": 6,
+        "屯門市廣場店": 7,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 2
+      },
+      "stockStatus": "complete",
+      "skuCount": 48,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359068",
@@ -693,7 +2430,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005420/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005420",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 42,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "352152",
@@ -704,7 +2469,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000003068/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000003068",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 1,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 1,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 10,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359070",
@@ -715,7 +2508,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005530/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005530",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 1,
+        "奧海城店": 0,
+        "屯門市廣場店": 2,
+        "康城店": 0,
+        "德福廣場店": 2,
+        "新城市廣場店": 2,
+        "旺角店": 0,
+        "美麗華店": 1,
+        "荷里活廣場店": 2,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 1,
+        "奧海城店": 0,
+        "屯門市廣場店": 6,
+        "康城店": 0,
+        "德福廣場店": 2,
+        "新城市廣場店": 2,
+        "旺角店": 0,
+        "美麗華店": 1,
+        "荷里活廣場店": 5,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 40,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359995",
@@ -726,7 +2547,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006669/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006669",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 2,
+        "奧海城店": 0,
+        "屯門市廣場店": 2,
+        "康城店": 2,
+        "德福廣場店": 2,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 1,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 5,
+        "奧海城店": 0,
+        "屯門市廣場店": 2,
+        "康城店": 6,
+        "德福廣場店": 2,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 1,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 14,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359974",
@@ -737,7 +2586,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005556/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005556",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 1,
+        "屯門市廣場店": 1,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 1,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 1,
+        "屯門市廣場店": 1,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 1,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 28,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "360685",
@@ -748,7 +2625,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005823/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005823",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 7,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "360234",
@@ -759,7 +2664,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006035/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006035",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 9,
+        "太古城店": 9,
+        "奧海城店": 9,
+        "屯門市廣場店": 10,
+        "康城店": 11,
+        "德福廣場店": 11,
+        "新城市廣場店": 10,
+        "旺角店": 7,
+        "美麗華店": 8,
+        "荷里活廣場店": 9,
+        "青衣城店": 11
+      },
+      "stockUnits": {
+        "啟德零售館店": 53,
+        "太古城店": 89,
+        "奧海城店": 36,
+        "屯門市廣場店": 123,
+        "康城店": 79,
+        "德福廣場店": 125,
+        "新城市廣場店": 112,
+        "旺角店": 126,
+        "美麗華店": 160,
+        "荷里活廣場店": 97,
+        "青衣城店": 73
+      },
+      "stockStatus": "complete",
+      "skuCount": 18,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359656",
@@ -770,7 +2703,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005893/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005893",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 3,
+        "奧海城店": 0,
+        "屯門市廣場店": 5,
+        "康城店": 2,
+        "德福廣場店": 3,
+        "新城市廣場店": 4,
+        "旺角店": 5,
+        "美麗華店": 2,
+        "荷里活廣場店": 1,
+        "青衣城店": 3
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 44,
+        "奧海城店": 0,
+        "屯門市廣場店": 54,
+        "康城店": 65,
+        "德福廣場店": 61,
+        "新城市廣場店": 166,
+        "旺角店": 161,
+        "美麗華店": 55,
+        "荷里活廣場店": 1,
+        "青衣城店": 30
+      },
+      "stockStatus": "complete",
+      "skuCount": 18,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359754",
@@ -781,7 +2742,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006161/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006161",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 1,
+        "太古城店": 4,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 2,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 1,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 1,
+        "太古城店": 43,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 11,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 1,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 12,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "358765",
@@ -792,7 +2781,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005926/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005926",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 1,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 1,
+        "新城市廣場店": 2,
+        "旺角店": 0,
+        "美麗華店": 3,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 1,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 1,
+        "新城市廣場店": 3,
+        "旺角店": 0,
+        "美麗華店": 4,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 18,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "360321",
@@ -803,7 +2820,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005562/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005562",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 16,
+        "太古城店": 10,
+        "奧海城店": 13,
+        "屯門市廣場店": 5,
+        "康城店": 11,
+        "德福廣場店": 4,
+        "新城市廣場店": 12,
+        "旺角店": 2,
+        "美麗華店": 3,
+        "荷里活廣場店": 13,
+        "青衣城店": 9
+      },
+      "stockUnits": {
+        "啟德零售館店": 68,
+        "太古城店": 51,
+        "奧海城店": 98,
+        "屯門市廣場店": 48,
+        "康城店": 77,
+        "德福廣場店": 41,
+        "新城市廣場店": 171,
+        "旺角店": 3,
+        "美麗華店": 4,
+        "荷里活廣場店": 102,
+        "青衣城店": 51
+      },
+      "stockStatus": "complete",
+      "skuCount": 42,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "358768",
@@ -814,7 +2859,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005924/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005924",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 2,
+        "奧海城店": 2,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 2,
+        "新城市廣場店": 1,
+        "旺角店": 0,
+        "美麗華店": 1,
+        "荷里活廣場店": 0,
+        "青衣城店": 2
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 11,
+        "奧海城店": 2,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 10,
+        "新城市廣場店": 88,
+        "旺角店": 0,
+        "美麗華店": 1,
+        "荷里活廣場店": 0,
+        "青衣城店": 8
+      },
+      "stockStatus": "complete",
+      "skuCount": 12,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "358783",
@@ -825,7 +2898,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005911/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005911",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 1,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 10,
+        "美麗華店": 1,
+        "荷里活廣場店": 1,
+        "青衣城店": 1
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 1,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 92,
+        "美麗華店": 1,
+        "荷里活廣場店": 1,
+        "青衣城店": 1
+      },
+      "stockStatus": "complete",
+      "skuCount": 18,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359990",
@@ -836,7 +2937,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006629/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006629",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 7,
+        "太古城店": 3,
+        "奧海城店": 1,
+        "屯門市廣場店": 3,
+        "康城店": 0,
+        "德福廣場店": 1,
+        "新城市廣場店": 2,
+        "旺角店": 3,
+        "美麗華店": 2,
+        "荷里活廣場店": 0,
+        "青衣城店": 1
+      },
+      "stockUnits": {
+        "啟德零售館店": 46,
+        "太古城店": 5,
+        "奧海城店": 6,
+        "屯門市廣場店": 31,
+        "康城店": 0,
+        "德福廣場店": 5,
+        "新城市廣場店": 14,
+        "旺角店": 22,
+        "美麗華店": 13,
+        "荷里活廣場店": 0,
+        "青衣城店": 1
+      },
+      "stockStatus": "complete",
+      "skuCount": 12,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359607",
@@ -847,7 +2976,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005841/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005841",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 1,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 1,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 1,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 1,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 12,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "360320",
@@ -858,7 +3015,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005923/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005923",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 1,
+        "太古城店": 3,
+        "奧海城店": 1,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 2,
+        "新城市廣場店": 2,
+        "旺角店": 3,
+        "美麗華店": 1,
+        "荷里活廣場店": 1,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 1,
+        "太古城店": 18,
+        "奧海城店": 3,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 6,
+        "新城市廣場店": 9,
+        "旺角店": 17,
+        "美麗華店": 1,
+        "荷里活廣場店": 1,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 24,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "361442",
@@ -869,7 +3054,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006460/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006460",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 16,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 114,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 16,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "361444",
@@ -880,7 +3093,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006459/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006459",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 16,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 106,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 16,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "352965",
@@ -891,7 +3132,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006703/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006703",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 1,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 27,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 12,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359584",
@@ -902,7 +3171,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006557/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006557",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 1,
+        "奧海城店": 3,
+        "屯門市廣場店": 1,
+        "康城店": 1,
+        "德福廣場店": 1,
+        "新城市廣場店": 1,
+        "旺角店": 3,
+        "美麗華店": 3,
+        "荷里活廣場店": 2,
+        "青衣城店": 1
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 8,
+        "奧海城店": 12,
+        "屯門市廣場店": 2,
+        "康城店": 4,
+        "德福廣場店": 7,
+        "新城市廣場店": 6,
+        "旺角店": 20,
+        "美麗華店": 17,
+        "荷里活廣場店": 7,
+        "青衣城店": 4
+      },
+      "stockStatus": "complete",
+      "skuCount": 6,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359608",
@@ -913,7 +3210,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005839/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005839",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 12,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359724",
@@ -924,7 +3249,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005895/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005895",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 4,
+        "太古城店": 2,
+        "奧海城店": 4,
+        "屯門市廣場店": 4,
+        "康城店": 3,
+        "德福廣場店": 4,
+        "新城市廣場店": 3,
+        "旺角店": 3,
+        "美麗華店": 3,
+        "荷里活廣場店": 4,
+        "青衣城店": 4
+      },
+      "stockUnits": {
+        "啟德零售館店": 129,
+        "太古城店": 31,
+        "奧海城店": 88,
+        "屯門市廣場店": 213,
+        "康城店": 49,
+        "德福廣場店": 131,
+        "新城市廣場店": 49,
+        "旺角店": 129,
+        "美麗華店": 24,
+        "荷里活廣場店": 245,
+        "青衣城店": 42
+      },
+      "stockStatus": "complete",
+      "skuCount": 4,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359749",
@@ -935,7 +3288,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006474/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006474",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 3,
+        "太古城店": 2,
+        "奧海城店": 2,
+        "屯門市廣場店": 3,
+        "康城店": 1,
+        "德福廣場店": 1,
+        "新城市廣場店": 2,
+        "旺角店": 3,
+        "美麗華店": 2,
+        "荷里活廣場店": 3,
+        "青衣城店": 1
+      },
+      "stockUnits": {
+        "啟德零售館店": 26,
+        "太古城店": 14,
+        "奧海城店": 3,
+        "屯門市廣場店": 44,
+        "康城店": 3,
+        "德福廣場店": 11,
+        "新城市廣場店": 39,
+        "旺角店": 53,
+        "美麗華店": 21,
+        "荷里活廣場店": 30,
+        "青衣城店": 21
+      },
+      "stockStatus": "complete",
+      "skuCount": 3,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359164",
@@ -946,7 +3327,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006478/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006478",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 3,
+        "太古城店": 1,
+        "奧海城店": 2,
+        "屯門市廣場店": 1,
+        "康城店": 1,
+        "德福廣場店": 0,
+        "新城市廣場店": 3,
+        "旺角店": 2,
+        "美麗華店": 0,
+        "荷里活廣場店": 4,
+        "青衣城店": 1
+      },
+      "stockUnits": {
+        "啟德零售館店": 27,
+        "太古城店": 19,
+        "奧海城店": 6,
+        "屯門市廣場店": 1,
+        "康城店": 2,
+        "德福廣場店": 0,
+        "新城市廣場店": 9,
+        "旺角店": 3,
+        "美麗華店": 0,
+        "荷里活廣場店": 35,
+        "青衣城店": 5
+      },
+      "stockStatus": "complete",
+      "skuCount": 4,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359719",
@@ -957,7 +3366,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005645/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005645",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 1,
+        "太古城店": 1,
+        "奧海城店": 2,
+        "屯門市廣場店": 1,
+        "康城店": 1,
+        "德福廣場店": 1,
+        "新城市廣場店": 1,
+        "旺角店": 2,
+        "美麗華店": 1,
+        "荷里活廣場店": 2,
+        "青衣城店": 1
+      },
+      "stockUnits": {
+        "啟德零售館店": 22,
+        "太古城店": 20,
+        "奧海城店": 32,
+        "屯門市廣場店": 25,
+        "康城店": 21,
+        "德福廣場店": 56,
+        "新城市廣場店": 115,
+        "旺角店": 99,
+        "美麗華店": 49,
+        "荷里活廣場店": 39,
+        "青衣城店": 44
+      },
+      "stockStatus": "complete",
+      "skuCount": 2,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359720",
@@ -968,7 +3405,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005642/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005642",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 1,
+        "太古城店": 2,
+        "奧海城店": 3,
+        "屯門市廣場店": 1,
+        "康城店": 2,
+        "德福廣場店": 2,
+        "新城市廣場店": 2,
+        "旺角店": 1,
+        "美麗華店": 2,
+        "荷里活廣場店": 2,
+        "青衣城店": 3
+      },
+      "stockUnits": {
+        "啟德零售館店": 7,
+        "太古城店": 38,
+        "奧海城店": 12,
+        "屯門市廣場店": 3,
+        "康城店": 5,
+        "德福廣場店": 7,
+        "新城市廣場店": 46,
+        "旺角店": 9,
+        "美麗華店": 37,
+        "荷里活廣場店": 14,
+        "青衣城店": 37
+      },
+      "stockStatus": "complete",
+      "skuCount": 3,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359162",
@@ -979,7 +3444,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006484/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006484",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 1,
+        "太古城店": 1,
+        "奧海城店": 1,
+        "屯門市廣場店": 1,
+        "康城店": 1,
+        "德福廣場店": 1,
+        "新城市廣場店": 1,
+        "旺角店": 1,
+        "美麗華店": 1,
+        "荷里活廣場店": 1,
+        "青衣城店": 1
+      },
+      "stockUnits": {
+        "啟德零售館店": 23,
+        "太古城店": 26,
+        "奧海城店": 46,
+        "屯門市廣場店": 47,
+        "康城店": 22,
+        "德福廣場店": 45,
+        "新城市廣場店": 61,
+        "旺角店": 44,
+        "美麗華店": 47,
+        "荷里活廣場店": 39,
+        "青衣城店": 69
+      },
+      "stockStatus": "complete",
+      "skuCount": 1,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359161",
@@ -990,7 +3483,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006485/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006485",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 4,
+        "太古城店": 3,
+        "奧海城店": 0,
+        "屯門市廣場店": 1,
+        "康城店": 1,
+        "德福廣場店": 1,
+        "新城市廣場店": 3,
+        "旺角店": 2,
+        "美麗華店": 1,
+        "荷里活廣場店": 1,
+        "青衣城店": 1
+      },
+      "stockUnits": {
+        "啟德零售館店": 28,
+        "太古城店": 33,
+        "奧海城店": 0,
+        "屯門市廣場店": 16,
+        "康城店": 1,
+        "德福廣場店": 4,
+        "新城市廣場店": 29,
+        "旺角店": 31,
+        "美麗華店": 16,
+        "荷里活廣場店": 16,
+        "青衣城店": 24
+      },
+      "stockStatus": "complete",
+      "skuCount": 4,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "353160",
@@ -1001,7 +3522,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000003764/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000003764",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 1,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 1,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 1,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 25,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 7,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359163",
@@ -1012,7 +3561,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006482/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006482",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 1,
+        "太古城店": 1,
+        "奧海城店": 1,
+        "屯門市廣場店": 1,
+        "康城店": 1,
+        "德福廣場店": 1,
+        "新城市廣場店": 1,
+        "旺角店": 1,
+        "美麗華店": 1,
+        "荷里活廣場店": 1,
+        "青衣城店": 1
+      },
+      "stockUnits": {
+        "啟德零售館店": 30,
+        "太古城店": 29,
+        "奧海城店": 38,
+        "屯門市廣場店": 57,
+        "康城店": 41,
+        "德福廣場店": 67,
+        "新城市廣場店": 99,
+        "旺角店": 93,
+        "美麗華店": 131,
+        "荷里活廣場店": 55,
+        "青衣城店": 72
+      },
+      "stockStatus": "complete",
+      "skuCount": 1,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "357397",
@@ -1023,7 +3600,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005739/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005739",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 1,
+        "美麗華店": 0,
+        "荷里活廣場店": 1,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 13,
+        "美麗華店": 0,
+        "荷里活廣場店": 1,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 4,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "357744",
@@ -1034,7 +3639,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000004727/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000004727",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 9,
+        "太古城店": 9,
+        "奧海城店": 11,
+        "屯門市廣場店": 9,
+        "康城店": 10,
+        "德福廣場店": 10,
+        "新城市廣場店": 7,
+        "旺角店": 8,
+        "美麗華店": 9,
+        "荷里活廣場店": 9,
+        "青衣城店": 10
+      },
+      "stockUnits": {
+        "啟德零售館店": 162,
+        "太古城店": 172,
+        "奧海城店": 185,
+        "屯門市廣場店": 195,
+        "康城店": 125,
+        "德福廣場店": 219,
+        "新城市廣場店": 116,
+        "旺角店": 202,
+        "美麗華店": 223,
+        "荷里活廣場店": 149,
+        "青衣城店": 143
+      },
+      "stockStatus": "complete",
+      "skuCount": 15,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359433",
@@ -1045,7 +3678,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005776/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005776",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 16,
+        "太古城店": 20,
+        "奧海城店": 21,
+        "屯門市廣場店": 19,
+        "康城店": 20,
+        "德福廣場店": 23,
+        "新城市廣場店": 17,
+        "旺角店": 12,
+        "美麗華店": 10,
+        "荷里活廣場店": 16,
+        "青衣城店": 19
+      },
+      "stockUnits": {
+        "啟德零售館店": 89,
+        "太古城店": 174,
+        "奧海城店": 159,
+        "屯門市廣場店": 165,
+        "康城店": 155,
+        "德福廣場店": 237,
+        "新城市廣場店": 97,
+        "旺角店": 162,
+        "美麗華店": 126,
+        "荷里活廣場店": 150,
+        "青衣城店": 135
+      },
+      "stockStatus": "complete",
+      "skuCount": 30,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "358755",
@@ -1056,7 +3717,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005677/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005677",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 2,
+        "太古城店": 2,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 1,
+        "新城市廣場店": 1,
+        "旺角店": 3,
+        "美麗華店": 2,
+        "荷里活廣場店": 2,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 3,
+        "太古城店": 2,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 10,
+        "新城市廣場店": 1,
+        "旺角店": 20,
+        "美麗華店": 6,
+        "荷里活廣場店": 3,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 16,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "360844",
@@ -1067,7 +3756,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006360/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006360",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 8,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 48,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 8,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "358756",
@@ -1078,7 +3795,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005675/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005675",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 1,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 1,
+        "旺角店": 3,
+        "美麗華店": 1,
+        "荷里活廣場店": 3,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 1,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 1,
+        "旺角店": 9,
+        "美麗華店": 1,
+        "荷里活廣場店": 9,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 12,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "361741",
@@ -1089,7 +3834,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006210/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006210",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 8,
+        "太古城店": 8,
+        "奧海城店": 8,
+        "屯門市廣場店": 8,
+        "康城店": 8,
+        "德福廣場店": 8,
+        "新城市廣場店": 8,
+        "旺角店": 7,
+        "美麗華店": 7,
+        "荷里活廣場店": 8,
+        "青衣城店": 7
+      },
+      "stockUnits": {
+        "啟德零售館店": 85,
+        "太古城店": 74,
+        "奧海城店": 55,
+        "屯門市廣場店": 74,
+        "康城店": 42,
+        "德福廣場店": 87,
+        "新城市廣場店": 63,
+        "旺角店": 92,
+        "美麗華店": 50,
+        "荷里活廣場店": 89,
+        "青衣城店": 41
+      },
+      "stockStatus": "complete",
+      "skuCount": 10,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "361194",
@@ -1100,7 +3873,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006488/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006488",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 12,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 55,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 12,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359681",
@@ -1111,7 +3912,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006043/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006043",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 1,
+        "太古城店": 1,
+        "奧海城店": 2,
+        "屯門市廣場店": 2,
+        "康城店": 1,
+        "德福廣場店": 1,
+        "新城市廣場店": 1,
+        "旺角店": 0,
+        "美麗華店": 2,
+        "荷里活廣場店": 1,
+        "青衣城店": 1
+      },
+      "stockUnits": {
+        "啟德零售館店": 46,
+        "太古城店": 32,
+        "奧海城店": 42,
+        "屯門市廣場店": 62,
+        "康城店": 35,
+        "德福廣場店": 81,
+        "新城市廣場店": 23,
+        "旺角店": 0,
+        "美麗華店": 84,
+        "荷里活廣場店": 55,
+        "青衣城店": 31
+      },
+      "stockStatus": "complete",
+      "skuCount": 3,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359741",
@@ -1122,7 +3951,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005523/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005523",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 2,
+        "太古城店": 0,
+        "奧海城店": 2,
+        "屯門市廣場店": 1,
+        "康城店": 2,
+        "德福廣場店": 1,
+        "新城市廣場店": 1,
+        "旺角店": 1,
+        "美麗華店": 1,
+        "荷里活廣場店": 2,
+        "青衣城店": 1
+      },
+      "stockUnits": {
+        "啟德零售館店": 9,
+        "太古城店": 0,
+        "奧海城店": 14,
+        "屯門市廣場店": 5,
+        "康城店": 10,
+        "德福廣場店": 10,
+        "新城市廣場店": 10,
+        "旺角店": 10,
+        "美麗華店": 1,
+        "荷里活廣場店": 10,
+        "青衣城店": 2
+      },
+      "stockStatus": "complete",
+      "skuCount": 2,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359122",
@@ -1133,7 +3990,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005488/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005488",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 3,
+        "太古城店": 2,
+        "奧海城店": 3,
+        "屯門市廣場店": 3,
+        "康城店": 3,
+        "德福廣場店": 3,
+        "新城市廣場店": 1,
+        "旺角店": 0,
+        "美麗華店": 3,
+        "荷里活廣場店": 3,
+        "青衣城店": 3
+      },
+      "stockUnits": {
+        "啟德零售館店": 14,
+        "太古城店": 6,
+        "奧海城店": 12,
+        "屯門市廣場店": 33,
+        "康城店": 18,
+        "德福廣場店": 86,
+        "新城市廣場店": 1,
+        "旺角店": 0,
+        "美麗華店": 39,
+        "荷里活廣場店": 14,
+        "青衣城店": 15
+      },
+      "stockStatus": "complete",
+      "skuCount": 4,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "360305",
@@ -1144,7 +4029,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006177/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006177",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 1,
+        "太古城店": 1,
+        "奧海城店": 1,
+        "屯門市廣場店": 1,
+        "康城店": 0,
+        "德福廣場店": 1,
+        "新城市廣場店": 1,
+        "旺角店": 1,
+        "美麗華店": 1,
+        "荷里活廣場店": 1,
+        "青衣城店": 1
+      },
+      "stockUnits": {
+        "啟德零售館店": 14,
+        "太古城店": 18,
+        "奧海城店": 12,
+        "屯門市廣場店": 31,
+        "康城店": 0,
+        "德福廣場店": 45,
+        "新城市廣場店": 16,
+        "旺角店": 20,
+        "美麗華店": 27,
+        "荷里活廣場店": 27,
+        "青衣城店": 10
+      },
+      "stockStatus": "complete",
+      "skuCount": 1,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359124",
@@ -1155,7 +4068,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005513/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005513",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 1,
+        "奧海城店": 0,
+        "屯門市廣場店": 2,
+        "康城店": 2,
+        "德福廣場店": 2,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 2,
+        "荷里活廣場店": 1,
+        "青衣城店": 2
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 1,
+        "奧海城店": 0,
+        "屯門市廣場店": 5,
+        "康城店": 3,
+        "德福廣場店": 10,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 10,
+        "荷里活廣場店": 1,
+        "青衣城店": 4
+      },
+      "stockStatus": "complete",
+      "skuCount": 2,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359859",
@@ -1166,7 +4107,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006049/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006049",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 2,
+        "奧海城店": 1,
+        "屯門市廣場店": 1,
+        "康城店": 1,
+        "德福廣場店": 1,
+        "新城市廣場店": 1,
+        "旺角店": 1,
+        "美麗華店": 1,
+        "荷里活廣場店": 2,
+        "青衣城店": 2
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 21,
+        "奧海城店": 17,
+        "屯門市廣場店": 14,
+        "康城店": 9,
+        "德福廣場店": 11,
+        "新城市廣場店": 1,
+        "旺角店": 32,
+        "美麗華店": 7,
+        "荷里活廣場店": 14,
+        "青衣城店": 3
+      },
+      "stockStatus": "complete",
+      "skuCount": 2,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359841",
@@ -1177,7 +4146,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005503/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005503",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 1,
+        "太古城店": 1,
+        "奧海城店": 2,
+        "屯門市廣場店": 1,
+        "康城店": 2,
+        "德福廣場店": 1,
+        "新城市廣場店": 1,
+        "旺角店": 1,
+        "美麗華店": 1,
+        "荷里活廣場店": 1,
+        "青衣城店": 2
+      },
+      "stockUnits": {
+        "啟德零售館店": 16,
+        "太古城店": 12,
+        "奧海城店": 27,
+        "屯門市廣場店": 20,
+        "康城店": 24,
+        "德福廣場店": 25,
+        "新城市廣場店": 7,
+        "旺角店": 30,
+        "美麗華店": 50,
+        "荷里活廣場店": 17,
+        "青衣城店": 54
+      },
+      "stockStatus": "complete",
+      "skuCount": 2,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359837",
@@ -1188,7 +4185,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005514/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005514",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 2,
+        "太古城店": 2,
+        "奧海城店": 2,
+        "屯門市廣場店": 1,
+        "康城店": 2,
+        "德福廣場店": 2,
+        "新城市廣場店": 1,
+        "旺角店": 1,
+        "美麗華店": 2,
+        "荷里活廣場店": 2,
+        "青衣城店": 1
+      },
+      "stockUnits": {
+        "啟德零售館店": 7,
+        "太古城店": 17,
+        "奧海城店": 7,
+        "屯門市廣場店": 2,
+        "康城店": 14,
+        "德福廣場店": 15,
+        "新城市廣場店": 1,
+        "旺角店": 8,
+        "美麗華店": 8,
+        "荷里活廣場店": 20,
+        "青衣城店": 11
+      },
+      "stockStatus": "complete",
+      "skuCount": 2,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359858",
@@ -1199,7 +4224,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005507/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005507",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 3,
+        "太古城店": 1,
+        "奧海城店": 1,
+        "屯門市廣場店": 1,
+        "康城店": 2,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 1,
+        "美麗華店": 2,
+        "荷里活廣場店": 2,
+        "青衣城店": 2
+      },
+      "stockUnits": {
+        "啟德零售館店": 15,
+        "太古城店": 2,
+        "奧海城店": 6,
+        "屯門市廣場店": 2,
+        "康城店": 5,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 3,
+        "美麗華店": 18,
+        "荷里活廣場店": 14,
+        "青衣城店": 6
+      },
+      "stockStatus": "complete",
+      "skuCount": 3,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359864",
@@ -1210,7 +4263,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005510/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005510",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 2,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 3,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 3,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359840",
@@ -1221,7 +4302,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005480/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005480",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 1,
+        "奧海城店": 2,
+        "屯門市廣場店": 1,
+        "康城店": 1,
+        "德福廣場店": 1,
+        "新城市廣場店": 1,
+        "旺角店": 1,
+        "美麗華店": 2,
+        "荷里活廣場店": 1,
+        "青衣城店": 1
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 11,
+        "奧海城店": 38,
+        "屯門市廣場店": 20,
+        "康城店": 24,
+        "德福廣場店": 16,
+        "新城市廣場店": 3,
+        "旺角店": 25,
+        "美麗華店": 24,
+        "荷里活廣場店": 3,
+        "青衣城店": 6
+      },
+      "stockStatus": "complete",
+      "skuCount": 2,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "357520",
@@ -1232,7 +4341,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000004857/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000004857",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 1,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 1,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 2
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 1,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 1,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 3
+      },
+      "stockStatus": "complete",
+      "skuCount": 4,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "360065",
@@ -1243,7 +4380,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006033/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006033",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 1,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 1,
+        "德福廣場店": 2,
+        "新城市廣場店": 1,
+        "旺角店": 2,
+        "美麗華店": 1,
+        "荷里活廣場店": 2,
+        "青衣城店": 1
+      },
+      "stockUnits": {
+        "啟德零售館店": 3,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 8,
+        "德福廣場店": 21,
+        "新城市廣場店": 4,
+        "旺角店": 21,
+        "美麗華店": 21,
+        "荷里活廣場店": 12,
+        "青衣城店": 2
+      },
+      "stockStatus": "complete",
+      "skuCount": 2,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359847",
@@ -1254,7 +4419,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005502/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005502",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 3,
+        "太古城店": 0,
+        "奧海城店": 2,
+        "屯門市廣場店": 1,
+        "康城店": 1,
+        "德福廣場店": 1,
+        "新城市廣場店": 1,
+        "旺角店": 1,
+        "美麗華店": 0,
+        "荷里活廣場店": 1,
+        "青衣城店": 1
+      },
+      "stockUnits": {
+        "啟德零售館店": 12,
+        "太古城店": 0,
+        "奧海城店": 6,
+        "屯門市廣場店": 12,
+        "康城店": 1,
+        "德福廣場店": 11,
+        "新城市廣場店": 2,
+        "旺角店": 7,
+        "美麗華店": 0,
+        "荷里活廣場店": 11,
+        "青衣城店": 21
+      },
+      "stockStatus": "complete",
+      "skuCount": 3,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359838",
@@ -1265,7 +4458,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005492/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005492",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 3,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "353201",
@@ -1276,7 +4497,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000003825/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000003825",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 2,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359744",
@@ -1287,7 +4536,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005501/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005501",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 1,
+        "太古城店": 1,
+        "奧海城店": 1,
+        "屯門市廣場店": 0,
+        "康城店": 1,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 1,
+        "太古城店": 15,
+        "奧海城店": 2,
+        "屯門市廣場店": 0,
+        "康城店": 1,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 2,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "360004",
@@ -1298,7 +4575,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006052/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006052",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 2,
+        "太古城店": 2,
+        "奧海城店": 1,
+        "屯門市廣場店": 2,
+        "康城店": 2,
+        "德福廣場店": 2,
+        "新城市廣場店": 2,
+        "旺角店": 2,
+        "美麗華店": 2,
+        "荷里活廣場店": 2,
+        "青衣城店": 2
+      },
+      "stockUnits": {
+        "啟德零售館店": 8,
+        "太古城店": 23,
+        "奧海城店": 5,
+        "屯門市廣場店": 40,
+        "康城店": 10,
+        "德福廣場店": 39,
+        "新城市廣場店": 15,
+        "旺角店": 25,
+        "美麗華店": 34,
+        "荷里活廣場店": 29,
+        "青衣城店": 14
+      },
+      "stockStatus": "complete",
+      "skuCount": 2,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359861",
@@ -1309,7 +4614,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005547/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005547",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 3,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "353195",
@@ -1320,7 +4653,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000003818/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000003818",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 4,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359863",
@@ -1331,7 +4692,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000006047/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000006047",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 1,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 1,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 1,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 1,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 2,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "359839",
@@ -1342,7 +4731,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005497/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005497",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 1,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 1,
+        "荷里活廣場店": 0,
+        "青衣城店": 2
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 3,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 1,
+        "荷里活廣場店": 0,
+        "青衣城店": 18
+      },
+      "stockStatus": "complete",
+      "skuCount": 3,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "357851",
@@ -1353,7 +4770,35 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000004878/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000004878",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 1,
+        "屯門市廣場店": 0,
+        "康城店": 1,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 1,
+        "荷里活廣場店": 1,
+        "青衣城店": 1
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 1,
+        "屯門市廣場店": 0,
+        "康城店": 1,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 4,
+        "荷里活廣場店": 3,
+        "青衣城店": 1
+      },
+      "stockStatus": "complete",
+      "skuCount": 2,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
     },
     {
       "id": "357847",
@@ -1364,7 +4809,92 @@
       "originalPrice": null,
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000004813/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000004813",
-      "stock": {}
+      "stock": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockUnits": {
+        "啟德零售館店": 0,
+        "太古城店": 0,
+        "奧海城店": 0,
+        "屯門市廣場店": 0,
+        "康城店": 0,
+        "德福廣場店": 0,
+        "新城市廣場店": 0,
+        "旺角店": 0,
+        "美麗華店": 0,
+        "荷里活廣場店": 0,
+        "青衣城店": 0
+      },
+      "stockStatus": "complete",
+      "skuCount": 3,
+      "stockUpdatedAt": "2026-08-08T02:27:31+00:00"
+    }
+  ],
+  "stores": [
+    {
+      "siteCode": "0004",
+      "siteName": "荷里活廣場店",
+      "districtName": "黃大仙區"
+    },
+    {
+      "siteCode": "0006",
+      "siteName": "新城市廣場店",
+      "districtName": "沙田區"
+    },
+    {
+      "siteCode": "0007",
+      "siteName": "奧海城店",
+      "districtName": "油尖旺區"
+    },
+    {
+      "siteCode": "0008",
+      "siteName": "屯門市廣場店",
+      "districtName": "屯門區"
+    },
+    {
+      "siteCode": "0009",
+      "siteName": "青衣城店",
+      "districtName": "葵青區"
+    },
+    {
+      "siteCode": "0010",
+      "siteName": "啟德零售館店",
+      "districtName": "九龍城區"
+    },
+    {
+      "siteCode": "0011",
+      "siteName": "旺角店",
+      "districtName": "油尖旺區"
+    },
+    {
+      "siteCode": "0013",
+      "siteName": "康城店",
+      "districtName": "西貢區"
+    },
+    {
+      "siteCode": "0014",
+      "siteName": "太古城店",
+      "districtName": "東區"
+    },
+    {
+      "siteCode": "0015",
+      "siteName": "美麗華店",
+      "districtName": "油尖旺區"
+    },
+    {
+      "siteCode": "0016",
+      "siteName": "德福廣場店",
+      "districtName": "觀塘區"
     }
   ],
   "priceTiers": {
@@ -1376,6 +4906,20 @@
     "99": 27,
     "149": 8,
     "249": 1
+  },
+  "stockSummary": {
+    "workers": 12,
+    "detailRequests": 124,
+    "detailErrors": 0,
+    "skuRequests": 2176,
+    "skuErrors": 0,
+    "completeProducts": 124,
+    "staleProducts": 0,
+    "unavailableProducts": 0,
+    "storeCount": 11,
+    "durationSeconds": 61.3,
+    "detailErrorSamples": [],
+    "stockErrorSamples": []
   },
   "diagnostics": [
     {
