@@ -52,10 +52,21 @@ function renderSizes(product, storeName) {
   if (!sizes.length) return '';
 
   return `<div class="size-list">${sizes.map(([size, details]) => {
-    const colours = Number(details?.skuCount || 0);
+    const colorEntries = Object.entries(details?.colors || {})
+      .filter(([, colorUnits]) => Number(colorUnits || 0) > 0)
+      .sort(([left], [right]) => String(left).localeCompare(String(right), 'en', { numeric: true }));
+    const colours = colorEntries.length || Number(details?.skuCount || 0);
     const units = Number(details?.units || 0);
     const colourLabel = colours > 0 ? `${colours}色 · ` : '';
-    return `<span class="size-pill"><strong>${escapeHtml(size)}</strong><small>${colourLabel}${units}件</small></span>`;
+    const colorHtml = colorEntries.length
+      ? `<div class="color-list">${colorEntries.map(([color, colorUnits]) => (
+        `<span class="color-stock"><span>${escapeHtml(color)}</span><b>${Number(colorUnits)}件</b></span>`
+      )).join('')}</div>`
+      : '';
+    return `<div class="size-group">
+      <div class="size-head"><strong>${escapeHtml(size)}</strong><small>${colourLabel}${units}件</small></div>
+      ${colorHtml}
+    </div>`;
   }).join('')}</div>`;
 }
 
