@@ -85,45 +85,49 @@ jobs:
                   "contentType": response.headers.get("content-type", ""),
               })
 
-          bundle_url = (
-              "https://www.gu-global.com/hk/build/"
-              "desktop.84a960defd785756dd0e.bundle.js"
-          )
+          bundle_urls = [
+              "https://www.gu-global.com/hk/build/6.41ed5e98bd9ec08c14db.chunk.js",
+              "https://www.gu-global.com/hk/build/1.cd2629ab8926791ab561.chunk.js",
+              "https://www.gu-global.com/hk/build/2.0575db065e0e78fcaa4e.chunk.js",
+              "https://www.gu-global.com/hk/build/3.caca457dce7f45af0a1f.chunk.js",
+              "https://www.gu-global.com/hk/build/desktop.84a960defd785756dd0e.bundle.js",
+          ]
           try:
-              request = urllib.request.Request(
-                  bundle_url,
-                  headers={
-                      "User-Agent": "Mozilla/5.0",
-                      "Accept-Encoding": "identity",
-                  },
-              )
-              with urllib.request.urlopen(request, timeout=60) as response:
-                  bundle = response.read().decode("utf-8", errors="replace")
               snippets = []
-              seen = set()
-              for match in re.finditer(
-                  r"inventory|storeStock|store-stock|stockList|stock/list|"
-                  r"stock/query|product/store",
-                  bundle,
-                  re.I,
-              ):
-                  snippet = bundle[max(0, match.start() - 500):match.end() + 900]
-                  if snippet not in seen:
-                      seen.add(snippet)
-                      snippets.append(snippet)
-                  if len(snippets) >= 120:
-                      break
-              api_paths = sorted(set(re.findall(
-                  r'["\\\']([^"\\\']*(?:inventory|stock)[^"\\\']*)["\\\']',
-                  bundle,
-                  re.I,
-              )))[:300]
+              literals = set()
+              files = []
+              for bundle_url in bundle_urls:
+                  request = urllib.request.Request(
+                      bundle_url,
+                      headers={
+                          "User-Agent": "Mozilla/5.0",
+                          "Accept-Encoding": "identity",
+                      },
+                  )
+                  with urllib.request.urlopen(request, timeout=60) as response:
+                      bundle = response.read().decode("utf-8", errors="replace")
+                  file_matches = 0
+                  for match in re.finditer(r"inventory|stock|store", bundle, re.I):
+                      snippet = bundle[max(0, match.start() - 700):match.end() + 1200]
+                      snippets.append({"url": bundle_url, "snippet": snippet})
+                      file_matches += 1
+                      if file_matches >= 150:
+                          break
+                  for literal in re.findall(
+                      r'''["']([^"']{0,400}(?:inventory|stock|/p/)[^"']{0,400})["']''',
+                      bundle,
+                      re.I,
+                  ):
+                      literals.add(literal)
+                  files.append({
+                      "url": bundle_url,
+                      "bytes": len(bundle),
+                      "matchCount": file_matches,
+                  })
               result["bundleScan"] = {
-                  "url": bundle_url,
-                  "bytes": len(bundle),
-                  "matchCount": len(snippets),
-                  "apiPaths": api_paths,
-                  "snippets": snippets,
+                  "files": files,
+                  "literals": sorted(literals)[:1000],
+                  "snippets": snippets[:500],
               }
           except Exception as exc:
               result["bundleScanError"] = f"{type(exc).__name__}: {exc}"[:1000]
