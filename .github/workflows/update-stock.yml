@@ -5,6 +5,9 @@ on:
     - cron: "17 */6 * * *"
   push:
     branches: [main]
+    paths:
+      - "scripts/fetch_gu.py"
+      - ".github/workflows/update-stock.yml"
   workflow_dispatch:
 
 permissions:
@@ -17,7 +20,9 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
+    env:
+      GU_STOCK_WORKERS: "12"
     steps:
       - uses: actions/checkout@v4
 
@@ -25,12 +30,12 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install Playwright Firefox
+      - name: Install crawler dependencies
         run: |
-          python -m pip install --disable-pip-version-check playwright
+          python -m pip install --disable-pip-version-check playwright requests
           python -m playwright install --with-deps firefox
 
-      - name: Render and extract GU listing
+      - name: Refresh listing and store inventory
         id: scrape
         continue-on-error: true
         shell: bash
@@ -44,22 +49,39 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/products.json data/run.log
-          git diff --cached --quiet || git commit -m "data: refresh GU sale snapshot"
+          git diff --cached --quiet || git commit -m "data: refresh GU sale and stock snapshot"
+          git pull --rebase origin main
           git push
 
-      - name: Verify usable product data
+      - name: Verify usable product and inventory data
         if: always()
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
+
           data = json.loads(Path("data/products.json").read_text())
-          count = len(data.get("products", []))
-          warning = data.get("warning")
+          products = data.get("products", [])
+          summary = data.get("stockSummary", {})
+          count = len(products)
+          complete = int(summary.get("completeProducts", 0))
+          stores = int(summary.get("storeCount", 0))
+          minimum_complete = max(5, int(count * 0.8))
+
           print(f"products={count}")
           print(f"priceTiers={data.get('priceTiers', {})}")
-          if warning:
-              raise SystemExit(f"scrape warning: {warning}")
+          print(f"stockSummary={summary}")
           if count < 5:
               raise SystemExit(f"expected at least 5 products, got {count}")
+          if stores < 5:
+              raise SystemExit(f"expected at least 5 stores, got {stores}")
+          if complete < minimum_complete:
+              raise SystemExit(
+                  f"expected fresh stock for {minimum_complete} products, got {complete}"
+              )
+          if not any(
+              any(int(value or 0) > 0 for value in product.get("stock", {}).values())
+              for product in products
+          ):
+              raise SystemExit("snapshot contains no positive store inventory")
           PY
