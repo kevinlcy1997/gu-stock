@@ -93,8 +93,19 @@ jobs:
               "https://www.gu-global.com/hk/build/desktop.84a960defd785756dd0e.bundle.js",
           ]
           try:
-              snippets = []
-              literals = set()
+              needles = [
+                  "POST_INV_STOCK_PICKUP_URL",
+                  "POST_STO_SITE_STOCK_URL",
+                  "queryStoreStockStep2",
+                  "fetchStock",
+                  "getStock",
+                  "skuStock",
+                  "sitStock",
+                  "dcStock",
+              ]
+              exact_contexts = []
+              occurrences = {}
+              route_literals = set()
               files = []
               for bundle_url in bundle_urls:
                   request = urllib.request.Request(
@@ -106,28 +117,47 @@ jobs:
                   )
                   with urllib.request.urlopen(request, timeout=60) as response:
                       bundle = response.read().decode("utf-8", errors="replace")
-                  file_matches = 0
-                  for match in re.finditer(r"inventory|stock|store", bundle, re.I):
-                      snippet = bundle[max(0, match.start() - 700):match.end() + 1200]
-                      snippets.append({"url": bundle_url, "snippet": snippet})
-                      file_matches += 1
-                      if file_matches >= 150:
-                          break
-                  for literal in re.findall(
-                      r'''["']([^"']{0,400}(?:inventory|stock|/p/)[^"']{0,400})["']''',
-                      bundle,
-                      re.I,
-                  ):
-                      literals.add(literal)
-                  files.append({
-                      "url": bundle_url,
-                      "bytes": len(bundle),
-                      "matchCount": file_matches,
-                  })
+
+                  for needle in needles:
+                      matches = list(re.finditer(re.escape(needle), bundle))
+                      occurrences[f"{bundle_url.rsplit('/', 1)[-1]}:{needle}"] = len(matches)
+                      for index, match in enumerate(matches[:20]):
+                          start = max(0, match.start() - 3500)
+                          end = min(len(bundle), match.end() + 5000)
+                          exact_contexts.append({
+                              "url": bundle_url,
+                              "needle": needle,
+                              "occurrence": index + 1,
+                              "offset": match.start(),
+                              "context": bundle[start:end],
+                          })
+
+                  # Capture literal API routes, including paths built beside stock constants.
+                  for literal in re.findall(r'''["']([^"'\\n\\r]{1,800})["']''', bundle):
+                      lowered = literal.lower()
+                      if (
+                          (literal.startswith("/") and (
+                              "/p/" in lowered
+                              or any(word in lowered for word in (
+                                  "stock", "inventory", "store", "site", "pickup"
+                              ))
+                          ))
+                          or (
+                              (literal.startswith("http://") or literal.startswith("https://"))
+                              and any(word in lowered for word in (
+                                  "stock", "inventory", "store", "site", "pickup"
+                              ))
+                          )
+                      ):
+                          route_literals.add(literal)
+
+                  files.append({"url": bundle_url, "bytes": len(bundle)})
+
               result["bundleScan"] = {
                   "files": files,
-                  "literals": sorted(literals)[:1000],
-                  "snippets": snippets[:500],
+                  "occurrences": occurrences,
+                  "routeLiterals": sorted(route_literals),
+                  "exactContexts": exact_contexts,
               }
           except Exception as exc:
               result["bundleScanError"] = f"{type(exc).__name__}: {exc}"[:1000]
