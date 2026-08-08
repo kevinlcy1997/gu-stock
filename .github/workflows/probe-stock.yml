@@ -100,6 +100,23 @@ jobs:
                   result["pageStatus"] = response.status if response else None
                   page.wait_for_timeout(5_000)
 
+                  # Firefox requires a concrete SKU on the main product page first.
+                  main_sku = page.locator(".sku-select:visible").first
+                  main_sku.locator(
+                      f'.sku-select-colors img[alt="{COLOR}"]'
+                  ).click()
+                  main_size = main_sku.locator(".sku-select-sizes li").filter(
+                      has_text=re.compile(rf"^{re.escape(SIZE)}$")
+                  )
+                  main_size.first.click()
+                  page.wait_for_timeout(700)
+                  result["mainSelectedColor"] = main_sku.locator(
+                      ".select-color"
+                  ).inner_text()
+                  result["mainSelectedSize"] = main_sku.locator(
+                      ".select-size"
+                  ).inner_text()
+
                   phase["name"] = "open-inventory"
                   result["modalTrail"] = []
                   page.locator(".query-inventory").click()
