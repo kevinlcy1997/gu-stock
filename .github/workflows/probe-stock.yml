@@ -1,0 +1,186 @@
+name: Probe GU stock API
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/probe-stock.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gu-stock-probe
+  cancel-in-progress: true
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Playwright Firefox
+        run: |
+          python -m pip install --disable-pip-version-check playwright
+          python -m playwright install --with-deps firefox
+
+      - name: Capture one stock lookup
+        run: |
+          python - <<'PY'
+          import json
+          import re
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
+          from playwright.sync_api import sync_playwright
+
+          PRODUCT_CODE = "u0000000005919"
+          COLOR = "01 OFF WHITE"
+          SIZE = "S"
+          URL = f"https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode={PRODUCT_CODE}"
+          OUT = Path("data/stock-probe.json")
+
+          events = []
+          phase = {"name": "page-load"}
+          result = {
+              "testedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+              "productCode": PRODUCT_CODE,
+              "itemNo": "359821",
+              "color": COLOR,
+              "size": SIZE,
+              "events": events,
+          }
+
+          def record_request(request):
+              if request.resource_type not in {"xhr", "fetch"}:
+                  return
+              events.append({
+                  "kind": "request",
+                  "phase": phase["name"],
+                  "resourceType": request.resource_type,
+                  "method": request.method,
+                  "url": request.url,
+                  "postData": request.post_data,
+              })
+
+          def record_response(response):
+              request = response.request
+              if request.resource_type not in {"xhr", "fetch"}:
+                  return
+              event = {
+                  "kind": "response",
+                  "phase": phase["name"],
+                  "resourceType": request.resource_type,
+                  "method": request.method,
+                  "url": response.url,
+                  "status": response.status,
+                  "contentType": response.headers.get("content-type", ""),
+              }
+              content_type = event["contentType"].lower()
+              if "json" in content_type or "text" in content_type:
+                  try:
+                      event["bodyPreview"] = response.text()[:20000]
+                  except Exception as exc:
+                      event["bodyError"] = str(exc)[:300]
+              events.append(event)
+
+          try:
+              with sync_playwright() as playwright:
+                  browser = playwright.firefox.launch(headless=True)
+                  page = browser.new_page(
+                      viewport={"width": 1440, "height": 1800},
+                      locale="zh-HK",
+                      timezone_id="Asia/Hong_Kong",
+                  )
+                  page.set_default_timeout(12_000)
+                  page.on("request", record_request)
+                  page.on("response", record_response)
+
+                  response = page.goto(URL, wait_until="domcontentloaded", timeout=90_000)
+                  result["pageStatus"] = response.status if response else None
+                  page.wait_for_timeout(5_000)
+
+                  phase["name"] = "open-inventory"
+                  page.locator(".query-inventory").click()
+
+                  # GU shows one or two anonymous-user notices before the inventory panel.
+                  for _ in range(5):
+                      page.wait_for_timeout(600)
+                      panel = page.locator(".inventory")
+                      if panel.count() and panel.is_visible():
+                          break
+                      button = page.get_by_role("button", name="繼續", exact=True)
+                      if button.count() and button.first.is_visible():
+                          button.first.click()
+                  page.locator(".inventory").wait_for(state="visible", timeout=15_000)
+
+                  color = page.locator(
+                      f'.inventory .sku-select-colors img[alt="{COLOR}"]'
+                  )
+                  color.click()
+                  size = page.locator(".inventory .sku-select-sizes li").filter(
+                      has_text=re.compile(rf"^{re.escape(SIZE)}$")
+                  )
+                  size.first.click()
+                  page.wait_for_timeout(500)
+
+                  result["selectedColor"] = page.locator(
+                      ".inventory .select-color"
+                  ).inner_text()
+                  result["selectedSize"] = page.locator(
+                      ".inventory .select-size"
+                  ).inner_text()
+
+                  phase["name"] = "stock-query"
+                  query = page.locator(".inventory .confirm")
+                  result["queryEnabled"] = query.is_enabled()
+                  query.click()
+
+                  loading = page.locator(".inventory .loading")
+                  try:
+                      loading.wait_for(state="detached", timeout=45_000)
+                      result["loadingCompleted"] = True
+                  except PlaywrightTimeoutError:
+                      result["loadingCompleted"] = False
+
+                  page.wait_for_timeout(1_000)
+                  table = page.locator(".inventory .table-border")
+                  result["tableText"] = table.inner_text()[:12000]
+                  result["tableHtml"] = table.evaluate(
+                      "(el) => el.outerHTML.slice(0, 30000)"
+                  )
+                  browser.close()
+          except Exception as exc:
+              result["error"] = f"{type(exc).__name__}: {exc}"[:2000]
+
+          # Keep the most useful events first while retaining all anonymous XHR/fetch metadata.
+          result["stockPhaseEvents"] = [
+              event for event in events if event.get("phase") == "stock-query"
+          ]
+          OUT.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n")
+          print(json.dumps({
+              "pageStatus": result.get("pageStatus"),
+              "selectedColor": result.get("selectedColor"),
+              "selectedSize": result.get("selectedSize"),
+              "loadingCompleted": result.get("loadingCompleted"),
+              "eventCount": len(events),
+              "stockEventCount": len(result["stockPhaseEvents"]),
+              "error": result.get("error"),
+          }, ensure_ascii=False))
+          PY
+
+      - name: Commit probe result
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/stock-probe.json
+          git diff --cached --quiet || git commit -m "diag: capture GU stock request"
+          git push
