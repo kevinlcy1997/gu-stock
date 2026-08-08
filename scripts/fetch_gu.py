@@ -1,4 +1,4 @@
-"""Refresh GU HK women's sale products and aggregate public store inventory."""
+"""Refresh GU HK women's sale products and aggregate store inventory by size."""
 
 from __future__ import annotations
 
@@ -21,6 +21,18 @@ OUT = Path(os.environ.get("GU_OUT", DEFAULT_OUT))
 WORKERS = max(1, min(int(os.environ.get("GU_STOCK_WORKERS", "12")), 24))
 PRODUCT_LIMIT = max(0, int(os.environ.get("GU_PRODUCT_LIMIT", "0")))
 USE_EXISTING_SNAPSHOT = os.environ.get("GU_USE_EXISTING_SNAPSHOT") == "1"
+
+SIZE_ORDER = {
+    "XXS": 0,
+    "XS": 1,
+    "S": 2,
+    "M": 3,
+    "L": 4,
+    "XL": 5,
+    "XXL": 6,
+    "3XL": 7,
+    "4XL": 8,
+}
 
 _thread_local = threading.local()
 
@@ -302,6 +314,11 @@ def non_negative_int(value) -> int:
         return 0
 
 
+def size_sort_key(size: str) -> tuple[int, str]:
+    normalized = str(size or "其他").strip().upper()
+    return SIZE_ORDER.get(normalized, 100), normalized
+
+
 def enrich_inventory(
     products: list[dict], old_by_code: dict[str, dict]
 ) -> tuple[list[dict], list[dict], dict]:
@@ -311,6 +328,11 @@ def enrich_inventory(
     skus_by_product: dict[str, list[dict]] = {}
     stock_counts: dict[str, Counter] = defaultdict(Counter)
     stock_units: dict[str, Counter] = defaultdict(Counter)
+    stock_by_size: dict = defaultdict(
+        lambda: defaultdict(
+            lambda: defaultdict(lambda: {"skuCount": 0, "units": 0})
+        )
+    )
     completed_skus: Counter = Counter()
     failed_skus: Counter = Counter()
     store_meta: dict[str, dict] = {}
@@ -336,6 +358,11 @@ def enrich_inventory(
                 )
                 stock_futures[future] = (product_code, sku["skuCode"])
 
+        sku_meta = {
+            product_code: {sku["skuCode"]: sku for sku in skus}
+            for product_code, skus in skus_by_product.items()
+        }
+
         for future in as_completed(stock_futures):
             product_code, sku_code = stock_futures[future]
             try:
@@ -351,6 +378,15 @@ def enrich_inventory(
                     stock_units[product_code].setdefault(site_name, 0)
                     if units > 0:
                         stock_counts[product_code][site_name] += 1
+                        size = str(
+                            sku_meta.get(product_code, {})
+                            .get(sku_code, {})
+                            .get("size")
+                            or "其他"
+                        ).strip() or "其他"
+                        size_bucket = stock_by_size[product_code][site_name][size]
+                        size_bucket["skuCount"] += 1
+                        size_bucket["units"] += units
                     stock_units[product_code][site_name] += units
                     store_meta[site_code] = {
                         "siteCode": site_code,
@@ -387,6 +423,15 @@ def enrich_inventory(
         ):
             product["stock"] = dict(sorted(stock_counts[code].items()))
             product["stockUnits"] = dict(sorted(stock_units[code].items()))
+            product["stockBySize"] = {
+                store_name: {
+                    size: dict(values)
+                    for size, values in sorted(
+                        sizes.items(), key=lambda item: size_sort_key(item[0])
+                    )
+                }
+                for store_name, sizes in sorted(stock_by_size[code].items())
+            }
             product["stockStatus"] = "complete"
             product["stockUpdatedAt"] = refreshed_at
             complete_products += 1
@@ -394,6 +439,7 @@ def enrich_inventory(
 
         product["stock"] = old_product.get("stock", {})
         product["stockUnits"] = old_product.get("stockUnits", {})
+        product["stockBySize"] = old_product.get("stockBySize", {})
         product["stockUpdatedAt"] = old_product.get("stockUpdatedAt")
         if product["stock"]:
             product["stockStatus"] = "stale"
