@@ -116,9 +116,12 @@ jobs:
                       panel = page.locator(".inventory")
                       if panel.count() and panel.is_visible():
                           break
-                      button = page.get_by_role("button", name="繼續", exact=True)
-                      if button.count() and button.first.is_visible():
-                          button.first.click()
+                      buttons = page.get_by_role("button", name="繼續", exact=True)
+                      for index in range(buttons.count()):
+                          button = buttons.nth(index)
+                          if button.is_visible():
+                              button.click()
+                              break
                   page.locator(".inventory").wait_for(state="visible", timeout=15_000)
 
                   color = page.locator(
