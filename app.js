@@ -2,6 +2,7 @@ let all = [];
 let tier = null;
 let selectedStore = null;
 let storeNames = [];
+const selectedColors = new Map();
 
 const SIZE_ORDER = new Map(
   ['XXS', 'XS', 'S', 'M', 'L', 'XL', 'XXL', '3XL', '4XL']
@@ -70,6 +71,21 @@ function renderSizes(product, storeName) {
   }).join('')}</div>`;
 }
 
+function productColorState(product) {
+  const productKey = String(product.productCode || product.id);
+  const colorImages = Object.entries(product.colorImages || {})
+    .filter(([color, image]) => color && image)
+    .sort(([left], [right]) => String(left).localeCompare(String(right), 'en', { numeric: true }));
+  const savedColor = selectedColors.get(productKey);
+  const activeColor = colorImages.some(([color]) => color === savedColor)
+    ? savedColor
+    : (colorImages[0]?.[0] || null);
+  const activeImage = colorImages.find(([color]) => color === activeColor)?.[1]
+    || product.image;
+  if (activeColor) selectedColors.set(productKey, activeColor);
+  return { productKey, colorImages, activeColor, activeImage };
+}
+
 function productHasStock(product) {
   const stock = product.stock || {};
   if (selectedStore) return Number(stock[selectedStore] || 0) > 0;
@@ -109,6 +125,15 @@ function render() {
     <small>庫存更新 ${formatUpdated(window.stockUpdated || window.updated)}</small>`;
 
   $('#grid').innerHTML = rows.map(product => {
+    const { productKey, colorImages, activeColor, activeImage } = productColorState(product);
+    const colorSwitchHtml = colorImages.length ? `<div class="image-colors" aria-label="選擇商品顏色">
+      ${colorImages.map(([color, image]) => `<button type="button"
+        class="${color === activeColor ? 'active' : ''}"
+        data-color-product="${escapeHtml(productKey)}"
+        data-color="${escapeHtml(color)}"
+        data-image="${escapeHtml(image)}"
+        aria-pressed="${color === activeColor}">${escapeHtml(color)}</button>`).join('')}
+    </div>` : '';
     const entries = Object.entries(product.stock || {})
       .filter(([name]) => !selectedStore || name === selectedStore);
     const stockHtml = entries.map(([name, skuCount]) => {
@@ -122,9 +147,10 @@ function render() {
 
     return `<article class="card">
       <div class="visual">
-        ${product.image ? `<img src="${escapeHtml(product.image)}" alt="" loading="lazy">` : '<span>GU</span>'}
+        ${activeImage ? `<img src="${escapeHtml(activeImage)}" alt="${escapeHtml(product.name)}${activeColor ? ` - ${escapeHtml(activeColor)}` : ''}" loading="lazy" data-product-image data-product-name="${escapeHtml(product.name)}">` : '<span>GU</span>'}
         <em>SALE</em>
       </div>
+      ${colorSwitchHtml}
       <div class="body">
         <div class="price"><strong>${money(product.price)}</strong>${product.originalPrice ? `<del>${money(product.originalPrice)}</del>` : ''}</div>
         <h2>${escapeHtml(product.name)}</h2>
@@ -140,6 +166,23 @@ function render() {
     button.onclick = () => {
       tier = button.dataset.tier === '' ? null : Number(button.dataset.tier);
       render();
+    };
+  });
+  document.querySelectorAll('[data-color-product]').forEach(button => {
+    button.onclick = () => {
+      const card = button.closest('.card');
+      const image = card?.querySelector('[data-product-image]');
+      const productKey = button.dataset.colorProduct;
+      const color = button.dataset.color;
+      if (!image || !productKey || !color || !button.dataset.image) return;
+      selectedColors.set(productKey, color);
+      image.src = button.dataset.image;
+      image.alt = `${image.dataset.productName || ''} - ${color}`;
+      card.querySelectorAll('[data-color-product]').forEach(option => {
+        const active = option === button;
+        option.classList.toggle('active', active);
+        option.setAttribute('aria-pressed', String(active));
+      });
     };
   });
 }
