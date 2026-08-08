@@ -145,17 +145,27 @@ function render() {
       </div>`;
     }).join('') || '<div class="store-stock"><div class="store-line"><span>分店庫存</span><b class="unknown">待同步</b></div></div>';
 
+    const stockedStores = entries.filter(([, skuCount]) => Number(skuCount || 0) > 0).length;
+    const storeSummary = stockedStores ? `${stockedStores} 間有貨` : '暫時缺貨';
+
     return `<article class="card">
-      <div class="visual">
-        ${activeImage ? `<img src="${escapeHtml(activeImage)}" alt="${escapeHtml(product.name)}${activeColor ? ` - ${escapeHtml(activeColor)}` : ''}" loading="lazy" data-product-image data-product-name="${escapeHtml(product.name)}">` : '<span>GU</span>'}
-        <em>SALE</em>
-      </div>
-      ${colorSwitchHtml}
-      <div class="body">
+      <div class="card-top">
+        <div class="visual">
+          ${activeImage ? `<img src="${escapeHtml(activeImage)}" alt="${escapeHtml(product.name)}${activeColor ? ` - ${escapeHtml(activeColor)}` : ''}" loading="lazy" data-product-image data-product-name="${escapeHtml(product.name)}">` : '<span>GU</span>'}
+          <em>SALE</em>
+        </div>
+        <div class="product-summary">
         <div class="price"><strong>${money(product.price)}</strong>${product.originalPrice ? `<del>${money(product.originalPrice)}</del>` : ''}</div>
         <h2>${escapeHtml(product.name)}</h2>
         <p class="sku">商品編號 ${escapeHtml(product.id)} · ${Number(product.skuCount || 0)} SKU</p>
-        <div class="stock">${stockHtml}</div>
+          ${colorSwitchHtml}
+        </div>
+      </div>
+      <div class="body">
+        <details class="inventory-panel">
+          <summary><span>分店庫存</span><b>${storeSummary}</b></summary>
+          <div class="stock">${stockHtml}</div>
+        </details>
         <a class="product" href="${escapeHtml(product.url)}" target="_blank" rel="noopener">到 GU 核實庫存 ↗</a>
       </div>
     </article>`;
