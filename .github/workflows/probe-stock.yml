@@ -119,7 +119,7 @@ jobs:
 
                   phase["name"] = "open-inventory"
                   result["modalTrail"] = []
-                  page.locator(".query-inventory").click()
+                  page.locator(".query-inventory .ec-font-event-text").click()
 
                   # GU can show geolocation and stock-disclaimer notices in either order.
                   retried_query = False
@@ -142,7 +142,7 @@ jobs:
                               continue
 
                       if attempt >= 5 and not retried_query:
-                          page.locator(".query-inventory").click(force=True)
+                          page.locator(".query-inventory .ec-font-event-text").click(force=True)
                           retried_query = True
 
                   result["inventoryVisible"] = page.locator(".inventory").is_visible()
