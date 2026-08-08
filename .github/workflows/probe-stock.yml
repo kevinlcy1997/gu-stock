@@ -25,16 +25,17 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install Playwright Chromium
+      - name: Install Playwright Firefox
         run: |
           python -m pip install --disable-pip-version-check playwright
-          python -m playwright install --with-deps chromium
+          python -m playwright install --with-deps firefox
 
       - name: Capture one stock lookup
         run: |
           python - <<'PY'
           import json
           import re
+          import urllib.request
           from datetime import datetime, timezone
           from pathlib import Path
 
@@ -84,9 +85,52 @@ jobs:
                   "contentType": response.headers.get("content-type", ""),
               })
 
+          bundle_url = (
+              "https://www.gu-global.com/hk/build/"
+              "desktop.84a960defd785756dd0e.bundle.js"
+          )
+          try:
+              request = urllib.request.Request(
+                  bundle_url,
+                  headers={
+                      "User-Agent": "Mozilla/5.0",
+                      "Accept-Encoding": "identity",
+                  },
+              )
+              with urllib.request.urlopen(request, timeout=60) as response:
+                  bundle = response.read().decode("utf-8", errors="replace")
+              snippets = []
+              seen = set()
+              for match in re.finditer(
+                  r"inventory|storeStock|store-stock|stockList|stock/list|"
+                  r"stock/query|product/store",
+                  bundle,
+                  re.I,
+              ):
+                  snippet = bundle[max(0, match.start() - 500):match.end() + 900]
+                  if snippet not in seen:
+                      seen.add(snippet)
+                      snippets.append(snippet)
+                  if len(snippets) >= 120:
+                      break
+              api_paths = sorted(set(re.findall(
+                  r'["\\\']([^"\\\']*(?:inventory|stock)[^"\\\']*)["\\\']',
+                  bundle,
+                  re.I,
+              )))[:300]
+              result["bundleScan"] = {
+                  "url": bundle_url,
+                  "bytes": len(bundle),
+                  "matchCount": len(snippets),
+                  "apiPaths": api_paths,
+                  "snippets": snippets,
+              }
+          except Exception as exc:
+              result["bundleScanError"] = f"{type(exc).__name__}: {exc}"[:1000]
+
           try:
               with sync_playwright() as playwright:
-                  browser = playwright.chromium.launch(headless=True, args=["--disable-http2"])
+                  browser = playwright.firefox.launch(headless=True)
                   page = browser.new_page(
                       viewport={"width": 1440, "height": 1800},
                       locale="zh-HK",
