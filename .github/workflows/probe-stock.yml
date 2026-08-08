@@ -17,7 +17,7 @@ concurrency:
 jobs:
   probe:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 3
     steps:
       - uses: actions/checkout@v4
 
@@ -25,264 +25,90 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install Playwright Firefox
-        run: |
-          python -m pip install --disable-pip-version-check playwright
-          python -m playwright install --with-deps firefox
-
-      - name: Capture one stock lookup
+      - name: Fetch one SKU store stock
         run: |
           python - <<'PY'
           import json
-          import re
           import urllib.request
           from datetime import datetime, timezone
           from pathlib import Path
 
-          from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
-          from playwright.sync_api import sync_playwright
-
           PRODUCT_CODE = "u0000000005919"
+          SKU_CODE = "u0000000005919001"
+          ITEM_NO = "359821"
           COLOR = "01 OFF WHITE"
           SIZE = "S"
-          URL = f"https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode={PRODUCT_CODE}"
-          OUT = Path("data/stock-probe.json")
+          ENDPOINT = "https://d.gu-global.com/hk/p/store/site/stock"
+          PRODUCT_URL = (
+              "https://www.gu-global.com/hk/zh_HK/product-detail.html"
+              f"?productCode={PRODUCT_CODE}"
+          )
 
-          events = []
-          phase = {"name": "page-load"}
+          payload = json.dumps({
+              "state": "",
+              "city": "",
+              "district": "",
+              "skuCode": SKU_CODE,
+          }).encode("utf-8")
+          request = urllib.request.Request(
+              ENDPOINT,
+              data=payload,
+              method="POST",
+              headers={
+                  "Accept": "application/json",
+                  "Content-Type": "application/json",
+                  "Origin": "https://www.gu-global.com",
+                  "Referer": PRODUCT_URL,
+                  "User-Agent": "Mozilla/5.0",
+                  "langCode": "zh_HK",
+              },
+          )
+
           result = {
               "testedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+              "endpoint": ENDPOINT,
               "productCode": PRODUCT_CODE,
-              "itemNo": "359821",
+              "skuCode": SKU_CODE,
+              "itemNo": ITEM_NO,
               "color": COLOR,
               "size": SIZE,
-              "events": events,
           }
 
-          def record_request(request):
-              if phase["name"] != "stock-query" and request.resource_type not in {"xhr", "fetch"}:
-                  return
-              events.append({
-                  "kind": "request",
-                  "phase": phase["name"],
-                  "resourceType": request.resource_type,
-                  "method": request.method,
-                  "url": request.url,
-                  "postData": request.post_data,
-              })
-
-          def record_response(response):
-              request = response.request
-              if phase["name"] != "stock-query" and request.resource_type not in {"xhr", "fetch"}:
-                  return
-              events.append({
-                  "kind": "response",
-                  "phase": phase["name"],
-                  "resourceType": request.resource_type,
-                  "method": request.method,
-                  "url": response.url,
-                  "status": response.status,
-                  "contentType": response.headers.get("content-type", ""),
-              })
-
-          bundle_urls = [
-              "https://www.gu-global.com/hk/build/6.41ed5e98bd9ec08c14db.chunk.js",
-              "https://www.gu-global.com/hk/build/1.cd2629ab8926791ab561.chunk.js",
-              "https://www.gu-global.com/hk/build/2.0575db065e0e78fcaa4e.chunk.js",
-              "https://www.gu-global.com/hk/build/3.caca457dce7f45af0a1f.chunk.js",
-              "https://www.gu-global.com/hk/build/desktop.84a960defd785756dd0e.bundle.js",
-          ]
           try:
-              needles = [
-                  "POST_INV_STOCK_PICKUP_URL",
-                  "POST_INV_STOCK_URL",
-                  "POST_STO_SITE_STOCK_URL",
-                  "88G/",
-                  "\"88G/\":function",
-                  "88G/:function",
-                  "queryStoreStockStep2",
-                  "fetchStock",
-                  "getStock",
-                  "skuStock",
-                  "sitStock",
-                  "dcStock",
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  body = json.loads(response.read().decode("utf-8"))
+                  result["httpStatus"] = response.status
+              result["success"] = body.get("success") is True
+              result["msgCode"] = body.get("msgCode")
+              result["stores"] = [
+                  {
+                      "siteCode": store.get("siteCode"),
+                      "siteName": store.get("siteName"),
+                      "districtName": store.get("districtName"),
+                      "siteStock": store.get("siteStock"),
+                  }
+                  for store in body.get("resp", [])
+                  if store.get("siteCode")
               ]
-              exact_contexts = []
-              occurrences = {}
-              route_literals = set()
-              files = []
-              for bundle_url in bundle_urls:
-                  request = urllib.request.Request(
-                      bundle_url,
-                      headers={
-                          "User-Agent": "Mozilla/5.0",
-                          "Accept-Encoding": "identity",
-                      },
-                  )
-                  with urllib.request.urlopen(request, timeout=60) as response:
-                      bundle = response.read().decode("utf-8", errors="replace")
-
-                  for needle in needles:
-                      matches = list(re.finditer(re.escape(needle), bundle))
-                      occurrences[f"{bundle_url.rsplit('/', 1)[-1]}:{needle}"] = len(matches)
-                      for index, match in enumerate(matches[:20]):
-                          start = max(0, match.start() - 3500)
-                          end = min(len(bundle), match.end() + 5000)
-                          exact_contexts.append({
-                              "url": bundle_url,
-                              "needle": needle,
-                              "occurrence": index + 1,
-                              "offset": match.start(),
-                              "context": bundle[start:end],
-                          })
-
-                  # Capture literal API routes, including paths built beside stock constants.
-                  for literal in re.findall(r'''["']([^"'\\n\\r]{1,800})["']''', bundle):
-                      lowered = literal.lower()
-                      if (
-                          (literal.startswith("/") and (
-                              "/p/" in lowered
-                              or any(word in lowered for word in (
-                                  "stock", "inventory", "store", "site", "pickup"
-                              ))
-                          ))
-                          or (
-                              (literal.startswith("http://") or literal.startswith("https://"))
-                              and any(word in lowered for word in (
-                                  "stock", "inventory", "store", "site", "pickup"
-                              ))
-                          )
-                      ):
-                          route_literals.add(literal)
-
-                  files.append({"url": bundle_url, "bytes": len(bundle)})
-
-              result["bundleScan"] = {
-                  "files": files,
-                  "occurrences": occurrences,
-                  "routeLiterals": sorted(route_literals),
-                  "exactContexts": exact_contexts,
-              }
+              result["storeCount"] = len(result["stores"])
           except Exception as exc:
-              result["bundleScanError"] = f"{type(exc).__name__}: {exc}"[:1000]
+              result["success"] = False
+              result["error"] = f"{type(exc).__name__}: {exc}"[:1000]
 
-          try:
-              with sync_playwright() as playwright:
-                  browser = playwright.firefox.launch(headless=True)
-                  page = browser.new_page(
-                      viewport={"width": 1440, "height": 1800},
-                      locale="zh-HK",
-                      timezone_id="Asia/Hong_Kong",
-                  )
-                  page.set_default_timeout(12_000)
-                  page.on("request", record_request)
-                  page.on("response", record_response)
-
-                  response = page.goto(URL, wait_until="domcontentloaded", timeout=90_000)
-                  result["pageStatus"] = response.status if response else None
-                  page.wait_for_timeout(5_000)
-
-                  # Firefox requires a concrete SKU on the main product page first.
-                  main_sku = page.locator(".sku-select:visible").first
-                  main_sku.locator(
-                      f'.sku-select-colors img[alt="{COLOR}"]'
-                  ).click()
-                  main_size = main_sku.locator(".sku-select-sizes li").filter(
-                      has_text=re.compile(rf"^{re.escape(SIZE)}$")
-                  )
-                  main_size.first.click()
-                  page.wait_for_timeout(700)
-                  result["mainSelectedColor"] = main_sku.locator(
-                      ".select-color"
-                  ).inner_text()
-                  result["mainSelectedSize"] = main_sku.locator(
-                      ".select-size"
-                  ).inner_text()
-
-                  phase["name"] = "open-inventory"
-                  result["modalTrail"] = []
-                  page.locator(".query-inventory .ec-font-event-text").click()
-
-                  # GU can show geolocation and stock-disclaimer notices in either order.
-                  retried_query = False
-                  for attempt in range(20):
-                      page.wait_for_timeout(500)
-                      panel = page.locator(".inventory")
-                      if panel.count() and panel.is_visible():
-                          break
-
-                      visible_modal = page.locator(".h-modal-container:visible")
-                      if visible_modal.count():
-                          text = visible_modal.first.inner_text()[:1000]
-                          if not result["modalTrail"] or result["modalTrail"][-1] != text:
-                              result["modalTrail"].append(text)
-                          continue_button = visible_modal.first.locator("button").filter(
-                              has_text="繼續"
-                          )
-                          if continue_button.count():
-                              continue_button.first.click(force=True)
-                              continue
-
-                      if attempt >= 5 and not retried_query:
-                          page.locator(".query-inventory .ec-font-event-text").click(force=True)
-                          retried_query = True
-
-                  result["inventoryVisible"] = page.locator(".inventory").is_visible()
-                  page.locator(".inventory").wait_for(state="visible", timeout=15_000)
-
-                  color = page.locator(
-                      f'.inventory .sku-select-colors img[alt="{COLOR}"]'
-                  )
-                  color.click()
-                  size = page.locator(".inventory .sku-select-sizes li").filter(
-                      has_text=re.compile(rf"^{re.escape(SIZE)}$")
-                  )
-                  size.first.click()
-                  page.wait_for_timeout(500)
-
-                  result["selectedColor"] = page.locator(
-                      ".inventory .select-color"
-                  ).inner_text()
-                  result["selectedSize"] = page.locator(
-                      ".inventory .select-size"
-                  ).inner_text()
-
-                  phase["name"] = "stock-query"
-                  query = page.locator(".inventory .confirm")
-                  result["queryEnabled"] = query.is_enabled()
-                  query.click()
-
-                  loading = page.locator(".inventory .loading")
-                  try:
-                      loading.wait_for(state="detached", timeout=45_000)
-                      result["loadingCompleted"] = True
-                  except PlaywrightTimeoutError:
-                      result["loadingCompleted"] = False
-
-                  page.wait_for_timeout(1_000)
-                  table = page.locator(".inventory .table-border")
-                  result["tableText"] = table.inner_text()[:12000]
-                  result["tableHtml"] = table.evaluate(
-                      "(el) => el.outerHTML.slice(0, 30000)"
-                  )
-                  browser.close()
-          except Exception as exc:
-              result["error"] = f"{type(exc).__name__}: {exc}"[:2000]
-
-          # Keep the most useful events first while retaining all anonymous XHR/fetch metadata.
-          result["stockPhaseEvents"] = [
-              event for event in events if event.get("phase") == "stock-query"
-          ]
-          OUT.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n")
+          out = Path("data/stock-probe.json")
+          out.parent.mkdir(parents=True, exist_ok=True)
+          out.write_text(
+              json.dumps(result, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8",
+          )
           print(json.dumps({
-              "pageStatus": result.get("pageStatus"),
-              "selectedColor": result.get("selectedColor"),
-              "selectedSize": result.get("selectedSize"),
-              "loadingCompleted": result.get("loadingCompleted"),
-              "eventCount": len(events),
-              "stockEventCount": len(result["stockPhaseEvents"]),
+              "httpStatus": result.get("httpStatus"),
+              "success": result.get("success"),
+              "storeCount": result.get("storeCount"),
               "error": result.get("error"),
           }, ensure_ascii=False))
+          if not result.get("success"):
+              raise SystemExit(1)
           PY
 
       - name: Commit probe result
@@ -291,6 +117,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/stock-probe.json
-          git diff --cached --quiet || git commit -m "diag: capture GU stock request"
+          git diff --cached --quiet || git commit -m "data: capture GU store stock"
           git pull --rebase origin main
           git push
