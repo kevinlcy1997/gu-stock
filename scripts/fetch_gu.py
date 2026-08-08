@@ -16,6 +16,7 @@ from urllib.parse import parse_qs, urlparse
 LISTING_URL = "https://www.gu-global.com/hk/zh_HK/c/women-saleitems.html"
 DETAIL_API = "https://d.gu-global.com/hk/p/product/detail"
 STORE_STOCK_API = "https://d.gu-global.com/hk/p/store/site/stock"
+IMAGE_BASE = "https://www.gu-global.com/hk"
 DEFAULT_OUT = Path(__file__).parents[1] / "data/products.json"
 OUT = Path(os.environ.get("GU_OUT", DEFAULT_OUT))
 WORKERS = max(1, min(int(os.environ.get("GU_STOCK_WORKERS", "12")), 24))
@@ -275,7 +276,9 @@ def fetch_detail(product_code: str) -> tuple[str, list[dict]]:
     response_rows = body.get("resp") or []
     if not response_rows:
         raise RuntimeError("GU detail response had no product")
-    rows = (response_rows[0].get("spuInfo") or {}).get("rows") or []
+    product = response_rows[0]
+    rows = (product.get("spuInfo") or {}).get("rows") or []
+    image_rows = (product.get("imageInfo") or {}).get("rows") or {}
     skus: list[dict] = []
     seen: set[str] = set()
     for row in rows:
@@ -283,11 +286,14 @@ def fetch_detail(product_code: str) -> tuple[str, list[dict]]:
         if row.get("enabledFlag") != "Y" or not sku_code or sku_code in seen:
             continue
         seen.add(sku_code)
+        sku_images = image_rows.get(sku_code) or {}
+        image_path = sku_images.get("skuPic_561") or sku_images.get("skuPic_1000")
         skus.append(
             {
                 "skuCode": sku_code,
                 "color": row.get("styleText") or row.get("style"),
                 "size": row.get("sizeText") or row.get("size"),
+                "image": absolute_image_url(image_path),
             }
         )
     if not skus:
@@ -314,6 +320,17 @@ def non_negative_int(value) -> int:
         return 0
 
 
+def absolute_image_url(value) -> str | None:
+    path = str(value or "").strip()
+    if not path:
+        return None
+    if path.startswith("//"):
+        return f"https:{path}"
+    if re.match(r"^https?://", path, re.I):
+        return path
+    return f"{IMAGE_BASE}/{path.lstrip('/')}"
+
+
 def size_sort_key(size: str) -> tuple[int, str]:
     normalized = str(size or "其他").strip().upper()
     return SIZE_ORDER.get(normalized, 100), normalized
@@ -326,6 +343,7 @@ def enrich_inventory(
     detail_errors: dict[str, str] = {}
     stock_error_samples: list[dict] = []
     skus_by_product: dict[str, list[dict]] = {}
+    color_images_by_product: dict[str, dict[str, str]] = {}
     stock_counts: dict[str, Counter] = defaultdict(Counter)
     stock_units: dict[str, Counter] = defaultdict(Counter)
     stock_by_size: dict = defaultdict(
@@ -349,6 +367,13 @@ def enrich_inventory(
             try:
                 code, skus = future.result()
                 skus_by_product[code] = skus
+                color_images: dict[str, str] = {}
+                for sku in skus:
+                    color = str(sku.get("color") or "").strip()
+                    image = str(sku.get("image") or "").strip()
+                    if color and image:
+                        color_images.setdefault(color, image)
+                color_images_by_product[code] = color_images
             except Exception as exc:
                 detail_errors[product_code] = f"{type(exc).__name__}: {exc}"[:400]
 
@@ -439,6 +464,9 @@ def enrich_inventory(
                 }
                 for store_name, sizes in sorted(stock_by_size[code].items())
             }
+            product["colorImages"] = dict(
+                sorted(color_images_by_product.get(code, {}).items())
+            )
             product["stockStatus"] = "complete"
             product["stockUpdatedAt"] = refreshed_at
             complete_products += 1
@@ -447,6 +475,9 @@ def enrich_inventory(
         product["stock"] = old_product.get("stock", {})
         product["stockUnits"] = old_product.get("stockUnits", {})
         product["stockBySize"] = old_product.get("stockBySize", {})
+        product["colorImages"] = (
+            color_images_by_product.get(code) or old_product.get("colorImages", {})
+        )
         product["stockUpdatedAt"] = old_product.get("stockUpdatedAt")
         if product["stock"]:
             product["stockStatus"] = "stale"
