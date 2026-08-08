@@ -74,7 +74,7 @@ jobs:
               request = response.request
               if request.resource_type not in {"xhr", "fetch"}:
                   return
-              event = {
+              events.append({
                   "kind": "response",
                   "phase": phase["name"],
                   "resourceType": request.resource_type,
@@ -82,14 +82,7 @@ jobs:
                   "url": response.url,
                   "status": response.status,
                   "contentType": response.headers.get("content-type", ""),
-              }
-              content_type = event["contentType"].lower()
-              if "json" in content_type or "text" in content_type:
-                  try:
-                      event["bodyPreview"] = response.text()[:20000]
-                  except Exception as exc:
-                      event["bodyError"] = str(exc)[:300]
-              events.append(event)
+              })
 
           try:
               with sync_playwright() as playwright:
