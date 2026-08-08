@@ -1,10 +1,1165 @@
 {
-  "testedAt": "2026-08-08T01:39:47+00:00",
+  "testedAt": "2026-08-08T01:43:05+00:00",
   "productCode": "u0000000005919",
   "itemNo": "359821",
   "color": "01 OFF WHITE",
   "size": "S",
-  "events": [],
-  "error": "TimeoutError: Page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005919\", waiting until \"domcontentloaded\"\n",
-  "stockPhaseEvents": []
+  "events": [
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://p11.techlab-cdn.com/e/65319_1825202430.js",
+      "postData": null
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://p11.techlab-cdn.com/e/65257_1825232097.js",
+      "postData": null
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://p11.techlab-cdn.com/e/64885_1825202523.js",
+      "postData": null
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://p11.techlab-cdn.com/e/65226_747628217.js",
+      "postData": null
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://p11.techlab-cdn.com/e/65319_1825202430.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://p11.techlab-cdn.com/e/65257_1825232097.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://p11.techlab-cdn.com/e/65226_747628217.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://p11.techlab-cdn.com/e/64885_1825202523.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://www.gu-global.com/hk/zh_HK/data/cms-config.json",
+      "postData": null
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://www.gu-global.com/hk/data/big_promotion_switch.json",
+      "postData": null
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://www.gu-global.com/hk/locales/zh_HK.json",
+      "postData": null
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://www.gu-global.com/hk/data/zh_HK/PC/copyWriting.json",
+      "postData": null
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://www.gu-global.com/hk/data/zh_HK/PC/copyWriting.json",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://www.gu-global.com/hk/zh_HK/data/cms-config.json",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://www.gu-global.com/hk/locales/zh_HK.json",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "xhr",
+      "method": "POST",
+      "url": "https://www.gu-global.com/y9_eQVIMIK/v7hK-LbHBX/aGf1QmwrbbtVJm3i/OWQXGX0/W09/cUDpIVGMB",
+      "postData": "{\"sensor_data\":\"3;0;1;0;3555906;mhxUGRol1DL6sGLKKLQOzBwX+lel36APlgWEuqj23fk=;31,0,0,1,3,0;.j\\\"++4\\\"U\\\"?f\\\"6rb\\\"1Xkz\\\"8y5=l\\\"/Z\\\"/\\\"\\\"s\\\";,T\\\"{lj\\\"gm@\\\"t\\\"c$}bM\\\"\\\"k\\\"/rR\\\"##;~`Zk&\\\"#<#\\\"btB\\\"3xq\\\"Z2eZ3&ok\\\" [.\\\"*qNd^\\\"_,p\\\"M(8&y\\\"qRz\\\"?4E\\\"zpq\\\"1N42OAUd [j_,\\\";:s\\\"m(tm1A*Q];\\\"#/(\\\")OsB\\\"o*Py\\\"rL&rX\\\"]v/\\\"JP\\\"YVRJ\\\"`dP1g0Op<Rb!7]X<7cl-\\\".PE\\\"=aLej{U\\\"jcgV\\\"]\\\"`g;\\\"u\\\"jHfx10z:`[q KbhR\\\"4\\\"38D\\\"I\\\"Q\\\"R\\\"*wQ\\\"y\\\"\\\"]\\\"y2q\\\"HvB\\\"t92\\\"%>3\\\"$(a%\\\"rDa6%Q\\\"HHN)-X05\\\"z`M\\\"MT#\\\"~(,3&\\\"1EV\\\"&uVmR\\\"[iw\\\"F\\\"x(\\\"d\\\"Dlf\\\"!CIar#n?Cn<\\\"jS\\\"7\\\"g&j)>\\\"k-j\\\"ERt}#\\\"s{OHM<$1rtQec<;Ya}uyY<M8D>9=v?!D.Ebo\\\"YYo\\\"!L^\\\"HjL\\\"dj~b\\\">W=2@\\\"g~i3\\\"Y\\\">B35#[JitQi!B(~|5l37j_?6;y>{Xo9upfQO-BA4,8]ekBd%@(T^z~&0Q-O?kS\\\"z\\\"?G:\\\"p\\\"\\\"g};\\\"rB}\\\"jQB G\\\")T&\\\"^FvY2e\\\"B8N+\\\"-vHI#E#K~uH8\\\"eDIG\\\"l\\\")\\\";:n\\\"^09\\\"O-}4A\\\"w>L\\\"S\\\"09@y^t%XyeI;{x\\\"0h+\\\"H o\\\";]k[w\\\"qRr\\\"{\\\"D7EZ51\\\"R\\\"~7k\\\"yaZ\\\"8\\\")8c4uDt[@V?<dB?LeFzmW]Q]\\\"2\\\" <U\\\"`\\\"/`!y\\\")hB\\\"+[y\\\"y\\\"\\\"-\\\"9,8\\\"`K>e:/M4%=\\\"*QOz\\\"{b1\\\"j|,\\\"h o\\\"3~3\\\"iLX6{GZ^Q\\\"*_H\\\"9\\\"\\\"c\\\"Xz<\\\"f/JE,y~0\\\"6*+\\\"+Opsc\\\"N~g\\\" xANz\\\"/KVS\\\" iXIVi\\\"{n!fR6s\\\";\\\"Vu:@~KukZJy?MyV}eDTh;S}w]mOC`&zct-I~AyLl=V\\\"Kd]\\\"lpX\\\"Jj\\\"-GU\\\"9ba\\\"EzOO/?0A?ME8sQH[?\\\"la+\\\"&\\\"Wq\\\"!=m\\\"__:(\\\"<@GS^_VO\\\"Zq.\\\"$%-;L}GYuR.=)q*OPmxpG&>fmZHqa^iT>C[xF4~T,AIcs;o~v%f^xuL=pCvX>C6D9MT D}C$Gx M\\\")\\\"Y?0\\\"d\\\"E9Eht\\\"%|1\\\"W6^\\\"n1^0m\\\"W_1v\\\"p7}m \\\"6O//\\\"<9|0F\\\"ej*@\\\"lL!l#ev\\\"#1J\\\"G5D[%\\\"e 6Q\\\":\\\"\\\",\\\"q9X\\\"8\\\")xPw+]z&#^oTS>r,p%]od+e%0wuD3#a[^JjG9hY2l&-]\\\"0\\\"pP%\\\">\\\"-EvVr=@rM09;qD.c>\\\"z\\\"qz>\\\"CwF\\\"Cb \\\"84u\\\"X]=\\\"2rd@7hIQ\\\"\\\"Fnx\\\"+$\\\")\\\"\\\"^\\\"W~4\\\"`AVI.X cV\\\"8&a\\\"P\\\"&\\\"Hnm\\\"oDx\\\"y\\\"HD^bTP[?-^^EGoY:Dk|Tz|u0IJk/C(nBnL+A4zL[\\\"+sqx\\\"K::Yq?YP\\\"Ok?\\\"D\\\"r\\\"4QL0\\\"\\\":\\\"uZV\\\"s}e.n\\\"Z>\\\"i\\\"W(D\\\"o\\\"1 z\\\"|^p<:\\\"Tv\\\",<:LPog%i^0_p_BIy \\\"HOM\\\"TFn>=OoC>\\\"&#\\\"|<?]PG[KI\\\"pL>uJ\\\"J\\\"\\\"&\\\"zW\\\";\\\"DL<Re!>Xgw~|T\\\"C\\\"g3C\\\"[\\\"\\\"G\\\"33W\\\"n!]r/wf\\\"\\\"K\\\"N#~\\\"/\\\"frzqg\\\"BFP\\\"PAP\\\")>GAq\\\"n>\\\";\\\"\\\"+SI\\\"~!+\\\"g=<rLHiS\\\"[UD\\\"s\\\"\\\"S\\\"J 9\\\"SyAPp\\\"N3\\\"J$b\\\"Qc\\\"^\\\"\\\"p*V\\\"d k\\\"JKr}]e\"}"
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "xhr",
+      "method": "GET",
+      "url": "https://ponos.zeronaught.com/2?a=b4910373391bf0d2e2b697c73afb9af32bc6befd&b=A9zICd-fAQAAldoUSC2aX9d5XTMtrAd-i09GYmvwluy15AOYpEEivbUhJVw0ARSrfYOcuJSzwH8AADQwAAAAAA==&c=010d36c668ba805441165efeab71d1b63301a40d0092c462cec42171d1371942",
+      "postData": null
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "xhr",
+      "method": "POST",
+      "url": "https://www.gu-global.com/akam/13/pixel_5a8271ae",
+      "postData": "ap=true&bt=0&fonts=null&fh=null&timing=%7B%221%22%3A17%2C%222%22%3A278%2C%223%22%3A416%2C%224%22%3A582%2C%22profile%22%3A%7B%22bp%22%3A0%2C%22sr%22%3A0%2C%22dp%22%3A0%2C%22lt%22%3A0%2C%22ps%22%3A0%2C%22cv%22%3A9%2C%22fp%22%3A0%2C%22sp%22%3A0%2C%22br%22%3A0%2C%22ieps%22%3A1%2C%22av%22%3A0%2C%22z1%22%3A4%2C%22jsv%22%3A2%2C%22nav%22%3A0%2C%22nap%22%3A1%2C%22crc%22%3A0%2C%22z2%22%3A0%2C%22z3%22%3A0%2C%22z4%22%3A0%7D%2C%22main%22%3A1042%2C%22compute%22%3A17%2C%22send%22%3A582%7D&bp=&sr=%7B%22inner%22%3A%5B1440%2C1800%5D%2C%22outer%22%3A%5B1440%2C1886%5D%2C%22screen%22%3A%5B0%2C0%5D%2C%22pageOffset%22%3A%5B0%2C0%5D%2C%22avail%22%3A%5B1366%2C768%5D%2C%22size%22%3A%5B1366%2C768%5D%2C%22client%22%3A%5B1440%2C1800%5D%2C%22colorDepth%22%3A24%2C%22pixelDepth%22%3A24%7D&dp=%7B%22XDomainRequest%22%3A0%2C%22createPopup%22%3A0%2C%22removeEventListener%22%3A1%2C%22globalStorage%22%3A0%2C%22openDatabase%22%3A0%2C%22indexedDB%22%3A1%2C%22attachEvent%22%3A0%2C%22ActiveXObject%22%3A0%2C%22dispatchEvent%22%3A1%2C%22addBehavior%22%3A0%2C%22addEventListener%22%3A1%2C%22detachEvent%22%3A0%2C%22fireEvent%22%3A0%2C%22MutationObserver%22%3A1%2C%22HTMLMenuItemElement%22%3A0%2C%22Int8Array%22%3A1%2C%22postMessage%22%3A1%2C%22querySelector%22%3A1%2C%22getElementsByClassName%22%3A1%2C%22images%22%3A1%2C%22compatMode%22%3A%22CSS1Compat%22%2C%22documentMode%22%3A0%2C%22all%22%3A1%2C%22now%22%3A1%2C%22contextMenu%22%3A0%7D&lt=1786153388521%2B8&ps=true%2Ctrue&cv=6d3178b7be70661f5665dd8ac22a1bd2b311261f&fp=false&sp=false&br=Firefox&ieps=false&av=false&z=%7B%22a%22%3A1518498622%2C%22b%22%3A1%2C%22c%22%3A0%7D&zh=&jsv=1.5&nav=%7B%22userAgent%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64%3B%20rv%3A153.0)%20Gecko%2F20100101%20Firefox%2F153.0%22%2C%22appName%22%3A%22Netscape%22%2C%22appCodeName%22%3A%22Mozilla%22%2C%22appVersion%22%3A%225.0%20(X11)%22%2C%22appMinorVersion%22%3A0%2C%22product%22%3A%22Gecko%22%2C%22productSub%22%3A%2220100101%22%2C%22vendor%22%3A%22%22%2C%22vendorSub%22%3A%22%22%2C%22buildID%22%3A%2220181001000000%22%2C%22platform%22%3A%22Linux%20x86_64%22%2C%22oscpu%22%3A%22Linux%20x86_64%22%2C%22hardwareConcurrency%22%3A4%2C%22language%22%3A%22zh-HK%22%2C%22languages%22%3A%5B%22zh-HK%22%5D%2C%22systemLanguage%22%3A0%2C%22userLanguage%22%3A0%2C%22doNotTrack%22%3A%22unspecified%22%2C%22msDoNotTrack%22%3A0%2C%22cookieEnabled%22%3Atrue%2C%22geolocation%22%3A1%2C%22vibrate%22%3A0%2C%22maxTouchPoints%22%3A0%2C%22webdriver%22%3Atrue%2C%22plugins%22%3A%5B%5D%7D&crc=%7B%22window.chrome%22%3A%22-not-existent%22%7D&t=11389d6706719d1d9cd8289f334c873006a08b20&u=e6c47b0cc5ad5302ba68370f6f3ad262&nap=11111133331333333333"
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "xhr",
+      "method": "POST",
+      "url": "https://www.gu-global.com/y9_eQVIMIK/v7hK-LbHBX/aGf1QmwrbbtVJm3i/OWQXGX0/W09/cUDpIVGMB",
+      "status": 201,
+      "contentType": "application/json"
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "xhr",
+      "method": "POST",
+      "url": "https://www.gu-global.com/akam/13/pixel_5a8271ae",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "xhr",
+      "method": "GET",
+      "url": "https://ponos.zeronaught.com/2?a=b4910373391bf0d2e2b697c73afb9af32bc6befd&b=A9zICd-fAQAAldoUSC2aX9d5XTMtrAd-i09GYmvwluy15AOYpEEivbUhJVw0ARSrfYOcuJSzwH8AADQwAAAAAA==&c=010d36c668ba805441165efeab71d1b63301a40d0092c462cec42171d1371942",
+      "status": 200,
+      "contentType": "text/plain; charset=UTF-8"
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://www.gu-global.com/hk/data/big_promotion_switch.json",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "xhr",
+      "method": "GET",
+      "url": "https://c.go-mpulse.net/api/config.json?key=H27KK-WVP3S-GBZKW-RZQRM-U2N7A&d=www.gu-global.com&t=5953845&v=1.720.0&sl=0&si=219d0199-bed6-45a8-9f80-fc3a30266c64-tjfgrv&plugins=AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,History,Angular,Backbone,Ember,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,Early,EventTiming,LOGN&acao=&ak.ai=171207",
+      "postData": null
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "xhr",
+      "method": "POST",
+      "url": "https://www.gu-global.com/y9_eQVIMIK/v7hK-LbHBX/aGf1QmwrbbtVJm3i/OWQXGX0/W09/cUDpIVGMB",
+      "postData": "{\"sensor_data\":\"3;0;1;0;3555906;mhxUGRol1DL6sGLKKLQOzBwX+lel36APlgWEuqj23fk=;14,33,0,0,3,186;.^36\\\"3R4B\\\"o2\\\"fp_\\\"akw\\\"8y5=l\\\"(Z\\\"/\\\"NN 37\\\"3m.\\\"&Zr\\\"o\\\"ji!0l5(wu|R1\\\"4\\\"f8zb\\\"yeE\\\"I%a\\\"~HSZH<FX6PR~\\\"Oc;&\\\"^v!xZPK| \\\"+k?$I&+D+|=M2gSIE/:%#O4QjbGXuOv_:*]NnU\\\"}\\\">i}\\\"l\\\"\\\"U\\\"Cx-\\\"l\\\"F5/Ek@wdH3vg6\\\"/\\\"0uG\\\"~WQF[_SPF\\\"m1^\\\"s\\\"\\\"zWB\\\"sIU\\\"<)^L@/\\\"63??\\\"T\\\"^\\\"@;N\\\"sf-\\\"uL<:4~u@/C\\\"c_=\\\"/\\\"+bqhLg<6vKe.7b\\\"?\\\"ioqe\\\"S<V\\\"y$M\\\"X\\\"P\\\"Xu,\\\"2wy\\\"XbW@R\\\"-)0$\\\"W\\\"`:erQ-`\\\"2SI\\\"_u#{wl}LdtCznX+<YOant<{5H+hj^;kKMy/ap!iBQr\\\"%\\\"f41?\\\"U?>[HRo)er_IeG-i$JEA4香港標準時間z\\\"5\\\"E}w \\\"E]#kZQa$\\\"h)m\\\"n\\\"X#6$luciNp$(.f8q\\\"h\\\"=7}\\\"`\\\"J\\\"<*=\\\"v+v\\\"W!aHjl1;ge;<W\\\",L(sh&>q3|\\\"xP{\\\"E12\\\"J\\\"f}>=G$KoHomO[SW`t;s9PHgzyx>ChAw.9PKcQ}?5?8/`\\\"U\\\".a+\\\"^\\\"\\\"f\\\"JoR\\\"pL \\\"Zu}\\\"H\\\"T_a}Ilj?>@YC0_\\\"G\\\"fh)X\\\"yFx,%\\\"UxP)\\\"Sm1C@eW[\\\"6L\\\"K\\\"&tUKBv8jQlwv4)FnSn-zNXbuMc!O2P76fF rGy+Rr_ggiaH!k6JO|%E{p!A}OA\\\"W\\\"-qi\\\"UbypUd&D\\\"E+q\\\"_\\\"W\\\" t]\\\"-dF\\\"VbV[P2{R\\\"4*^\\\"sKv\\\"#1tk\\\"%\\\"DD\\\"M{a\\\"8x%3\\\"U\\\"\\\"r\\\"L9L\\\"J\\\"$&s#~Nut;mV^.IEu,.L9RN!~\\\")W^\\\"W\\\"R)(gpzS0l\\\"f\\\"ZCyf\\\"dZk{%\\\"0Z\\\"b\\\"\\\"-\\\"fYA\\\"O\\\"rvUC{cEU~QZmfYs.[\\\" \\\"P~h\\\"L\\\"L;~/t*stn_3_krW,1.HI\\\"x\\\" M2\\\";~$yZ)Q(=r(%Ctyi 7A%_r,w?Y?5M3}yP{8+D*%f&r:ZE2HhUmFn_djaEx+Vu+;r)s.~::93HLag!!|bFh\\\"l\\\"OK.\\\"A\\\"\\\"A\\\"Mj[\\\"5m(\\\"aP }\\\"r/2&~T\\\"$y ,\\\",\\\"$H%H\\\"z\\\"^g9\\\"rHZ`({^^\\\"utg\\\"M\\\"qV).i;\\\"0\\\"!X`\\\"D?n70a0}\\\"P)6\\\"<:6<_#&*Fc8fL%S0V\\\"{q.\\\"V>5Xc9Rp5P\\\"hso.2\\\"BXp^y\\\",uN0\\\"D;8|7\\\"4Tj\\\"xTco/#Vc9q+<\\\"tR\\\"E!zC2Xty{\\\",$\\\", \\\"}nAm\\\"U\\\"2H{5=k1}TY;.oXV\\\"f\\\"><Ia\\\"CW2n;-\\\"k.:$\\\"|*V-s\\\"Bu/\\\" \\\"(A4}W4!OjZ3v5 v|6<+}VqG]p:U/Rx&@A< ESNz:%\\\"47]\\\"nGG\\\"!Rp|d[\\\"9OHb\\\"CyOu*\\\"o&2~\\\"h=q_>\\\"MhF\\\"7|\\\"F|;CW\\\"n6\\\"dp8_\\\"P\\\"*iR=\\\"n\\\"*%b&\\\"M\\\"\\\"%Rj\\\"J)\\\"<!&S>?`U3owAwo^+ymPY\\\"%LJx\\\"A`ym(L\\\"F}g[\\\"fgP9G\\\"ikW^\\\"}\\\"Jl=\\\"D\\\"-P;L\\\"u\\\"7\\\"IH0\\\"/E8\\\"q\\\",!6XM\\\"&\\\"& )3\\\"N1#5B!\\\"Bf$~\\\"_,7Vr\\\"5u0,\\\"UaY=,y+zaAIDMi香港標準時間A\\\"j\\\"}}ZQ\\\"]\\\"cZ}vpD$EYM(+>Z\\\"~Dm\\\"A7O\\\"D\\\"\\\"L9.\\\"1|E\\\"(\\\"\\\"[\\\"KmT\\\"z\\\"9T\\\"9x.\\\"OSN\\\"#\\\"*dzb#eTg}\\\"*\\\"?~@7\\\"J\\\"Pz_rV7\\\"y%}q3QR6KQ\\\"f<<\\\"_Wc\\\"8\\\"kVqZ XRAo\\\"Jjz\\\"`)J\\\"^\\\"xBK$/^a~\\\"S/L\\\"?Um\\\">\\\"X\\\"K7L\\\"Y]3\\\" \\\"\\\"1\\\"J0<\\\"OcCX{\\\"<5-\\\"2_Bxi@j)u2DyVyp4Kt8q5dqSu I)8B%T6ra=\\\"H=R\\\"*x]\\\"#v;OyLw\\\"f-J\\\"}\\\":@DuC2t\\\"F\\\"]=r\\\"%\\\"eEWi\\\"H\\\"/rP\\\"g,-(Uy}-:ensE7(r \\\"k=T@\\\"AI~;|:1Z\\\"I!\\\"rK7?S}!x^\\\"#={\\\"i\\\"CUgl&\\\"P\\\"M;)[\\\"#\\\"h~pc\\\"&p@\\\"r,+\\\":\\\"\\\"M\\\"g_L\\\"W\\\"W<#\\\"I\\\"MGh0\\\" \\\"X7&zw{{\\\"z\\\"F<Tt\\\"+&J(Wr\\\"2*/a\\\"`\\\"w\\\"79QJ\\\"\\\"O\\\"I.O\\\"Ef;#.M\\\"L}qWUJJ\\\")\\\"\\\"l\\\"(N\\\"[dLyf\\\"oln\\\"S~~&N\\\"S)\\\"AB(5d\\\"n/E\\\"Clo_iY-*\\\"AO3\\\"4cn\\\"2ZW\\\"n\\\"WIR65`\\\"5\\\"qib^\\\"y:AOzC\\\"R;j5v\\\"Vj=\\\"5JG<]\\\".\\\"x*\\\"H\\\")kq;\\\".5=\\\"-0t+\\\",SF\\\"4~=\\\"*IOyf:\\\" v)#\\\"k\\\"<P+ku\\\"5):\\\"%Wt\\\"@\\\"s=ZIK-dZpdJLQS=sKe?&3P=@X/{ _c n/5pkf\\\"#<f\\\"n\\\"G6k5T6@KXdVIoe6s7~i4ezA@IPC?66!24oT*E0?\\\"z.2\\\"$J?1CCcl`:bv,@0c63}N]CMfVIc;[27AvA5/\\\"]\\\",r/_\\\"))zWo(l\\\"<0v\\\"E~J\\\"8ch\\\"k\\\"Xa0MvHnP+h_Z\\\"0\\\"OwDe\\\"!sR>\\\"Be,\\\"a9x\\\"X}Ih\\\"I_7F\\\"Yy`E\\\"ba:x^k\\\"1,t9\\\"-&VDG\\\"Y{p\\\"I;/Bb(\\\"dr%7\\\"9\\\"\\\"SN:\\\"P-U\\\"V\\\"\\\"2\\\"LhI\\\"2?,CsE\\\"}-Oa\\\"{cC\\\"%jl\\\"S~=f\\\"v8Jt\\\"X\\\"wK6^0\\\"W\\\"#gy]\\\"E(}\\\"fRC\\\"6\\\"55>c5Cir`V tM3ARTPt\\\"<@E)<+/KU9z8d*b%Dso(^dDHnn6|KL$)jPx\\\"@26loLnEq\\\"Aw4\\\"E3*\\\"8\\\"kMk3CAl!$zj&7;LVbEDoA;L(<\\\"i\\\"(=(\\\"6&Fo|)_/*u$!EIsVGo\\\"rUa\\\"o\\\"fE\\\"R\\\">^JC\\\"I\\\"W)ckbx%\\\"P\\\"j<;A\\\"T\\\"|}JLAQ>kh@TU\\\"T\\\"kgKM\\\"k\\\"9Kp-\\\";\\\"fm&3\\\"ODA0DE\\\"N3Gp\\\"3x\\\"^OuUn\\\"ka\\\"+@M<\\\"E\\\":\\\"o\\\"l$DL\\\"Z\\\";.;\\\"@\\\"!At6\\\")?\\\"tn4\\\"3\\\";P7?6*]]\\\"<\\\"6/)B\\\"_\\\"^\\\"+L \\\"n)T\\\"F\\\"\\\"57X\\\"97Z\\\"]az\\\"sU\\\"B\\\"_\\\"Oo:\\\"7g9\\\"_>l\\\"G%?\\\"W\\\"\\\"+@b\\\"/:Z\\\"W\\\"MO\\\"[|C\\\"GoS*\\\"J\\\"W\\\"*\\\"78@\\\"\"}"
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "xhr",
+      "method": "GET",
+      "url": "https://c.go-mpulse.net/api/config.json?key=H27KK-WVP3S-GBZKW-RZQRM-U2N7A&d=www.gu-global.com&t=5953845&v=1.720.0&sl=0&si=219d0199-bed6-45a8-9f80-fc3a30266c64-tjfgrv&plugins=AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,History,Angular,Backbone,Ember,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,Early,EventTiming,LOGN&acao=&ak.ai=171207",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://www.gu-global.com/hk/data/zh_HK/shop_classification_PC.json",
+      "postData": null
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://www.gu-global.com/hk/data/zh_HK/tickersManage.json",
+      "postData": null
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://www.gu-global.com/hk/data/zh_HK/shop_classification_PC.json",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://www.gu-global.com/hk/data/zh_HK/tickersManage.json",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://d.gu-global.com/hk/p/cms/pc/components-list/product-detailPCPUBLISHED",
+      "postData": null
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "xhr",
+      "method": "POST",
+      "url": "https://www.gu-global.com/y9_eQVIMIK/v7hK-LbHBX/aGf1QmwrbbtVJm3i/OWQXGX0/W09/cUDpIVGMB",
+      "status": 201,
+      "contentType": "application/json"
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "xhr",
+      "method": "POST",
+      "url": "https://www.gu-global.com/y9_eQVIMIK/v7hK-LbHBX/b2f1QmYSz7/Jz8dGX0/e1Y/2HmNhEil5",
+      "postData": "{\"body\":\"\\\"pr2/l\\\"C\\\"ov\\\"o\\\"*\\\"i\\\"c\\\"i&A7z\\\"k\\\"g\\\\\\\"A8Kns\\\\\\\"h\\\"C\\\"D$5+,\\\"V\\\"k*FK\\\"u\\\"pvX5f\\\"d\\\"7JS`AS\\\"#\\\")ss* \\\"W\\\"XBXy 7js/f!Y\\\"R`\\\"|\\\"ud-oO\\\"2S;FQ4\\\"]ou5O\\\"q\\\"\\\"R\\\";tH<b\\\"-\\\"<8M$(*Z\\\"(\\\"-V@zB\\\"/\\\"j\\\"i\\\"Y{+~$\\\"K\\\"``#}\\\"=/W\\\"e\\\"SY_&c\\\"t\\\"bt+\\\"j\\\"<4D_b\\\"<\\\"l\\\"=\\\"#e[&.\\\"L\\\"&H\\\"J!sPb\\\"!\\\"Q{u\\\"p\\\"-@IO}\\\"G\\\"5a-=/\\\"k\\\"`FA#L\\\"Y\\\"pxN$) +Oz@w1fU+,)g6@ o+rI5l>.n3lcm2}&(Li5<+R+8dbQQ*61n.fLP*uZ>L<JR7|v\\\":\\\"pBMzT\\\"5\\\"?+g\\\"~\\\"_T]P9\\\"q\\\",m\\\"~\\\"0AnAa\\\"y+mDiT\\\"M)Gbu\\\"|H14|6\\\"Q#2?T\\\"5\\\" ~N0m*&=\\\"j\\\"gUn/H\\\"e\\\"IK3:5)BF]rsYqqY4~SM&_B 4Q<9:t^B:+1v-v#mKjx3%DX6hDD)kc<pyWYBe3+OmZuoxlffHrB43BxW;*pm6P$s)^M5zO6~0,!B`JWFE\\\"2\\\"n9-zX\\\"Etee@Lt<\\\"~VKH6\\\"KBDbh,\\\"[&//6\\\"7\\\"xII3,-_,Q/9*glD4]D6^(,HFE;rL+g9tLUorxo^N$X-Y-ow6T[(2ag%{nsu@E}Uf[kk(~4\\\"t\\\"q}Y8#\\\".\\\"yeuIj4$P7C*F\\\"a\\\"7Gv}/\\\"7\\\"DMrVp.<=-w|<s%NP]J6Ym[EH@#Q&&?6kHi$Ir(8xu(.+e!MT6`On7R=wi7kdg4X;\\\"j\\\":,BTe\\\"etJ!H5\\\"@,VwK\\\",\\\"<\\\"rj%Rbd\\\"g\\\";8Zq1\\\"5\\\"6~\\\"as^]Q\\\"T\\\"@\\\"P\\\"yB/Tb\\\"m\\\"m:CGV\\\"p\\\"o8I&_\\\"F\\\"I\\\"?\\\" 4h7]\\\"Z\\\"5\\\"CMqXM\\\"e!/eE\\\"#\\\"Y|Pa_\\\"0\\\"|1qIy\\\"l\\\"R\\\"l\\\";vLVz\\\"3CFyka\\\"JxZhJ\\\"0\\\"4T8D\\\"w\\\"UpGL5\\\"-\\\"a\\\"v\\\"=t?~c\\\"r\\\"*|\\\"g\\\"u1AxQ\\\"s\\\">BR*\\\"P\\\"|IhXH\\\";\\\"TJ26Z4n~E)mcD!X1q4^jsm~2\\\"&#3A)\\\"v\\\"x]$H-;9@&T??\\\"B*+]z\\\"2\\\"h!s]L\\\"j\\\"M1[K0\\\"v\\\"AX.#Z\\\"i\\\"4{A\\\"s\\\"bZ&C<?o2BzQ{zcNws4j\\\":~\\\";wH|~\\\"D2gUXG\\\"G$XTk\\\"*\\\"TtW\\\"P\\\"4XO8x\\\"e\\\"y#jC.\\\"A?Ekf\\\"n\\\"YSu}/\\\"8cFD\\\"czEw)\\\"(\\\"o\\\"4\\\"s~Q%i\\\"W\\\"n+>[iwt\\\"*w\\\"r::0x\\\"~\\\"w\\\"c\\\"rEw(t\\\"I\\\"!6j&u]cw*l=aqG#hhz +)=!|>Dc~6y4|EEp香港標準時間~\\\"!\\\"e60$)<c\\\":o\\\"7x_rf\\\"W\\\"[lCj5\\\"*\\\"~g)Dg\\\"-\\\"F#+9B`M|dMpuv*x.VZeD|?s(79,xvaK=7L~7MahnT6!dWYz={1s4t9my/@[+PF7Kb1Ig!B\\\"Q\\\"|B42&\\\"b\\\"O\\\"bDj\\\"B[~yN\\\"qCUZ|U\\\"#D(=1\\\"]\\\"(y\\\"6tkP*\\\"G\\\":T\\\"]7\\\"dX\\\"y\\\"S f5I\\\"h\\\"3\\\"m\\\"x9Kua\\\"3\\\"jm-}xjLQ\\\"l\\\"8SSyL\\\"6\\\"}j;\\\",SD/n\\\"F\\\"N+T}<4vZe%7[|W{_F\\\"=<L*q\\\"/\\\"eYT_E\\\" At=R|\\\"%.k1U\\\"g\\\"zO\\\"y-aN6\\\"grO<r?\\\"Z:g9t\\\"F\\\"o16n1\\\"E\\\"@yuHZ\\\"e\\\"\\\"z\\\"khpul\\\"a\\\"*s.C\\\"w\\\"-d_;&\\\"M\\\"3t5JEPl)a75B !KjwX1M$;f*@>L=F&S;U?>C1$L QIj4=OJ@OMyMsj\\\"I\\\"%`&oe\\\"L\\\"\\\"q\\\"|nl;2\\\"!\\\"!)\\\",\\\"kSM(x\\\"T\\\"kz]DtwAyXs5]c)\\\"y\\\"TP1FZ\\\"q\\\"6Y4+\\\"+\\\"}b7z2\\\" \\\"G\\\"#(Y6l\\\"ZOPl Q\\\"PKmK&\\\"<\\\"1ks>9\\\"m\\\"C51l}\\\"p\\\"?5Sd.6_q1\\\"v\\\"} ]D~\\\"e\\\"*\\\\\\\"dIcW7\\\\\\\"R\\\"t\\\"swp%X\\\"2\\\":\\\"S\\\"Z>;B;\\\"N\\\"b\\\"[\\\"*gE^O\\\"F\\\"f\\\"F\\\"s.{~)\\\"o\\\"oJ=C0\\\"~\\\"y0WgB\\\"P\\\"{v<N?/U4v6Hh|o`s:<v &LJwbKUd)pGg]3_香港標準時間e\\\"F\\\"3{uL7\\\"=\\\"Z\\\"*\\\"CF~r^\\\"b\\\"&\\\"s\\\"W2}l;\\\"~\\\"`zkroUL]sPZs:VzekEjw{#&Z\\\"_\\\"^)0Hf\\\"n\\\"jrk+0j|SoLUlp\\\"2\\\"UMPfC\\\"n\\\"f)}G`\\\"4\\\"&+Qp,\\\"+\\\"P}?n^\\\"V\\\"**1A2\\\"gqjA1n\\\"/:=x!\\\"M\\\"CiAbE11;0\\\"_N_/M\\\"H+\\\"h/0\\\"V\\\"?0H)1TZ=ghxJ{UhrYWSxghI.\\\"faE8\\\"&;(kT\\\"x~S3Wl\\\"a|(;D\\\" \\\"P4l^JR\\\"<\\\"`-FU%\\\"[\\\"_Z!u~e!4\\\"g{.\\\"WyYJ|\\\"vXFOA_\\\"fzmj[\\\"5\\\"]bGE*{OGaIrk\\\"UFz+dk!GZsM;Yxy*[giO8wseM\\\"FhZRN\\\"L\\\"{\\\"$\\\"o&A_?\\\"]\\\"-)\\\"ne\\\"7!&sk\\\"h(}1,\\\"=\\\"Ufgo\\\"S\\\"J)K}b\\\"k\\\"A2l]\\\"&o\\\"WG\\\"I\\\"7iriP\\\"z\\\"G>5=l| QUd$ylJ\\\"f\\\"@Ifa&\\\"q\\\"-/k3{PN)N_v\\\"p\\\"lrW.f\\\"O\\\"O``VMy+aq\\\"rNZ\\\"R]1=\\\"Mm_oO2\\\"=z&&o\\\"-\\\"5\\\"A\\\"b=,0%\\\"z\\\"v~e%?\\\"\"}"
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "xhr",
+      "method": "POST",
+      "url": "https://www.gu-global.com/y9_eQVIMIK/v7hK-LbHBX/b2f1QmYSz7/Jz8dGX0/e1Y/2HmNhEil5",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://d.gu-global.com/hk/p/cms/pc/components-list/product-detailPCPUBLISHED",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://d.gu-global.com/hk/p/product/detail?productCode=u0000000005919&distribution=EXPRESS&type=DETAIL",
+      "postData": null
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://www.gu-global.com/hk/data/stocklevel.json",
+      "postData": null
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://www.gu-global.com/hk/data/zh_HK/provinces.json",
+      "postData": null
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://www.gu-global.com/hk/data/zh_HK/inventoryTime.json",
+      "postData": null
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://d.gu-global.com/hk/p/payment/third/share?content=https%3A%2F%2Fm.gu-global.com%2Fhk%2Fproduct%3Fpid%3Du0000000005919",
+      "postData": null
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://www.gu-global.com/hk/data/zh_HK/provinces.json",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://www.gu-global.com/hk/data/zh_HK/inventoryTime.json",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://www.gu-global.com/hk/data/stocklevel.json",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://d.gu-global.com/hk/p/payment/third/share?content=https%3A%2F%2Fm.gu-global.com%2Fhk%2Fproduct%3Fpid%3Du0000000005919",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://d.gu-global.com/hk/p/product/detail?productCode=u0000000005919&distribution=EXPRESS&type=DETAIL",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://www.gu-global.com/hk/data/zh_HK/address-all-map.json",
+      "postData": null
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://www.gu-global.com/hk/hmall/test/u0000000005919/zh_HK/features.html",
+      "postData": null
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://www.gu-global.com/hk/hmall/test/u0000000005919/zh_HK/instruction.html",
+      "postData": null
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://www.gu-global.com/hk/hmall/test/u0000000005919/zh_HK/materialCare.html",
+      "postData": null
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://www.gu-global.com/hk/hmall/test/u0000000005919/zh_HK/shippingAndReturns.html",
+      "postData": null
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://d.gu-global.com/hk/p/product/styling/list?productId=359821&pageSize=20",
+      "postData": null
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "POST",
+      "url": "https://d.gu-global.com/hk/p/review/comment/guest/list",
+      "postData": "{\"page\":1,\"productCode\":\"u0000000005919\",\"pageSize\":3,\"orderBy\":\"createDate\"}"
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://www.gu-global.com/hk/data/zh_HK/product_corner.json",
+      "postData": null
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://www.gu-global.com/hk/data/zh_HK/address-all-map.json",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://www.gu-global.com/hk/data/zh_HK/product_corner.json",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://www.gu-global.com/hk/hmall/test/u0000000005919/zh_HK/features.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://www.gu-global.com/hk/hmall/test/u0000000005919/zh_HK/materialCare.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://www.gu-global.com/hk/hmall/test/u0000000005919/zh_HK/shippingAndReturns.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://www.gu-global.com/hk/hmall/test/u0000000005919/zh_HK/instruction.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "POST",
+      "url": "https://www.google.com/ccm/collect?rcb=18&frm=0&apvc=1&ae=g&auid=1964466461.1786153393&dt=%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&en=page_view&dl=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&scrsrc=www.googletagmanager.com&rnd=1121207731.1786153393&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6852v72656467za200zd72656467xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119527019~119896802&tft=1786153392582&tfd=5226&fmt=8",
+      "postData": null
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "POST",
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1964466461.1786153393&gtm=45He6852v72656467za200zd72656467xea&fmt=8",
+      "postData": null
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "POST",
+      "url": "https://www.google.com/ccm/collect?rcb=18&frm=0&apvc=1&ae=g&auid=1964466461.1786153393&dt=%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&en=page_view&dl=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&scrsrc=www.googletagmanager.com&rnd=1121207731.1786153393&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6852v72656467za200zd72656467xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119527019~119896802&tft=1786153392582&tfd=5226&fmt=8",
+      "status": 200,
+      "contentType": "text/plain"
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "POST",
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1964466461.1786153393&gtm=45He6852v72656467za200zd72656467xea&fmt=8",
+      "status": 204,
+      "contentType": "text/html"
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "POST",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-SX290FD44R&gtm=45je6852v896316460z872656467za20gzb72656467zd72656467&_p=1786153392378&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&cid=1241630868.1786153393&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=8&sr=1366x768&ul=zh-hk&_s=1&tag_exp=115616985~115938466~115938468~118897920~118897930~119367803~119367811~119527019~119896802~120385423&dt=%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&dl=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&sid=1786153392&sct=1&seg=0&en=page_view&_fv=1&_nsi=1&_ss=1&ep.region=hk&ep.site_language=zh&ep.page_title_web=%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&ep.user_agent=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64%3B%20rv%3A153.0)%20Gecko%2F20100101%20Firefox%2F153.0&ep.user_agent_appver=&ep.login_state=false&ep.site_type=desktop&ep.page_type=L4&ep.pageName=L4%3A%20%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&ep.pageCategory=l4&tfd=5369",
+      "postData": null
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "POST",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-SX290FD44R&gtm=45je6852v896316460z872656467za20gzb72656467zd72656467&_p=1786153392378&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&cid=1241630868.1786153393&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=8&sr=1366x768&ul=zh-hk&_s=1&tag_exp=115616985~115938466~115938468~118897920~118897930~119367803~119367811~119527019~119896802~120385423&dt=%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&dl=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&sid=1786153392&sct=1&seg=0&en=page_view&_fv=1&_nsi=1&_ss=1&ep.region=hk&ep.site_language=zh&ep.page_title_web=%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&ep.user_agent=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64%3B%20rv%3A153.0)%20Gecko%2F20100101%20Firefox%2F153.0&ep.user_agent_appver=&ep.login_state=false&ep.site_type=desktop&ep.page_type=L4&ep.pageName=L4%3A%20%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&ep.pageCategory=l4&tfd=5369",
+      "status": 204,
+      "contentType": "text/plain"
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "POST",
+      "url": "https://www.google.com/rmkt/collect/11011774870/?random=1786153392879&cv=11&fst=1786153392879&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6852v9102602182z872656467za20gzb72656467zd72656467xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~119527020~119896802&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&rcb=2&frm=0&tiba=%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1964466461.1786153393&_tu=CA&ept=68&gcp=5",
+      "postData": null
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "POST",
+      "url": "https://www.google.com/pagead/1p-conversion/11011774870/?random=1786153392893&cv=11&fst=1786153392893&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6852v9102602182z872656467za20gzb72656467zd72656467xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~119527020~119896802&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&rcb=2&label=hTJSCKCQ0JAYEJaz6YIp&frm=0&tiba=%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&bttype=purchase&value=0&hn=www.google.com&npa=0&pscdl=noapi&auid=1964466461.1786153393&ec_mode=a&oid=1541777387.1786153393&oidsrc=3&ecsid2=425780193.1786153393&_tu=CBA&gcl_ctr=1~0~0~0&em=tv.1&emd=tvd.1&gcp=1&sscte=1&ct_cookie_present=1&ept=8",
+      "postData": null
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "POST",
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11011774870/?random=1786153392893&cv=11&fst=1786153392893&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6852v9102602182z872656467za20gzb72656467zd72656467xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~119527020~119896802&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&rcb=2&label=hTJSCKCQ0JAYEJaz6YIp&frm=0&tiba=%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&bttype=purchase&value=0&hn=www.google.com&npa=0&pscdl=noapi&auid=1964466461.1786153393&ec_mode=a&oid=1541777387.1786153393&oidsrc=3&ecsid2=425780193.1786153393&_tu=CBA&gcl_ctr=1~0~0~0&em=tv.1&emd=tvd.1&ept=9&gcp=1&ct_cookie_present=1",
+      "postData": null
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "POST",
+      "url": "https://www.google.com/rmkt/collect/11011774870/?random=1786153392879&cv=11&fst=1786153392879&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6852v9102602182z872656467za20gzb72656467zd72656467xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~119527020~119896802&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&rcb=2&frm=0&tiba=%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1964466461.1786153393&_tu=CA&ept=68&gcp=5",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8"
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "POST",
+      "url": "https://www.google.com/ccm/collect?rcb=2&frm=0&apvc=0&ae=g&auid=1964466461.1786153393&dt=%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&tid=AW-11011774870&dl=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&scrsrc=www.googletagmanager.com&rnd=1121207731.1786153393&navt=n&npa=0&_tu=CA&gtm=45be6852v9102602182z872656467za20gzb72656467zd72656467xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~119527020~119896802&tft=1786153392909&tfd=5555&tids=AW-11011774870&fmt=8",
+      "postData": null
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "POST",
+      "url": "https://www.google.com/ccm/collect?rcb=2&frm=0&apvc=0&ae=g&auid=1964466461.1786153393&dt=%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&tid=AW-11011774870&dl=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&scrsrc=www.googletagmanager.com&rnd=1121207731.1786153393&navt=n&npa=0&_tu=CA&gtm=45be6852v9102602182z872656467za20gzb72656467zd72656467xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~119527020~119896802&tft=1786153392909&tfd=5555&tids=AW-11011774870&fmt=8",
+      "status": 200,
+      "contentType": "text/plain"
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "POST",
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11011774870/?random=1786153392893&cv=11&fst=1786153392893&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6852v9102602182z872656467za20gzb72656467zd72656467xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~119527020~119896802&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&rcb=2&label=hTJSCKCQ0JAYEJaz6YIp&frm=0&tiba=%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&bttype=purchase&value=0&hn=www.google.com&npa=0&pscdl=noapi&auid=1964466461.1786153393&ec_mode=a&oid=1541777387.1786153393&oidsrc=3&ecsid2=425780193.1786153393&_tu=CBA&gcl_ctr=1~0~0~0&em=tv.1&emd=tvd.1&ept=9&gcp=1&ct_cookie_present=1",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8"
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "POST",
+      "url": "https://www.google.com/pagead/1p-conversion/11011774870/?random=1786153392893&cv=11&fst=1786153392893&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6852v9102602182z872656467za20gzb72656467zd72656467xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~119527020~119896802&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&rcb=2&label=hTJSCKCQ0JAYEJaz6YIp&frm=0&tiba=%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&bttype=purchase&value=0&hn=www.google.com&npa=0&pscdl=noapi&auid=1964466461.1786153393&ec_mode=a&oid=1541777387.1786153393&oidsrc=3&ecsid2=425780193.1786153393&_tu=CBA&gcl_ctr=1~0~0~0&em=tv.1&emd=tvd.1&gcp=1&sscte=1&ct_cookie_present=1&ept=8",
+      "status": 302,
+      "contentType": "text/html; charset=UTF-8"
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://www.google.com/pagead/1p-conversion/11011774870/?random=1387185179&cv=11&fst=1786153392893&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6852v9102602182z872656467za20gzb72656467zd72656467xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~119527020~119896802&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&rcb=2&label=hTJSCKCQ0JAYEJaz6YIp&frm=0&tiba=%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&value=0&hn=www.google.com&npa=0&pscdl=noapi&auid=1964466461.1786153393&ec_mode=a&oidsrc=3&ecsid2=425780193.1786153393&_tu=CBA&gcl_ctr=1~0~0~0&em=tv.1&emd=tvd.1&gcp=2&sscte=1&ct_cookie_present=1&ept=8&ct_cookie_present=false&eoid=CkQKEAjwhNbTBhDGwrLR6sGYn0QSMABugV7ZaPvxUbriEcbCAteuGLfI2EJQMIaHQH7c4eo9rNHAs6b1RyiG-yfkZg8y__D_BwE&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCJPasQII29yxAgiH27ECCNPFsQII68yxAgjtzrECCNXPsQII9NqxAgjJ47ECCJfUsQIIyduxAgjN5rECCLHhsQIIs-GxAgim3bECCLDesQIIgNuxAgjL4bEC&cerd=ChDr370t2Ym-Laenvi2DsL4t&eitems=ChAI8ITW0wYQ67K2qamGhdMYEh0AOvrz892IrWKYX7nsIuXNU16S-bt6GBnjbj4JKA&fsk=ChEI8ITW0wYQiuue8aibnYG0ARIsALH-Z8s6I6Bx3nLm26rbVpI4ekdCrWAAEe9uIzd-6Ejp0niwC6wcVPEVXeQaAkdq&pscrd=IhMIruD-8_OPlgMVfzwIAh2L3wZ1OhpodHRwczovL3d3dy5ndS1nbG9iYWwuY29tL0JUQ2hBSThJVFcwd1lRLUxidXc0aVpycXctRWlzQWVYaFBZVmVYWlhNU3VyVG1kQTdvQk9JcFFVMFJBaHdDbmthdTFoemlzb3lzUU9wd2VqZkNJQnpGegwICWIICAAQABgAIAA",
+      "postData": null
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "xhr",
+      "method": "GET",
+      "url": "https://pips.taboola.com/",
+      "postData": null
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://www.google.com/pagead/1p-conversion/11011774870/?random=1387185179&cv=11&fst=1786153392893&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6852v9102602182z872656467za20gzb72656467zd72656467xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~119527020~119896802&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&rcb=2&label=hTJSCKCQ0JAYEJaz6YIp&frm=0&tiba=%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&value=0&hn=www.google.com&npa=0&pscdl=noapi&auid=1964466461.1786153393&ec_mode=a&oidsrc=3&ecsid2=425780193.1786153393&_tu=CBA&gcl_ctr=1~0~0~0&em=tv.1&emd=tvd.1&gcp=2&sscte=1&ct_cookie_present=1&ept=8&ct_cookie_present=false&eoid=CkQKEAjwhNbTBhDGwrLR6sGYn0QSMABugV7ZaPvxUbriEcbCAteuGLfI2EJQMIaHQH7c4eo9rNHAs6b1RyiG-yfkZg8y__D_BwE&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCJPasQII29yxAgiH27ECCNPFsQII68yxAgjtzrECCNXPsQII9NqxAgjJ47ECCJfUsQIIyduxAgjN5rECCLHhsQIIs-GxAgim3bECCLDesQIIgNuxAgjL4bEC&cerd=ChDr370t2Ym-Laenvi2DsL4t&eitems=ChAI8ITW0wYQ67K2qamGhdMYEh0AOvrz892IrWKYX7nsIuXNU16S-bt6GBnjbj4JKA&fsk=ChEI8ITW0wYQiuue8aibnYG0ARIsALH-Z8s6I6Bx3nLm26rbVpI4ekdCrWAAEe9uIzd-6Ejp0niwC6wcVPEVXeQaAkdq&pscrd=IhMIruD-8_OPlgMVfzwIAh2L3wZ1OhpodHRwczovL3d3dy5ndS1nbG9iYWwuY29tL0JUQ2hBSThJVFcwd1lRLUxidXc0aVpycXctRWlzQWVYaFBZVmVYWlhNU3VyVG1kQTdvQk9JcFFVMFJBaHdDbmthdTFoemlzb3lzUU9wd2VqZkNJQnpGegwICWIICAAQABgAIAA",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8"
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "xhr",
+      "method": "GET",
+      "url": "https://pips.taboola.com/",
+      "status": 200,
+      "contentType": ""
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "xhr",
+      "method": "GET",
+      "url": "https://cds.taboola.com/?uid=726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30&dc=la",
+      "postData": null
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "POST",
+      "url": "https://d.gu-global.com/hk/p/review/comment/guest/list",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://www.gu-global.com/hk/hmall/test/u0000000005919/zh_HK/instruction.html",
+      "postData": null
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://www.gu-global.com/hk/hmall/test/u0000000005919/zh_HK/instruction.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "xhr",
+      "method": "GET",
+      "url": "https://cds.taboola.com/?uid=726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30&dc=la",
+      "status": 204,
+      "contentType": ""
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "GET",
+      "url": "https://d.gu-global.com/hk/p/product/styling/list?productId=359821&pageSize=20",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "xhr",
+      "method": "POST",
+      "url": "https://www.gu-global.com/y9_eQVIMIK/v7hK-LbHBX/aGf1QmwrbbtVJm3i/OWQXGX0/W09/cUDpIVGMB",
+      "postData": "{\"sensor_data\":\"3;0;1;0;3555906;mhxUGRol1DL6sGLKKLQOzBwX+lel36APlgWEuqj23fk=;12,33,0,0,6,186;.^36\\\"3R4B\\\"o2\\\"fp_\\\"akw\\\"8y5=l\\\"(Z\\\"/\\\"NN 37\\\"3m.\\\"&Zr\\\"o\\\"ji!0l5(wu|R1\\\"4\\\"f8zb\\\"yeE\\\"I%a\\\"~HSZH<FX6PR~\\\"Oc;&\\\"^v!xZPK| \\\"+k?$I&+D+|=M2gSIE/:%#O4QjbGXuOv_:*]NnU\\\"}\\\">i}\\\"l\\\"MUE[?Dxb C:+Fk@wsG3sl2v/HIIg.pSQBVa\\\"P\\\"zZ8\\\"q\\\"->-WU47oq;2Dv\\\"^\\\"C(u\\\"ALKeco@;N\\\"vl@\\\"u\\\"\\\"~,e\\\"/g;\\\"4k@maa\\\"b8=U\\\"e\\\"?\\\"9HD\\\".|P\\\"yrgjMCcx7,\\\" !s\\\"V\\\"-#p+Aa[/;9`F@}\\\"C\\\".M,.\\\":4C\\\"DF*\\\"|\\\"U\\\"u8$\\\"M!2\\\"Ozec_\\\"kShM\\\"F\\\"h+_Hsl~\\\"F]x\\\"!r{E )|O/(~4%.^!r}h^}1}ein2HrHD_ {1&+@`Bz*\\\"9\\\"?`#x\\\"d;WTR1Bo7^sZFg_o0j^sB香港標準時間W\\\"$\\\"{%n;\\\"W;VX<9):\\\"6jw\\\"<\\\"~:=_-Jn}?N~aht+,\\\"s\\\"n(_\\\"(\\\",\\\"}7H\\\"1e&\\\"3EO`1at3CEQK!\\\"?@XxQsd2zR\\\",cR\\\"%GQ\\\"#\\\"-D&+J_A0S:vk;8aAo`8,!,|7[D#b%zSjYuHXai)LVa<r\\\":\\\"(h`\\\"H\\\"\\\" \\\"9K,\\\":8O\\\"*=~\\\"S\\\"A~uHZ)a4P2]xYP\\\"<\\\"!RbF\\\"?2LwM\\\"Knhr\\\"{0kXchKr\\\"5#\\\"E\\\"y9x2{g`-=Dm]y3E#OsKI+$|tA|s[g59vkmMe!nY o;eIPo?3g/#wXTh)d@;(8*\\\"F\\\"WGW\\\"N+SmGjc,\\\"DGm\\\"0\\\"C\\\"M{a\\\"/x/\\\"iLZ<|.gO\\\"h%S\\\"^3.\\\"L>(D\\\"o\\\"+H\\\"s(p\\\"w$z7\\\"+\\\"\\\"s\\\"/E6\\\"2\\\">$9~&0C`uKgcW[am A?M+,%{\\\"h6j\\\"g\\\"JF>)|7>hh\\\"K\\\"`q%0\\\"]wk `\\\"/W\\\"L\\\"\\\".\\\"fRc\\\"{\\\"2i-?OP]kSt~ecl C<\\\"-\\\"_q_\\\"Q\\\"G4GENF7oQ[iT191Ga%Id\\\"0\\\"ue>\\\"6bA$q}IR]XDK5SvEmVf`$A4|bmT/<F,1BkU8s-.7NUgt/zEYK;kN,?sY`*ODlJG>!nK3a9Aeh,07$g;WEB\\\"P\\\"&T,\\\"L\\\"\\\"@\\\"j:^\\\"Q%G\\\"i9Xi\\\"F9$3g[\\\"YbLl\\\">\\\"L}+N\\\":\\\"hjU\\\"<asLVr.&\\\"t3S\\\"1\\\"^,eF o\\\"e\\\"~|}\\\"V>=T`(Hn\\\"CUq\\\"7V7B>Y(e1{QDmZa6)\\\"X|9\\\"x(Zv]p+Ke\\\"W@wqB\\\":{?7m\\\"$g:c\\\":i>K=\\\"wP}\\\"Ii0 6n(gp}Y1\\\"?0\\\"7ta+XqnT)\\\"6M\\\"#8\\\"B1O,\\\">\\\"2s%h-)f_@O+vC%k\\\"=\\\"tJ~>\\\"^yI-ME\\\"NUFd\\\"U%e_H\\\"<qj\\\"P\\\"ZD6yZ7crM{x6^@Z[wLr,#eY-J{St4SZL7i(rY|`68\\\"RLw\\\"d!f\\\"ZNA!z&\\\"vA<G\\\"z6Y]Lxtd7\\\"`Z!!\\\"g(;?,\\\"}mv\\\"sK\\\"|Z(6&\\\".U\\\"oD:x\\\"^\\\"72{a\\\"<\\\"-sH8\\\">\\\"\\\"@7]\\\"Ac\\\"fg]s/V&#L^C}NHo{$&^C\\\"~IQq\\\"AwA+~h\\\"Ab=i\\\"IH)<}\\\"nX(e\\\";\\\"IW<\\\"`\\\"#]f~\\\"-\\\",\\\"J!I\\\"};y\\\"U\\\"=%ot \\\"]\\\"/D_s\\\"YZc%vD\\\"SyA}\\\"U:ULc^jjV\\\"Rq6,\\\"45aWHfF6WdfJ,M香港標準時間@\\\"b\\\"X~bN\\\"2\\\"WnpBS8R|Cju}p[\\\"0~S\\\"Ye%\\\"p\\\"\\\"{eG\\\" hh\\\"U\\\"\\\"t\\\"SrG\\\"4\\\"r5\\\"B6<\\\"MN&\\\"~\\\"(xc}QuFgj\\\"l\\\"f^%_\\\"9\\\"P+YJ9q\\\"FF$+]]}oa4\\\"LZa\\\"^if\\\"<\\\"Yp&hV6%6v\\\"$db\\\"N z\\\"^\\\"2[g_+G(_\\\"eg.\\\"u@9\\\"H\\\"{\\\"#Fb\\\"KpH\\\"G\\\"=nQR]+V1klB/TCf>JH mst9J4L5O!?qjwJ:@S\\\"C\\\"NQ \\\"&i-hg\\\":y^\\\"8M.T;hANBfu^P|3f5*ifOJ(<%jr%{r6I#<yJ\\\"]A[\\\"9;$\\\"`vP~h^O\\\"8~d\\\"S\\\"xkOeyTw\\\"7\\\";~N\\\"n\\\"nWu\\\"p\\\".v/\\\"M1#Q&r3{If4/8#`JI\\\"MFh1\\\" @XK/nsm\\\"ee\\\"kRlwqSPcE\\\"M<3\\\"5\\\",0&24\\\"f\\\"%F:V\\\"t\\\"kV>h\\\"#.M\\\":*#\\\"/\\\"\\\"<\\\"v[G\\\"V\\\"cQd\\\"y\\\"t8B5\\\"S\\\"5wa#lQR\\\">\\\"|`Ik\\\"k@~IIV\\\"O1@`\\\" \\\"b\\\"RAid\\\"\\\"Z\\\"+/2\\\"@6aE)Dy\\\"A6OOk#Y\\\"C\\\"\\\"[\\\"*9\\\"qn?XF\\\"=7:\\\".fg$U\\\",t\\\"v;F}|\\\"3{r\\\"-B%WJ8I;\\\"IW@\\\"G*:\\\"rNa\\\"P\\\"4Ov.RY\\\"A\\\"2hU*\\\"3661]x\\\"0*^B!\\\":VG\\\"vW$K#\\\"]\\\"SO\\\"!\\\"6Ydt\\\"TPb\\\"OWGi\\\"#dt\\\";Q.\\\"bM42DR\\\"]<9r\\\"9\\\"E_2oj\\\"89[\\\"fH(\\\"3\\\"G7~-qx.RMvI,%nDk(: hy2,}M=9NSaMM4do._\\\"&q%\\\"H\\\"L(MY$P[[rz fGJ- ]S`P=!i@%Z S&eF.j8p.F 6\\\"w,5\\\">eoz<^Eh,(uU: GVW9|wvATI;#5h,eszcCPW\\\"N\\\"eoQM\\\"w?m+tc6\\\"9sH\\\"Z?V\\\"Imo\\\"+\\\"?iMtmQNZRS!H\\\"0\\\"rz<E\\\">sK#\\\".I{\\\"i:)\\\"@~W:\\\"Z@: \\\"/3Oo\\\"@8K{DJ\\\"[K?_\\\"X[;:S\\\".q{\\\".bkJJB\\\"3oe_\\\".\\\"\\\"p[<\\\"H6d\\\"k\\\"\\\"f\\\"b50\\\"h-C+/7\\\",lfd\\\"C#N\\\"dSB\\\"0S}I\\\"+W{]\\\"x\\\"!~)$-\\\"_\\\"ETW}\\\";[X\\\"&rW\\\"P\\\"Uo(^EmRm!C,RQaO5mEI\\\"<zpHD05FI*|/dG!Y4p0[^#6`Q!y:C$/yIn-\\\"(hrBB~G(P\\\"G)P\\\"KRg\\\"_\\\"*>8?iMdbDjSWNT_ekSU.am1lGC<bs2Bq\\\"@\\\"$[L\\\":rND?GN^Zl^b=x.<Wm\\\"Or2\\\"H\\\"[$\\\"F\\\"Z;VA\\\"}\\\")~DFWLT\\\" \\\"?E9E\\\"y\\\"xW2Rv+:</{iS\\\":\\\"<V-1\\\"F\\\"1-;`\\\":\\\"C<U7\\\"0H ,?,oAU\\\"+&:Z\\\"]/\\\"kly(S\\\"-J\\\"XLmU\\\"i\\\"T\\\"z\\\"TFed\\\"s\\\"ALy\\\"R\\\"SfR#\\\"X5\\\"i-`\\\"C\\\"z%D[X+40\\\"J\\\"YA_7\\\"~\\\"E\\\"%c+\\\"!BL\\\"1\\\"\\\",5F\\\"vwt\\\"OC3\\\"Jt\\\";\\\"-\\\"KUP\\\"TZX\\\"{zs\\\"#zY\\\"0\\\"\\\"M@e\\\"^!B\\\"a\\\"U:\\\"]sf\\\"y% e\\\"I\\\"f\\\"B\\\"D#@\\\"\"}"
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "xhr",
+      "method": "POST",
+      "url": "https://www.gu-global.com/y9_eQVIMIK/v7hK-LbHBX/aGf1QmwrbbtVJm3i/OWQXGX0/W09/cUDpIVGMB",
+      "postData": "{\"sensor_data\":\"3;0;1;0;3555906;mhxUGRol1DL6sGLKKLQOzBwX+lel36APlgWEuqj23fk=;9,33,0,0,4,186;\\\"o3K\\\"X\\\");+\\\";\\\"9O>78\\\"&hy\\\" &cHI\\\"Y\\\"14xW,1cN|&a$VEAIQ$;)-ixHlsUL8Tz_WCz^vq=c(F8RcLw,@w@+1tC.fpKX.$\\\"O\\\"US4\\\"zJeQy\\\"%]1g\\\"M\\\"%ET<\\\"GH2\\\"jmn\\\"BYwdKd Y%g@1jKwD2}\\\";bw\\\"lN\\\"B}?\\\"N]Ib$5\\\"/jG~\\\"Q7r\\\"zMy\\\"W\\\"8kK7Z\\\"YVmW\\\"0\\\"5ulj\\\"L\\\"y6$pQNp1MtnS+,Q4D)h%EEPB*iB^3Z-]- ;\\\"=@7$gsa|X9tgw~>)MWe\\\"@{\\\"H\\\"nHHz\\\"ysigR,Vv\\\"$[-\\\";PH\\\"Y$l\\\"LI Q`h=Vw{z$(GO).W05G.Uv.QI{6_&=<<qK\\\"m\\\"`uks\\\"1u#_n*\\\"i}pF\\\"v+ cd\\\"7`y\\\"n\\\"T\\\">%p\\\"lbm\\\"U\\\"G.`#\\\"x\\\"<It\\\"-\\\"\\\"jF3\\\" a%\\\"I\\\"\\\"}\\\"x1H\\\" XAw:{\\\"?bl7\\\".\\\")\\\"Sks\\\"D]~\\\"%&v(!4{*1qiA>XP=N>l{7\\\"2>&/E.*\\\"|\\\"CROk\\\"u{=@S&#>\\\"YB[\\\" 6w8,V:<JK9\\\"}ro#\\\" \\\"}K}!9/zuA9DJtzxeAonYzNOV%nq,}(X[~K=<[\\\"4]\\\"o\\\"!D&SCuj7\\\"$hN\\\"-f_\\\"LJ\\\".z1\\\"f}-\\\"5bTk,\\\"6Z\\\"U\\\"(o%\\\"b\\\"++0;\\\"!Cd\\\"X0A\\\"E\\\"OBTb9#a=\\\"`L+\\\"vi@\\\"|em\\\"g{O(Y\\\"YgH\\\"7jYP2mKeRV1;of香港標準時間x\\\"Y\\\"ZD*e\\\"r\\\"=d\\\"-CV\\\"]@4>\\\"_\\\"6\\\"G\\\"ZlUv\\\"a}bA&\\\";c@T\\\"$n&;xNa%HP/)#S8aKwi/h Wf+iBzPxf,$oETYF*z4#:*Un]{IqFf SF)sEN=s2!ee[.G?%,$G>PM\\\"/\\\"2W`\\\"WsR11et?\\\"hY\\\"tnq|vkX^_{o4!\\\"kY/\\\"A\\\"{_RDL73F=UrA\\\"k\\\"5z|y\\\"5\\\"Ur~&w%\\\"~\\\"{Hy\\\" \\\"1QVcvCaMhwF+.&E2i(G\\\"hTa2(*<yMJ+B+F\\\"59 \\\"24I\\\"8\\\"\\\"@\\\"Y%A\\\">3=\\\"Eaa\\\"OD ;-\\\"EB\\\"l7j-6\\\"KZn\\\"m7N%.UMP_t,N49;3ILah!#io~C^H>WsFe:H}\\\"^jr\\\"K[x\\\"~\\\"\\\")na\\\"sss\\\"q7RH9=Pm\\\"P)]\\\"y\\\"A.)PshC\\\"U\\\"n8G\\\"?\\\"\\\"|\\\"AM2\\\"7k6v#{5\\\"m2s\\\"p\\\"9z=;iyIS.5B27[%$*Ld9\\\"A\\\":wD\\\"O\\\"GkI>1T[8H}:_p/,-a065Y|b*sEIjTm7<D!T\\\"J\\\"m-V\\\"q;K\\\"MfA\\\"E\\\"<oL&y{G a)eyt:$+5\\\"0\\\"pF$\\\">KF`5\\\"qt\\\"?\\\"XT?)tS*TkzX7D\\\"t\\\"Y t\\\";P)68i``\\\"Id\\\"t\\\"xQgP~(t-uX:z$o[/uM0vEPe/;2c)~O^.L,;`h!c]j\\\"b{O\\\"N)o\\\"^\\\"\\\"m\\\"UIq\\\"2@E2.B\\\"|9!c\\\"F:/GaGTY+\\\"G9]B\\\"H\\\"w+kr`\\\"&\\\"vA=A\\\"z\\\"q,yMf\\\"96i\\\"9}]\\\"0,+zL% \\\"Z@\\\" \\\"%1{j\\\"Z\\\"=-I:\\\"vZM43{M|.\\\"#W(m#\\\";PVW]k\\\"?g5G4y?\\\"0\\\"q\\\"^o8\\\"D&q\\\",HX;I>g`\\\"w<2\\\"vPec6nI;6\\\"{e\\\"5\\\"\\\"o |\\\"!& \\\"n+>_i#n|B\\\".2m:\\\"J\\\"\\\"Mx]\\\"-{\\\"n`Hu(@\\\"V8S{\\\"Q:D\\\"Sc}\\\"cw&\\\"(:EX\\\"s>x\\\"7~i\\\"?\\\"c2D|<SXgF7VlY><&LC`bxtz`Dj#kSlg8N.E}<b\\\"w\\\"6U%\\\"p\\\"v4A\\\"b\\\"f/na\\\"F3}+Lw@y4m\\\"KYn\\\" 3_DQlumvHNtgx香港標準時間_\\\"F\\\"-!`)\\\"x\\\"}rDohOgr?K\\\"|XN\\\"^Ew\\\"g\\\"w-t0}S2W8`\\\"n{;\\\"_<q\\\"rt>a+\\\"A&;\\\"ffZ\\\"|^<\\\" \\\"^R#99Mot l4<laq6nqYu{Y;HB/Y`ugH~=*o\\\"@\\\"sfe\\\"x-p\\\"6\\\"ATzRW%H^Y\\\"7.f\\\"4|_\\\"G:\\\"r>Bt%\\\"y$\\\"!hKb\\\";\\\"(m}!^]+j^\\\"E\\\"iJ,A\\\"F+8H#BkF!\\\"/O%\\\"rK+Q]\\\"[_G\\\"V\\\"7\\\"NED\\\"E)J\\\"_\\\"\\\"7\\\",&^\\\"nws[y>wZU1B/\\\"jkP*\\\"=\\\"HL%%yykP xNm{jyP\\\"P\\\"jha\\\"(\\\"dY\\\"N\\\"s/ M\\\"Syr* 4\\\"LwRB5\\\"7fO\\\"zh;\\\"tVc#xk69.\\\"fgF?\\\"/\\\"\\\"<\\\"$dU\\\"Vzf[\\\"Y \\\"~3)\\\"e e\\\"5b/t[S<E;A~i.bP[&\\\"C0O\\\";<NWc\\\"FZC\\\"%\\\"$y_\\\"G\\\"/S=8\\\"G\\\"g?sE2_zXV\\\"i5{\\\"I#%\\\"D\\\"vWe[hljdJ#TyujHH?opAX}:FIC2r&=|T\\\"D\\\"#DD\\\"s\\\"Nmw ;1db}2O1Ve\\\"U\\\"+-Og\\\"1\\\":ys)Z)OM(bwLF#\\\"U\\\" rCt\\\"U\\\"\\\"N\\\"SZL\\\"c\\\"w\\\":HS\\\"T9z\\\"-w`Mq,_d\\\"\\\"i\\\"/>\\\"bW#qP(\\\"2X*;\\\"X`D|Pc<C.\\\"n}m\\\">U1\\\"@SK#\\\"D2A\\\"OzKk\\\"E\\\"F,c&+HN^;\\\"K\\\"J.g \\\"B\\\"q:8+Ke#Fn4bmx#uS--zT^Hy`CzW@Ru& e79)Zh*Z M)?ZR^9dfy?bHss[EtZ|JZ]=x {@_5aCY/K(xu_<W])T8+xUG.vAr(!jD_d/P,YHcCf/5E{s.\\\"i\\\"XA;\\\"V$vvSxV\\\"z2>c4nJ\\\"Z\\\"J8Mg\\\"7IcDoc@BVjX]+2OjM6We?g@@Q0m6o9ZLCiqZ\\\"7\\\"g#*o\\\"P\\\"\\\"k\\\":Xf\\\"<#[4c|.vw?P\\\"O3%c\\\"W\\\",67vR?(J`uA?gji;:vxERB7nCUldkt|B]bLB]FabV*XS\\\"W\\\"{&r\\\"nFY.,\\\"Uhj\\\"(&>CTXg9?Z\\\"x|a\\\"0\\\">RfHE]$q\\\"x\\\">*!x\\\"*@Kpg|ce+\\\"W_Cl\\\"pG>E7Y\\\" gFF\\\"7ck\\\"cUw\\\"}e!su_\\\"C`Js\\\"a@;A@k\\\"7+`r\\\"q\\\"H\\\"Pk#\\\"Uo|\\\"X*r*}f3\\\"w-I\\\"[\\\"X`\\\"j$:\\\"QMK!\\\"),\\\"LxC|=I>.iL\\\"wT%@JSP!$ \\\"<$yr\\\"y\\\"xW2Rv+:</{iS\\\":\\\"<V-1\\\"FQ*\\\"{>;s\\\"h<S:YsCj\\\"!lU\\\"r\\\"1*N7>\\\"]\\\"d4 o\\\"f\\\"k;S4TClg %v$\\\"k\\\"JbSp\\\"E$[]5V\\\"JM~P\\\"QY\\\";{i=\\\"Nc(96S\\\"?_Tr\\\"J=u$Rx\\\"w6iF\\\"B/b\\\"^K-\\\"p\\\"g\\\"#4Y\\\"|rH\\\"G\\\"\\\"C(%\\\"2B(\\\" ~IQ0f%w\\\"l1!qq\\\"qs\\\"kCX6\\\"C\\\"eJixtT7NJ!Q@jgu\\\"|\\\"}kt%\\\"MPL((\\\"-m;q\\\"!\\\"9uYk&\\\"{\\\"3[C9\\\"s\\\"r!3*ez\\\"U\\\"F1vL\\\"^wy9l\\\"g#f2\\\"0\\\"w\\\"f\\\"b]_\\\"A\\\"\\\"2z6\\\"49X\\\"Ern6}\\\"s0;\\\"uWZT\\\"B\\\"f+i\"}"
+    },
+    {
+      "kind": "request",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "POST",
+      "url": "https://d.gu-global.com/hk/p/promotion/product/purchase-limit",
+      "postData": "{\"productId\":\"u0000000005919001\",\"number\":1}"
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "xhr",
+      "method": "POST",
+      "url": "https://www.gu-global.com/y9_eQVIMIK/v7hK-LbHBX/aGf1QmwrbbtVJm3i/OWQXGX0/W09/cUDpIVGMB",
+      "status": 201,
+      "contentType": "application/json"
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "xhr",
+      "method": "POST",
+      "url": "https://www.gu-global.com/y9_eQVIMIK/v7hK-LbHBX/aGf1QmwrbbtVJm3i/OWQXGX0/W09/cUDpIVGMB",
+      "status": 201,
+      "contentType": "application/json"
+    },
+    {
+      "kind": "response",
+      "phase": "page-load",
+      "resourceType": "fetch",
+      "method": "POST",
+      "url": "https://d.gu-global.com/hk/p/promotion/product/purchase-limit",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "kind": "request",
+      "phase": "open-inventory",
+      "resourceType": "xhr",
+      "method": "POST",
+      "url": "https://www.gu-global.com/y9_eQVIMIK/v7hK-LbHBX/b2f1QmYSz7/Jz8dGX0/e1Y/2HmNhEil5",
+      "postData": "{\"body\":\":\\\"8\\\"bDi<a\\\"&\\\",\\\"y34bl(\\\",w9wX\\\"q\\\"pa\\\"Y<\\\"@,$\\\"#\\\"(IUkkY[k&X]t/BPw_}}iO,gx\\\"s\\\"WBg?,\\\"U\\\"KV]{$\\\"8\\\"Uj?F+\\\"3\\\"R)7<7\\\"|\\\"ud1rR\\\"2\\\"+is;wRBH\\\"D]U1?aHH~}t2Dgv$<L%z1b?5IOz8p\\\"NZ[n%\\\"k]-fY{)CR!|GKO>3R{nYr\\\"<Tf4q\\\"e\\\"\\\"r\\\"w7_C_\\\"(\\\"vCn)78w`,W(F\\\"!\\\"oEMmI\\\"6VZ0Nq9Gb5?\\\"Hz\\\"955e+\\\"j,q^*\\\"B\\\"^o+Mn+0Y`GW(Yo\\\"$\\\"L\\\"2\\\":\\\"6\\\"JamE9\\\"Y\\\"f\\\"_a`E%+1N[\\\"+^L3?\\\"l\\\"K\\\"+\\\"Jb|PT\\\" \\\";i3SQ\\\"o\\\"Utc5k\\\"~-Tgq;(hu\\\"3Y}[T\\\"?\\\"h\\\"e *qN\\\"Bqa7w\\\"2\\\".Y\\\"l\\\"%9E\\\"|\\\");zzdt#-B.Bi#!P-5@_\\\"V.\\\"^b%n0\\\")\\\"aHL2<.#\\\".W\\\"U4D\\\"d\\\"]6(aO?S0Qr9,H6ly0a2\\\"fz\\\"(9-,*\\\"a\\\"f\\\"9(\\\"[\\\"McXTD\\\";\\\"b\\\"Onq gx`Av=7\\\"O\\\"4o-om\\\"R\\\"n-`MGzM5)0*5B\\\"C]?@i2\\\"n9& U\\\"E\\\"UY@6K\\\"@\\\"[!L9I\\\"l\\\"%(1)!W%16b.}\\\"E5WSO\\\"7\\\"u{}F\\\"?5RVs*IKaP\\\"nD~+e\\\"/HTCOouiV(\\\"PZ`8:\\\"]\\\")6\\\"b(v\\\":r[nP\\\"(\\\"8\\\\\\\"mlv3m\\\\\\\"%\\\"v\\\"_!b4>\\\",\\\"?P\\\"n\\\"}Xmbc\\\"y\\\"\\\"-61oG\\\"f\\\"e\\\"L\\\"A\\\"oC$PR\\\"T\\\"Q\\\"P\\\" tRR~\\\"@\\\"6tg#C\\\"|\\\"}I%[)\\\"%$3@:C\\\"kVpuj\\\"BDMnc2YAyB+<\\\"AwZ:j\\\"t\\\"T\\\"OUp\\\"mWB<`\\\">\\\"tx\\\"SCEgc\\\"x\\\"g\\\"d:~C \\\"9-PyO\\\"I\\\"U{Bl(V]qi\\\"3\\\"B:+Iy\\\">\\\"Zf3B;U&Vz{`=Fm\\\"%\\\"`kDOL\\\"b\\\"V%\\\"g6M-|\\\".\\\"1VhA|7,auvvC\\\":[{xz\\\"{|T|:\\\"m\\\"!0oRvBBIH%Y_3E5D3R>^=NI*\\\"^nc5%\\\"j\\\"<\\\"Y\\\"EI)#]\\\"zx@}PL(r0S\\\"H+MWi\\\"{\\\"*J9eyB|];%:*CF%;-_Q|Z4fs)He*9!I#b9)4BmGbJf)AjtQx<G:lX[-})/M2P9Kz\\\"j\\\"M1`G)\\\"v\\\"U\\\"-\\\"zfsqT\\\"u\\\">;$\\\"Fc^C5\\\"ysM>I\\\"(\\\"E3@i \\\"`cCH{t\\\"u*+!!\\\"s\\\"j4<?A[J~oU,FP #LAc16:+3{V:n5mHuO6Ls$(<8W;.}z{1gCAv!k{bnF*}q-!ZDEL^o,6Z\\\"qrb\\\"XV<b:\\\"}\\\"u\\\"r\\\"D2?qw\\\"u\\\"us;HZ\\\"`\\\"g^2eO\\\"{%cTFm\\\"b[6+t\\\"7\\\"2lWoSAU#Ca\\\"tjF(i\\\"?\\\"9*$,CRJpX#<&:Q4.9\\\" \\\"B]ep3\\\"M\\\"{EjD.,*\\\":\\\"AY$ f\\\"z\\\"eC_b\\\"eJjBc,2\\\"tZ\\\"z\\\"\\\"GU`y7Mgf\\\"9zm1,\\\"E\\\"QjRip\\\"JPA*&\\\"%\\\"V\\\"_\\\" <-HJ\\\"J\\\"j02\\\"@W-\\\"v=(F\\\"o&xvQfplvxAY.J\\\"|3.\\\"N\\\"bUH[A\\\"Y`PyY5\\\"6<nC;6X\\\"dd\\\"=fH[c\\\"=\\\"IEyFx\\\"]\\\"m;l\\\"668jEQ@\\\"m@\\\"X\\\"Jm40#nBHW I1h\\\"8\\\"M0yQY\\\"O\\\"-*Pw?\\\"(RdnG\\\"V\\\"r}3U LS[6\\\"q\\\"j7{&k\\\"`\\\"u4y4\\\"v\\\"UtUaO\\\"M\\\"j;<yx\\\"yc^\\\"QP\\\"-\\\"\\\"2\\\"kBL0h\\\"w\\\"Wk\\\"=\\\"[282x\\\"n\\\"t,sKdyez@M.G2FoD7JL*HG1_r SzJLF@u##^ I;3ARVI5$yxl=$?aMCw,5>Q5>JbdrTDe6\\\",N\\\"D*\\\"e\\\"&x|cv\\\"K\\\"?dgUM^\\\"z\\\"kw0 O\\\"}\\\"1OAl\\\"m\\\"<8<+D\\\"(\\\"T }UoC,?M\\\"c\\\"-MTY`\\\"^\\\"bbPlC\\\"P\\\"W|V`7\\\"t\\\"ot0\\\"Q\\\"PKjN(\\\"<\\\"zdTiR\\\"m\\\"C5/s|\\\"p\\\"?1\\\"?c9`r\\\"#\\\";CM]=Lo1\\\"W\\\"JOxj?\\\"6#kNVk9Cp,Pp,!\\\"Q0s h\\\"C\\\"1|Tz1\\\"c\\\"l{fM1\\\"M\\\"W\\\"Z\\\"3R .r\\\")\\\"^CE0\\\"~8\\\"S0; c\\\"Y]FZd*\\\"Yx|6`\\\")\\\"U\\\"uim!)\\\"T\\\"s9:B7y.o^Cko>K8m>o=PKXIvG;) <[o/=h]vp`8XR5g|V|b&Y:fxH>:P54 0@bkEe+5G<0nIC8h|<*d;&Q,7kqjAoqQ*4iyYk2Vppj>w\\\"qJiJx\\\"ufUId\\\"6\\\"wOZ\\\"k\\\"3VZ}M\\\"5\\\".\\\"B\\\"-gt\\\"k^/(_\\\"O~RjA\\\"-\\\"o\\\\\\\"Wymf#\\\\\\\"d\\\"_\\\"a&vtM\\\".\\\"t&[4Ie8GN{%B\\\"K\\\">j\\\"7\\\"\\\",\\\"eu!GA\\\"/\\\"d@\\\"I k}m\\\"pN(J3uq5\\\"#W=C0\\\"L1yJ<F\\\"tv1)T\\\"Y\\\"=[lv?#|N\\\"s\\\"nC}:)\\\"M\\\".St&6\\\"m\\\"Gja\\\"o\\\"1_oM%3f])sN=4`i@x;wQgsZ^z$cH[k}o[+!F*uMV28.?g?#&X@jaae\\\"0\\\"z1D*R\\\"3\\\"ZzeK;,w{pJ4W&y.g;,u*n<A`WpR9(d^j0d<*-%.x}JI}MNZ3WhLqq08G_oqdIuk>i<6z!\\\"m\\\"N5^%j\\\"|\\\"*\\\",JC\\\"X\\\"e]\\\"]~s\\\"X\\\",6N7/9|%m$Au3NMx+9<a7)?P\\\"Z\\\"&lQaH\\\"-\\\"+\\\"6\\\"/{B*h\\\"9\\\"RTcu\\\"$Ad\\\".,fG8\\\"s\\\"\\\"4\\\" )qt*\\\"3\\\"R\\\",\\\"MQ/Yq\\\"luAilB\\\"byjS:\\\"E\\\"g3Hf\\\"c\\\"q32}v\\\"B\\\"ZJb?lXa%RJvP)|G%Ld /` bhO:AFP_h9H!>]!Yb4|,nvmhh~M(-Sj}\\\">HsDC:\\\"[,*nA\\\"U\\\"s=UaN`NW,>Y)NxDHrmgDp#pDHO/%4|X4Wq&香港標準時間u\\\"e\\\"Cm]ut\\\"`r!xG3)N\\\"]IS<[\\\">\\\"+^ks:L\\\"Q\\\",mJx)\\\"m <<mX\\\"j]`eC\\\"[\\\"d~!m4t,d_2dA}6gi+qPizXzyBdTgwlJ}58-香港標準時間L\\\"a\\\"S-azg\\\"x\\\"88j}Mn@VQ/i\\\"27 6P~Q5q\\\"p[S2F\\\"S\\\"EeGt\\\"*7/7z~\\\"{;\\\"(\\\"2F\\\"1~}zc\\\"~\\\"9z/c,HqQUXVOafoJ<m)788@&\\\"A\\\"h@Z1}\\\"q\\\"V\\\"EB 81DJa\"}"
+    },
+    {
+      "kind": "request",
+      "phase": "open-inventory",
+      "resourceType": "xhr",
+      "method": "POST",
+      "url": "https://www.gu-global.com/y9_eQVIMIK/v7hK-LbHBX/aGf1QmwrbbtVJm3i/OWQXGX0/W09/cUDpIVGMB",
+      "postData": "{\"sensor_data\":\"3;0;1;0;3555906;mhxUGRol1DL6sGLKKLQOzBwX+lel36APlgWEuqj23fk=;7,33,0,0,2,186;y\\\"}})\\\"}KS>R\\\"&IR\\\"Z\\\";\\\"[*g\\\"yUC\\\"2\\\"*+8}\\\"Q\\\"P}U\\\"){gv9Tf\\\"tw\\\".o+\\\"V!2\\\"x\\\"{,; \\\"Zk&\\\"rG:\\\"bB4\\\"3 m\\\"Z\\\"78blSy-.G+UyW0>K0\\\"Q\\\"Byk\\\"5\\\"\\\"|N8\\\"|K6\\\"N4>-$N1C(8~:ZR|c?.aNrUT:LHbpaL`N_KXC\\\"x\\\"iF=2\\\"t\\\"VB2]00uT4]jFHB3rlcxuPgB]~.KEl3SM:.`LZSy4KNKo\\\"]\\\"iy{\\\"T\\\"{G=x?x`,[}k:1Y1xxBO1louJy-kH$<B?3C`Av\\\"/6o|\\\"&*k\\\"IaLD\\\"5\\\"@vGN1PLj\\\".3E\\\")]-\\\"rFk`LNJNM=$x\\\"jw,c\\\"jSiS(*~\\\"99\\\"cGL\\\"~R[\\\"{e!H_yr8O|}hri[~}\\\"Xx6T\\\",f;\\\"R5_\\\"-4)ryU\\\"?*Zx2xbji/H|/jvGFK=(<[;|%$95U[yqtU7]{j\\\"^\\\"o3g\\\"3Chs(YYo\\\"{S[\\\"HjL\\\"`j|\\\"v\\\"ZI9SZ>\\\")\\\"g0]\\\"O\\\"ZeXf HTim?aaT-:a\\\"#\\\"Mr(\\\"@[5g3,\\\"@OO!\\\"G*GO\\\"wDP\\\"QZL\\\"U!p\\\"c\\\"iN9q_\\\"n8T\\\"Nt@\\\"ez$Un,_~\\\"B&\\\"0ceEz2\\\"9|MJgUx\\\"kmL-)|2Ei\\\"TxWl\\\"TA\\\"5:rpg#+Qzq\\\"r%Hb]\\\"oo~2\\\"M\\\"UvJudt !gTd;Nl({aN`&P$*jC,=1hbDqCD#:us1u7C`&2B%-tp+Uz]g|aUWk5_\\\"@\\\"7 =\\\"J\\\"\\\"9\\\"<~_\\\"f\\\"OP5\\\"^\\\">LT\\\"~,Y%x55Y\\\"h=L\\\"$v(Y1eRHN\\\"< +^\\\"/M4%=\\\"xPI\\\";\\\"f1y G?;Y|t\\\"CA;\\\"I->\\\"!?rjj$E!b[76tp.~)\\\"=1r\\\"I\\\"\\\"~\\\"r5+\\\"=\\\"l[W]8`83.F~U\\\"+\\\".jp}\\\" \\\"WUZw 46\\\"#\\\"=1;9\\\"0sbeCH7)>CpDPuQz{q ,?Sh4_VO~dtAiH5s%\\\"z\\\"Ve`,\\\"roD$y\\\"s}QZ\\\"U\\\"[`1\\\"$\\\"_HG,\\\"5\\\"\\\"A\\\"tS-\\\"j\\\"\\\"2\\\"}6\\\"JYo{z+}<b);#%dp{Q3P:aoW05nI?IPEx+Vu+;[{t=D.v7k/,?vceX/-4m%>CKRG7J}Enn&ua0J;}\\\"u\\\"#<P\\\":8(m<>@&\\\"7Yu\\\"M\\\"Bk~@.)TsiCWU \\\"^\\\"mj~\\\"-DZjH\\\"j;vL\\\",Ih%6\\\"r<9\\\"{\\\"2\\\"`s@/p~kpT\\\"e&Id\\\"l\\\"g>1#F\\\":\\\"TL@7\\\"j8<|&\\\"W_n\\\"`\\\">&X|b*s\\\"<\\\"7Z| \\\"-\\\"SOn*_o^g;OfvjZ1<<k4~O7+vB.S(#\\\"e\\\"%+`\\\"t>qHm;SF`5\\\"msN\\\")\\\"Y\\\"zoE\\\">Oe\\\"E\\\"uSw_5#G9SV48\\\"`\\\"mg7/\\\"hEW0uNr:D\\\"Yd\\\"%td2w^\\\"TIOi\\\"J\\\".|jgtB+I@4_Hh)uJr+l\\\"iB?uZ4ls/~w-C+\\\"MO=\\\"Br!\\\"j~,3x\\\"Eu\\\"h=q_>\\\"Id$u\\\"ZoY4:v\\\"z+B\\\"+p1\\\"4 U\\\"r\\\"7|\\\"?@p\\\"h~y~\\\"@&otn)e.n\\\"eJ|\\\"dX(}zHv\\\"[wjE]; -~C_v`k\\\"E\\\"Ma!a\\\"8`jk=U(&2qhja\\\"$:\\\"G\\\"Y.7{/X\\\"\\\"&5G\\\"vT$\\\"l\\\"mbD\\\"5\\\"u@0z\\\",%-_EQF\\\"\\\"tkX\\\"]*\\\"_j/9cW\\\"%QHe\\\"k\\\"\\\"n\\\"IU8\\\"S\\\"ao8ArFH;A\\\"j\\\"}}]P\\\"]\\\"lf%wrG ?aH/-8Zi4K+Da\\\"b\\\"n;K\\\"G@%}xEp\\\"\\\"n[6\\\"kF>\\\"u\\\"R2I\\\"<\\\"Y|o_\\\"J\\\"&.{sq<qE4\\\"XUl\\\"zfu\\\"!\\\"P3u.cH0S\\\"/\\\"8;PW\\\"!lOpu|z2{U\\\"(FW \\\"Q#b%Z^+g\\\"uXB\\\"qv>\\\"YwC\\\"*SKo=X\\\"X1{8\\\"b3_BZbYSW\\\"ve)5h\\\"J\\\"!FgU\\\":\\\"c`\\\"6#K\\\"UCqV\\\"hbuFev[\\\"0^q\\\"?\\\"\\\"-8+\\\"/-=\\\"^\\\"\\\"_\\\"n0*\\\"D?7 W\\\"If%\\\"Z\\\"K\\\"3kV\\\"*x$\\\"%\\\"3y\\\"F\\\"`hBl\\\"2\\\"q]d/H*M>dIX,-CO\\\"y\\\"K5/q\\\"Y\\\"\\\" \\\"h$3\\\"4?Q 9$P;vIp?WfP+$k\\\"MOA\\\"VS3n4S$|fSe}#w\\\"o.bOz^<u>1\\\"AtN;BHK\\\"se\\\"M\\\"v v<\\\"/W,}Y\\\".;\\\"k4|}+P6\\\"Xd!\\\"6~v\\\"4I\\\"9 \\\"REg\\\"2}j\\\"j\\\"Bbt1c\\\"Q<4\\\"* Q\\\"qN@]\\\"w2b(\\\"Nfe\\\"I<)Z\\\")vsM{RMQ\\\"X_\\\"A;;{a>U%a0lUD/香港標準時間Q\\\"[\\\"Pk]o\\\";\\\"_\\\"q\\\"G*ct\\\"d\\\"\\\"Z\\\"+/2\\\"@5i/PfRc[cvo,=香港標準時間8\\\"]\\\"LnQd\\\"o1\\\"H$~~5\\\"7H\\\")jo?\\\".]\\\"6 -,>\\\"NO\\\".MPn\\\"*IOyf:\\\" v(*\\\"k\\\"P\\\"{NG\\\"+p&\\\"Y\\\"/$3;Q[jniK4WhgFZe+8oAo!GRe[Rq!rQT_ \\\"F\\\"NBR\\\"N\\\"%xm{\\\"P\\\"?w]n\\\"^\\\"\\\"S\\\"prI\\\"9LT\\\"y,$\\\"R=^,}\\\"%6l\\\"4Y0\\\"x<^]\\\"$L<{A1\\\"P}Kk\\\"TA{_!\\\"g#A\\\"f\\\"{a/_ K;@mG</Bc J},Xpx&xR*(*Vb?w^?zK<^{~$]@@.Qb7[%D&:]RQ5oms@YQzxT>#^!AXW=xswKg/a;c7P|p$gHNY,[G&kPG1r>p|0pPUa2P,M@fM`*(N%z),v8-[f[U~wE.;H1v;Co;nR1g@g@RZ7.Sf=r_MT@7 !K9SfR?aoHbQ%|O9c,O^QDbydF7$$/\\\"h\\\"zk$\\\"l\\\"q\\\"K.n\\\"5iH\\\";\\\"}0(Q{nIaS/R`\\\"L\\\"`Fpe\\\"/wi1+y\\\"?V(o\\\"W\\\"Mu7w`9l!w\\\"~\\\"Zc+d\\\"[\\\"yq3=O$s_BB\\\"u>Hl\\\"2\\\"x#76LQZ\\\"?\\\"|s \\\"EdTD0^\\\"*,%?\\\") T\\\"dZf\\\"FKjP]HsA#.+j+~f`H~03&{fADX-cpb}t[0W[qv#bKccBj\\\"F[A\\\"LB(\\\"5Yy(g7C(\\\"Ov+\\\"6\\\"BT!m\\\",\\\"+BDC\\\"b2O:=0\\\"lL2r\\\"$\\\"sWiK.\\\"0F%\\\"u;|Ot\\\"3\\\"D\\\"GLA\\\"_i;\\\"?=<\\\"oBS\\\"u4=P9vHP\\\"w#y\\\"a\\\"/<<L.!;ZQ?\\\"M7>\\\"=Z0\\\"4zn^#d\\\"*OX \\\"]f&*6#]4I\\\"3HF+\\\"[\\\"6|0<XvGOn>$5Cp.LX*<:aQv*I|g^PUbj{v}tU4RdT\\\">fb\\\"Brz\\\")!yrE9\\\"{az_\\\"~\\\"?\\\":bz\\\"!M{\\\"A\\\")|Jj2hiZ_a;amINrYw8&{gAuC^ds}!35:xa9Tw+M#\\\"@sJg=\\\";\\\"KHI%\\\"D\\\"0/m-547X0\\\"wPy\\\"`cz\\\"fk!\\\"fH \\\"G$\\\"N7t&\\\"4k~/ZxP,^\\\"d9[b?\\\" \\\"hP:77{Pojf{u+B=p.K+\\\"\\\"MLq\\\"qOk\\\"<\\\"?Y9mkS\\\"F\\\"(K|_\\\"O\\\"?)Lg?-V(]FyAcW,pOGgYialfm+$,Rf<xm1o\\\"r\\\"3Bo\\\"1 %\\\"s\\\"1\\\">\\\"fpi\\\"]\\\"Yz^sr5Z ;o9Y85\\\"2\\\"K+PQ\\\"0G?\\\"cd-\\\"ref\\\"9O8\\\"\"}"
+    },
+    {
+      "kind": "response",
+      "phase": "open-inventory",
+      "resourceType": "xhr",
+      "method": "POST",
+      "url": "https://www.gu-global.com/y9_eQVIMIK/v7hK-LbHBX/b2f1QmYSz7/Jz8dGX0/e1Y/2HmNhEil5",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "kind": "response",
+      "phase": "open-inventory",
+      "resourceType": "xhr",
+      "method": "POST",
+      "url": "https://www.gu-global.com/y9_eQVIMIK/v7hK-LbHBX/aGf1QmwrbbtVJm3i/OWQXGX0/W09/cUDpIVGMB",
+      "status": 201,
+      "contentType": "application/json"
+    },
+    {
+      "kind": "request",
+      "phase": "open-inventory",
+      "resourceType": "xhr",
+      "method": "POST",
+      "url": "https://www.gu-global.com/y9_eQVIMIK/v7hK-LbHBX/aGf1QmwrbbtVJm3i/OWQXGX0/W09/cUDpIVGMB",
+      "postData": "{\"sensor_data\":\"3;0;1;0;3555906;mhxUGRol1DL6sGLKKLQOzBwX+lel36APlgWEuqj23fk=;7,33,0,0,2,186;.j IFg\\\"K`?f-FrtmM#64m*yPAzmI#O~%3!PXQzDm@*\\\"{\\\"C<R\\\":BD\\\")&T\\\"W\\\"2s9}\\\"4\\\"-GS\\\"bBeV#Gp4\\\"A(i\\\"Z2eZ3&ok\\\"4P+\\\"*\\\"_\\\"`Fc\\\"kSw\\\"R,3?\\\"e<S:\\\"bM@ry]1/}0L]\\\"ByZ}\\\"H\\\"&~XFtiJU-BqdaO`:ZLN\\\"8eunmE@#H?(3]<jQv\\\"I\\\";aY\\\"Z\\\"SW\\\"DT \\\"+LM\\\"7C2_R80e*te%Wmd3bP3:7L<{9J(uB&..[$iH\\\"~,e\\\";d/\\\"4-T\\\"b@]\\\"B=VV]E;h\\\"3<o\\\"Mzsk[\\\"4}|\\\"5\\\"UMy,p\\\"<eg\\\"~3z\\\"&\\\"fqGl\\\"6C5\\\"y3p\\\"b2:G3kcZrbAB\\\"b yo\\\"U_mxdLG{e!\\\"WGP\\\"&\\\"H\\\"WeY\\\"vBL\\\"WvmW9ITn4]/\\\"qe&lcb#e`2M$J!,Mc?S+g]/x7ht9B$;Dyp#ueXT[>4]v\\\"^\\\"m7h\\\"3BSks\\\"GW/\\\"%\\\"z>>\\\"m\\\"x9-o\\\"b\\\"6\\\"Q\\\"/-L0\\\"1\\\"H.-N(p\\\"e\\\"`yC\\\"D\\\"J8#L#wd\\\":\\\"vQ$\\\"_1\\\"JK9\\\"~ni\\\"^\\\"6ho\\\"C\\\"6J{C\\\"N]x\\\"]d9(\\\"+CmmT7S\\\"@a]\\\"t\\\")d!Qc:]Ke^pF%UIfj?#a\\\"M@I>>\\\"oE\\\"#~F~\\\"V\\\"T\\\"Na]\\\"<&X\\\"U\\\"(f%J^:F,)\\\"O\\\")hN~\\\"t07\\\"LFT\\\"^\\\"bA7yw\\\"<\\\"!SeH\\\"?2XVE_v:&9hq%[h6M-fiTN2;}o<xv^g_Vh?stE-b=h\\\"<\\\",=Kk\\\"$9]WNP1cQG\\\"WL<K\\\"a~yM?mY&Z~:|v1A-R\\\"$6:\\\"T!gCaI\\\"mOpG\\\"q|vO@1\\\"iGFA\\\",\\\"f/%5;P6`<GDo\\\"`\\\"%}a[\\\"<MNza7\\\"J[5I\\\"0\\\"0?6Zx0v,Zg[]$y4mmL%87tJSgr}C!G<A2)#<@K,->r|fj[E;GzS%ujNr<JN+QP\\\"{\\\"u5K\\\"0\\\"xD$(CdC.v kzp\\\"a\\\"j3L\\\"_,/-C0ej\\\".=\\\"c1n$)\\\"/)oz\\\"H\\\"}#xN.c\\\"R\\\"%*2\\\"`%5\\\">7D+g#4QA2\\\"xq8\\\"y;IsX-\\\"yx-7\\\"m\\\"I|1QYcJ?RzW:55IPlh|%s^Ib1lfrtAb8NyBoy)qe&F>z(uBFed.1;~d7YG5OP&H%G~Kt~@/.XseHc^{/^u2;>2,Lsj]/6o5j7{L}0Q6Go?,s=;[mG[+.=+9^+(!Ld8^G%m0f,PECqHB:]g4U,A_u79)R1E@T#^4wJBbRs@AD)R[Yw!XjZk<Tsw}a;7Fo9wL<-rB.U!%4kTKP#:p6tHr0HWoH!0Cf;!Z`;.u^0Tp*b7AY%:yF3X7V0.0!fr%p8-u_GJ2qM.FX=%3Iu?%X7_Oz\\\"G\\\", 2\\\"U\\\"\\\"_\\\"-0\\\"6mB>dy[to^v\\\"xpW2\\\"m\\\"%wn(A#]_OLGT6:u]z88);`>eY>}_L(`z:.)QjZ\\\":\\\"to&\\\"H)y7aW6lr\\\"%}`JQ\\\"/=k* :\\\"y%rt\\\"*\\\"3|0\\\"e\\\"<1@\\\"N\\\"KmWK5bx4\\\"<\\\"-sE>\\\">1E\\\"N8f\\\"d\\\"Xh\\\"-U:\\\"jFPP\\\"T\\\"\\\"9\\\"(V0\\\"EIW],T^TLJlOMY香港標準時間9\\\";\\\"XA#,\\\"~EX<VS!,\\\"F^d\\\"_\\\"e<q7=|$DcIaBC=]e-RU$$C[*:$#v@L0`^!*X;5@\\\"C0X\\\"s\\\"\\\"8\\\"v`n\\\"bf-3!<bdiQ>U`X+\\\"l4x=\\\"(\\\"\\\"ODV\\\"T/V\\\"F\\\"R$I&v\\\"kdI\\\"zhJRq\\\"FSU!n\\\"?9gx\\\".\\\"Hw\\\"h._\\\"BMZc\\\"=\\\"\\\"*{L\\\"`%-\\\" N\\\"OfVea\\\"@F\\\"-!a%\\\"x0}f@a\\\"=P~\\\"TP0Xays3/\\\"3g|6w<UWa1\\\"i\\\"\\\"ozt\\\"F4\\\"r\\\"&hx$<V5d2m74 + )PHsN3bVH9LuK/$oikg^U8v8JK\\\"G!A\\\"TGq\\\"c Lv{C\\\"Ows6\\\"6RyFn\\\"E?u\\\"G\\\"K\\\"7.f\\\"5*R\\\"G\\\"f`a^w\\\"{Ht\\\"q;0\\\"5\\\"n#k~-g0+efKJ2&w\\\"9\\\" +<P\\\"C\\\"J5mEn<\\\"d\\\"~VuM\\\"$0O\\\",lo\\\"SYw\\\"4OT\\\"(\\\"\\\"sT8\\\"4:Z\\\"f\\\"9x[RHFBD0/l@m &q8I*]B-hVOpBc6 q8U\\\"!\\\"MZ[\\\"+HN\\\"Wcr\\\"Pd9ud\\\",_q>\\\"`\\\"7W4E@|w6XLjH_v<b@%N;aN/,b-r6F!MnTWV\\\"\\\"M\\\"<c_\\\"A;.\\\"+W\\\"5\\\"9Q1%6ZwwO6B:A9\\\"g\\\"@im1\\\"i\\\"\\\"K^u\\\"Hb/\\\"%`dOaRS%1M\\\"}}tF\\\"evx,]4@40:`?@X香港標準時間^\\\"`\\\"0#h~\\\"rL4?W\\\"~=g\\\"K\\\"\\\",\\\"fuV\\\"T\\\"j)IKhZRE0mT@\\\"~\\\",a8U\\\"8\\\"\\\"a\\\"m4K\\\"10):CZe^jZ\\\"g3IL\\\"eZ.Cn)NTUUnBJ[\\\"Z,2?GZ0\\\"pKQ6!P|\\\"JO\\\"_ ^zW]HA\\\"*=Q\\\"?s-/Qbt1D\\\"H*&\\\":\\\"6QZp paRc\\\",VA\\\"b.o\\\"ODo}Fc(-bva@t2 M^B[P{f}yU,mvR)60Kd|F\\\"&\\\"R|%w\\\",,z\\\"HvK\\\"E\\\"N\\\"Bup\\\"<n{\\\"Yg0R\\\"2g}\\\"a\\\"4`js>YM\\\"n\\\"(y]+\\\"a\\\"\\\"x\\\"WuK\\\"j?M.8\\\"Y_D%\\\"b!Nu!y.3hK4\\\"f&iQ\\\"i\\\"H\\\"@;H\\\"?ao\\\"+\\\"4sH`#xE3%S8%ak\\\"+\\\"y>j5\\\"S(N@R\\\".2x\\\"R\\\"Fxc\\\"L\\\"x% L\\\"W\\\"\\\"2\\\":|=\\\"4|T@`}JI\\\"wL\\\"e\\\"(`~<A\\\"h\\\"oMrd\\\"{bCn_[\\\"srP8\\\"k\\\"\\\"Y/j\\\"1-J\\\"fL@7h\\\"N6Ia\\\".SO%$IRq\\\"p(v\\\"#\\\",dng z+~*v\\\"t[A\\\"e{w\\\"gE4*n\\\"%?\\\"H\\\",srTY_l9UO_;;8=@UnW_MM<S2L2MCp*q=o+Qh[xG\\\"Lxzm\\\"+o\\\";Z%:l+j1/|\\\"q\\\"IU-Tg-}%>\\\"o\\\"~7=g\\\"h`@\\\"K*4\\\"mfrX},Tq#gtC\\\"iG=vC^Dr}U\\\",nQ#};\\\".WWp\\\"i3yp6roN`:,Z}9I#>}wT:0uv`GW=`I:55iki@Air&Bh:z,Qku_tk.97f$H8-^8(<P.&;_T>ZcDQ=\\\" \\\"__$\\\",\\\";tzPs[j75ReZ9L;7\\\"J\\\"X6S\\\".?a3Nz\\\"TFlc\\\"s5)\\\"L^1\\\"xeI\\\"35|\\\"-Ukc&\\\",U\\\"e[S\\\"?_Qs\\\"J\\\"4BtxB06c:8\\\"PpD\\\"_(!\\\"T\\\"0\\\"(h3\\\"zHO\\\"h2]-8cI_)\\\"RS\\\"{N#Y-{,\\\"DjaG)N*FT\\\" R&\\\"!}Q\\\"$\\\"W)/g@1XnNu)p\\\"f\\\"abIW\\\"6B(J*[4X 3:xei,KNq\\\"2rt\\\"s;u-\\\"\\\"a\\\"mAY\\\":\\\"J+\\\"s\\\"! z3\\\"*S5 #\\\"W=<\\\"}V.\\\"[c+]\\\"7^L\\\"K G\\\"D\\\"[|\\\"5\\\"PSXQ\\\"LQfWg\\\"pT\\\"j\\\"dO/,\\\"D\\\"5l4,\\\"N\\\"M&+z\\\"p\\\"f}`O\\\";\\\"u!b[0\\\"?\\\"gzT;\\\"%\\\"Eq2!4{\\\"x8TK\\\"Ap\\\"[Q^\\\"l\\\" gWWE2o\\\"&\\\"72h.\\\"4\\\".\\\"M\\\"=S/\\\"$OR$R-?\\\"znrWa@~O $2c//s4.X[~\\\"~\\\"N.]\\\";j/\\\"GQ@D\\\"k\\\";d?IO9mlbn$:Qo\\\"%~s\\\"&0@\\\"n\\\"GZGYWcIA\\\"C`i\\\"xru\\\"c)8PPb83qVUpJ\\\"hh,\\\"H\\\"I\\\"-OD\"}"
+    },
+    {
+      "kind": "response",
+      "phase": "open-inventory",
+      "resourceType": "xhr",
+      "method": "POST",
+      "url": "https://www.gu-global.com/y9_eQVIMIK/v7hK-LbHBX/aGf1QmwrbbtVJm3i/OWQXGX0/W09/cUDpIVGMB",
+      "status": 201,
+      "contentType": "application/json"
+    },
+    {
+      "kind": "request",
+      "phase": "open-inventory",
+      "resourceType": "xhr",
+      "method": "POST",
+      "url": "https://www.gu-global.com/y9_eQVIMIK/v7hK-LbHBX/aGf1QmwrbbtVJm3i/OWQXGX0/W09/cUDpIVGMB",
+      "postData": "{\"sensor_data\":\"3;0;1;0;3555906;mhxUGRol1DL6sGLKKLQOzBwX+lel36APlgWEuqj23fk=;6,33,0,0,1,186;\\\"o7FD]\\\"G\\\"(f7H\\\"~\\\"P\\\"6\\\"Q.yG\\\"+\\\"K\\\"?~q\\\"b..\\\"*Gm\\\"b=$B\\\"o\\\"R.B:yl>ph\\\"H\\\"S8{(\\\"$\\\"\\\"k\\\"=u9\\\"(WdB;\\\"zf \\\";bY:3[X+XDTq}m_7l\\\"I.7>w0H0]v\\\",<M\\\"L+~\\\"=eu\\\"&u,\\\"k\\\"auSvc:.]Js\\\"R}_\\\"toh\\\"k\\\"YFdGG&h)I95MqE\\\"WC$\\\"To`\\\"RL?Lr^T*.S/B6-ebMIHH,zhZApf..>r-WDIfGMgn{|%C[@7|?Koo8UR{}DoMD^xU.*-X1$ew#A8V\\\"V\\\" Q2\\\"a+C\\\"aXE\\\"na98H\\\"{s_$\\\";\\\"L\\\"i:$\\\"{{[\\\"l\\\"Ha`BGCFDJ*\\\"G, \\\"uEF\\\"wr5Pb\\\"pt Q\\\"iqAPTq\\\"f(\\\"{\\\"W= 5\\\"4\\\"i\\\"r.T\\\"!7L\\\",\\\"?\\\"b{w/\\\"5\\\",B9\\\"{dD\\\";]LGK.\\\"f2p~\\\"OO,(-\\\"#Oh\\\"G\\\"][!v}e\\\"W\\\"D::\\\"A\\\"\\\"?\\\"#;W\\\"t`qF%\\\"ZP@\\\"i?t\\\"}XQ\\\"b\\\"\\\"N\\\"s1o\\\"8\\\"jp\\\".\\\"3!fe\\\"u\\\"\\\"g\\\"kt4\\\"2PusU\\\"{J\\\"(N.Z6+V=\\\"f%q\\\"OSe,M\\\"xx\\\"Z\\\"ISqEz[;[8hdx;yj@\\\"7\\\"PDa\\\"W\\\"`6w.q9,uYmG!D(Y5ts@x6lfo< n\\\",+e\\\"+\\\":9W48`j%!\\\"QKs\\\"5re\\\"09MM#&\\\"{SyJ\\\"TyE\\\"e%!\\\"fn{\\\"]J&\\\"%\\\"ZHq\\\"N\\\",):8\\\"(\\\"/r9!\\\"f\\\"pkUb\\\"Y\\\"#*#lz\\\"^8e\\\"1gT\\\"<\\\"4~M1hHkAIfO@JlG{neeW\\\"-\\\"81<\\\"v\\\"\\\"xRk\\\"+nR\\\".Xrk^D2\\\"\\\"a\\\"!@+\\\"T\\\" \\\"rI2\\\"6D{\\\"qB4zf<#sC1\\\"9SW\\\"^\\\"#20!82L{<9D}&N5/r\\\"i\\\"tZ~\\\"o]*) X6%F9O4P~\\\"5ZN\\\"W[\\\"_ZxLV&2Kw?\\\" Cq\\\"75@\\\",9$Es\\\"7e}m\\\"0ybfN8:$\\\"G#\\\"ywWzza{v\\\"3Xa\\\"|xD^-Lh3.c\\\"KQN\\\"o<o:Fk\\\"l.,@\\\"s}BG\\\"<X3%\\\"E\\\"I\\\"v:v\\\" +u\\\"vHH[?\\\"yr*\\\"&\\\"GJ1K]\\\"_\\\"obHF\\\"I?O>P;lubm&%t\\\"r)\\\"@\\\"!,RUZG;VmO;50IHar!|tYA_$pXvxH[4KyEy\\\"!\\\"I`*\\\"~&z;Ihhy,$\\\"K| !\\\"W\\\" @}?$>p\\\"@\\\"pU{p\\\"bYo*O\\\"px!y\\\"M9\\\"G^*|K\\\"a{\\\"^*K?\\\"p\\\"hWxrEz&8an5\\\"wX& \\\"M\\\"2bFzd5i,\\\".C]\\\"{u3\\\"B\\\"}:\\\"c*{\\\"6fk{\\\"-\\\"JN*(PC[BAw)M\\\"J\\\"jUrZ\\\"EOs\\\"ZAj\\\"Jm3$VCom0\\\".jbfk\\\"Y\\\"\\\"0\\\"zU$\\\">\\\"\\\"SCm\\\"wI \\\"c\\\"A4xX*^m(_;DXg:{93a-Q#4=$ln1i1#seIJ,v\\\"~\\\"-z]\\\"S\\\"6xT7gRrIGrZ@VjL*!dVTSE0pNd0tXn#c/eA<zU&gm.zx-<1e^OQG]56zk|89)CcHiYF)cL.e$:/.[rUE:0A9C6G*x1[^O{,dL6!wUM~f/S?@w? kut%q6|0!q;Zca4@9|uOG5<yY$<QLzJ3+=9ERqjy]Z9dcb9`P&*mypyPAkFFS+CS7ORlw3:[RHhUek2dZJI9<6;1wC( 2vJV8]m0:Yg) #P.Ca+^f<RGdQ]VT{Wa!l:K@]m>X${CAJ$j$A$dL<NM_c%vk:%>WA/1:Sc2S!?S`bPC_xXDB*GPfkwp kIn#qSvtE[.P~@]}$mWtA0g!l-8Zk+(*p[~8<,EVw=t5m4gy2y|5UNCVUnsAY\\\"q\\\"PDc\\\"V\\\"At(N!%7U1MhLK!FGVh`,F)+6[TnA.9W2ncohx4-46\\\"izm\\\"^Y;\\\"?\\\"u\\\"T93\\\".4a\\\"p\\\"\\\"6TY\\\"Vt\\\"{\\\"a[xA\\\"v\\\"wKy9\\\"?\\\"!\\\",9`\\\"<=k\\\";\\\"\\\"-+F\\\"Cn$\\\"0\\\"{x8N\\\"@(8\\\"tTR\\\"XEHKyN8~yNJ}p;qiT`\\\"3?k\\\"3Q9\\\"*6\\\";\\\"@PjjDpZhjMI({s)>X.Fp)d#m5=stt@YY0#`pOyvbZ>jl^<+U}jTi}U{i-<4/N.E`l]x:rR\\\"1B/\\\"xXE\\\"r5(u;T(`Aqh;\\\"D,Ec\\\" <WN-nsm\\\"lXM\\\"]p}+l\\\"6}[\\\"[\\\"&,[;Q*s\\\"C\\\"Dt{\\\"^zW\\\"D$#?\\\">\\\"a|m\\\"6\\\"`CM\\\")\\\"|loHw_Q`^yx-7\\\".\\\",Us\\\"k(h@S8Lv~TC!\\\"F`<q\\\"e\\\"g28[]qXc%`suV%u[eGXEO71`9:D*dWVrk6Auu:\\\".\\\"w-F\\\"q<PXXac3W\\\",>~Y;~Dv;A\\\"a\\\"6FJM\\\"m\\\"r[8\\\"RMVZ{=0c=2>N.n香港標準時間o\\\"N\\\"JE/S\\\"Y\\\"Kbt @MXvs}9`\\\"b\\\"@Y-D\\\"J|pG@\\\"9#\\\"1\\\"=3[/:\\\"<bX\\\".uH\\\"#Q\\\"mT!^\\\"bnH9;a\\\"{+5n,+L\\\"!\\\"<8C/\\\"x34e<=\\\"~_>p\\\"?<V\\\"~P(\\\"83\\\"RQ-\\\"9;Ftu:s=}VNYytve6cz90香港標準時間Y\\\"B\\\"n]o$\\\"~Oo(l\\\"KwY\\\"E$QE\\\"\\\"~\\\"<q\\\"2\\\"\\\"{% \\\"l|7\\\"_5mkwEMHd\\\".u\\\"c!A+*})\\\"*%>d_W?p#K2Z>w\\\"S\\\"8<$p\\\"U,i!h$1kKdf/O}L-\\\"-M_\\\"S\\\"o$\\\"]+p\\\"?+3\\\"&p#0L+zc.c\\\"T*l6\\\"o79Z(\\\"/?*O\\\"Q\\\"ruZ`S\\\"\\\"f\\\"s=J\\\"pQ+~O(Y{\\\">~\\\"pwV\\\"ylX\\\"0:Y\\\"c$U\\\"b\\\"#[2!`N\\\"n\\\"t<gW\\\"t\\\"<@E)<+/KU9z8d*b%Dso(^dDHnn6|KL$)jPx\\\"BYUiB\\\"R!M\\\".a+g]\\\"O$s_BB\\\"u>Gt\\\"2G\\\"ms7im\\\"v?\\\" ?M!\\\"0mb*7Q$qZyh\\\"eX0#\\\"-\\\"AInXp>j>w\\\"%\\\"k!jk\\\"qYcL:g86ob8LC{&EUs&<7:Ta9DyBFA_ThemN\\\"&\\\"V(kI\\\"DAVr#l\\\"*?U!\\\",nQ#};\\\".WSq\\\"i\\\"R*P,rH~q\\\"x\\\"JwGG\\\"B\\\"W1x_^_q-Jy^T\\\"1\\\"yYJ<\\\"J\\\"\\\"Kx?\\\"b $\\\"3L_\\\"ws{\\\"a\\\"Nq!B?lrPTFL`;R:E%P)1Ev{3\\\"B})2O_8\\\"+~0fQkf\\\";:pe(\\\"}\\\"_Ts#\\\"y\\\"bc\\\"Xc)\\\"XS/=\\\"o\\\"Y+9m%E7YhM?JhWwssJ{~;|^iWl{R HEVEt_MHW3)w|ws\\\"b\\\"jxR\\\"M;_\\\"}=u+\\\"B]^cDtxnI_\\\"lP4y\\\"a\\\"dR_OMWkNav;~0D0Q_O_ 26Va<rnHQgP Az}fNRa7~a/_`d%Trm!CKj>VJ)3vlO\\\"3\\\"Xs]\\\"&.^tj2q9%A\\\"`r][\\\"N\\\"S\\\" \\\"Og@\\\"6t/D7n*0\\\"yp8\\\"0sAxn6}\\\"wF:\\\"u\\\"u,J{)T/xJ* 9WVbO1xt#Y7U~swJ&P$6kf]/ad9+^\\\"l+Lf\\\"|\\\"\\\"B\\\"Y)~\\\"%jx~V0\\\"wp=\\\"]NM;.2oh\\\"(G&\\\"$\\\"aL6\\\"b\\\"3QH)\\\"Mhrj-M\\\"Jj_[\\\"YWU$D5uc|@#5vzNv!)`-,q!A+7LBd]wI)./g\\\"{\\\"WYqc\\\"N\\\"w}  3~KADNS-JP\\\"~\\\"C=WV\\\"n\\\"q[BZScEAsT`|Y;_\\\"K\\\"l=lt\\\"8jR-Dp\\\"s0$-\\\"HLE\\\"!!W$\\\"y aRy)^QG\\\"S&BtZ*bz!%\\\"ket\\\"zng\\\"h\\\"N+p_S6bLc\\\"-bc\\\"U=W\\\",lqx&*Qbs|%^Ut$tZ\\\"b,_\\\"#\\\"wFU\\\"L\\\"_?6o\\\"*FTr\\\"*-6\\\"AX\\\"ajt\\\"HeS\\\"\"}"
+    },
+    {
+      "kind": "response",
+      "phase": "open-inventory",
+      "resourceType": "xhr",
+      "method": "POST",
+      "url": "https://www.gu-global.com/y9_eQVIMIK/v7hK-LbHBX/aGf1QmwrbbtVJm3i/OWQXGX0/W09/cUDpIVGMB",
+      "status": 201,
+      "contentType": "application/json"
+    },
+    {
+      "kind": "request",
+      "phase": "open-inventory",
+      "resourceType": "xhr",
+      "method": "POST",
+      "url": "https://www.gu-global.com/y9_eQVIMIK/v7hK-LbHBX/aGf1QmwrbbtVJm3i/OWQXGX0/W09/cUDpIVGMB",
+      "postData": "{\"sensor_data\":\"3;0;1;0;3555906;mhxUGRol1DL6sGLKKLQOzBwX+lel36APlgWEuqj23fk=;6,33,0,0,1,186;\\\"o7FD]\\\"G\\\"(f7H\\\"~\\\"P\\\"6\\\"Q.yG\\\"+\\\"K\\\"?~q\\\"b..\\\"*Gm\\\"b=$B\\\"o\\\"R.B:yl>ph\\\"H\\\"S8{(\\\"$\\\"\\\"k\\\"=u9\\\"(WdB;\\\"zf \\\";bY:3[X+XDTq}m_7l\\\"}.5=tYH^]v\\\",<M\\\"L+~\\\"=eu\\\"&u,\\\"k\\\"auSvc:.]Js\\\"R}_\\\"toh\\\"k\\\"YF_FK%b(N<5KkL\\\"WC$\\\"To`\\\"RL?Lr^T*.S/B6-ebMIHH,zhZApf..>r-WDIfGMgn{|%C[@7|?Koo8UR{}DoMD^xU.*-X1$ew#A8V\\\"V\\\" Q2\\\"a+C\\\"aXE\\\"na98H\\\"{s_$\\\";\\\"L\\\"i:$\\\"{{[\\\"l\\\"Ha`BGCFDJ*\\\"G, \\\"uEF\\\"wr5Pb\\\"pt Q\\\"iqAPTq\\\"f(\\\"{\\\"W= 5\\\"4\\\"i\\\"r.T\\\"!7L\\\",\\\"?\\\"b{w/\\\"5\\\",B9\\\"{dD\\\";]LGK.\\\"f2p~\\\"OO,(-\\\"#Oh\\\"G\\\"][!v}e\\\"W\\\"D::\\\"A\\\"\\\"?\\\"#;W\\\"t`qF%\\\"ZP@\\\"i?t\\\"}XQ\\\"b\\\"\\\"N\\\"s1o\\\"8\\\"jp\\\".\\\"3!fe\\\"u\\\"\\\"g\\\"kt4\\\"2PusU\\\"{J\\\"(N.Z6+V=\\\"f%q\\\"OSe,M\\\"xx\\\"Z\\\"ISqEz[;[8hdx;yj@\\\"7\\\"PDa\\\"W\\\"`6w.q9,uYmG!D(Y5ts@x6lfo< n\\\",+e\\\"+\\\":9W48`j%!\\\"QKs\\\"5re\\\"09MM#&\\\"{SyJ\\\"TyE\\\"e%!\\\"fn{\\\"]J&\\\"%\\\"ZHq\\\"N\\\",):8\\\"(\\\"/r9!\\\"f\\\"pkUb\\\"Y\\\"#*#lz\\\"^8e\\\"1gT\\\"<\\\"4~M1hHkAIfO@JlG{neeW\\\"-\\\"81<\\\"v\\\"\\\"xRk\\\"+nR\\\".Xrk^D2\\\"\\\"a\\\"!@+\\\"T\\\" \\\"rI2\\\"6D{\\\"qB4zf<#sC1\\\"9SW\\\"^\\\"#20!82L{<9D}&N5/r\\\"i\\\"tZ~\\\"o]*) X6%F9O4P~\\\"5ZN\\\"W[\\\"]^~L(Z/xw?\\\" Cq\\\"75@\\\",9$Es\\\"7e}m\\\"0z^jG8:$\\\"G#\\\"ywWzza{v\\\"3Xa\\\"|xD^-Lh3.c\\\"KQN\\\"o<o:Fk\\\"l.,@\\\"s}BG\\\"<X3%\\\"E\\\"I\\\"v:v\\\" +u\\\"vHH[?\\\"yr*\\\"&\\\"GJ1K]\\\"_\\\"obHF\\\"I?O>P;lubm&%t\\\"r)\\\"@\\\"!,RUZG;VmO;50IHar!|tYA_$pXvxH[4KyEy\\\"!\\\"I`*\\\"~&}=Dfiy,$\\\"K| !\\\"W\\\" @}?$>p\\\"@\\\"pU{p\\\"bYo*O\\\"px!y\\\"M9\\\"G^*|K\\\"a{\\\"^*K?\\\"p\\\"hWxrEz&8an5\\\"wX& \\\"M\\\"2bFzd5i,\\\".C]\\\"{u3\\\"B\\\"}:\\\"c*{\\\"6fk{\\\"-\\\"JN*(PC[BAw)M\\\"J\\\"jUrZ\\\"EOs\\\"ZAj\\\"Ji1|RDom0\\\".jbfk\\\"Y\\\"\\\"0\\\"zU$\\\">\\\"\\\"SCm\\\"wI \\\"c\\\"A-v_-as(_;DXg:!93f-O#59 dn1i1#sfIJ,v\\\"~\\\"-z]\\\"S\\\"6xT7gRrIGrZ@VjL*!dVTSE0pNd0tXn#c/eA<zU&gm.zx-<1e^OQG]56zk|89)CcHiYF)cL.e$:/.[rUE:0A9C6G*x1[^O{,dL6!wUM~f/S?@w? kut%q6|0!q;Zca4@9|uOG5<yY$<QLzJ3+=9ERqjy]Z9dcb9`P&*mypyPAkFFS+CS7ORlw3:[RHhUek2dZJI9<6;1wC( 2vJV8]m0:Yg) #P.Ca+^f<RGdQ]VT{Wa!l:K@]m>X${CAJ$j$A$dL<NM_c%vk:%>WA/1:Sc2S!?S`bPC_xXDB*GPfkwp kIn#qSvtE[.P~@]}$mWtA0g!l-8Zk+(*p[~8<,EVw=t5m4gy2y|5UNCVUnsAYu}|~_5_QNbxLpC,f&Vk0&wMojOn{HJ~6_ay|l8ZY`~3t0~S:]C_u(+Ut}e+@juJh9Mb[_,cog&N(^9rlK\\\"3\\\"1Ps\\\"&\\\"p}R?Mh>+F}xO.,BY7lYe92Tx`o:$~DrB0y&&&&{yj\\\"cJ+\\\".^{\\\"$\\\"K\\\"jc+\\\"S]7\\\"f\\\"\\\"<UM\\\"IQ\\\"5\\\"E#x!\\\"b\\\"mjjP\\\"@\\\"K\\\"-I*\\\"z.c\\\"(\\\"\\\"]A[\\\"->1\\\"`\\\"N {i\\\"<N$\\\"2/@\\\"t[r!T$nA/]Lz_bz]+o\\\"K*0\\\"PA?\\\"gE\\\"r\\\"?V )a6m!qKFY>,.w!-q#efbqf4&KgV{ qgPdN|tQEyB7r3ivxGkb@G7T@!2K$qB}33e%eD\\\"g~Y\\\"+Oy\\\"zqRviXge$h-$\\\"lo.V\\\"5b+r[B30\\\"yP8\\\"caO5X\\\".?L\\\"F\\\"XvW^%cn\\\"U\\\"[5;\\\"bu@\\\"p7%u\\\"8\\\"]V}\\\"6\\\"QP \\\"<\\\"?Ja6hjOXYac`[\\\"}\\\"Y^L\\\"NCfV<W.o)(%,\\\"fA$Y\\\"R\\\"Jj`zjd:+:K=r $B^5Kw*OZaE)McK!+$26QWojn\\\"/\\\"ED0\\\"dV=n@o!xN\\\")Vw,xX1_EQ\\\"V\\\"poXJ\\\"|\\\"7Tl\\\"+Y I&jxaV`w<&j香港標準時間O\\\"Z\\\"!n29\\\"J\\\"E%h=|C}Da$N|\\\"6\\\"+Cl$\\\"m0<:=y\\\"yf\\\"W\\\"/6L6!\\\"Rv5\\\"tD%\\\"94\\\"dFt/\\\"w}{Y$,\\\"$@b?uX;\\\"J\\\"8cge\\\"E?*?by\\\"Y}ku\\\"aT0\\\"BOz\\\"Vd\\\"9w]\\\"-ER,!SV!@l$w]$-J$tyO8香港標準時間h\\\"G\\\"R8i)\\\"qHIZt\\\"w&#\\\"Qh)6\\\"\\\"n\\\"iE\\\"/\\\"\\\"By~\\\".fp\\\"9{??g;bEs\\\" :\\\"S_6_yDK\\\"t-,p4>a*j|(.t1\\\";\\\"4*yL\\\"h0JFL@pw^GB.,q Y\\\",s)\\\"l\\\"n%\\\" |M\\\"iJ4\\\"E/UCj/|.HI\\\"/<3(\\\"&F[ZN\\\"}c;+\\\")\\\",f=nW\\\"\\\"s\\\"eMT\\\",#,-1e_r\\\"6&\\\"P6W\\\"%+c\\\"nrW\\\"uvR\\\"2\\\"{!;:PQ\\\"E\\\"R=EM\\\"E\\\"-G>=%!]{Bj|qPQ r.oX&NNceSE&R0i3rJOa\\\"y9t!|\\\"4Sx\\\"KGaZF\\\"}e!su_\\\"C`Jr\\\"a.\\\"O<lgm\\\"(m\\\"LGJ>\\\"y6AH_N}6_J{\\\"OEHB\\\"R\\\"Vf[P,E*M#\\\"q\\\"!R!B\\\"!FEM6u4GQNHJh#FJXPS6%7KZn uGnF{Rp17O\\\"$\\\"HO7@\\\"a7ng|8\\\"q&B_\\\"H;Ew/0\\\"iG~3\\\"3\\\"{iaEP$$V\\\"]\\\"d5~t\\\"f\\\"k;S4TClg %v$\\\"k\\\"JbSp\\\"E\\\"\\\"nRH\\\";6O\\\"XGh\\\"<RO\\\"-\\\"HqAIis3PNrfB]2Lf|K><g-3%\\\"Y2^TwxK\\\"p/0 PxM\\\"OC:vL\\\"(\\\"AYf>\\\" \\\"Jr\\\"uu9\\\"d,[;\\\"h\\\"VVpimT8uYMfs]2pVikCu,!OqA_Cvmu/$ *&A `#,Wd0%\\\"4\\\"4Mk\\\",zI\\\"}t`@\\\"|#:3f|5IpN\\\"V~p2\\\"6\\\",r4OS/+1A^bQ57Ym(l,r&f}8ZT.lFVc g#A^Doo_>/EwUN/W+a-/@qC%Xb0#P%\\\"+\\\"G&+\\\"+,!-t.)lV:\\\"e^g/\\\"M\\\"g\\\"B\\\"R;l\\\"%jt5Z2%{\\\"f{-\\\"R>+Jcvg\\\"<-|\\\"b\\\"cu[Ag,$G+ECy$VORsV)43`:H;*Ld$upZ3@A[4T^$\\\"o,t2\\\"Y\\\"\\\"f\\\"QO1\\\"53i!{R\\\"CVh\\\"NCgBI>0S\\\"GPd\\\"U\\\"|=$\\\"Y\\\":V7g\\\"O;.86^\\\"%wYm\\\"h;7<MX .~CbikjPfu]01{,zT#.{sb?x#tV^V\\\")\\\"hK]!\\\"C\\\"ieeMPi-A>I<yhi\\\"Y\\\"swhu\\\"W\\\"YR#>bvwmT#5!gk?\\\"$\\\"Dqy%\\\"XKzVK~\\\"<xZy\\\"#JQ\\\"6P|G\\\"vI ARr&mD\\\"njZSvB,g9g\\\"Ar6\\\"n!r\\\"c\\\"Bv2l*K5cw\\\"ykR\\\"MF.\\\"7r<~R7X?N~wkHu^Qc\\\"}Aw\\\"0\\\"M?<\\\"<\\\"-i)d\\\"0JAa\\\"Z| \\\"yI\\\".Yb\\\"=d9\\\"\"}"
+    },
+    {
+      "kind": "request",
+      "phase": "open-inventory",
+      "resourceType": "xhr",
+      "method": "POST",
+      "url": "https://www.gu-global.com/y9_eQVIMIK/v7hK-LbHBX/aGf1QmwrbbtVJm3i/OWQXGX0/W09/cUDpIVGMB",
+      "postData": "{\"sensor_data\":\"3;0;1;0;3555906;mhxUGRol1DL6sGLKKLQOzBwX+lel36APlgWEuqj23fk=;7,33,0,0,2,186;.jpIN\\\"R%Nh|S(Tu(m)}N+I7bc@]Zox}blUO[g@ Jh4$ct]hB+=\\\"D\\\"y}U\\\"W\\\"8k9$Vq^evU{?vm7`?KQ4?*jNM5iV>{We.YxW! ujNT2Lad= k}6s#rbq&n>3#x\\\"5\\\"]1k\\\"x\\\"\\\"X\\\"&VI\\\"8\\\"M\\\"D_o\\\"Ctn\\\"l\\\"\\\"U\\\"=+*\\\"ld.ukE\\\"*wlH\\\"!l%r~\\\"-uKg\\\"aPB\\\"<7)\\\">%K\\\"M@s\\\"7[D4$\\\"F|x&\\\"x05]P/9dG\\\";3i$D5?e[,\\\"u\\\"\\\"~,e\\\"/g;\\\"4\\\"wB0N[SCU_\\\"JQ-\\\"3!;\\\"Q\\\"{\\\"_jQ\\\"/ 5\\\"E\\\"v\\\">^?V\\\"z>5WB\\\"v\\\"GiJg\\\"P\\\"GBEN$-S00D.`]SirPTp$=39oKZzI}qdra&}\\\"k\\\"$Q{\\\"4ikh\\\"yK]\\\"WvmUCI[tR2r| \\\"!,2\\\"L)Z[p]oi].5\\\"y?_\\\"OO8bre@xidpC\\\"c~~{\\\"7\\\"ej_c\\\"AU}|lun\\\"kI\\\"}\\\"{y(#\\\"Hcm\\\"x8)u\\\"bM2\\\";z/\\\"V.Ko4G<-N+iMeX\\\"{@\\\"D\\\"elZ.g\\\"W&,\\\"}V(\\\"_\\\"sA6.eJ\\\"+ETu0aj4\\\"JL7\\\"z{!\\\")\\\"T:pZ{Tu?=DeBt7Rk8lrl/A[+MZTBPX?VNuo@1S0D[\\\"< n\\\"(.Q\\\"+G|2MQ[1`jrAjW,!T.|U\\\"1;U\\\"5\\\"8\\\"f?U\\\"`$@\\\"E\\\"6myi+`l`J\\\"gP.\\\"&76\\\"25-\\\"^Fa\\\"C!9pwzf>\\\"_5Z\\\"]N~7k\\\"tJc\\\"8zo.K\\\"Hxh\\\"IH%|AB\\\"-iJ#\\\"f<63m2\\\"1a|p\\\"~+`o,c^gT,Wv#p香港標準時間E\\\"O\\\"0B#l\\\"Wp\\\"<CD5$\\\"^m\\\"xy)K\\\"E,m\\\"1)+\\\"Z\\\"|olw`JKHUrd(nl5H\\\":\\\"~NN\\\"85\\\"lag\\\"?\\\"1/09k\\\"s\\\"3nP-\\\" X91ko\\\"On|F\\\"k\\\"Z\\\"k{%\\\"#]R\\\":c|\\\"[Q7\\\"O\\\"\\\"3\\\"MrO\\\"!\\\"}}r(1BXx{%ay7%(EdH6x.g*uqa^+`dlU\\\"*\\\"syI\\\"GKd\\\"0ye\\\"E\\\"\\\"C\\\"wa\\\"F\\\"@:lI\\\"[\\\"q73G\\\"&.\\\"Dj<sUkz13x\\\"<?;=BDec;~182f\\\"q,:\\\"S\\\"L15F21AyXi?7\\\"H\\\"L!$ \\\"O\\\"\\\"`XZ\\\"yHj\\\"*E^jr\\\"Fo&\\\"~&|@=MC^:=~\\\"v.+n\\\"_ 4y1\\\")Pg!\\\"7U|kEWRqE9Eht;8!Dkn[%.UFIvV}YrG;Ci50\\\"#.M\\\"1#[\\\"C\\\"1Y\\\"o!1\\\"r7{]\\\">7,A>Coy9\\\"]8?}SkcH]c\\\"`\\\":4X|c*sEAbQm:\\\"D\\\",*3\\\"1U^PT\\\"5]]a\\\"?=FU,i\\\"$iy\\\"<2l[le\\\"5O$;\\\"DpEi:RYlLo0/\\\"ob=1\\\"7\\\"\\\"%\\\"@^0\\\"NZyA~Q4L-;\\\"ribB\\\"4\\\".*\\\"M@<\\\"P}i\\\"a\\\"|-Iu6xT\\\"^\\\"TJOq\\\"J\\\"mP&{\\\"V\\\"+zn\\\"P\\\"+kXn ^+eA<\\\"C&P\\\"pMZ\\\"J([HTPPa;=#Ou*\\\"f$\\\"LeM9o\\\"8]\\\"+j\\\"w+kr`\\\"W8\\\"&:A%\\\"?\\\"TDy-oI@$tXI)e)\\\"3:[\\\"mI^\\\"*{.\\\"ib@\\\"i\\\"\\\"(\\\"zIC\\\"T56n\\\"f@NL\\\"M;$>]7\\\"A8d\\\"d\\\"\\\"V]+\\\"2Zl\\\"$uyKEn-96\\\"#6} P\\\"|\\\"]-34}75S6oKAH;F#?4}\\\"$\\\"~p2\\\"&8<\\\"H\\\"f\\\"n|B\\\"!0f\\\"i@Mw12k\\\"wsWe{b5J@]m9K{J\\\"6\\\"ho~B\\\"c\\\"\\\"N\\\"ED_\\\"s|dx6A\\\"m5_f\\\"R*DZ[mP@_t_@I(P7.b\\\"JU?\\\"s(_S^\\\"y(\\\"S}DetkdI\\\"qh@\\\"z\\\"=\\\"U!n\\\"N?e\\\"=#0Gd\\\"XcO\\\"lv1&v<XB6<\\\"V_q-\\\" \\\"\\\"_\\\"9#.\\\"{\\\"q\\\"pYm\\\"Ij_\\\"Nzn[Vr0\\\"]y^\\\"*tg!ZJ\\\"Yd\\\">\\\"DjXSz\\\"z\\\"3xxh\\\"?\\\"t\\\"a\\\"+aS_\\\"f\\\"cwF#^9u\\\"<\\\"zG?U\\\" ZUp)p\\\"U5g \\\"F\\\"vYY_\\\"C-]\\\"nrB\\\"o\\\"\\\"C\\\"I]U\\\"QWQ(J|C>e\\\"T>AH NhPA}\\\"&G$JW#\\\"+[o0\\\"3\\\"pJ}=532|]\\\"e<6\\\"s\\\"PJ\\\" \\\"k>R<\\\"AK~)w8\\\"CzVx\\\"rK7+X V$\\\"s2.h*w+7T;oJ^.\\\"d\\\"iXMw\\\"nCnWs3t L\\\"zIL5+t*hbT\\\"?\\\")S<}lIFdCb\\\"fq)\\\"3fe\\\",i\\\"dzcV\\\":\\\"{G\\\"9ud\\\"-`[E\\\"`\\\"=I.[s(})SV[XgOAR5=<\\\"?B$ btVmFMH!\\\"k\\\"[cUj\\\"*Xvsw.\\\"/~8,\\\"2mQ8jL\\\"\\\"f4!\\\"JEu\\\"u\\\"nq1\\\"Z\\\"Z[b-\\\"|\\\"Z~#\\\"`\\\"5~;\\\"?\\\"Zx5gF:.ut8Efqb13k1k<xNXAGak4j`UsJ`3hH\\\"!PC\\\"a\\\"1AIG0q\\\"=\\\"9KNP\\\"se$lf=!0fqK`cEc4Pv.SYf7C(K&]nq5;Z_ln\\\"J\\\"AkjM\\\"d-=zGw!;NV\\\"$Ec[\\\"c\\\"yzJ>^6kX=\\\"|\\\"Ix.Y\\\"d\\\"WmL\\\"b\\\"=xC8\\\"6/<Tr\\\"9%G&\\\"x\\\"fVo&gF^5c)s8A$|S/\\\"*\\\"yB`\\\"mm!)}{_\\\"wT\\\"gBW\\\"b:b\\\"&G4\\\"Its\\\"Pb#LxxXZ\\\"bN!\\\"6$M\\\")u`C\\\"XDYi~l\\\"~u_09j<\\\"RP&\\\"4,zB\\\"#\\\"gU {YK{[,H`Y< yyCl<i\\\"Y\\\"~`O\\\"hAWZ~R5q)$~gN7i!(gHZ_*9F,#2}En+J%u~0\\\"+\\\"EdVN\\\"&\\\"Cmws2\\\".c \\\"%kCzf\\\"S\\\"=)K_F|\\\"C\\\"xs[\\\"S7PsP=`S;S\\\"cJ0\\\"h\\\"K]G;goW>7$$}!mhC-Ip^Tr}[.#[J,nI-7]PHf4\\\"Z\\\"(<2\\\"V\\\";\\\"B\\\"7JX\\\".34[ZU\\\"if6U\\\"RE8#hjkNn&\\\"mUI[\\\"^2c$mW\\\"+D1)\\\"P\\\"7<A^,Pz|y\\\"6\\\"7_MG\\\"F@S};-]b?\\\"$w\\\")\\\"\\\"lNT\\\"`z\\\"*<T`~8:d=)#*V}香港標準時間V\\\"8\\\"$DY3\\\"ybx\\\"&.\\\"1\\\"SrC2HQ/rk(fW\\\"^\\\"4Q1`\\\"2gC\\\"w<T\\\"O\\\"\\\"4;<\\\"D_z\\\"OHEH8S?\\\"AHm\\\"3\\\"HRbSy1O=jtE2Bav<a,6NMnm65`V$;*AK){G\\\"o+]xVo19K=.L_Q4B@WR,&E@S6!DdT:]_?L1T1Ix.8.%KjXMTQx$Sez{5*p4^YSdyPfZ)_uVq$olGpfIjc@Iz!RdwmI|YWRq|Xwl>)M~Id`S0chJguKc,Jp#G<<cF@@]v`0pC=qQb10=qMJ3lrEY3]54XZnCkvzSuO*uL?(] __gO!x+?[6W>T:Ks}tYDVJ|VJofDJ|r>luwcEVc(@(P%Q/^w04wWq+^)qN]C=uo@{|0+p{/Uu]6yQ*O~.=z~:I+TH 9s%sf.o2B7z7I%D*_[&p7tz@; GU@okOaQc>GwgzJ(#Cf7jW 0YHuXr4&lEaK&&z}{*&#VSd1$4PjNsn?I}#V<Wupr1VK25$29^HP3)>z ~J^G}xSeM;kc,XRQ I?124NMogjT[!TRM!Q7|mfeVX?{H}+1[4,p<-PNxf-s!J}2:o/*erUjalF=b>BV5om]r)@Grw6~$_HVY3f`M[O_SiRHs[d{Y73DQ]$=ct122gVjzX88!6-CDLBE$X#|wWfR#5c~HY+\\\"5\\\".aa\\\"[QSaehz(\\\"pSC\\\":\\\"k}#\\\"R\\\"7)Bm\\\"(L@_u{\\\"Op!2\\\"iq\\\"kU<\\\"sKO\\\"6\\\",9R,v_7H* 7}mE\\\"y\\\"8v*A\\\"Y\\\"T9lLLebg9o7d27/=H!udbLot=k0slv7aI$n\\\"CM*,P\\\"<2A\\\" IV\\\"Kl^Qc\\\",?q\\\"0\\\"J@8b<:C\\\"{\\\"nY~\\\"oQr:@@_D/\\\"GU.\\\"=U*)@>WpYuV!M{OVLsO=|{*[#DL6YOi:k~msN_E*qqvT>bJ4wHQ7d*M?;I~wK2J6z7y9ag|dCgdK\\\"[\\\"xT`\\\"Y\\\"$g%ZH,gg\\\"3\\\"8zh0\\\"\"}"
+    },
+    {
+      "kind": "response",
+      "phase": "open-inventory",
+      "resourceType": "xhr",
+      "method": "POST",
+      "url": "https://www.gu-global.com/y9_eQVIMIK/v7hK-LbHBX/aGf1QmwrbbtVJm3i/OWQXGX0/W09/cUDpIVGMB",
+      "status": 201,
+      "contentType": "application/json"
+    },
+    {
+      "kind": "response",
+      "phase": "stock-query",
+      "resourceType": "xhr",
+      "method": "POST",
+      "url": "https://www.gu-global.com/y9_eQVIMIK/v7hK-LbHBX/aGf1QmwrbbtVJm3i/OWQXGX0/W09/cUDpIVGMB",
+      "status": 201,
+      "contentType": "application/json"
+    },
+    {
+      "kind": "request",
+      "phase": "stock-query",
+      "resourceType": "xhr",
+      "method": "POST",
+      "url": "https://www.gu-global.com/y9_eQVIMIK/v7hK-LbHBX/aGf1QmwrbbtVJm3i/OWQXGX0/W09/cUDpIVGMB",
+      "postData": "{\"sensor_data\":\"3;0;1;0;3555906;mhxUGRol1DL6sGLKKLQOzBwX+lel36APlgWEuqj23fk=;25,33,0,0,6,186;.jpIN\\\"R%Nh|S(Tu(m)}N+I7bc@]Zox}blUO[g@ Jh4$ct]hB+=\\\"D\\\"y}U\\\"W\\\"8k9$Vq^evU{?vm7`?KQ4?*jNM5iV>{We.YxW! ujNT2Lad= k}6s#rbq&n>3#x\\\"5\\\"]1k\\\"x\\\"\\\"X\\\"&VI\\\"8\\\"M\\\"D_o\\\"Ctn\\\"l\\\"\\\"U\\\"=+*\\\"ld.ukE\\\"*wlH\\\"!l%r~\\\"-uKg\\\"aPB\\\"<7)\\\">%K\\\"M@s\\\"7[D4$\\\"F|x&\\\"x05]P/9dG\\\";3i$D5?e[,\\\"u\\\"\\\"~,e\\\"/g;\\\"4\\\"wB0N[SCU_\\\"JQ-\\\"3!;\\\"Q\\\"{\\\"_jQ\\\"/ 5\\\"E\\\"v\\\">^?V\\\"z>5WB\\\"v\\\"GiJg\\\"P\\\"GBEN$-S00D.`]SirPTp$=39oKZzI}qdra&}\\\"k\\\"$Q{\\\"4ikh\\\"yK]\\\"WvmUCI[zT.r| \\\"!,2\\\"L)Z[p]oi].5\\\"y?_\\\"OO8bre@xidpC\\\"c~~{\\\"7\\\"ej_c\\\"AU}|lun\\\"kI\\\"}\\\"{y(#\\\"Hcm\\\"x8)u\\\"bM2\\\";z/\\\"V.Ko4G<-N+iMeX\\\"{@\\\"D\\\"elZ.g\\\"W&,\\\"}V(\\\"_\\\"sA6.eJ\\\"+ETu0aj4\\\"JL7\\\"z{!\\\")\\\"CgnX+#r=;1s<t.O%(?Cl/=`M,~1`3y|~&>Hejrog9a\\\"s|b\\\"/`r\\\"M}+VKZ3eftAeW0}RGpdq\\\">D,\\\":\\\"S\\\"3d8\\\"0Ed\\\"F\\\"z -=NILW-\\\"D<Y\\\"<C{\\\"?1X\\\"BpC\\\",7mw3YLL\\\"6j@\\\"X1+y[\\\"QW%\\\"&  Yv\\\"u[A\\\"r|(A$9\\\"ND~t\\\"f/<mr^\\\"FusY\\\"5V)d]V3O#`v2jg香港標準時間Y\\\"Q\\\"( g,\\\"NU\\\"U w Y\\\"@^\\\"_%JG\\\"hMa\\\";x3\\\"i\\\"+MN?/AMfrQEzIopB\\\"~\\\"JNE\\\"Q-\\\"rY&\\\"Y\\\"Ak{h>\\\"q\\\"SM.*\\\"$2:kQD\\\"SuJx\\\"b\\\"[\\\"o4!\\\"`V+\\\"A]L\\\"J<<\\\"R\\\"\\\"!\\\"|>W\\\"Y\\\"$v(,CXx %rx7%21iI.v r%tvac,[dx].\\\"~\\\"tD]\\\"UhR\\\"fim\\\"%\\\"\\\"$\\\"dt\\\"O\\\"7rHY\\\"M\\\"y/Ia\\\"JH\\\"fiJS9$,gtw\\\"I?OGS0l8~5H%tr\\\"7=k\\\"-\\\"r0?/*H[Z@h9L\\\"]\\\"f!ya\\\"i\\\"\\\"Lib\\\"6}}\\\"On^!c\\\"n(}\\\"0z<HaPebA,c\\\"1#}$\\\",Dm?p\\\"U`-i\\\"_xmJUYx}yG`p{5$ClnZ&-e &md|Pi39?k:.q\\\" [^\\\";Ui\\\"9\\\"U#\\\"t?H\\\"FxRF\\\"sVF:GkLj1\\\"hnSSj7sa_`\\\":\\\"8T!^/oI<gMq6;\\\"|\\\"5%R\\\"`nDc)\\\"][b@\\\"ECf}w=\\\"iZJ\\\"[eelGJ\\\"5 7q\\\"xAo4Q^gO&#=W\\\"X>=u\\\"}\\\"\\\"T\\\"T8p\\\"cz?wR9a~Is\\\"xPLP\\\"q\\\"$l\\\"4Jz\\\"!Z$\\\"K\\\"1Ey2|O<\\\"J\\\"/Lm^\\\"e\\\"P+vi\\\"M\\\"qfQ\\\"r\\\"sTr{b&i@8p\\\"x__\\\"`Iq\\\"2`Y>PGcAA ai8$\\\"wE\\\"o^-}P\\\"q7\\\"H^\\\"=HV]Y\\\"i/\\\"}>#u\\\"d\\\"Fn/nRC|wPJ,a)O\\\".j#\\\"WOR\\\" 9|\\\"[Oj\\\"d\\\"\\\"@\\\"XB+\\\">2wY\\\"%LIw\\\"A%7;u>\\\":TF\\\"8\\\"\\\"P9G\\\"i]W\\\"xyNHi?-Dm\\\"-~.&m\\\"A\\\"}})^aC;(gb1J9B81+|K\\\")\\\"d@>\\\"AE]\\\"g\\\"{\\\"pPw\\\"6Y=\\\"JQA2|GZ\\\"@]`!]:EEWr4Pv|t\\\"D\\\"Sz?(\\\"U\\\"\\\"F\\\"?bR\\\"H]#6# \\\"xWm1\\\",Ca_fQ@[ya?C3ILN5w\\\"U7(\\\"2oGlX\\\"2e\\\")Aex{WWe\\\"UKT\\\"6\\\"T\\\"t|y\\\"?d!\\\".@;r#\\\"pDi\\\" ,~v7WS*J>\\\"Z) R\\\"-\\\"\\\"*\\\",zN\\\"T\\\"H\\\"M{H\\\"hV[\\\"}oYof>8\\\"gIb\\\"}e8NXL\\\"uI\\\"*\\\"|68w7\\\"{\\\"^uh.\\\"r\\\"N\\\"9\\\"FS]2\\\"p\\\"/5(Y=qk\\\"m\\\"CDS$\\\"&Ny)R4\\\"xc%=\\\"G\\\"T`Z.\\\"~kP\\\"`>+\\\"D\\\"\\\" \\\"VTy\\\"6|-F!?o8o\\\"C@JyM9PHy{\\\"q{SWd`\\\"Ah5N\\\"[\\\"=+4i;Dpkk\\\"<h,\\\"o\\\"J7\\\"F\\\"!NA*\\\"R ;kF!\\\"yE$-\\\"U;QD4MXl\\\"^8p[^b8[C$&_5T\\\"7\\\">JzU\\\" ;]o7pR}=\\\"uK9-oY@3PJ\\\"W\\\"[8#hMBhB^.\\\"e7B\\\"o`^\\\"(w\\\"`aTt\\\"9\\\"Cd\\\"ir?\\\"ha3$\\\"4\\\"<xPSQ.nENrHiM=g&4;j\\\"%}x_m^OH$q$t\\\"H\\\"HQhc\\\"$o|wn(\\\"d12b\\\"vVNzuB\\\"\\\"TST\\\"I|I\\\"e\\\"o8<\\\"W\\\"Ab*f\\\"%\\\"%uh\\\"G\\\"&*|\\\"j\\\"V*xC:9In?Ctk1X3aJ@}sGU:NCmi5bN/W[orL@\\\"IRp\\\".\\\"AIG0q!\\\"{\\\"0ISP\\\"n~nk;*7@SMW_(`6Ow.RZeF|cB4[eh~9Vaqlm\\\"/\\\"PfN^\\\"5>x@{&MBe@\\\"D[S7\\\"i\\\"#HLWc5XEY\\\"s\\\"^*X%\\\"!\\\"mLS\\\"R\\\"]=<u\\\"9LH!!\\\"161y\\\":\\\"K ~^+%,q!jzV:wN$}\\\"A\\\"BR.\\\"9y2}jR1\\\"d$\\\"L[K\\\"Ka9\\\"Q8<\\\"tmk\\\"k Ix1Lij\\\"V*R\\\"+U^\\\"Z]>)\\\"E[|rzN\\\" a)F_5i\\\"/eF\\\"2iLH\\\"H\\\"U {YK#[%NY`< yyCf<iH\\\".\\\"PYT\\\"JS]%P<xae!_Jwf$&hHY`)H gx?|<etH w%.m\\\"~\\\"IRP&\\\"N\\\"T(YaK\\\"V0`\\\"bD)=8\\\"i\\\"0DaBvn\\\"L\\\"ndW\\\"=QmU:_l/b<\\\"Q}z\\\":\\\"XL:ctV:<#~$ imB)NkcSn$W2|aJ,nI-7]PCk/}\\\"T\\\"8+A\\\"Z\\\"z\\\"h\\\"9lm\\\"]-eZ8R\\\"K0SM\\\"#c)dng Mx~\\\"WCk7\\\"[[.m:X\\\"*.%j\\\"t\\\"C?l%}D|#4\\\"L\\\"DIGq\\\"IK(<%tUMO\\\" _\\\"G\\\"\\\"o($\\\"R,\\\"FKwX2308~,*ewx香港標準時間B\\\"c\\\"*W/i\\\"l|~\\\"6L\\\"E\\\"U>+EJ6Tm]1Yg\\\"k\\\"7+_x\\\"qGC\\\"@Jy\\\"z\\\"\\\"/Jn\\\"WmV\\\"KFFPGMU\\\"D{U\\\"V\\\"1Vev1Zod{C@<0@<VEi2Hgj/<BXYd,:e6w%J\\\"/W}Mp2<O02QcK5?9bW$.<AT1/7hY>V`<T0P&R~%@$&In_@XV||Tb$z1}x;W`JewRnM-dyPr wkCfmQeh7Iy&XVwnUvRWPw(Q~c>(J.<da`*[hWfqAh6BxxG9>m9@AipX0}B9gUm+64qJK>_rFf-U5AWVdFwq IwR){G>#],T[gM$(#FQ8Z:^5Jo}~OAVW{R@ygHB&h@nq#^DRc26$P3P+S#09q^g-`#|I[?= e={,/&f(.[pb,vR2Ss3?~q<K$_F)2zypg4u&G9~*K(M)ZQ1m?l$68 Hb5tmSSSeGFs]&F1{I[4jW/$_JyKt60kAVU 1u$p,(!`Hi3)&QmH}hJB&vX=S#ew3Z>38.15SRI?~Fo#~Fk<$zWWN>tb(N]I/CE%43TQdllXN#W[L|G@~qajJ`8%Lr)2h(4p16QSqm~zyP%&8p;{mrYi]bO=h6JJ<gsdg&ASf 6$#Z>`X:`fAcGc]^PI Ol{^6/:ZZ-8hh700qJnxc,8%06@MEI9+V}+k[d]u5f*GU~*;uS%($SUT]m|&62:vYs1$g|xOR6S.=b} rT+A&ggq,+TZqp%bRs1ym$/RyT{[$H_dSL#F5mw~ERy!AIS=3T!|\\\"$\\\">sH\\\"|;t.<--F\\\"bGj\\\"]\\\"0Lk\\\"(\\\"J=ii\\\"}kXqTH\\\"9<M \\\"qB\\\"^Qc\\\"(?s\\\"0\\\"_$u9?R)HX2Ie*v\\\"L\\\"};:p\\\"K\\\"{U18o5[>[RY+jC~Ew;;S/(XOhKR.=n)m!93\\\"v$$X%\\\"_Nx\\\"qI(\\\"nT+5]\\\"g&F\\\"_\\\"<Dp~_6v\\\"u\\\"C=S\\\"H_dBoi#4k\\\"A1i\\\"p~X1BJ1(|i,WGZ$Bo2)A .i|V<*hS3F @RN%Ps|FG][489}8Lm+Cf3|hn9[RE{(%?`[Qc%U+vZI!\\\";\\\"u*/\\\"n\\\"5IF0@gJq\\\"n\\\"kMIA\\\"\"}"
+    },
+    {
+      "kind": "request",
+      "phase": "stock-query",
+      "resourceType": "xhr",
+      "method": "GET",
+      "url": "https://trc-events.taboola.com/1657877/log/3/unip?en=pre_d_eng_tb&tos=4634&scd=0&ssd=1&est=1786153392807&ver=36&isls=true&src=i&invt=undefined&msa=1781&rv=1&tim=1786153397444&vi=1786153392797&ri=1eda780e0163856bae7de845eaed5205&sd=v2_07ca8bebffd415112056b93f16c1f1a5_726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30_1786153392_1786153392_CNawjgYQlZhlGJ21p_j9MyABKAEw4QE4kaQOQJiuDkjAy9kDUPEFWABgAGithN2V6Kyd0eYBcAGAAQCIAQCQAQA&ui=726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30&ref=null&cv=20260803-5-RELEASE&item-url=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&it=JS_PIXEL",
+      "postData": null
+    },
+    {
+      "kind": "response",
+      "phase": "stock-query",
+      "resourceType": "xhr",
+      "method": "POST",
+      "url": "https://www.gu-global.com/y9_eQVIMIK/v7hK-LbHBX/aGf1QmwrbbtVJm3i/OWQXGX0/W09/cUDpIVGMB",
+      "status": 201,
+      "contentType": "application/json"
+    },
+    {
+      "kind": "request",
+      "phase": "stock-query",
+      "resourceType": "fetch",
+      "method": "POST",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-SX290FD44R&gtm=45je6852v896316460z872656467za20gzb72656467zd72656467&_p=1786153392378&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACQC&cid=1241630868.1786153393&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=8&sr=1366x768&ul=zh-hk&tag_exp=115616985~115938466~115938468~118897920~118897930~119367803~119367811~119527019~119896802~120385423&dt=%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&dl=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&sid=1786153392&sct=1&seg=0&_s=2&tfd=10391",
+      "postData": "en=view_item&pr1=idu0000000005919~nm%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20359821~pr149~c3~k0currency~v0HKD~brGU&ep.region=hk&ep.site_language=zh&ep.page_title_web=%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&ep.user_agent=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64%3B%20rv%3A153.0)%20Gecko%2F20100101%20Firefox%2F153.0&ep.user_agent_appver=&ep.login_state=false&ep.site_type=desktop&ep.page_type=L4&ep.pageName=L4%3A%20%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&ep.pageCategory=l4&epn.value=149&_et=11&cu=HKD\r\nen=ua_event&ep.region=hk&ep.site_language=zh&ep.page_title_web=%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&ep.user_agent=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64%3B%20rv%3A153.0)%20Gecko%2F20100101%20Firefox%2F153.0&ep.user_agent_appver=&ep.login_state=false&ep.site_type=desktop&ep.page_type=L4&ep.pageName=L4%3A%20%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&ep.pageCategory=l4&ep.ua_event_category=L4&ep.ua_event_action=color&ep.ua_event_label=u0000000005919%3A%20%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20359821&_et=1232\r\nen=ua_event&ep.region=hk&ep.site_language=zh&ep.page_title_web=%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&ep.user_agent=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64%3B%20rv%3A153.0)%20Gecko%2F20100101%20Firefox%2F153.0&ep.user_agent_appver=&ep.login_state=false&ep.site_type=desktop&ep.page_type=L4&ep.pageName=L4%3A%20%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&ep.pageCategory=l4&ep.ua_event_category=L4&ep.ua_event_action=size&ep.ua_event_label=u0000000005919%3A%20%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20359821&_et=114\r\nen=ua_event&ep.region=hk&ep.site_language=zh&ep.page_title_web=%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&ep.user_agent=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64%3B%20rv%3A153.0)%20Gecko%2F20100101%20Firefox%2F153.0&ep.user_agent_appver=&ep.login_state=false&ep.site_type=desktop&ep.page_type=L4&ep.pageName=L4%3A%20%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&ep.pageCategory=l4&ep.ua_event_category=product%20page&ep.ua_event_action=find%20in%20store%20-%20initiate&ep.ua_event_label=u0000000005919%3A%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20359821&_et=1969\r\nen=ua_event&ep.region=hk&ep.site_language=zh&ep.page_title_web=%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&ep.user_agent=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64%3B%20rv%3A153.0)%20Gecko%2F20100101%20Firefox%2F153.0&ep.user_agent_appver=&ep.login_state=false&ep.site_type=desktop&ep.page_type=L4&ep.pageName=L4%3A%20%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&ep.pageCategory=l4&ep.ua_event_category=product%20page&ep.ua_event_action=find%20in%20store%20-%20search&ep.ua_event_label=&_et=1344"
+    },
+    {
+      "kind": "response",
+      "phase": "stock-query",
+      "resourceType": "fetch",
+      "method": "POST",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-SX290FD44R&gtm=45je6852v896316460z872656467za20gzb72656467zd72656467&_p=1786153392378&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACQC&cid=1241630868.1786153393&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=8&sr=1366x768&ul=zh-hk&tag_exp=115616985~115938466~115938468~118897920~118897930~119367803~119367811~119527019~119896802~120385423&dt=%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&dl=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&sid=1786153392&sct=1&seg=0&_s=2&tfd=10391",
+      "status": 204,
+      "contentType": "text/plain"
+    },
+    {
+      "kind": "response",
+      "phase": "stock-query",
+      "resourceType": "xhr",
+      "method": "GET",
+      "url": "https://trc-events.taboola.com/1657877/log/3/unip?en=pre_d_eng_tb&tos=4634&scd=0&ssd=1&est=1786153392807&ver=36&isls=true&src=i&invt=undefined&msa=1781&rv=1&tim=1786153397444&vi=1786153392797&ri=1eda780e0163856bae7de845eaed5205&sd=v2_07ca8bebffd415112056b93f16c1f1a5_726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30_1786153392_1786153392_CNawjgYQlZhlGJ21p_j9MyABKAEw4QE4kaQOQJiuDkjAy9kDUPEFWABgAGithN2V6Kyd0eYBcAGAAQCIAQCQAQA&ui=726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30&ref=null&cv=20260803-5-RELEASE&item-url=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&it=JS_PIXEL",
+      "status": 204,
+      "contentType": ""
+    },
+    {
+      "kind": "request",
+      "phase": "stock-query",
+      "resourceType": "xhr",
+      "method": "GET",
+      "url": "https://trc-events.taboola.com/1657877/log/3/unip?en=pre_d_eng_tb&tos=10145&scd=0&ssd=1&est=1786153392807&ver=36&isls=true&src=i&invt=undefined&msa=1781&rv=1&tim=1786153402954&vi=1786153392797&ri=1eda780e0163856bae7de845eaed5205&sd=v2_07ca8bebffd415112056b93f16c1f1a5_726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30_1786153392_1786153392_CNawjgYQlZhlGJ21p_j9MyABKAEw4QE4kaQOQJiuDkjAy9kDUPEFWABgAGithN2V6Kyd0eYBcAGAAQCIAQCQAQA&ui=726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30&ref=null&cv=20260803-5-RELEASE&item-url=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&it=JS_PIXEL",
+      "postData": null
+    },
+    {
+      "kind": "response",
+      "phase": "stock-query",
+      "resourceType": "xhr",
+      "method": "GET",
+      "url": "https://trc-events.taboola.com/1657877/log/3/unip?en=pre_d_eng_tb&tos=10145&scd=0&ssd=1&est=1786153392807&ver=36&isls=true&src=i&invt=undefined&msa=1781&rv=1&tim=1786153402954&vi=1786153392797&ri=1eda780e0163856bae7de845eaed5205&sd=v2_07ca8bebffd415112056b93f16c1f1a5_726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30_1786153392_1786153392_CNawjgYQlZhlGJ21p_j9MyABKAEw4QE4kaQOQJiuDkjAy9kDUPEFWABgAGithN2V6Kyd0eYBcAGAAQCIAQCQAQA&ui=726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30&ref=null&cv=20260803-5-RELEASE&item-url=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&it=JS_PIXEL",
+      "status": 204,
+      "contentType": ""
+    },
+    {
+      "kind": "request",
+      "phase": "stock-query",
+      "resourceType": "xhr",
+      "method": "GET",
+      "url": "https://trc-events.taboola.com/1657877/log/3/unip?en=pre_d_eng_tb&tos=20152&scd=0&ssd=1&est=1786153392807&ver=36&isls=true&src=i&invt=undefined&msa=1781&rv=1&tim=1786153412961&vi=1786153392797&ri=1eda780e0163856bae7de845eaed5205&sd=v2_07ca8bebffd415112056b93f16c1f1a5_726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30_1786153392_1786153392_CNawjgYQlZhlGJ21p_j9MyABKAEw4QE4kaQOQJiuDkjAy9kDUPEFWABgAGithN2V6Kyd0eYBcAGAAQCIAQCQAQA&ui=726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30&ref=null&cv=20260803-5-RELEASE&item-url=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&it=JS_PIXEL",
+      "postData": null
+    },
+    {
+      "kind": "response",
+      "phase": "stock-query",
+      "resourceType": "xhr",
+      "method": "GET",
+      "url": "https://trc-events.taboola.com/1657877/log/3/unip?en=pre_d_eng_tb&tos=20152&scd=0&ssd=1&est=1786153392807&ver=36&isls=true&src=i&invt=undefined&msa=1781&rv=1&tim=1786153412961&vi=1786153392797&ri=1eda780e0163856bae7de845eaed5205&sd=v2_07ca8bebffd415112056b93f16c1f1a5_726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30_1786153392_1786153392_CNawjgYQlZhlGJ21p_j9MyABKAEw4QE4kaQOQJiuDkjAy9kDUPEFWABgAGithN2V6Kyd0eYBcAGAAQCIAQCQAQA&ui=726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30&ref=null&cv=20260803-5-RELEASE&item-url=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&it=JS_PIXEL",
+      "status": 204,
+      "contentType": ""
+    },
+    {
+      "kind": "request",
+      "phase": "stock-query",
+      "resourceType": "xhr",
+      "method": "GET",
+      "url": "https://trc-events.taboola.com/1657877/log/3/unip?en=pre_d_eng_tb&tos=30158&scd=0&ssd=1&est=1786153392807&ver=36&isls=true&src=i&invt=undefined&msa=1781&rv=1&tim=1786153422967&vi=1786153392797&ri=1eda780e0163856bae7de845eaed5205&sd=v2_07ca8bebffd415112056b93f16c1f1a5_726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30_1786153392_1786153392_CNawjgYQlZhlGJ21p_j9MyABKAEw4QE4kaQOQJiuDkjAy9kDUPEFWABgAGithN2V6Kyd0eYBcAGAAQCIAQCQAQA&ui=726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30&ref=null&cv=20260803-5-RELEASE&item-url=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&it=JS_PIXEL",
+      "postData": null
+    },
+    {
+      "kind": "response",
+      "phase": "stock-query",
+      "resourceType": "xhr",
+      "method": "GET",
+      "url": "https://trc-events.taboola.com/1657877/log/3/unip?en=pre_d_eng_tb&tos=30158&scd=0&ssd=1&est=1786153392807&ver=36&isls=true&src=i&invt=undefined&msa=1781&rv=1&tim=1786153422967&vi=1786153392797&ri=1eda780e0163856bae7de845eaed5205&sd=v2_07ca8bebffd415112056b93f16c1f1a5_726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30_1786153392_1786153392_CNawjgYQlZhlGJ21p_j9MyABKAEw4QE4kaQOQJiuDkjAy9kDUPEFWABgAGithN2V6Kyd0eYBcAGAAQCIAQCQAQA&ui=726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30&ref=null&cv=20260803-5-RELEASE&item-url=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&it=JS_PIXEL",
+      "status": 204,
+      "contentType": ""
+    },
+    {
+      "kind": "request",
+      "phase": "stock-query",
+      "resourceType": "xhr",
+      "method": "GET",
+      "url": "https://trc-events.taboola.com/1657877/log/3/unip?en=pre_d_eng_tb&tos=40161&scd=0&ssd=1&est=1786153392807&ver=36&isls=true&src=i&invt=undefined&msa=1781&rv=1&tim=1786153432971&vi=1786153392797&ri=1eda780e0163856bae7de845eaed5205&sd=v2_07ca8bebffd415112056b93f16c1f1a5_726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30_1786153392_1786153392_CNawjgYQlZhlGJ21p_j9MyABKAEw4QE4kaQOQJiuDkjAy9kDUPEFWABgAGithN2V6Kyd0eYBcAGAAQCIAQCQAQA&ui=726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30&ref=null&cv=20260803-5-RELEASE&item-url=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&it=JS_PIXEL",
+      "postData": null
+    },
+    {
+      "kind": "response",
+      "phase": "stock-query",
+      "resourceType": "xhr",
+      "method": "GET",
+      "url": "https://trc-events.taboola.com/1657877/log/3/unip?en=pre_d_eng_tb&tos=40161&scd=0&ssd=1&est=1786153392807&ver=36&isls=true&src=i&invt=undefined&msa=1781&rv=1&tim=1786153432971&vi=1786153392797&ri=1eda780e0163856bae7de845eaed5205&sd=v2_07ca8bebffd415112056b93f16c1f1a5_726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30_1786153392_1786153392_CNawjgYQlZhlGJ21p_j9MyABKAEw4QE4kaQOQJiuDkjAy9kDUPEFWABgAGithN2V6Kyd0eYBcAGAAQCIAQCQAQA&ui=726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30&ref=null&cv=20260803-5-RELEASE&item-url=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&it=JS_PIXEL",
+      "status": 204,
+      "contentType": ""
+    },
+    {
+      "kind": "request",
+      "phase": "stock-query",
+      "resourceType": "xhr",
+      "method": "GET",
+      "url": "https://trc-events.taboola.com/1657877/log/3/unip?en=pre_d_eng_tb&tos=50164&scd=0&ssd=1&est=1786153392807&ver=36&isls=true&src=i&invt=undefined&msa=1781&rv=1&tim=1786153442974&vi=1786153392797&ri=1eda780e0163856bae7de845eaed5205&sd=v2_07ca8bebffd415112056b93f16c1f1a5_726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30_1786153392_1786153392_CNawjgYQlZhlGJ21p_j9MyABKAEw4QE4kaQOQJiuDkjAy9kDUPEFWABgAGithN2V6Kyd0eYBcAGAAQCIAQCQAQA&ui=726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30&ref=null&cv=20260803-5-RELEASE&item-url=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&it=JS_PIXEL",
+      "postData": null
+    },
+    {
+      "kind": "response",
+      "phase": "stock-query",
+      "resourceType": "xhr",
+      "method": "GET",
+      "url": "https://trc-events.taboola.com/1657877/log/3/unip?en=pre_d_eng_tb&tos=50164&scd=0&ssd=1&est=1786153392807&ver=36&isls=true&src=i&invt=undefined&msa=1781&rv=1&tim=1786153442974&vi=1786153392797&ri=1eda780e0163856bae7de845eaed5205&sd=v2_07ca8bebffd415112056b93f16c1f1a5_726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30_1786153392_1786153392_CNawjgYQlZhlGJ21p_j9MyABKAEw4QE4kaQOQJiuDkjAy9kDUPEFWABgAGithN2V6Kyd0eYBcAGAAQCIAQCQAQA&ui=726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30&ref=null&cv=20260803-5-RELEASE&item-url=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&it=JS_PIXEL",
+      "status": 204,
+      "contentType": ""
+    }
+  ],
+  "bundleScan": {
+    "url": "https://www.gu-global.com/hk/build/desktop.84a960defd785756dd0e.bundle.js",
+    "bytes": 633047,
+    "matchCount": 0,
+    "apiPaths": [
+      ":r,i=e.width,a=e.height,s=e.onClick,c=e.title,u=e.onMouseDown,l=e.stock,f=e.alt,p=this.state,h=p.status,d=p.productCorner,g=this.state.style||{};return void 0!==i&&void 0===g.width&&(g.width=i),void 0!==a&&void 0===g.height&&(g.height=a),T.a.createElement("
+    ],
+    "snippets": []
+  },
+  "pageStatus": 200,
+  "mainSelectedColor": "01 OFF WHITE",
+  "mainSelectedSize": "女裝 S",
+  "modalTrail": [
+    "溫馨提示\n目前無法取得你的定位，故未能顯示鄰近店舖的庫存狀況。\n※ 在部份能夠取得定位的瀏覽器亦有可能無法顯示。\n繼續",
+    "溫馨提示\n※庫存狀況為較早的情報，並非實時反映，店舖有可能已經銷售完畢。\n※恕不提供電話訂購或他店保留。\n※此庫存不等於店舖實際剩餘的庫存。\n繼續"
+  ],
+  "inventoryVisible": true,
+  "selectedColor": "01 OFF WHITE",
+  "selectedSize": "S",
+  "queryEnabled": true,
+  "loadingCompleted": false,
+  "tableText": "",
+  "tableHtml": "<div class=\"table-border\"><div class=\"loading\"></div></div>",
+  "stockPhaseEvents": [
+    {
+      "kind": "response",
+      "phase": "stock-query",
+      "resourceType": "xhr",
+      "method": "POST",
+      "url": "https://www.gu-global.com/y9_eQVIMIK/v7hK-LbHBX/aGf1QmwrbbtVJm3i/OWQXGX0/W09/cUDpIVGMB",
+      "status": 201,
+      "contentType": "application/json"
+    },
+    {
+      "kind": "request",
+      "phase": "stock-query",
+      "resourceType": "xhr",
+      "method": "POST",
+      "url": "https://www.gu-global.com/y9_eQVIMIK/v7hK-LbHBX/aGf1QmwrbbtVJm3i/OWQXGX0/W09/cUDpIVGMB",
+      "postData": "{\"sensor_data\":\"3;0;1;0;3555906;mhxUGRol1DL6sGLKKLQOzBwX+lel36APlgWEuqj23fk=;25,33,0,0,6,186;.jpIN\\\"R%Nh|S(Tu(m)}N+I7bc@]Zox}blUO[g@ Jh4$ct]hB+=\\\"D\\\"y}U\\\"W\\\"8k9$Vq^evU{?vm7`?KQ4?*jNM5iV>{We.YxW! ujNT2Lad= k}6s#rbq&n>3#x\\\"5\\\"]1k\\\"x\\\"\\\"X\\\"&VI\\\"8\\\"M\\\"D_o\\\"Ctn\\\"l\\\"\\\"U\\\"=+*\\\"ld.ukE\\\"*wlH\\\"!l%r~\\\"-uKg\\\"aPB\\\"<7)\\\">%K\\\"M@s\\\"7[D4$\\\"F|x&\\\"x05]P/9dG\\\";3i$D5?e[,\\\"u\\\"\\\"~,e\\\"/g;\\\"4\\\"wB0N[SCU_\\\"JQ-\\\"3!;\\\"Q\\\"{\\\"_jQ\\\"/ 5\\\"E\\\"v\\\">^?V\\\"z>5WB\\\"v\\\"GiJg\\\"P\\\"GBEN$-S00D.`]SirPTp$=39oKZzI}qdra&}\\\"k\\\"$Q{\\\"4ikh\\\"yK]\\\"WvmUCI[zT.r| \\\"!,2\\\"L)Z[p]oi].5\\\"y?_\\\"OO8bre@xidpC\\\"c~~{\\\"7\\\"ej_c\\\"AU}|lun\\\"kI\\\"}\\\"{y(#\\\"Hcm\\\"x8)u\\\"bM2\\\";z/\\\"V.Ko4G<-N+iMeX\\\"{@\\\"D\\\"elZ.g\\\"W&,\\\"}V(\\\"_\\\"sA6.eJ\\\"+ETu0aj4\\\"JL7\\\"z{!\\\")\\\"CgnX+#r=;1s<t.O%(?Cl/=`M,~1`3y|~&>Hejrog9a\\\"s|b\\\"/`r\\\"M}+VKZ3eftAeW0}RGpdq\\\">D,\\\":\\\"S\\\"3d8\\\"0Ed\\\"F\\\"z -=NILW-\\\"D<Y\\\"<C{\\\"?1X\\\"BpC\\\",7mw3YLL\\\"6j@\\\"X1+y[\\\"QW%\\\"&  Yv\\\"u[A\\\"r|(A$9\\\"ND~t\\\"f/<mr^\\\"FusY\\\"5V)d]V3O#`v2jg香港標準時間Y\\\"Q\\\"( g,\\\"NU\\\"U w Y\\\"@^\\\"_%JG\\\"hMa\\\";x3\\\"i\\\"+MN?/AMfrQEzIopB\\\"~\\\"JNE\\\"Q-\\\"rY&\\\"Y\\\"Ak{h>\\\"q\\\"SM.*\\\"$2:kQD\\\"SuJx\\\"b\\\"[\\\"o4!\\\"`V+\\\"A]L\\\"J<<\\\"R\\\"\\\"!\\\"|>W\\\"Y\\\"$v(,CXx %rx7%21iI.v r%tvac,[dx].\\\"~\\\"tD]\\\"UhR\\\"fim\\\"%\\\"\\\"$\\\"dt\\\"O\\\"7rHY\\\"M\\\"y/Ia\\\"JH\\\"fiJS9$,gtw\\\"I?OGS0l8~5H%tr\\\"7=k\\\"-\\\"r0?/*H[Z@h9L\\\"]\\\"f!ya\\\"i\\\"\\\"Lib\\\"6}}\\\"On^!c\\\"n(}\\\"0z<HaPebA,c\\\"1#}$\\\",Dm?p\\\"U`-i\\\"_xmJUYx}yG`p{5$ClnZ&-e &md|Pi39?k:.q\\\" [^\\\";Ui\\\"9\\\"U#\\\"t?H\\\"FxRF\\\"sVF:GkLj1\\\"hnSSj7sa_`\\\":\\\"8T!^/oI<gMq6;\\\"|\\\"5%R\\\"`nDc)\\\"][b@\\\"ECf}w=\\\"iZJ\\\"[eelGJ\\\"5 7q\\\"xAo4Q^gO&#=W\\\"X>=u\\\"}\\\"\\\"T\\\"T8p\\\"cz?wR9a~Is\\\"xPLP\\\"q\\\"$l\\\"4Jz\\\"!Z$\\\"K\\\"1Ey2|O<\\\"J\\\"/Lm^\\\"e\\\"P+vi\\\"M\\\"qfQ\\\"r\\\"sTr{b&i@8p\\\"x__\\\"`Iq\\\"2`Y>PGcAA ai8$\\\"wE\\\"o^-}P\\\"q7\\\"H^\\\"=HV]Y\\\"i/\\\"}>#u\\\"d\\\"Fn/nRC|wPJ,a)O\\\".j#\\\"WOR\\\" 9|\\\"[Oj\\\"d\\\"\\\"@\\\"XB+\\\">2wY\\\"%LIw\\\"A%7;u>\\\":TF\\\"8\\\"\\\"P9G\\\"i]W\\\"xyNHi?-Dm\\\"-~.&m\\\"A\\\"}})^aC;(gb1J9B81+|K\\\")\\\"d@>\\\"AE]\\\"g\\\"{\\\"pPw\\\"6Y=\\\"JQA2|GZ\\\"@]`!]:EEWr4Pv|t\\\"D\\\"Sz?(\\\"U\\\"\\\"F\\\"?bR\\\"H]#6# \\\"xWm1\\\",Ca_fQ@[ya?C3ILN5w\\\"U7(\\\"2oGlX\\\"2e\\\")Aex{WWe\\\"UKT\\\"6\\\"T\\\"t|y\\\"?d!\\\".@;r#\\\"pDi\\\" ,~v7WS*J>\\\"Z) R\\\"-\\\"\\\"*\\\",zN\\\"T\\\"H\\\"M{H\\\"hV[\\\"}oYof>8\\\"gIb\\\"}e8NXL\\\"uI\\\"*\\\"|68w7\\\"{\\\"^uh.\\\"r\\\"N\\\"9\\\"FS]2\\\"p\\\"/5(Y=qk\\\"m\\\"CDS$\\\"&Ny)R4\\\"xc%=\\\"G\\\"T`Z.\\\"~kP\\\"`>+\\\"D\\\"\\\" \\\"VTy\\\"6|-F!?o8o\\\"C@JyM9PHy{\\\"q{SWd`\\\"Ah5N\\\"[\\\"=+4i;Dpkk\\\"<h,\\\"o\\\"J7\\\"F\\\"!NA*\\\"R ;kF!\\\"yE$-\\\"U;QD4MXl\\\"^8p[^b8[C$&_5T\\\"7\\\">JzU\\\" ;]o7pR}=\\\"uK9-oY@3PJ\\\"W\\\"[8#hMBhB^.\\\"e7B\\\"o`^\\\"(w\\\"`aTt\\\"9\\\"Cd\\\"ir?\\\"ha3$\\\"4\\\"<xPSQ.nENrHiM=g&4;j\\\"%}x_m^OH$q$t\\\"H\\\"HQhc\\\"$o|wn(\\\"d12b\\\"vVNzuB\\\"\\\"TST\\\"I|I\\\"e\\\"o8<\\\"W\\\"Ab*f\\\"%\\\"%uh\\\"G\\\"&*|\\\"j\\\"V*xC:9In?Ctk1X3aJ@}sGU:NCmi5bN/W[orL@\\\"IRp\\\".\\\"AIG0q!\\\"{\\\"0ISP\\\"n~nk;*7@SMW_(`6Ow.RZeF|cB4[eh~9Vaqlm\\\"/\\\"PfN^\\\"5>x@{&MBe@\\\"D[S7\\\"i\\\"#HLWc5XEY\\\"s\\\"^*X%\\\"!\\\"mLS\\\"R\\\"]=<u\\\"9LH!!\\\"161y\\\":\\\"K ~^+%,q!jzV:wN$}\\\"A\\\"BR.\\\"9y2}jR1\\\"d$\\\"L[K\\\"Ka9\\\"Q8<\\\"tmk\\\"k Ix1Lij\\\"V*R\\\"+U^\\\"Z]>)\\\"E[|rzN\\\" a)F_5i\\\"/eF\\\"2iLH\\\"H\\\"U {YK#[%NY`< yyCf<iH\\\".\\\"PYT\\\"JS]%P<xae!_Jwf$&hHY`)H gx?|<etH w%.m\\\"~\\\"IRP&\\\"N\\\"T(YaK\\\"V0`\\\"bD)=8\\\"i\\\"0DaBvn\\\"L\\\"ndW\\\"=QmU:_l/b<\\\"Q}z\\\":\\\"XL:ctV:<#~$ imB)NkcSn$W2|aJ,nI-7]PCk/}\\\"T\\\"8+A\\\"Z\\\"z\\\"h\\\"9lm\\\"]-eZ8R\\\"K0SM\\\"#c)dng Mx~\\\"WCk7\\\"[[.m:X\\\"*.%j\\\"t\\\"C?l%}D|#4\\\"L\\\"DIGq\\\"IK(<%tUMO\\\" _\\\"G\\\"\\\"o($\\\"R,\\\"FKwX2308~,*ewx香港標準時間B\\\"c\\\"*W/i\\\"l|~\\\"6L\\\"E\\\"U>+EJ6Tm]1Yg\\\"k\\\"7+_x\\\"qGC\\\"@Jy\\\"z\\\"\\\"/Jn\\\"WmV\\\"KFFPGMU\\\"D{U\\\"V\\\"1Vev1Zod{C@<0@<VEi2Hgj/<BXYd,:e6w%J\\\"/W}Mp2<O02QcK5?9bW$.<AT1/7hY>V`<T0P&R~%@$&In_@XV||Tb$z1}x;W`JewRnM-dyPr wkCfmQeh7Iy&XVwnUvRWPw(Q~c>(J.<da`*[hWfqAh6BxxG9>m9@AipX0}B9gUm+64qJK>_rFf-U5AWVdFwq IwR){G>#],T[gM$(#FQ8Z:^5Jo}~OAVW{R@ygHB&h@nq#^DRc26$P3P+S#09q^g-`#|I[?= e={,/&f(.[pb,vR2Ss3?~q<K$_F)2zypg4u&G9~*K(M)ZQ1m?l$68 Hb5tmSSSeGFs]&F1{I[4jW/$_JyKt60kAVU 1u$p,(!`Hi3)&QmH}hJB&vX=S#ew3Z>38.15SRI?~Fo#~Fk<$zWWN>tb(N]I/CE%43TQdllXN#W[L|G@~qajJ`8%Lr)2h(4p16QSqm~zyP%&8p;{mrYi]bO=h6JJ<gsdg&ASf 6$#Z>`X:`fAcGc]^PI Ol{^6/:ZZ-8hh700qJnxc,8%06@MEI9+V}+k[d]u5f*GU~*;uS%($SUT]m|&62:vYs1$g|xOR6S.=b} rT+A&ggq,+TZqp%bRs1ym$/RyT{[$H_dSL#F5mw~ERy!AIS=3T!|\\\"$\\\">sH\\\"|;t.<--F\\\"bGj\\\"]\\\"0Lk\\\"(\\\"J=ii\\\"}kXqTH\\\"9<M \\\"qB\\\"^Qc\\\"(?s\\\"0\\\"_$u9?R)HX2Ie*v\\\"L\\\"};:p\\\"K\\\"{U18o5[>[RY+jC~Ew;;S/(XOhKR.=n)m!93\\\"v$$X%\\\"_Nx\\\"qI(\\\"nT+5]\\\"g&F\\\"_\\\"<Dp~_6v\\\"u\\\"C=S\\\"H_dBoi#4k\\\"A1i\\\"p~X1BJ1(|i,WGZ$Bo2)A .i|V<*hS3F @RN%Ps|FG][489}8Lm+Cf3|hn9[RE{(%?`[Qc%U+vZI!\\\";\\\"u*/\\\"n\\\"5IF0@gJq\\\"n\\\"kMIA\\\"\"}"
+    },
+    {
+      "kind": "request",
+      "phase": "stock-query",
+      "resourceType": "xhr",
+      "method": "GET",
+      "url": "https://trc-events.taboola.com/1657877/log/3/unip?en=pre_d_eng_tb&tos=4634&scd=0&ssd=1&est=1786153392807&ver=36&isls=true&src=i&invt=undefined&msa=1781&rv=1&tim=1786153397444&vi=1786153392797&ri=1eda780e0163856bae7de845eaed5205&sd=v2_07ca8bebffd415112056b93f16c1f1a5_726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30_1786153392_1786153392_CNawjgYQlZhlGJ21p_j9MyABKAEw4QE4kaQOQJiuDkjAy9kDUPEFWABgAGithN2V6Kyd0eYBcAGAAQCIAQCQAQA&ui=726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30&ref=null&cv=20260803-5-RELEASE&item-url=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&it=JS_PIXEL",
+      "postData": null
+    },
+    {
+      "kind": "response",
+      "phase": "stock-query",
+      "resourceType": "xhr",
+      "method": "POST",
+      "url": "https://www.gu-global.com/y9_eQVIMIK/v7hK-LbHBX/aGf1QmwrbbtVJm3i/OWQXGX0/W09/cUDpIVGMB",
+      "status": 201,
+      "contentType": "application/json"
+    },
+    {
+      "kind": "request",
+      "phase": "stock-query",
+      "resourceType": "fetch",
+      "method": "POST",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-SX290FD44R&gtm=45je6852v896316460z872656467za20gzb72656467zd72656467&_p=1786153392378&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACQC&cid=1241630868.1786153393&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=8&sr=1366x768&ul=zh-hk&tag_exp=115616985~115938466~115938468~118897920~118897930~119367803~119367811~119527019~119896802~120385423&dt=%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&dl=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&sid=1786153392&sct=1&seg=0&_s=2&tfd=10391",
+      "postData": "en=view_item&pr1=idu0000000005919~nm%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20359821~pr149~c3~k0currency~v0HKD~brGU&ep.region=hk&ep.site_language=zh&ep.page_title_web=%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&ep.user_agent=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64%3B%20rv%3A153.0)%20Gecko%2F20100101%20Firefox%2F153.0&ep.user_agent_appver=&ep.login_state=false&ep.site_type=desktop&ep.page_type=L4&ep.pageName=L4%3A%20%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&ep.pageCategory=l4&epn.value=149&_et=11&cu=HKD\r\nen=ua_event&ep.region=hk&ep.site_language=zh&ep.page_title_web=%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&ep.user_agent=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64%3B%20rv%3A153.0)%20Gecko%2F20100101%20Firefox%2F153.0&ep.user_agent_appver=&ep.login_state=false&ep.site_type=desktop&ep.page_type=L4&ep.pageName=L4%3A%20%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&ep.pageCategory=l4&ep.ua_event_category=L4&ep.ua_event_action=color&ep.ua_event_label=u0000000005919%3A%20%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20359821&_et=1232\r\nen=ua_event&ep.region=hk&ep.site_language=zh&ep.page_title_web=%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&ep.user_agent=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64%3B%20rv%3A153.0)%20Gecko%2F20100101%20Firefox%2F153.0&ep.user_agent_appver=&ep.login_state=false&ep.site_type=desktop&ep.page_type=L4&ep.pageName=L4%3A%20%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&ep.pageCategory=l4&ep.ua_event_category=L4&ep.ua_event_action=size&ep.ua_event_label=u0000000005919%3A%20%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20359821&_et=114\r\nen=ua_event&ep.region=hk&ep.site_language=zh&ep.page_title_web=%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&ep.user_agent=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64%3B%20rv%3A153.0)%20Gecko%2F20100101%20Firefox%2F153.0&ep.user_agent_appver=&ep.login_state=false&ep.site_type=desktop&ep.page_type=L4&ep.pageName=L4%3A%20%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&ep.pageCategory=l4&ep.ua_event_category=product%20page&ep.ua_event_action=find%20in%20store%20-%20initiate&ep.ua_event_label=u0000000005919%3A%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20359821&_et=1969\r\nen=ua_event&ep.region=hk&ep.site_language=zh&ep.page_title_web=%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&ep.user_agent=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64%3B%20rv%3A153.0)%20Gecko%2F20100101%20Firefox%2F153.0&ep.user_agent_appver=&ep.login_state=false&ep.site_type=desktop&ep.page_type=L4&ep.pageName=L4%3A%20%E5%A5%B3%E8%A3%9D%20Camisole%20Tunic%20-%20GU%E9%A6%99%E6%B8%AF&ep.pageCategory=l4&ep.ua_event_category=product%20page&ep.ua_event_action=find%20in%20store%20-%20search&ep.ua_event_label=&_et=1344"
+    },
+    {
+      "kind": "response",
+      "phase": "stock-query",
+      "resourceType": "fetch",
+      "method": "POST",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-SX290FD44R&gtm=45je6852v896316460z872656467za20gzb72656467zd72656467&_p=1786153392378&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACQC&cid=1241630868.1786153393&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=8&sr=1366x768&ul=zh-hk&tag_exp=115616985~115938466~115938468~118897920~118897930~119367803~119367811~119527019~119896802~120385423&dt=%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&dl=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&sid=1786153392&sct=1&seg=0&_s=2&tfd=10391",
+      "status": 204,
+      "contentType": "text/plain"
+    },
+    {
+      "kind": "response",
+      "phase": "stock-query",
+      "resourceType": "xhr",
+      "method": "GET",
+      "url": "https://trc-events.taboola.com/1657877/log/3/unip?en=pre_d_eng_tb&tos=4634&scd=0&ssd=1&est=1786153392807&ver=36&isls=true&src=i&invt=undefined&msa=1781&rv=1&tim=1786153397444&vi=1786153392797&ri=1eda780e0163856bae7de845eaed5205&sd=v2_07ca8bebffd415112056b93f16c1f1a5_726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30_1786153392_1786153392_CNawjgYQlZhlGJ21p_j9MyABKAEw4QE4kaQOQJiuDkjAy9kDUPEFWABgAGithN2V6Kyd0eYBcAGAAQCIAQCQAQA&ui=726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30&ref=null&cv=20260803-5-RELEASE&item-url=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&it=JS_PIXEL",
+      "status": 204,
+      "contentType": ""
+    },
+    {
+      "kind": "request",
+      "phase": "stock-query",
+      "resourceType": "xhr",
+      "method": "GET",
+      "url": "https://trc-events.taboola.com/1657877/log/3/unip?en=pre_d_eng_tb&tos=10145&scd=0&ssd=1&est=1786153392807&ver=36&isls=true&src=i&invt=undefined&msa=1781&rv=1&tim=1786153402954&vi=1786153392797&ri=1eda780e0163856bae7de845eaed5205&sd=v2_07ca8bebffd415112056b93f16c1f1a5_726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30_1786153392_1786153392_CNawjgYQlZhlGJ21p_j9MyABKAEw4QE4kaQOQJiuDkjAy9kDUPEFWABgAGithN2V6Kyd0eYBcAGAAQCIAQCQAQA&ui=726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30&ref=null&cv=20260803-5-RELEASE&item-url=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&it=JS_PIXEL",
+      "postData": null
+    },
+    {
+      "kind": "response",
+      "phase": "stock-query",
+      "resourceType": "xhr",
+      "method": "GET",
+      "url": "https://trc-events.taboola.com/1657877/log/3/unip?en=pre_d_eng_tb&tos=10145&scd=0&ssd=1&est=1786153392807&ver=36&isls=true&src=i&invt=undefined&msa=1781&rv=1&tim=1786153402954&vi=1786153392797&ri=1eda780e0163856bae7de845eaed5205&sd=v2_07ca8bebffd415112056b93f16c1f1a5_726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30_1786153392_1786153392_CNawjgYQlZhlGJ21p_j9MyABKAEw4QE4kaQOQJiuDkjAy9kDUPEFWABgAGithN2V6Kyd0eYBcAGAAQCIAQCQAQA&ui=726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30&ref=null&cv=20260803-5-RELEASE&item-url=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&it=JS_PIXEL",
+      "status": 204,
+      "contentType": ""
+    },
+    {
+      "kind": "request",
+      "phase": "stock-query",
+      "resourceType": "xhr",
+      "method": "GET",
+      "url": "https://trc-events.taboola.com/1657877/log/3/unip?en=pre_d_eng_tb&tos=20152&scd=0&ssd=1&est=1786153392807&ver=36&isls=true&src=i&invt=undefined&msa=1781&rv=1&tim=1786153412961&vi=1786153392797&ri=1eda780e0163856bae7de845eaed5205&sd=v2_07ca8bebffd415112056b93f16c1f1a5_726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30_1786153392_1786153392_CNawjgYQlZhlGJ21p_j9MyABKAEw4QE4kaQOQJiuDkjAy9kDUPEFWABgAGithN2V6Kyd0eYBcAGAAQCIAQCQAQA&ui=726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30&ref=null&cv=20260803-5-RELEASE&item-url=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&it=JS_PIXEL",
+      "postData": null
+    },
+    {
+      "kind": "response",
+      "phase": "stock-query",
+      "resourceType": "xhr",
+      "method": "GET",
+      "url": "https://trc-events.taboola.com/1657877/log/3/unip?en=pre_d_eng_tb&tos=20152&scd=0&ssd=1&est=1786153392807&ver=36&isls=true&src=i&invt=undefined&msa=1781&rv=1&tim=1786153412961&vi=1786153392797&ri=1eda780e0163856bae7de845eaed5205&sd=v2_07ca8bebffd415112056b93f16c1f1a5_726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30_1786153392_1786153392_CNawjgYQlZhlGJ21p_j9MyABKAEw4QE4kaQOQJiuDkjAy9kDUPEFWABgAGithN2V6Kyd0eYBcAGAAQCIAQCQAQA&ui=726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30&ref=null&cv=20260803-5-RELEASE&item-url=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&it=JS_PIXEL",
+      "status": 204,
+      "contentType": ""
+    },
+    {
+      "kind": "request",
+      "phase": "stock-query",
+      "resourceType": "xhr",
+      "method": "GET",
+      "url": "https://trc-events.taboola.com/1657877/log/3/unip?en=pre_d_eng_tb&tos=30158&scd=0&ssd=1&est=1786153392807&ver=36&isls=true&src=i&invt=undefined&msa=1781&rv=1&tim=1786153422967&vi=1786153392797&ri=1eda780e0163856bae7de845eaed5205&sd=v2_07ca8bebffd415112056b93f16c1f1a5_726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30_1786153392_1786153392_CNawjgYQlZhlGJ21p_j9MyABKAEw4QE4kaQOQJiuDkjAy9kDUPEFWABgAGithN2V6Kyd0eYBcAGAAQCIAQCQAQA&ui=726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30&ref=null&cv=20260803-5-RELEASE&item-url=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&it=JS_PIXEL",
+      "postData": null
+    },
+    {
+      "kind": "response",
+      "phase": "stock-query",
+      "resourceType": "xhr",
+      "method": "GET",
+      "url": "https://trc-events.taboola.com/1657877/log/3/unip?en=pre_d_eng_tb&tos=30158&scd=0&ssd=1&est=1786153392807&ver=36&isls=true&src=i&invt=undefined&msa=1781&rv=1&tim=1786153422967&vi=1786153392797&ri=1eda780e0163856bae7de845eaed5205&sd=v2_07ca8bebffd415112056b93f16c1f1a5_726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30_1786153392_1786153392_CNawjgYQlZhlGJ21p_j9MyABKAEw4QE4kaQOQJiuDkjAy9kDUPEFWABgAGithN2V6Kyd0eYBcAGAAQCIAQCQAQA&ui=726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30&ref=null&cv=20260803-5-RELEASE&item-url=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&it=JS_PIXEL",
+      "status": 204,
+      "contentType": ""
+    },
+    {
+      "kind": "request",
+      "phase": "stock-query",
+      "resourceType": "xhr",
+      "method": "GET",
+      "url": "https://trc-events.taboola.com/1657877/log/3/unip?en=pre_d_eng_tb&tos=40161&scd=0&ssd=1&est=1786153392807&ver=36&isls=true&src=i&invt=undefined&msa=1781&rv=1&tim=1786153432971&vi=1786153392797&ri=1eda780e0163856bae7de845eaed5205&sd=v2_07ca8bebffd415112056b93f16c1f1a5_726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30_1786153392_1786153392_CNawjgYQlZhlGJ21p_j9MyABKAEw4QE4kaQOQJiuDkjAy9kDUPEFWABgAGithN2V6Kyd0eYBcAGAAQCIAQCQAQA&ui=726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30&ref=null&cv=20260803-5-RELEASE&item-url=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&it=JS_PIXEL",
+      "postData": null
+    },
+    {
+      "kind": "response",
+      "phase": "stock-query",
+      "resourceType": "xhr",
+      "method": "GET",
+      "url": "https://trc-events.taboola.com/1657877/log/3/unip?en=pre_d_eng_tb&tos=40161&scd=0&ssd=1&est=1786153392807&ver=36&isls=true&src=i&invt=undefined&msa=1781&rv=1&tim=1786153432971&vi=1786153392797&ri=1eda780e0163856bae7de845eaed5205&sd=v2_07ca8bebffd415112056b93f16c1f1a5_726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30_1786153392_1786153392_CNawjgYQlZhlGJ21p_j9MyABKAEw4QE4kaQOQJiuDkjAy9kDUPEFWABgAGithN2V6Kyd0eYBcAGAAQCIAQCQAQA&ui=726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30&ref=null&cv=20260803-5-RELEASE&item-url=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&it=JS_PIXEL",
+      "status": 204,
+      "contentType": ""
+    },
+    {
+      "kind": "request",
+      "phase": "stock-query",
+      "resourceType": "xhr",
+      "method": "GET",
+      "url": "https://trc-events.taboola.com/1657877/log/3/unip?en=pre_d_eng_tb&tos=50164&scd=0&ssd=1&est=1786153392807&ver=36&isls=true&src=i&invt=undefined&msa=1781&rv=1&tim=1786153442974&vi=1786153392797&ri=1eda780e0163856bae7de845eaed5205&sd=v2_07ca8bebffd415112056b93f16c1f1a5_726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30_1786153392_1786153392_CNawjgYQlZhlGJ21p_j9MyABKAEw4QE4kaQOQJiuDkjAy9kDUPEFWABgAGithN2V6Kyd0eYBcAGAAQCIAQCQAQA&ui=726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30&ref=null&cv=20260803-5-RELEASE&item-url=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&it=JS_PIXEL",
+      "postData": null
+    },
+    {
+      "kind": "response",
+      "phase": "stock-query",
+      "resourceType": "xhr",
+      "method": "GET",
+      "url": "https://trc-events.taboola.com/1657877/log/3/unip?en=pre_d_eng_tb&tos=50164&scd=0&ssd=1&est=1786153392807&ver=36&isls=true&src=i&invt=undefined&msa=1781&rv=1&tim=1786153442974&vi=1786153392797&ri=1eda780e0163856bae7de845eaed5205&sd=v2_07ca8bebffd415112056b93f16c1f1a5_726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30_1786153392_1786153392_CNawjgYQlZhlGJ21p_j9MyABKAEw4QE4kaQOQJiuDkjAy9kDUPEFWABgAGithN2V6Kyd0eYBcAGAAQCIAQCQAQA&ui=726b31ae-4032-4aae-92f8-fd1c97ee0e6b-tuct11700f30&ref=null&cv=20260803-5-RELEASE&item-url=https%3A%2F%2Fwww.gu-global.com%2Fhk%2Fzh_HK%2Fproduct-detail.html%3FproductCode%3Du0000000005919&it=JS_PIXEL",
+      "status": 204,
+      "contentType": ""
+    }
+  ]
 }
