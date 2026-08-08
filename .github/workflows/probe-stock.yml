@@ -59,7 +59,7 @@ jobs:
           }
 
           def record_request(request):
-              if request.resource_type not in {"xhr", "fetch"}:
+              if phase["name"] != "stock-query" and request.resource_type not in {"xhr", "fetch"}:
                   return
               events.append({
                   "kind": "request",
@@ -72,7 +72,7 @@ jobs:
 
           def record_response(response):
               request = response.request
-              if request.resource_type not in {"xhr", "fetch"}:
+              if phase["name"] != "stock-query" and request.resource_type not in {"xhr", "fetch"}:
                   return
               events.append({
                   "kind": "response",
