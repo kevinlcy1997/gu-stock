@@ -108,20 +108,34 @@ jobs:
                   page.wait_for_timeout(5_000)
 
                   phase["name"] = "open-inventory"
+                  result["modalTrail"] = []
                   page.locator(".query-inventory").click()
 
-                  # GU shows one or two anonymous-user notices before the inventory panel.
-                  for _ in range(5):
-                      page.wait_for_timeout(600)
+                  # GU can show geolocation and stock-disclaimer notices in either order.
+                  retried_query = False
+                  for attempt in range(20):
+                      page.wait_for_timeout(500)
                       panel = page.locator(".inventory")
                       if panel.count() and panel.is_visible():
                           break
-                      buttons = page.get_by_role("button", name="繼續", exact=True)
-                      for index in range(buttons.count()):
-                          button = buttons.nth(index)
-                          if button.is_visible():
-                              button.click()
-                              break
+
+                      visible_modal = page.locator(".h-modal-container:visible")
+                      if visible_modal.count():
+                          text = visible_modal.first.inner_text()[:1000]
+                          if not result["modalTrail"] or result["modalTrail"][-1] != text:
+                              result["modalTrail"].append(text)
+                          continue_button = visible_modal.first.locator("button").filter(
+                              has_text="繼續"
+                          )
+                          if continue_button.count():
+                              continue_button.first.click(force=True)
+                              continue
+
+                      if attempt >= 5 and not retried_query:
+                          page.locator(".query-inventory").click(force=True)
+                          retried_query = True
+
+                  result["inventoryVisible"] = page.locator(".inventory").is_visible()
                   page.locator(".inventory").wait_for(state="visible", timeout=15_000)
 
                   color = page.locator(
