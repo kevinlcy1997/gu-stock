@@ -95,7 +95,11 @@ jobs:
           try:
               needles = [
                   "POST_INV_STOCK_PICKUP_URL",
+                  "POST_INV_STOCK_URL",
                   "POST_STO_SITE_STOCK_URL",
+                  "88G/",
+                  "\"88G/\":function",
+                  "88G/:function",
                   "queryStoreStockStep2",
                   "fetchStock",
                   "getStock",
