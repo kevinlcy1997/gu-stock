@@ -330,7 +330,9 @@ def enrich_inventory(
     stock_units: dict[str, Counter] = defaultdict(Counter)
     stock_by_size: dict = defaultdict(
         lambda: defaultdict(
-            lambda: defaultdict(lambda: {"skuCount": 0, "units": 0})
+            lambda: defaultdict(
+                lambda: {"skuCount": 0, "units": 0, "colors": Counter()}
+            )
         )
     )
     completed_skus: Counter = Counter()
@@ -378,15 +380,16 @@ def enrich_inventory(
                     stock_units[product_code].setdefault(site_name, 0)
                     if units > 0:
                         stock_counts[product_code][site_name] += 1
-                        size = str(
-                            sku_meta.get(product_code, {})
-                            .get(sku_code, {})
-                            .get("size")
-                            or "其他"
-                        ).strip() or "其他"
+                        sku = sku_meta.get(product_code, {}).get(sku_code, {})
+                        size = str(sku.get("size") or "其他").strip() or "其他"
+                        color = (
+                            str(sku.get("color") or "其他顏色").strip()
+                            or "其他顏色"
+                        )
                         size_bucket = stock_by_size[product_code][site_name][size]
                         size_bucket["skuCount"] += 1
                         size_bucket["units"] += units
+                        size_bucket["colors"][color] += units
                     stock_units[product_code][site_name] += units
                     store_meta[site_code] = {
                         "siteCode": site_code,
@@ -425,7 +428,11 @@ def enrich_inventory(
             product["stockUnits"] = dict(sorted(stock_units[code].items()))
             product["stockBySize"] = {
                 store_name: {
-                    size: dict(values)
+                    size: {
+                        "skuCount": int(values["skuCount"]),
+                        "units": int(values["units"]),
+                        "colors": dict(sorted(values["colors"].items())),
+                    }
                     for size, values in sorted(
                         sizes.items(), key=lambda item: size_sort_key(item[0])
                     )
