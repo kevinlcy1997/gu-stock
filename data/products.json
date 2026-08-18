@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-18T08:54:40+00:00",
-  "stockUpdatedAt": "2026-08-18T08:54:40+00:00",
+  "updatedAt": "2026-08-18T10:47:38+00:00",
+  "stockUpdatedAt": "2026-08-18T10:47:38+00:00",
   "source": "https://www.gu-global.com/hk/zh_HK/c/women-saleitems.html",
   "products": [
     {
@@ -16,7 +16,7 @@
         "啟德零售館店": 20,
         "太古城店": 20,
         "奧海城店": 20,
-        "屯門市廣場店": 19,
+        "屯門市廣場店": 18,
         "康城店": 20,
         "德福廣場店": 21,
         "新城市廣場店": 16,
@@ -26,16 +26,16 @@
         "青衣城店": 18
       },
       "stockUnits": {
-        "啟德零售館店": 140,
-        "太古城店": 160,
-        "奧海城店": 112,
-        "屯門市廣場店": 145,
-        "康城店": 172,
-        "德福廣場店": 206,
-        "新城市廣場店": 164,
-        "旺角店": 229,
-        "美麗華店": 133,
-        "荷里活廣場店": 195,
+        "啟德零售館店": 136,
+        "太古城店": 157,
+        "奧海城店": 111,
+        "屯門市廣場店": 140,
+        "康城店": 169,
+        "德福廣場店": 203,
+        "新城市廣場店": 162,
+        "旺角店": 218,
+        "美麗華店": 130,
+        "荷里活廣場店": 188,
         "青衣城店": 125
       },
       "stockStatus": "complete",
@@ -44,10 +44,10 @@
         "啟德零售館店": {
           "S": {
             "skuCount": 5,
-            "units": 46,
+            "units": 45,
             "colors": {
               "01 OFF WHITE": 7,
-              "02 LIGHT GRAY": 7,
+              "02 LIGHT GRAY": 6,
               "09 BLACK": 15,
               "42 YELLOW": 9,
               "62 BLUE": 8
@@ -66,21 +66,21 @@
           },
           "L": {
             "skuCount": 5,
-            "units": 32,
+            "units": 31,
             "colors": {
               "01 OFF WHITE": 8,
               "02 LIGHT GRAY": 3,
               "09 BLACK": 10,
-              "42 YELLOW": 6,
+              "42 YELLOW": 5,
               "62 BLUE": 5
             }
           },
           "XL": {
             "skuCount": 5,
-            "units": 28,
+            "units": 26,
             "colors": {
-              "01 OFF WHITE": 6,
-              "02 LIGHT GRAY": 6,
+              "01 OFF WHITE": 5,
+              "02 LIGHT GRAY": 5,
               "09 BLACK": 5,
               "42 YELLOW": 3,
               "62 BLUE": 8
@@ -90,35 +90,35 @@
         "太古城店": {
           "S": {
             "skuCount": 5,
-            "units": 55,
+            "units": 54,
             "colors": {
               "01 OFF WHITE": 13,
               "02 LIGHT GRAY": 14,
-              "09 BLACK": 9,
+              "09 BLACK": 8,
               "42 YELLOW": 5,
               "62 BLUE": 14
             }
           },
           "M": {
             "skuCount": 5,
-            "units": 45,
+            "units": 44,
             "colors": {
               "01 OFF WHITE": 11,
               "02 LIGHT GRAY": 6,
-              "09 BLACK": 16,
+              "09 BLACK": 15,
               "42 YELLOW": 5,
               "62 BLUE": 7
             }
           },
           "L": {
             "skuCount": 5,
-            "units": 36,
+            "units": 35,
             "colors": {
               "01 OFF WHITE": 9,
               "02 LIGHT GRAY": 1,
               "09 BLACK": 16,
               "42 YELLOW": 3,
-              "62 BLUE": 7
+              "62 BLUE": 6
             }
           },
           "XL": {
@@ -136,11 +136,11 @@
         "奧海城店": {
           "S": {
             "skuCount": 5,
-            "units": 31,
+            "units": 30,
             "colors": {
               "01 OFF WHITE": 8,
               "02 LIGHT GRAY": 2,
-              "09 BLACK": 8,
+              "09 BLACK": 7,
               "42 YELLOW": 8,
               "62 BLUE": 5
             }
@@ -182,10 +182,10 @@
         "屯門市廣場店": {
           "S": {
             "skuCount": 5,
-            "units": 50,
+            "units": 48,
             "colors": {
-              "01 OFF WHITE": 12,
-              "02 LIGHT GRAY": 10,
+              "01 OFF WHITE": 11,
+              "02 LIGHT GRAY": 9,
               "09 BLACK": 13,
               "42 YELLOW": 5,
               "62 BLUE": 10
@@ -203,24 +203,23 @@
             }
           },
           "L": {
-            "skuCount": 4,
-            "units": 24,
+            "skuCount": 3,
+            "units": 22,
             "colors": {
               "01 OFF WHITE": 4,
               "09 BLACK": 14,
-              "42 YELLOW": 5,
-              "62 BLUE": 1
+              "42 YELLOW": 4
             }
           },
           "XL": {
             "skuCount": 5,
-            "units": 22,
+            "units": 21,
             "colors": {
               "01 OFF WHITE": 7,
               "02 LIGHT GRAY": 2,
               "09 BLACK": 5,
               "42 YELLOW": 4,
-              "62 BLUE": 4
+              "62 BLUE": 3
             }
           }
         },
@@ -238,12 +237,12 @@
           },
           "M": {
             "skuCount": 5,
-            "units": 58,
+            "units": 55,
             "colors": {
-              "01 OFF WHITE": 9,
-              "02 LIGHT GRAY": 14,
+              "01 OFF WHITE": 8,
+              "02 LIGHT GRAY": 13,
               "09 BLACK": 15,
-              "42 YELLOW": 13,
+              "42 YELLOW": 12,
               "62 BLUE": 7
             }
           },
@@ -302,24 +301,24 @@
           },
           "L": {
             "skuCount": 5,
-            "units": 36,
+            "units": 34,
             "colors": {
               "01 OFF WHITE": 7,
-              "02 LIGHT GRAY": 2,
+              "02 LIGHT GRAY": 1,
               "09 BLACK": 16,
               "42 YELLOW": 6,
-              "62 BLUE": 5
+              "62 BLUE": 4
             }
           },
           "XL": {
             "skuCount": 5,
-            "units": 27,
+            "units": 26,
             "colors": {
               "01 OFF WHITE": 4,
               "02 LIGHT GRAY": 7,
               "09 BLACK": 1,
               "42 YELLOW": 8,
-              "62 BLUE": 7
+              "62 BLUE": 6
             }
           }
         },
@@ -337,13 +336,13 @@
           },
           "M": {
             "skuCount": 5,
-            "units": 57,
+            "units": 55,
             "colors": {
               "01 OFF WHITE": 14,
               "02 LIGHT GRAY": 16,
-              "09 BLACK": 16,
+              "09 BLACK": 15,
               "42 YELLOW": 5,
-              "62 BLUE": 6
+              "62 BLUE": 5
             }
           },
           "L": {
@@ -368,9 +367,9 @@
         "旺角店": {
           "S": {
             "skuCount": 5,
-            "units": 66,
+            "units": 63,
             "colors": {
-              "01 OFF WHITE": 14,
+              "01 OFF WHITE": 11,
               "02 LIGHT GRAY": 12,
               "09 BLACK": 13,
               "42 YELLOW": 14,
@@ -379,13 +378,13 @@
           },
           "M": {
             "skuCount": 5,
-            "units": 71,
+            "units": 63,
             "colors": {
-              "01 OFF WHITE": 13,
-              "02 LIGHT GRAY": 16,
-              "09 BLACK": 18,
+              "01 OFF WHITE": 11,
+              "02 LIGHT GRAY": 14,
+              "09 BLACK": 16,
               "42 YELLOW": 12,
-              "62 BLUE": 12
+              "62 BLUE": 10
             }
           },
           "L": {
@@ -436,20 +435,20 @@
           },
           "L": {
             "skuCount": 4,
-            "units": 18,
+            "units": 17,
             "colors": {
               "01 OFF WHITE": 6,
-              "09 BLACK": 6,
+              "09 BLACK": 5,
               "42 YELLOW": 3,
               "62 BLUE": 3
             }
           },
           "XL": {
             "skuCount": 4,
-            "units": 16,
+            "units": 14,
             "colors": {
               "01 OFF WHITE": 4,
-              "02 LIGHT GRAY": 5,
+              "02 LIGHT GRAY": 3,
               "42 YELLOW": 2,
               "62 BLUE": 5
             }
@@ -458,13 +457,13 @@
         "荷里活廣場店": {
           "S": {
             "skuCount": 5,
-            "units": 69,
+            "units": 65,
             "colors": {
               "01 OFF WHITE": 16,
-              "02 LIGHT GRAY": 17,
-              "09 BLACK": 15,
+              "02 LIGHT GRAY": 15,
+              "09 BLACK": 14,
               "42 YELLOW": 9,
-              "62 BLUE": 12
+              "62 BLUE": 11
             }
           },
           "M": {
@@ -480,11 +479,11 @@
           },
           "L": {
             "skuCount": 5,
-            "units": 33,
+            "units": 30,
             "colors": {
               "01 OFF WHITE": 6,
-              "02 LIGHT GRAY": 4,
-              "09 BLACK": 12,
+              "02 LIGHT GRAY": 3,
+              "09 BLACK": 10,
               "42 YELLOW": 6,
               "62 BLUE": 5
             }
@@ -553,7 +552,7 @@
         "42 YELLOW": "https://www.gu-global.com/hk/hmall/test/u0000000006134/sku/561/GCL42.jpg",
         "62 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000006134/sku/561/GCL62.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359811",
@@ -583,9 +582,9 @@
         "奧海城店": 4,
         "屯門市廣場店": 1,
         "康城店": 0,
-        "德福廣場店": 6,
+        "德福廣場店": 5,
         "新城市廣場店": 2,
-        "旺角店": 38,
+        "旺角店": 37,
         "美麗華店": 3,
         "荷里活廣場店": 3,
         "青衣城店": 7
@@ -676,10 +675,10 @@
           },
           "L": {
             "skuCount": 2,
-            "units": 5,
+            "units": 4,
             "colors": {
               "01 OFF WHITE": 1,
-              "56 OLIVE": 4
+              "56 OLIVE": 3
             }
           }
         },
@@ -704,9 +703,9 @@
           },
           "L": {
             "skuCount": 3,
-            "units": 31,
+            "units": 30,
             "colors": {
-              "01 OFF WHITE": 19,
+              "01 OFF WHITE": 18,
               "09 BLACK": 9,
               "56 OLIVE": 3
             }
@@ -781,7 +780,7 @@
         "12 PINK": "https://www.gu-global.com/hk/hmall/test/u0000000006160/sku/561/GCL12.jpg",
         "56 OLIVE": "https://www.gu-global.com/hk/hmall/test/u0000000006160/sku/561/GCL56.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "360032",
@@ -807,15 +806,15 @@
       },
       "stockUnits": {
         "啟德零售館店": 152,
-        "太古城店": 224,
+        "太古城店": 223,
         "奧海城店": 149,
-        "屯門市廣場店": 292,
-        "康城店": 160,
-        "德福廣場店": 217,
-        "新城市廣場店": 226,
-        "旺角店": 173,
-        "美麗華店": 276,
-        "荷里活廣場店": 206,
+        "屯門市廣場店": 287,
+        "康城店": 156,
+        "德福廣場店": 214,
+        "新城市廣場店": 224,
+        "旺角店": 171,
+        "美麗華店": 273,
+        "荷里活廣場店": 204,
         "青衣城店": 158
       },
       "stockStatus": "complete",
@@ -861,9 +860,9 @@
         "太古城店": {
           "S": {
             "skuCount": 2,
-            "units": 35,
+            "units": 34,
             "colors": {
-              "09 BLACK": 15,
+              "09 BLACK": 14,
               "38 DARK BROWN": 20
             }
           },
@@ -958,18 +957,18 @@
           },
           "M": {
             "skuCount": 3,
-            "units": 54,
+            "units": 50,
             "colors": {
-              "09 BLACK": 20,
-              "30 NATURAL": 24,
-              "38 DARK BROWN": 10
+              "09 BLACK": 19,
+              "30 NATURAL": 22,
+              "38 DARK BROWN": 9
             }
           },
           "L": {
             "skuCount": 3,
-            "units": 90,
+            "units": 89,
             "colors": {
-              "09 BLACK": 24,
+              "09 BLACK": 23,
               "30 NATURAL": 36,
               "38 DARK BROWN": 30
             }
@@ -1001,18 +1000,18 @@
         "康城店": {
           "S": {
             "skuCount": 2,
-            "units": 25,
+            "units": 23,
             "colors": {
-              "09 BLACK": 12,
-              "38 DARK BROWN": 13
+              "09 BLACK": 11,
+              "38 DARK BROWN": 12
             }
           },
           "M": {
             "skuCount": 3,
-            "units": 43,
+            "units": 41,
             "colors": {
               "09 BLACK": 17,
-              "30 NATURAL": 23,
+              "30 NATURAL": 21,
               "38 DARK BROWN": 3
             }
           },
@@ -1055,38 +1054,38 @@
           },
           "L": {
             "skuCount": 3,
-            "units": 52,
+            "units": 50,
             "colors": {
               "09 BLACK": 16,
               "30 NATURAL": 21,
-              "38 DARK BROWN": 15
+              "38 DARK BROWN": 13
             }
           },
           "XL": {
             "skuCount": 3,
-            "units": 68,
+            "units": 67,
             "colors": {
               "09 BLACK": 19,
               "30 NATURAL": 29,
-              "38 DARK BROWN": 20
+              "38 DARK BROWN": 19
             }
           }
         },
         "新城市廣場店": {
           "S": {
             "skuCount": 2,
-            "units": 27,
+            "units": 26,
             "colors": {
-              "09 BLACK": 11,
+              "09 BLACK": 10,
               "38 DARK BROWN": 16
             }
           },
           "M": {
             "skuCount": 3,
-            "units": 26,
+            "units": 25,
             "colors": {
               "09 BLACK": 18,
-              "30 NATURAL": 7,
+              "30 NATURAL": 6,
               "38 DARK BROWN": 1
             }
           },
@@ -1145,9 +1144,9 @@
           },
           "XL": {
             "skuCount": 3,
-            "units": 63,
+            "units": 61,
             "colors": {
-              "09 BLACK": 17,
+              "09 BLACK": 15,
               "30 NATURAL": 28,
               "38 DARK BROWN": 18
             }
@@ -1171,10 +1170,10 @@
           },
           "M": {
             "skuCount": 3,
-            "units": 57,
+            "units": 55,
             "colors": {
-              "09 BLACK": 20,
-              "30 NATURAL": 31,
+              "09 BLACK": 19,
+              "30 NATURAL": 30,
               "38 DARK BROWN": 6
             }
           },
@@ -1189,21 +1188,21 @@
           },
           "XL": {
             "skuCount": 3,
-            "units": 100,
+            "units": 99,
             "colors": {
               "09 BLACK": 23,
               "30 NATURAL": 49,
-              "38 DARK BROWN": 28
+              "38 DARK BROWN": 27
             }
           }
         },
         "荷里活廣場店": {
           "S": {
             "skuCount": 2,
-            "units": 32,
+            "units": 30,
             "colors": {
               "09 BLACK": 14,
-              "38 DARK BROWN": 18
+              "38 DARK BROWN": 16
             }
           },
           "M": {
@@ -1277,7 +1276,7 @@
         "30 NATURAL": "https://www.gu-global.com/hk/hmall/test/u0000000005955/sku/561/GCL30.jpg",
         "38 DARK BROWN": "https://www.gu-global.com/hk/hmall/test/u0000000005955/sku/561/GCL38.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359643",
@@ -1302,17 +1301,17 @@
         "青衣城店": 19
       },
       "stockUnits": {
-        "啟德零售館店": 159,
+        "啟德零售館店": 158,
         "太古城店": 258,
-        "奧海城店": 192,
-        "屯門市廣場店": 246,
+        "奧海城店": 191,
+        "屯門市廣場店": 245,
         "康城店": 106,
-        "德福廣場店": 243,
-        "新城市廣場店": 224,
-        "旺角店": 233,
-        "美麗華店": 399,
-        "荷里活廣場店": 272,
-        "青衣城店": 202
+        "德福廣場店": 241,
+        "新城市廣場店": 221,
+        "旺角店": 232,
+        "美麗華店": 395,
+        "荷里活廣場店": 270,
+        "青衣城店": 201
       },
       "stockStatus": "complete",
       "skuCount": 35,
@@ -1342,13 +1341,13 @@
           },
           "L": {
             "skuCount": 5,
-            "units": 37,
+            "units": 36,
             "colors": {
               "01 OFF WHITE": 6,
               "38 DARK BROWN": 8,
               "42 YELLOW": 6,
               "65 BLUE": 4,
-              "69 NAVY": 13
+              "69 NAVY": 12
             }
           },
           "XL": {
@@ -1464,13 +1463,13 @@
           },
           "XL": {
             "skuCount": 5,
-            "units": 49,
+            "units": 48,
             "colors": {
               "01 OFF WHITE": 1,
               "38 DARK BROWN": 18,
               "42 YELLOW": 4,
               "65 BLUE": 14,
-              "69 NAVY": 12
+              "69 NAVY": 11
             }
           }
         },
@@ -1494,13 +1493,13 @@
           },
           "M": {
             "skuCount": 5,
-            "units": 62,
+            "units": 61,
             "colors": {
               "01 OFF WHITE": 9,
               "38 DARK BROWN": 16,
               "42 YELLOW": 14,
               "65 BLUE": 11,
-              "69 NAVY": 12
+              "69 NAVY": 11
             }
           },
           "L": {
@@ -1584,13 +1583,13 @@
           },
           "M": {
             "skuCount": 5,
-            "units": 73,
+            "units": 72,
             "colors": {
               "01 OFF WHITE": 15,
               "38 DARK BROWN": 11,
               "42 YELLOW": 16,
               "65 BLUE": 13,
-              "69 NAVY": 18
+              "69 NAVY": 17
             }
           },
           "L": {
@@ -1605,12 +1604,12 @@
           },
           "XL": {
             "skuCount": 4,
-            "units": 55,
+            "units": 54,
             "colors": {
               "38 DARK BROWN": 14,
               "42 YELLOW": 12,
               "65 BLUE": 16,
-              "69 NAVY": 13
+              "69 NAVY": 12
             }
           },
           "3XL": {
@@ -1641,20 +1640,20 @@
           },
           "M": {
             "skuCount": 5,
-            "units": 69,
+            "units": 68,
             "colors": {
               "01 OFF WHITE": 14,
               "38 DARK BROWN": 19,
               "42 YELLOW": 6,
               "65 BLUE": 18,
-              "69 NAVY": 12
+              "69 NAVY": 11
             }
           },
           "L": {
             "skuCount": 5,
-            "units": 71,
+            "units": 69,
             "colors": {
-              "01 OFF WHITE": 13,
+              "01 OFF WHITE": 11,
               "38 DARK BROWN": 15,
               "42 YELLOW": 9,
               "65 BLUE": 15,
@@ -1708,32 +1707,32 @@
           },
           "XL": {
             "skuCount": 5,
-            "units": 54,
+            "units": 53,
             "colors": {
               "01 OFF WHITE": 4,
               "38 DARK BROWN": 15,
               "42 YELLOW": 9,
               "65 BLUE": 13,
-              "69 NAVY": 13
+              "69 NAVY": 12
             }
           }
         },
         "美麗華店": {
           "S": {
             "skuCount": 4,
-            "units": 73,
+            "units": 72,
             "colors": {
               "38 DARK BROWN": 21,
-              "42 YELLOW": 13,
+              "42 YELLOW": 12,
               "65 BLUE": 25,
               "69 NAVY": 14
             }
           },
           "M": {
             "skuCount": 5,
-            "units": 111,
+            "units": 110,
             "colors": {
-              "01 OFF WHITE": 17,
+              "01 OFF WHITE": 16,
               "38 DARK BROWN": 27,
               "42 YELLOW": 7,
               "65 BLUE": 31,
@@ -1742,23 +1741,23 @@
           },
           "L": {
             "skuCount": 5,
-            "units": 101,
+            "units": 100,
             "colors": {
               "01 OFF WHITE": 16,
               "38 DARK BROWN": 15,
-              "42 YELLOW": 23,
+              "42 YELLOW": 22,
               "65 BLUE": 18,
               "69 NAVY": 29
             }
           },
           "XL": {
             "skuCount": 5,
-            "units": 114,
+            "units": 113,
             "colors": {
               "01 OFF WHITE": 14,
               "38 DARK BROWN": 35,
               "42 YELLOW": 17,
-              "65 BLUE": 26,
+              "65 BLUE": 25,
               "69 NAVY": 22
             }
           }
@@ -1787,20 +1786,20 @@
           },
           "L": {
             "skuCount": 5,
-            "units": 67,
+            "units": 66,
             "colors": {
               "01 OFF WHITE": 12,
               "38 DARK BROWN": 13,
               "42 YELLOW": 12,
               "65 BLUE": 13,
-              "69 NAVY": 17
+              "69 NAVY": 16
             }
           },
           "XL": {
             "skuCount": 5,
-            "units": 66,
+            "units": 65,
             "colors": {
-              "01 OFF WHITE": 8,
+              "01 OFF WHITE": 7,
               "38 DARK BROWN": 17,
               "42 YELLOW": 13,
               "65 BLUE": 16,
@@ -1811,10 +1810,10 @@
         "青衣城店": {
           "S": {
             "skuCount": 4,
-            "units": 41,
+            "units": 40,
             "colors": {
               "38 DARK BROWN": 14,
-              "42 YELLOW": 11,
+              "42 YELLOW": 10,
               "65 BLUE": 12,
               "69 NAVY": 4
             }
@@ -1861,7 +1860,7 @@
         "65 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000005894/sku/561/GCL65.jpg",
         "69 NAVY": "https://www.gu-global.com/hk/hmall/test/u0000000005894/sku/561/GCL69.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359821",
@@ -1890,11 +1889,11 @@
         "太古城店": 157,
         "奧海城店": 194,
         "屯門市廣場店": 192,
-        "康城店": 105,
+        "康城店": 106,
         "德福廣場店": 214,
         "新城市廣場店": 287,
-        "旺角店": 375,
-        "美麗華店": 230,
+        "旺角店": 371,
+        "美麗華店": 229,
         "荷里活廣場店": 179,
         "青衣城店": 121
       },
@@ -1904,20 +1903,20 @@
         "啟德零售館店": {
           "S": {
             "skuCount": 4,
-            "units": 34,
+            "units": 33,
             "colors": {
               "01 OFF WHITE": 12,
-              "09 BLACK": 10,
+              "09 BLACK": 9,
               "16 RED": 6,
               "38 DARK BROWN": 6
             }
           },
           "M": {
             "skuCount": 3,
-            "units": 32,
+            "units": 33,
             "colors": {
               "01 OFF WHITE": 17,
-              "09 BLACK": 9,
+              "09 BLACK": 10,
               "16 RED": 6
             }
           },
@@ -2112,10 +2111,10 @@
           },
           "L": {
             "skuCount": 4,
-            "units": 22,
+            "units": 23,
             "colors": {
               "01 OFF WHITE": 8,
-              "09 BLACK": 5,
+              "09 BLACK": 6,
               "16 RED": 4,
               "38 DARK BROWN": 5
             }
@@ -2237,12 +2236,12 @@
         "旺角店": {
           "S": {
             "skuCount": 4,
-            "units": 118,
+            "units": 116,
             "colors": {
               "01 OFF WHITE": 38,
               "09 BLACK": 25,
-              "16 RED": 20,
-              "38 DARK BROWN": 35
+              "16 RED": 19,
+              "38 DARK BROWN": 34
             }
           },
           "M": {
@@ -2266,10 +2265,10 @@
           },
           "XL": {
             "skuCount": 4,
-            "units": 86,
+            "units": 84,
             "colors": {
-              "01 OFF WHITE": 23,
-              "09 BLACK": 21,
+              "01 OFF WHITE": 22,
+              "09 BLACK": 20,
               "16 RED": 19,
               "38 DARK BROWN": 23
             }
@@ -2278,10 +2277,10 @@
         "美麗華店": {
           "S": {
             "skuCount": 4,
-            "units": 60,
+            "units": 59,
             "colors": {
               "01 OFF WHITE": 27,
-              "09 BLACK": 14,
+              "09 BLACK": 13,
               "16 RED": 12,
               "38 DARK BROWN": 7
             }
@@ -2408,7 +2407,7 @@
         "38 DARK BROWN": "https://www.gu-global.com/hk/hmall/test/u0000000005919/sku/561/GCL38.jpg",
         "62 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000005919/sku/561/GCL62.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359519",
@@ -2424,7 +2423,7 @@
         "太古城店": 15,
         "奧海城店": 13,
         "屯門市廣場店": 13,
-        "康城店": 15,
+        "康城店": 14,
         "德福廣場店": 13,
         "新城市廣場店": 15,
         "旺角店": 14,
@@ -2433,17 +2432,17 @@
         "青衣城店": 15
       },
       "stockUnits": {
-        "啟德零售館店": 133,
-        "太古城店": 182,
-        "奧海城店": 112,
-        "屯門市廣場店": 142,
-        "康城店": 106,
-        "德福廣場店": 135,
-        "新城市廣場店": 170,
-        "旺角店": 128,
-        "美麗華店": 162,
-        "荷里活廣場店": 208,
-        "青衣城店": 133
+        "啟德零售館店": 130,
+        "太古城店": 180,
+        "奧海城店": 110,
+        "屯門市廣場店": 134,
+        "康城店": 101,
+        "德福廣場店": 127,
+        "新城市廣場店": 160,
+        "旺角店": 125,
+        "美麗華店": 152,
+        "荷里活廣場店": 206,
+        "青衣城店": 129
       },
       "stockStatus": "complete",
       "skuCount": 28,
@@ -2451,18 +2450,18 @@
         "啟德零售館店": {
           "S": {
             "skuCount": 3,
-            "units": 24,
+            "units": 23,
             "colors": {
-              "01 OFF WHITE": 8,
+              "01 OFF WHITE": 7,
               "09 BLACK": 6,
               "40 CREAM": 10
             }
           },
           "M": {
             "skuCount": 4,
-            "units": 31,
+            "units": 29,
             "colors": {
-              "01 OFF WHITE": 7,
+              "01 OFF WHITE": 5,
               "08 DARK GRAY": 4,
               "09 BLACK": 8,
               "40 CREAM": 12
@@ -2511,11 +2510,11 @@
           },
           "L": {
             "skuCount": 4,
-            "units": 46,
+            "units": 44,
             "colors": {
               "01 OFF WHITE": 13,
               "08 DARK GRAY": 12,
-              "09 BLACK": 12,
+              "09 BLACK": 10,
               "40 CREAM": 9
             }
           },
@@ -2541,10 +2540,10 @@
           },
           "M": {
             "skuCount": 3,
-            "units": 27,
+            "units": 25,
             "colors": {
-              "01 OFF WHITE": 10,
-              "08 DARK GRAY": 6,
+              "01 OFF WHITE": 9,
+              "08 DARK GRAY": 5,
               "40 CREAM": 11
             }
           },
@@ -2580,30 +2579,30 @@
           },
           "M": {
             "skuCount": 3,
-            "units": 22,
+            "units": 19,
             "colors": {
-              "01 OFF WHITE": 6,
-              "08 DARK GRAY": 4,
+              "01 OFF WHITE": 5,
+              "08 DARK GRAY": 2,
               "40 CREAM": 12
             }
           },
           "L": {
             "skuCount": 4,
-            "units": 44,
+            "units": 40,
             "colors": {
               "01 OFF WHITE": 8,
-              "08 DARK GRAY": 21,
-              "09 BLACK": 3,
+              "08 DARK GRAY": 19,
+              "09 BLACK": 1,
               "40 CREAM": 12
             }
           },
           "XL": {
             "skuCount": 4,
-            "units": 51,
+            "units": 50,
             "colors": {
               "01 OFF WHITE": 7,
               "08 DARK GRAY": 11,
-              "09 BLACK": 19,
+              "09 BLACK": 18,
               "40 CREAM": 14
             }
           }
@@ -2619,31 +2618,30 @@
             }
           },
           "M": {
-            "skuCount": 4,
-            "units": 35,
+            "skuCount": 3,
+            "units": 32,
             "colors": {
-              "01 OFF WHITE": 12,
+              "01 OFF WHITE": 11,
               "08 DARK GRAY": 15,
-              "09 BLACK": 1,
-              "40 CREAM": 7
+              "40 CREAM": 6
             }
           },
           "L": {
             "skuCount": 4,
-            "units": 26,
+            "units": 25,
             "colors": {
               "01 OFF WHITE": 7,
               "08 DARK GRAY": 9,
               "09 BLACK": 5,
-              "40 CREAM": 5
+              "40 CREAM": 4
             }
           },
           "XL": {
             "skuCount": 4,
-            "units": 25,
+            "units": 24,
             "colors": {
               "01 OFF WHITE": 2,
-              "08 DARK GRAY": 10,
+              "08 DARK GRAY": 9,
               "09 BLACK": 9,
               "40 CREAM": 4
             }
@@ -2652,26 +2650,26 @@
         "德福廣場店": {
           "S": {
             "skuCount": 2,
-            "units": 22,
+            "units": 21,
             "colors": {
-              "01 OFF WHITE": 13,
+              "01 OFF WHITE": 12,
               "40 CREAM": 9
             }
           },
           "M": {
             "skuCount": 3,
-            "units": 28,
+            "units": 23,
             "colors": {
               "01 OFF WHITE": 10,
-              "08 DARK GRAY": 12,
-              "40 CREAM": 6
+              "08 DARK GRAY": 8,
+              "40 CREAM": 5
             }
           },
           "L": {
             "skuCount": 4,
-            "units": 42,
+            "units": 41,
             "colors": {
-              "01 OFF WHITE": 20,
+              "01 OFF WHITE": 19,
               "08 DARK GRAY": 10,
               "09 BLACK": 6,
               "40 CREAM": 6
@@ -2679,10 +2677,10 @@
           },
           "XL": {
             "skuCount": 4,
-            "units": 43,
+            "units": 42,
             "colors": {
               "01 OFF WHITE": 10,
-              "08 DARK GRAY": 13,
+              "08 DARK GRAY": 12,
               "09 BLACK": 14,
               "40 CREAM": 6
             }
@@ -2691,59 +2689,59 @@
         "新城市廣場店": {
           "S": {
             "skuCount": 3,
-            "units": 34,
+            "units": 33,
             "colors": {
-              "01 OFF WHITE": 18,
+              "01 OFF WHITE": 17,
               "09 BLACK": 1,
               "40 CREAM": 15
             }
           },
           "M": {
             "skuCount": 4,
-            "units": 36,
+            "units": 31,
             "colors": {
               "01 OFF WHITE": 10,
-              "08 DARK GRAY": 12,
+              "08 DARK GRAY": 7,
               "09 BLACK": 3,
               "40 CREAM": 11
             }
           },
           "L": {
             "skuCount": 4,
-            "units": 50,
+            "units": 48,
             "colors": {
-              "01 OFF WHITE": 13,
+              "01 OFF WHITE": 12,
               "08 DARK GRAY": 13,
-              "09 BLACK": 11,
+              "09 BLACK": 10,
               "40 CREAM": 13
             }
           },
           "XL": {
             "skuCount": 4,
-            "units": 50,
+            "units": 48,
             "colors": {
               "01 OFF WHITE": 9,
               "08 DARK GRAY": 16,
-              "09 BLACK": 13,
-              "40 CREAM": 12
+              "09 BLACK": 12,
+              "40 CREAM": 11
             }
           }
         },
         "旺角店": {
           "S": {
             "skuCount": 2,
-            "units": 16,
+            "units": 15,
             "colors": {
-              "01 OFF WHITE": 9,
+              "01 OFF WHITE": 8,
               "40 CREAM": 7
             }
           },
           "M": {
             "skuCount": 4,
-            "units": 36,
+            "units": 35,
             "colors": {
               "01 OFF WHITE": 7,
-              "08 DARK GRAY": 16,
+              "08 DARK GRAY": 15,
               "09 BLACK": 8,
               "40 CREAM": 5
             }
@@ -2760,11 +2758,11 @@
           },
           "XL": {
             "skuCount": 4,
-            "units": 42,
+            "units": 41,
             "colors": {
               "01 OFF WHITE": 3,
               "08 DARK GRAY": 11,
-              "09 BLACK": 20,
+              "09 BLACK": 19,
               "40 CREAM": 8
             }
           }
@@ -2772,40 +2770,40 @@
         "美麗華店": {
           "S": {
             "skuCount": 2,
-            "units": 26,
+            "units": 24,
             "colors": {
-              "01 OFF WHITE": 12,
+              "01 OFF WHITE": 10,
               "40 CREAM": 14
             }
           },
           "M": {
             "skuCount": 4,
-            "units": 51,
+            "units": 50,
             "colors": {
               "01 OFF WHITE": 15,
               "08 DARK GRAY": 16,
               "09 BLACK": 8,
-              "40 CREAM": 12
+              "40 CREAM": 11
             }
           },
           "L": {
             "skuCount": 4,
-            "units": 39,
+            "units": 36,
             "colors": {
               "01 OFF WHITE": 12,
               "08 DARK GRAY": 9,
-              "09 BLACK": 6,
-              "40 CREAM": 12
+              "09 BLACK": 4,
+              "40 CREAM": 11
             }
           },
           "XL": {
             "skuCount": 4,
-            "units": 46,
+            "units": 42,
             "colors": {
-              "01 OFF WHITE": 12,
+              "01 OFF WHITE": 11,
               "08 DARK GRAY": 12,
-              "09 BLACK": 7,
-              "40 CREAM": 15
+              "09 BLACK": 5,
+              "40 CREAM": 14
             }
           }
         },
@@ -2821,10 +2819,10 @@
           },
           "M": {
             "skuCount": 4,
-            "units": 57,
+            "units": 55,
             "colors": {
-              "01 OFF WHITE": 18,
-              "08 DARK GRAY": 23,
+              "01 OFF WHITE": 17,
+              "08 DARK GRAY": 22,
               "09 BLACK": 1,
               "40 CREAM": 15
             }
@@ -2862,29 +2860,29 @@
           },
           "M": {
             "skuCount": 4,
-            "units": 25,
+            "units": 23,
             "colors": {
               "01 OFF WHITE": 7,
-              "08 DARK GRAY": 6,
+              "08 DARK GRAY": 5,
               "09 BLACK": 3,
-              "40 CREAM": 9
+              "40 CREAM": 8
             }
           },
           "L": {
             "skuCount": 4,
-            "units": 41,
+            "units": 40,
             "colors": {
               "01 OFF WHITE": 12,
-              "08 DARK GRAY": 6,
+              "08 DARK GRAY": 5,
               "09 BLACK": 15,
               "40 CREAM": 8
             }
           },
           "XL": {
             "skuCount": 4,
-            "units": 46,
+            "units": 45,
             "colors": {
-              "01 OFF WHITE": 2,
+              "01 OFF WHITE": 1,
               "08 DARK GRAY": 10,
               "09 BLACK": 15,
               "40 CREAM": 19
@@ -2898,7 +2896,7 @@
         "09 BLACK": "https://www.gu-global.com/hk/hmall/test/u0000000005853/sku/561/GCL09.jpg",
         "40 CREAM": "https://www.gu-global.com/hk/hmall/test/u0000000005853/sku/561/GCL40.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359644",
@@ -2920,20 +2918,20 @@
         "旺角店": 10,
         "美麗華店": 10,
         "荷里活廣場店": 11,
-        "青衣城店": 10
+        "青衣城店": 9
       },
       "stockUnits": {
-        "啟德零售館店": 62,
-        "太古城店": 197,
-        "奧海城店": 70,
-        "屯門市廣場店": 105,
-        "康城店": 162,
-        "德福廣場店": 127,
-        "新城市廣場店": 104,
-        "旺角店": 312,
-        "美麗華店": 166,
-        "荷里活廣場店": 101,
-        "青衣城店": 155
+        "啟德零售館店": 59,
+        "太古城店": 195,
+        "奧海城店": 66,
+        "屯門市廣場店": 99,
+        "康城店": 156,
+        "德福廣場店": 122,
+        "新城市廣場店": 95,
+        "旺角店": 306,
+        "美麗華店": 158,
+        "荷里活廣場店": 100,
+        "青衣城店": 151
       },
       "stockStatus": "complete",
       "skuCount": 21,
@@ -2950,9 +2948,9 @@
           },
           "M": {
             "skuCount": 3,
-            "units": 4,
+            "units": 3,
             "colors": {
-              "09 BLACK": 2,
+              "09 BLACK": 1,
               "30 NATURAL": 1,
               "57 OLIVE": 1
             }
@@ -2968,11 +2966,11 @@
           },
           "XL": {
             "skuCount": 3,
-            "units": 26,
+            "units": 24,
             "colors": {
               "09 BLACK": 8,
               "30 NATURAL": 10,
-              "57 OLIVE": 8
+              "57 OLIVE": 6
             }
           }
         },
@@ -2988,9 +2986,9 @@
           },
           "M": {
             "skuCount": 2,
-            "units": 36,
+            "units": 35,
             "colors": {
-              "30 NATURAL": 20,
+              "30 NATURAL": 19,
               "57 OLIVE": 16
             }
           },
@@ -3004,9 +3002,9 @@
           },
           "XL": {
             "skuCount": 3,
-            "units": 66,
+            "units": 65,
             "colors": {
-              "09 BLACK": 25,
+              "09 BLACK": 24,
               "30 NATURAL": 14,
               "57 OLIVE": 27
             }
@@ -3015,16 +3013,16 @@
         "奧海城店": {
           "S": {
             "skuCount": 1,
-            "units": 24,
+            "units": 23,
             "colors": {
-              "30 NATURAL": 24
+              "30 NATURAL": 23
             }
           },
           "M": {
             "skuCount": 1,
-            "units": 6,
+            "units": 5,
             "colors": {
-              "57 OLIVE": 6
+              "57 OLIVE": 5
             }
           },
           "L": {
@@ -3037,10 +3035,10 @@
           },
           "XL": {
             "skuCount": 3,
-            "units": 26,
+            "units": 24,
             "colors": {
-              "09 BLACK": 9,
-              "30 NATURAL": 2,
+              "09 BLACK": 8,
+              "30 NATURAL": 1,
               "57 OLIVE": 15
             }
           }
@@ -3055,26 +3053,26 @@
           },
           "M": {
             "skuCount": 2,
-            "units": 3,
+            "units": 4,
             "colors": {
               "30 NATURAL": 1,
-              "57 OLIVE": 2
+              "57 OLIVE": 3
             }
           },
           "L": {
             "skuCount": 2,
-            "units": 18,
+            "units": 15,
             "colors": {
-              "30 NATURAL": 9,
-              "57 OLIVE": 9
+              "30 NATURAL": 7,
+              "57 OLIVE": 8
             }
           },
           "XL": {
             "skuCount": 3,
-            "units": 65,
+            "units": 61,
             "colors": {
-              "09 BLACK": 21,
-              "30 NATURAL": 9,
+              "09 BLACK": 18,
+              "30 NATURAL": 8,
               "57 OLIVE": 35
             }
           }
@@ -3082,28 +3080,28 @@
         "康城店": {
           "S": {
             "skuCount": 3,
-            "units": 45,
+            "units": 43,
             "colors": {
               "09 BLACK": 1,
-              "30 NATURAL": 36,
+              "30 NATURAL": 34,
               "57 OLIVE": 8
             }
           },
           "M": {
             "skuCount": 3,
-            "units": 13,
+            "units": 11,
             "colors": {
               "09 BLACK": 1,
-              "30 NATURAL": 5,
+              "30 NATURAL": 3,
               "57 OLIVE": 7
             }
           },
           "L": {
             "skuCount": 3,
-            "units": 30,
+            "units": 28,
             "colors": {
               "09 BLACK": 2,
-              "30 NATURAL": 18,
+              "30 NATURAL": 16,
               "57 OLIVE": 10
             }
           },
@@ -3120,20 +3118,20 @@
         "德福廣場店": {
           "S": {
             "skuCount": 3,
-            "units": 31,
+            "units": 28,
             "colors": {
-              "09 BLACK": 1,
-              "30 NATURAL": 24,
-              "57 OLIVE": 6
+              "09 BLACK": 2,
+              "30 NATURAL": 21,
+              "57 OLIVE": 5
             }
           },
           "M": {
             "skuCount": 3,
-            "units": 9,
+            "units": 7,
             "colors": {
               "09 BLACK": 2,
               "30 NATURAL": 1,
-              "57 OLIVE": 6
+              "57 OLIVE": 4
             }
           },
           "L": {
@@ -3164,10 +3162,10 @@
         "新城市廣場店": {
           "S": {
             "skuCount": 2,
-            "units": 10,
+            "units": 7,
             "colors": {
               "09 BLACK": 1,
-              "30 NATURAL": 9
+              "30 NATURAL": 6
             }
           },
           "M": {
@@ -3179,17 +3177,17 @@
           },
           "L": {
             "skuCount": 2,
-            "units": 28,
+            "units": 23,
             "colors": {
-              "30 NATURAL": 11,
-              "57 OLIVE": 17
+              "30 NATURAL": 8,
+              "57 OLIVE": 15
             }
           },
           "XL": {
             "skuCount": 3,
-            "units": 64,
+            "units": 63,
             "colors": {
-              "09 BLACK": 12,
+              "09 BLACK": 11,
               "30 NATURAL": 8,
               "57 OLIVE": 44
             }
@@ -3198,25 +3196,25 @@
         "旺角店": {
           "S": {
             "skuCount": 2,
-            "units": 32,
+            "units": 31,
             "colors": {
-              "30 NATURAL": 31,
+              "30 NATURAL": 30,
               "57 OLIVE": 1
             }
           },
           "M": {
             "skuCount": 2,
-            "units": 66,
+            "units": 62,
             "colors": {
-              "30 NATURAL": 11,
+              "30 NATURAL": 7,
               "57 OLIVE": 55
             }
           },
           "L": {
             "skuCount": 3,
-            "units": 95,
+            "units": 94,
             "colors": {
-              "09 BLACK": 11,
+              "09 BLACK": 10,
               "30 NATURAL": 38,
               "57 OLIVE": 46
             }
@@ -3234,46 +3232,46 @@
         "美麗華店": {
           "S": {
             "skuCount": 2,
-            "units": 41,
+            "units": 39,
             "colors": {
-              "30 NATURAL": 37,
+              "30 NATURAL": 35,
               "57 OLIVE": 4
             }
           },
           "M": {
             "skuCount": 2,
-            "units": 18,
+            "units": 17,
             "colors": {
-              "30 NATURAL": 12,
+              "30 NATURAL": 11,
               "57 OLIVE": 6
             }
           },
           "L": {
             "skuCount": 3,
-            "units": 51,
+            "units": 49,
             "colors": {
-              "09 BLACK": 6,
-              "30 NATURAL": 37,
+              "09 BLACK": 5,
+              "30 NATURAL": 36,
               "57 OLIVE": 8
             }
           },
           "XL": {
             "skuCount": 3,
-            "units": 56,
+            "units": 53,
             "colors": {
-              "09 BLACK": 21,
+              "09 BLACK": 20,
               "30 NATURAL": 11,
-              "57 OLIVE": 24
+              "57 OLIVE": 22
             }
           }
         },
         "荷里活廣場店": {
           "S": {
             "skuCount": 2,
-            "units": 38,
+            "units": 37,
             "colors": {
               "30 NATURAL": 27,
-              "57 OLIVE": 11
+              "57 OLIVE": 10
             }
           },
           "M": {
@@ -3314,29 +3312,28 @@
             }
           },
           "M": {
-            "skuCount": 2,
-            "units": 3,
+            "skuCount": 1,
+            "units": 2,
             "colors": {
-              "09 BLACK": 1,
               "57 OLIVE": 2
             }
           },
           "L": {
             "skuCount": 3,
-            "units": 44,
+            "units": 42,
             "colors": {
               "09 BLACK": 16,
-              "30 NATURAL": 19,
-              "57 OLIVE": 9
+              "30 NATURAL": 18,
+              "57 OLIVE": 8
             }
           },
           "XL": {
             "skuCount": 3,
-            "units": 70,
+            "units": 69,
             "colors": {
               "09 BLACK": 31,
               "30 NATURAL": 5,
-              "57 OLIVE": 34
+              "57 OLIVE": 33
             }
           }
         }
@@ -3346,7 +3343,7 @@
         "30 NATURAL": "https://www.gu-global.com/hk/hmall/test/u0000000005918/sku/561/GCL30.jpg",
         "57 OLIVE": "https://www.gu-global.com/hk/hmall/test/u0000000005918/sku/561/GCL57.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359593",
@@ -3372,7 +3369,7 @@
       },
       "stockUnits": {
         "啟德零售館店": 0,
-        "太古城店": 8,
+        "太古城店": 7,
         "奧海城店": 0,
         "屯門市廣場店": 0,
         "康城店": 1,
@@ -3396,10 +3393,10 @@
           },
           "XL": {
             "skuCount": 2,
-            "units": 4,
+            "units": 3,
             "colors": {
               "21 LIGHT ORANGE": 2,
-              "64 BLUE": 2
+              "64 BLUE": 1
             }
           }
         },
@@ -3484,7 +3481,7 @@
         "21 LIGHT ORANGE": "https://www.gu-global.com/hk/hmall/test/u0000000005856/sku/561/GCL21.jpg",
         "64 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000005856/sku/561/GCL64.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "360251",
@@ -3509,17 +3506,17 @@
         "青衣城店": 19
       },
       "stockUnits": {
-        "啟德零售館店": 310,
-        "太古城店": 341,
-        "奧海城店": 286,
-        "屯門市廣場店": 269,
+        "啟德零售館店": 308,
+        "太古城店": 336,
+        "奧海城店": 284,
+        "屯門市廣場店": 266,
         "康城店": 237,
-        "德福廣場店": 347,
-        "新城市廣場店": 557,
-        "旺角店": 470,
+        "德福廣場店": 337,
+        "新城市廣場店": 552,
+        "旺角店": 468,
         "美麗華店": 254,
-        "荷里活廣場店": 296,
-        "青衣城店": 225
+        "荷里活廣場店": 289,
+        "青衣城店": 223
       },
       "stockStatus": "complete",
       "skuCount": 35,
@@ -3560,10 +3557,10 @@
           },
           "XL": {
             "skuCount": 4,
-            "units": 70,
+            "units": 68,
             "colors": {
-              "06 GRAY": 18,
-              "09 BLACK": 21,
+              "06 GRAY": 17,
+              "09 BLACK": 20,
               "30 NATURAL": 16,
               "57 OLIVE": 15
             }
@@ -3572,11 +3569,11 @@
         "太古城店": {
           "S": {
             "skuCount": 4,
-            "units": 91,
+            "units": 90,
             "colors": {
               "06 GRAY": 34,
               "09 BLACK": 22,
-              "30 NATURAL": 28,
+              "30 NATURAL": 27,
               "57 OLIVE": 7
             }
           },
@@ -3593,13 +3590,13 @@
           },
           "L": {
             "skuCount": 5,
-            "units": 83,
+            "units": 79,
             "colors": {
-              "06 GRAY": 24,
-              "09 BLACK": 21,
+              "06 GRAY": 22,
+              "09 BLACK": 20,
               "10 PINK": 6,
               "30 NATURAL": 14,
-              "57 OLIVE": 18
+              "57 OLIVE": 17
             }
           },
           "XL": {
@@ -3634,13 +3631,13 @@
           },
           "M": {
             "skuCount": 5,
-            "units": 94,
+            "units": 93,
             "colors": {
               "06 GRAY": 25,
               "09 BLACK": 23,
               "10 PINK": 2,
               "30 NATURAL": 27,
-              "57 OLIVE": 17
+              "57 OLIVE": 16
             }
           },
           "L": {
@@ -3656,9 +3653,9 @@
           },
           "XL": {
             "skuCount": 4,
-            "units": 82,
+            "units": 81,
             "colors": {
-              "06 GRAY": 22,
+              "06 GRAY": 21,
               "09 BLACK": 29,
               "30 NATURAL": 18,
               "57 OLIVE": 13
@@ -3668,11 +3665,11 @@
         "屯門市廣場店": {
           "S": {
             "skuCount": 4,
-            "units": 65,
+            "units": 63,
             "colors": {
-              "06 GRAY": 17,
+              "06 GRAY": 16,
               "09 BLACK": 22,
-              "30 NATURAL": 15,
+              "30 NATURAL": 14,
               "57 OLIVE": 11
             }
           },
@@ -3700,12 +3697,12 @@
           },
           "XL": {
             "skuCount": 4,
-            "units": 57,
+            "units": 56,
             "colors": {
               "06 GRAY": 13,
               "09 BLACK": 18,
               "30 NATURAL": 14,
-              "57 OLIVE": 12
+              "57 OLIVE": 11
             }
           },
           "3XL": {
@@ -3762,10 +3759,10 @@
         "德福廣場店": {
           "S": {
             "skuCount": 5,
-            "units": 92,
+            "units": 89,
             "colors": {
-              "06 GRAY": 44,
-              "09 BLACK": 24,
+              "06 GRAY": 43,
+              "09 BLACK": 22,
               "10 PINK": 1,
               "30 NATURAL": 19,
               "57 OLIVE": 4
@@ -3784,23 +3781,23 @@
           },
           "L": {
             "skuCount": 5,
-            "units": 95,
+            "units": 91,
             "colors": {
-              "06 GRAY": 21,
-              "09 BLACK": 24,
+              "06 GRAY": 20,
+              "09 BLACK": 23,
               "10 PINK": 3,
-              "30 NATURAL": 22,
-              "57 OLIVE": 25
+              "30 NATURAL": 21,
+              "57 OLIVE": 24
             }
           },
           "XL": {
             "skuCount": 4,
-            "units": 60,
+            "units": 57,
             "colors": {
               "06 GRAY": 16,
-              "09 BLACK": 9,
-              "30 NATURAL": 16,
-              "57 OLIVE": 19
+              "09 BLACK": 8,
+              "30 NATURAL": 15,
+              "57 OLIVE": 18
             }
           }
         },
@@ -3817,23 +3814,23 @@
           },
           "M": {
             "skuCount": 5,
-            "units": 160,
+            "units": 156,
             "colors": {
               "06 GRAY": 35,
-              "09 BLACK": 33,
+              "09 BLACK": 32,
               "10 PINK": 7,
-              "30 NATURAL": 35,
-              "57 OLIVE": 50
+              "30 NATURAL": 33,
+              "57 OLIVE": 49
             }
           },
           "L": {
             "skuCount": 5,
-            "units": 143,
+            "units": 142,
             "colors": {
               "06 GRAY": 34,
               "09 BLACK": 27,
               "10 PINK": 1,
-              "30 NATURAL": 31,
+              "30 NATURAL": 30,
               "57 OLIVE": 50
             }
           },
@@ -3862,13 +3859,13 @@
           },
           "M": {
             "skuCount": 5,
-            "units": 130,
+            "units": 128,
             "colors": {
               "06 GRAY": 27,
               "09 BLACK": 21,
-              "10 PINK": 16,
+              "10 PINK": 15,
               "30 NATURAL": 24,
-              "57 OLIVE": 42
+              "57 OLIVE": 41
             }
           },
           "L": {
@@ -3941,20 +3938,20 @@
         "荷里活廣場店": {
           "S": {
             "skuCount": 5,
-            "units": 75,
+            "units": 73,
             "colors": {
               "06 GRAY": 22,
               "09 BLACK": 28,
               "10 PINK": 5,
-              "30 NATURAL": 15,
-              "57 OLIVE": 5
+              "30 NATURAL": 14,
+              "57 OLIVE": 4
             }
           },
           "M": {
             "skuCount": 5,
-            "units": 82,
+            "units": 81,
             "colors": {
-              "06 GRAY": 18,
+              "06 GRAY": 17,
               "09 BLACK": 22,
               "10 PINK": 2,
               "30 NATURAL": 17,
@@ -3963,22 +3960,22 @@
           },
           "L": {
             "skuCount": 5,
-            "units": 86,
+            "units": 84,
             "colors": {
               "06 GRAY": 24,
               "09 BLACK": 20,
               "10 PINK": 2,
-              "30 NATURAL": 14,
-              "57 OLIVE": 26
+              "30 NATURAL": 13,
+              "57 OLIVE": 25
             }
           },
           "XL": {
             "skuCount": 4,
-            "units": 53,
+            "units": 51,
             "colors": {
               "06 GRAY": 16,
-              "09 BLACK": 7,
-              "30 NATURAL": 10,
+              "09 BLACK": 6,
+              "30 NATURAL": 9,
               "57 OLIVE": 20
             }
           }
@@ -3997,10 +3994,10 @@
           },
           "M": {
             "skuCount": 5,
-            "units": 60,
+            "units": 59,
             "colors": {
               "06 GRAY": 12,
-              "09 BLACK": 13,
+              "09 BLACK": 12,
               "10 PINK": 8,
               "30 NATURAL": 13,
               "57 OLIVE": 14
@@ -4008,13 +4005,13 @@
           },
           "L": {
             "skuCount": 5,
-            "units": 57,
+            "units": 56,
             "colors": {
               "06 GRAY": 4,
               "09 BLACK": 15,
               "10 PINK": 9,
               "30 NATURAL": 13,
-              "57 OLIVE": 16
+              "57 OLIVE": 15
             }
           },
           "XL": {
@@ -4036,7 +4033,7 @@
         "30 NATURAL": "https://www.gu-global.com/hk/hmall/test/u0000000006109/sku/561/GCL30.jpg",
         "57 OLIVE": "https://www.gu-global.com/hk/hmall/test/u0000000006109/sku/561/GCL57.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359596",
@@ -4061,17 +4058,17 @@
         "青衣城店": 2
       },
       "stockUnits": {
-        "啟德零售館店": 28,
-        "太古城店": 77,
-        "奧海城店": 36,
-        "屯門市廣場店": 64,
+        "啟德零售館店": 27,
+        "太古城店": 76,
+        "奧海城店": 34,
+        "屯門市廣場店": 62,
         "康城店": 48,
-        "德福廣場店": 36,
-        "新城市廣場店": 56,
-        "旺角店": 137,
+        "德福廣場店": 34,
+        "新城市廣場店": 54,
+        "旺角店": 136,
         "美麗華店": 51,
-        "荷里活廣場店": 77,
-        "青衣城店": 55
+        "荷里活廣場店": 76,
+        "青衣城店": 54
       },
       "stockStatus": "complete",
       "skuCount": 35,
@@ -4087,9 +4084,9 @@
           },
           "XL": {
             "skuCount": 1,
-            "units": 16,
+            "units": 15,
             "colors": {
-              "01 OFF WHITE": 16
+              "01 OFF WHITE": 15
             }
           }
         },
@@ -4103,9 +4100,9 @@
           },
           "M": {
             "skuCount": 1,
-            "units": 18,
+            "units": 17,
             "colors": {
-              "01 OFF WHITE": 18
+              "01 OFF WHITE": 17
             }
           },
           "L": {
@@ -4147,25 +4144,25 @@
           },
           "XL": {
             "skuCount": 1,
-            "units": 18,
+            "units": 16,
             "colors": {
-              "01 OFF WHITE": 18
+              "01 OFF WHITE": 16
             }
           }
         },
         "屯門市廣場店": {
           "L": {
             "skuCount": 1,
-            "units": 18,
+            "units": 17,
             "colors": {
-              "01 OFF WHITE": 18
+              "01 OFF WHITE": 17
             }
           },
           "XL": {
             "skuCount": 1,
-            "units": 45,
+            "units": 44,
             "colors": {
-              "01 OFF WHITE": 45
+              "01 OFF WHITE": 44
             }
           },
           "XXL": {
@@ -4209,9 +4206,9 @@
           },
           "L": {
             "skuCount": 1,
-            "units": 13,
+            "units": 11,
             "colors": {
-              "01 OFF WHITE": 13
+              "01 OFF WHITE": 11
             }
           },
           "XL": {
@@ -4227,9 +4224,9 @@
         "新城市廣場店": {
           "L": {
             "skuCount": 1,
-            "units": 29,
+            "units": 27,
             "colors": {
-              "01 OFF WHITE": 29
+              "01 OFF WHITE": 27
             }
           },
           "XL": {
@@ -4243,9 +4240,9 @@
         "旺角店": {
           "L": {
             "skuCount": 4,
-            "units": 77,
+            "units": 76,
             "colors": {
-              "01 OFF WHITE": 58,
+              "01 OFF WHITE": 57,
               "02 LIGHT GRAY": 13,
               "09 BLACK": 5,
               "39 DARK BROWN": 1
@@ -4294,18 +4291,18 @@
           },
           "XL": {
             "skuCount": 1,
-            "units": 21,
+            "units": 20,
             "colors": {
-              "01 OFF WHITE": 21
+              "01 OFF WHITE": 20
             }
           }
         },
         "青衣城店": {
           "L": {
             "skuCount": 1,
-            "units": 17,
+            "units": 16,
             "colors": {
-              "01 OFF WHITE": 17
+              "01 OFF WHITE": 16
             }
           },
           "XL": {
@@ -4324,7 +4321,7 @@
         "39 DARK BROWN": "https://www.gu-global.com/hk/hmall/test/u0000000005901/sku/561/GCL39.jpg",
         "54 GREEN": "https://www.gu-global.com/hk/hmall/test/u0000000005901/sku/561/GCL54.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359528",
@@ -4337,12 +4334,12 @@
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005982",
       "stock": {
         "啟德零售館店": 0,
-        "太古城店": 9,
+        "太古城店": 10,
         "奧海城店": 3,
         "屯門市廣場店": 0,
         "康城店": 0,
         "德福廣場店": 5,
-        "新城市廣場店": 5,
+        "新城市廣場店": 4,
         "旺角店": 1,
         "美麗華店": 3,
         "荷里活廣場店": 5,
@@ -4350,15 +4347,15 @@
       },
       "stockUnits": {
         "啟德零售館店": 0,
-        "太古城店": 51,
-        "奧海城店": 26,
+        "太古城店": 52,
+        "奧海城店": 25,
         "屯門市廣場店": 0,
         "康城店": 0,
-        "德福廣場店": 18,
-        "新城市廣場店": 34,
+        "德福廣場店": 17,
+        "新城市廣場店": 31,
         "旺角店": 1,
         "美麗華店": 14,
-        "荷里活廣場店": 54,
+        "荷里活廣場店": 52,
         "青衣城店": 8
       },
       "stockStatus": "complete",
@@ -4374,10 +4371,11 @@
             }
           },
           "M": {
-            "skuCount": 2,
-            "units": 23,
+            "skuCount": 3,
+            "units": 24,
             "colors": {
               "01 OFF WHITE": 12,
+              "09 BLACK": 1,
               "63 BLUE": 11
             }
           },
@@ -4409,9 +4407,9 @@
           },
           "M": {
             "skuCount": 1,
-            "units": 24,
+            "units": 23,
             "colors": {
-              "01 OFF WHITE": 24
+              "01 OFF WHITE": 23
             }
           },
           "XL": {
@@ -4425,10 +4423,10 @@
         "德福廣場店": {
           "S": {
             "skuCount": 2,
-            "units": 7,
+            "units": 6,
             "colors": {
               "01 OFF WHITE": 2,
-              "09 BLACK": 5
+              "09 BLACK": 4
             }
           },
           "M": {
@@ -4456,9 +4454,9 @@
         "新城市廣場店": {
           "M": {
             "skuCount": 1,
-            "units": 3,
+            "units": 2,
             "colors": {
-              "63 BLUE": 3
+              "63 BLUE": 2
             }
           },
           "L": {
@@ -4470,11 +4468,10 @@
             }
           },
           "XL": {
-            "skuCount": 2,
-            "units": 25,
+            "skuCount": 1,
+            "units": 23,
             "colors": {
-              "01 OFF WHITE": 1,
-              "09 BLACK": 24
+              "09 BLACK": 23
             }
           }
         },
@@ -4513,17 +4510,17 @@
         "荷里活廣場店": {
           "S": {
             "skuCount": 2,
-            "units": 24,
+            "units": 23,
             "colors": {
               "01 OFF WHITE": 12,
-              "09 BLACK": 12
+              "09 BLACK": 11
             }
           },
           "M": {
             "skuCount": 1,
-            "units": 28,
+            "units": 27,
             "colors": {
-              "01 OFF WHITE": 28
+              "01 OFF WHITE": 27
             }
           },
           "L": {
@@ -4556,7 +4553,7 @@
         "09 BLACK": "https://www.gu-global.com/hk/hmall/test/u0000000005982/sku/561/GCL09.jpg",
         "63 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000005982/sku/561/GCL63.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359734",
@@ -4573,7 +4570,7 @@
         "奧海城店": 3,
         "屯門市廣場店": 3,
         "康城店": 0,
-        "德福廣場店": 3,
+        "德福廣場店": 4,
         "新城市廣場店": 4,
         "旺角店": 4,
         "美麗華店": 3,
@@ -4581,16 +4578,16 @@
         "青衣城店": 3
       },
       "stockUnits": {
-        "啟德零售館店": 68,
-        "太古城店": 55,
-        "奧海城店": 88,
-        "屯門市廣場店": 107,
+        "啟德零售館店": 66,
+        "太古城店": 52,
+        "奧海城店": 87,
+        "屯門市廣場店": 105,
         "康城店": 0,
-        "德福廣場店": 119,
-        "新城市廣場店": 85,
-        "旺角店": 126,
+        "德福廣場店": 118,
+        "新城市廣場店": 83,
+        "旺角店": 122,
         "美麗華店": 160,
-        "荷里活廣場店": 151,
+        "荷里活廣場店": 149,
         "青衣城店": 110
       },
       "stockStatus": "complete",
@@ -4606,9 +4603,9 @@
           },
           "L": {
             "skuCount": 1,
-            "units": 26,
+            "units": 24,
             "colors": {
-              "01 OFF WHITE": 26
+              "01 OFF WHITE": 24
             }
           },
           "XL": {
@@ -4622,16 +4619,16 @@
         "太古城店": {
           "M": {
             "skuCount": 1,
-            "units": 26,
+            "units": 24,
             "colors": {
-              "01 OFF WHITE": 26
+              "01 OFF WHITE": 24
             }
           },
           "L": {
             "skuCount": 1,
-            "units": 16,
+            "units": 15,
             "colors": {
-              "01 OFF WHITE": 16
+              "01 OFF WHITE": 15
             }
           },
           "XL": {
@@ -4645,9 +4642,9 @@
         "奧海城店": {
           "M": {
             "skuCount": 1,
-            "units": 36,
+            "units": 35,
             "colors": {
-              "01 OFF WHITE": 36
+              "01 OFF WHITE": 35
             }
           },
           "L": {
@@ -4668,9 +4665,9 @@
         "屯門市廣場店": {
           "M": {
             "skuCount": 1,
-            "units": 52,
+            "units": 50,
             "colors": {
-              "01 OFF WHITE": 52
+              "01 OFF WHITE": 50
             }
           },
           "L": {
@@ -4691,9 +4688,9 @@
         "德福廣場店": {
           "M": {
             "skuCount": 1,
-            "units": 48,
+            "units": 47,
             "colors": {
-              "01 OFF WHITE": 48
+              "01 OFF WHITE": 47
             }
           },
           "L": {
@@ -4704,10 +4701,11 @@
             }
           },
           "XL": {
-            "skuCount": 1,
+            "skuCount": 2,
             "units": 43,
             "colors": {
-              "01 OFF WHITE": 43
+              "01 OFF WHITE": 42,
+              "61 BLUE": 1
             }
           }
         },
@@ -4721,16 +4719,16 @@
           },
           "M": {
             "skuCount": 1,
-            "units": 34,
+            "units": 33,
             "colors": {
-              "01 OFF WHITE": 34
+              "01 OFF WHITE": 33
             }
           },
           "L": {
             "skuCount": 1,
-            "units": 19,
+            "units": 18,
             "colors": {
-              "01 OFF WHITE": 19
+              "01 OFF WHITE": 18
             }
           },
           "XL": {
@@ -4744,23 +4742,23 @@
         "旺角店": {
           "M": {
             "skuCount": 1,
-            "units": 32,
+            "units": 30,
             "colors": {
-              "01 OFF WHITE": 32
+              "01 OFF WHITE": 30
             }
           },
           "L": {
             "skuCount": 1,
-            "units": 44,
+            "units": 43,
             "colors": {
-              "01 OFF WHITE": 44
+              "01 OFF WHITE": 43
             }
           },
           "XL": {
             "skuCount": 2,
-            "units": 50,
+            "units": 49,
             "colors": {
-              "01 OFF WHITE": 49,
+              "01 OFF WHITE": 48,
               "09 BLACK": 1
             }
           }
@@ -4791,16 +4789,16 @@
         "荷里活廣場店": {
           "M": {
             "skuCount": 1,
-            "units": 71,
+            "units": 70,
             "colors": {
-              "01 OFF WHITE": 71
+              "01 OFF WHITE": 70
             }
           },
           "L": {
             "skuCount": 1,
-            "units": 43,
+            "units": 42,
             "colors": {
-              "01 OFF WHITE": 43
+              "01 OFF WHITE": 42
             }
           },
           "XL": {
@@ -4841,7 +4839,7 @@
         "38 DARK BROWN": "https://www.gu-global.com/hk/hmall/test/u0000000005978/sku/561/GCL38.jpg",
         "61 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000005978/sku/561/GCL61.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359603",
@@ -4867,16 +4865,16 @@
       },
       "stockUnits": {
         "啟德零售館店": 224,
-        "太古城店": 325,
-        "奧海城店": 259,
+        "太古城店": 320,
+        "奧海城店": 258,
         "屯門市廣場店": 350,
-        "康城店": 171,
-        "德福廣場店": 323,
-        "新城市廣場店": 429,
+        "康城店": 170,
+        "德福廣場店": 322,
+        "新城市廣場店": 424,
         "旺角店": 345,
         "美麗華店": 410,
-        "荷里活廣場店": 270,
-        "青衣城店": 224
+        "荷里活廣場店": 268,
+        "青衣城店": 223
       },
       "stockStatus": "complete",
       "skuCount": 42,
@@ -4930,25 +4928,25 @@
         "太古城店": {
           "S": {
             "skuCount": 5,
-            "units": 103,
+            "units": 101,
             "colors": {
               "07 GRAY": 13,
               "09 BLACK": 1,
               "17 RED": 13,
-              "30 NATURAL": 63,
-              "61 BLUE": 13
+              "30 NATURAL": 62,
+              "61 BLUE": 12
             }
           },
           "M": {
             "skuCount": 6,
-            "units": 120,
+            "units": 117,
             "colors": {
               "01 OFF WHITE": 12,
-              "07 GRAY": 12,
+              "07 GRAY": 11,
               "09 BLACK": 11,
               "17 RED": 3,
-              "30 NATURAL": 58,
-              "61 BLUE": 24
+              "30 NATURAL": 57,
+              "61 BLUE": 23
             }
           },
           "L": {
@@ -4974,13 +4972,13 @@
         "奧海城店": {
           "S": {
             "skuCount": 6,
-            "units": 73,
+            "units": 72,
             "colors": {
               "01 OFF WHITE": 2,
               "07 GRAY": 20,
               "09 BLACK": 5,
               "17 RED": 16,
-              "30 NATURAL": 11,
+              "30 NATURAL": 10,
               "61 BLUE": 19
             }
           },
@@ -5085,9 +5083,9 @@
           },
           "M": {
             "skuCount": 6,
-            "units": 60,
+            "units": 59,
             "colors": {
-              "01 OFF WHITE": 8,
+              "01 OFF WHITE": 7,
               "07 GRAY": 2,
               "09 BLACK": 16,
               "17 RED": 6,
@@ -5131,14 +5129,14 @@
           },
           "M": {
             "skuCount": 6,
-            "units": 123,
+            "units": 122,
             "colors": {
               "01 OFF WHITE": 23,
               "07 GRAY": 30,
               "09 BLACK": 23,
               "17 RED": 10,
               "30 NATURAL": 20,
-              "61 BLUE": 17
+              "61 BLUE": 16
             }
           },
           "L": {
@@ -5176,36 +5174,36 @@
           },
           "S": {
             "skuCount": 6,
-            "units": 156,
+            "units": 155,
             "colors": {
               "01 OFF WHITE": 16,
               "07 GRAY": 13,
               "09 BLACK": 8,
               "17 RED": 32,
-              "30 NATURAL": 69,
+              "30 NATURAL": 68,
               "61 BLUE": 18
             }
           },
           "M": {
             "skuCount": 6,
-            "units": 122,
+            "units": 119,
             "colors": {
-              "01 OFF WHITE": 25,
+              "01 OFF WHITE": 24,
               "07 GRAY": 13,
-              "09 BLACK": 5,
+              "09 BLACK": 4,
               "17 RED": 13,
-              "30 NATURAL": 47,
+              "30 NATURAL": 46,
               "61 BLUE": 19
             }
           },
           "L": {
             "skuCount": 4,
-            "units": 89,
+            "units": 88,
             "colors": {
               "01 OFF WHITE": 10,
               "09 BLACK": 23,
               "17 RED": 14,
-              "30 NATURAL": 42
+              "30 NATURAL": 41
             }
           },
           "XL": {
@@ -5330,13 +5328,13 @@
           },
           "M": {
             "skuCount": 6,
-            "units": 86,
+            "units": 84,
             "colors": {
-              "01 OFF WHITE": 18,
+              "01 OFF WHITE": 17,
               "07 GRAY": 7,
               "09 BLACK": 4,
               "17 RED": 10,
-              "30 NATURAL": 30,
+              "30 NATURAL": 29,
               "61 BLUE": 17
             }
           },
@@ -5373,12 +5371,12 @@
           },
           "S": {
             "skuCount": 5,
-            "units": 80,
+            "units": 79,
             "colors": {
               "07 GRAY": 4,
               "09 BLACK": 5,
               "17 RED": 16,
-              "30 NATURAL": 48,
+              "30 NATURAL": 47,
               "61 BLUE": 7
             }
           },
@@ -5426,7 +5424,7 @@
         "30 NATURAL": "https://www.gu-global.com/hk/hmall/test/u0000000005917/sku/561/GCL30.jpg",
         "61 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000005917/sku/561/GCL61.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359991",
@@ -5447,20 +5445,20 @@
         "新城市廣場店": 9,
         "旺角店": 0,
         "美麗華店": 5,
-        "荷里活廣場店": 13,
+        "荷里活廣場店": 12,
         "青衣城店": 3
       },
       "stockUnits": {
         "啟德零售館店": 39,
         "太古城店": 63,
-        "奧海城店": 50,
+        "奧海城店": 49,
         "屯門市廣場店": 10,
         "康城店": 1,
         "德福廣場店": 60,
         "新城市廣場店": 39,
         "旺角店": 0,
         "美麗華店": 23,
-        "荷里活廣場店": 55,
+        "荷里活廣場店": 54,
         "青衣城店": 8
       },
       "stockStatus": "complete",
@@ -5558,9 +5556,9 @@
           },
           "XL": {
             "skuCount": 4,
-            "units": 22,
+            "units": 21,
             "colors": {
-              "08 DARK GRAY": 6,
+              "08 DARK GRAY": 5,
               "09 BLACK": 3,
               "30 NATURAL": 9,
               "54 GREEN": 4
@@ -5722,13 +5720,12 @@
             }
           },
           "L": {
-            "skuCount": 4,
-            "units": 11,
+            "skuCount": 3,
+            "units": 10,
             "colors": {
               "08 DARK GRAY": 4,
               "09 BLACK": 5,
-              "26 ORANGE": 1,
-              "30 NATURAL": 1
+              "26 ORANGE": 1
             }
           },
           "XL": {
@@ -5767,7 +5764,7 @@
         "34 BROWN": "https://www.gu-global.com/hk/hmall/test/u0000000005799/sku/561/GCL34.jpg",
         "54 GREEN": "https://www.gu-global.com/hk/hmall/test/u0000000005799/sku/561/GCL54.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359652",
@@ -5782,9 +5779,9 @@
         "啟德零售館店": 5,
         "太古城店": 3,
         "奧海城店": 4,
-        "屯門市廣場店": 3,
+        "屯門市廣場店": 2,
         "康城店": 0,
-        "德福廣場店": 4,
+        "德福廣場店": 3,
         "新城市廣場店": 3,
         "旺角店": 0,
         "美麗華店": 2,
@@ -5795,13 +5792,13 @@
         "啟德零售館店": 24,
         "太古城店": 10,
         "奧海城店": 54,
-        "屯門市廣場店": 27,
+        "屯門市廣場店": 25,
         "康城店": 0,
-        "德福廣場店": 57,
+        "德福廣場店": 55,
         "新城市廣場店": 29,
         "旺角店": 0,
         "美麗華店": 25,
-        "荷里活廣場店": 16,
+        "荷里活廣場店": 15,
         "青衣城店": 50
       },
       "stockStatus": "complete",
@@ -5901,16 +5898,9 @@
           },
           "M": {
             "skuCount": 1,
-            "units": 8,
+            "units": 7,
             "colors": {
-              "55 GREEN": 8
-            }
-          },
-          "XXL": {
-            "skuCount": 1,
-            "units": 1,
-            "colors": {
-              "30 NATURAL": 1
+              "55 GREEN": 7
             }
           }
         },
@@ -5924,9 +5914,9 @@
           },
           "M": {
             "skuCount": 1,
-            "units": 25,
+            "units": 24,
             "colors": {
-              "55 GREEN": 25
+              "55 GREEN": 24
             }
           },
           "L": {
@@ -5934,13 +5924,6 @@
             "units": 4,
             "colors": {
               "55 GREEN": 4
-            }
-          },
-          "XL": {
-            "skuCount": 1,
-            "units": 1,
-            "colors": {
-              "09 BLACK": 1
             }
           }
         },
@@ -5980,9 +5963,9 @@
         "荷里活廣場店": {
           "S": {
             "skuCount": 1,
-            "units": 12,
+            "units": 11,
             "colors": {
-              "55 GREEN": 12
+              "55 GREEN": 11
             }
           },
           "M": {
@@ -6030,7 +6013,7 @@
         "34 BROWN": "https://www.gu-global.com/hk/hmall/test/u0000000006193/sku/561/GCL34.jpg",
         "55 GREEN": "https://www.gu-global.com/hk/hmall/test/u0000000006193/sku/561/GCL55.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359642",
@@ -6048,7 +6031,7 @@
         "屯門市廣場店": 1,
         "康城店": 0,
         "德福廣場店": 0,
-        "新城市廣場店": 2,
+        "新城市廣場店": 1,
         "旺角店": 0,
         "美麗華店": 2,
         "荷里活廣場店": 2,
@@ -6057,11 +6040,11 @@
       "stockUnits": {
         "啟德零售館店": 18,
         "太古城店": 0,
-        "奧海城店": 27,
-        "屯門市廣場店": 7,
+        "奧海城店": 26,
+        "屯門市廣場店": 6,
         "康城店": 0,
         "德福廣場店": 0,
-        "新城市廣場店": 3,
+        "新城市廣場店": 1,
         "旺角店": 0,
         "美麗華店": 60,
         "荷里活廣場店": 37,
@@ -6082,28 +6065,27 @@
         "奧海城店": {
           "XL": {
             "skuCount": 2,
-            "units": 27,
+            "units": 26,
             "colors": {
               "30 NATURAL": 16,
-              "38 DARK BROWN": 11
+              "38 DARK BROWN": 10
             }
           }
         },
         "屯門市廣場店": {
           "XL": {
             "skuCount": 1,
-            "units": 7,
+            "units": 6,
             "colors": {
-              "30 NATURAL": 7
+              "30 NATURAL": 6
             }
           }
         },
         "新城市廣場店": {
           "XL": {
-            "skuCount": 2,
-            "units": 3,
+            "skuCount": 1,
+            "units": 1,
             "colors": {
-              "30 NATURAL": 2,
               "38 DARK BROWN": 1
             }
           }
@@ -6145,7 +6127,7 @@
         "38 DARK BROWN": "https://www.gu-global.com/hk/hmall/test/u0000000005944/sku/561/GCL38.jpg",
         "42 YELLOW": "https://www.gu-global.com/hk/hmall/test/u0000000005944/sku/561/GCL42.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "360168",
@@ -6170,16 +6152,16 @@
         "青衣城店": 12
       },
       "stockUnits": {
-        "啟德零售館店": 195,
+        "啟德零售館店": 194,
         "太古城店": 209,
         "奧海城店": 180,
-        "屯門市廣場店": 253,
+        "屯門市廣場店": 250,
         "康城店": 136,
-        "德福廣場店": 262,
-        "新城市廣場店": 425,
-        "旺角店": 627,
-        "美麗華店": 364,
-        "荷里活廣場店": 226,
+        "德福廣場店": 261,
+        "新城市廣場店": 422,
+        "旺角店": 622,
+        "美麗華店": 362,
+        "荷里活廣場店": 225,
         "青衣城店": 203
       },
       "stockStatus": "complete",
@@ -6215,10 +6197,10 @@
           },
           "XL": {
             "skuCount": 3,
-            "units": 44,
+            "units": 43,
             "colors": {
               "01 OFF WHITE": 16,
-              "09 BLACK": 11,
+              "09 BLACK": 10,
               "38 DARK BROWN": 17
             }
           }
@@ -6318,18 +6300,18 @@
           },
           "M": {
             "skuCount": 3,
-            "units": 59,
+            "units": 57,
             "colors": {
-              "01 OFF WHITE": 28,
+              "01 OFF WHITE": 26,
               "09 BLACK": 15,
               "38 DARK BROWN": 16
             }
           },
           "L": {
             "skuCount": 3,
-            "units": 74,
+            "units": 73,
             "colors": {
-              "01 OFF WHITE": 25,
+              "01 OFF WHITE": 24,
               "09 BLACK": 24,
               "38 DARK BROWN": 25
             }
@@ -6394,9 +6376,9 @@
           },
           "M": {
             "skuCount": 3,
-            "units": 71,
+            "units": 70,
             "colors": {
-              "01 OFF WHITE": 29,
+              "01 OFF WHITE": 28,
               "09 BLACK": 18,
               "38 DARK BROWN": 24
             }
@@ -6423,9 +6405,9 @@
         "新城市廣場店": {
           "S": {
             "skuCount": 3,
-            "units": 141,
+            "units": 139,
             "colors": {
-              "01 OFF WHITE": 49,
+              "01 OFF WHITE": 47,
               "09 BLACK": 37,
               "38 DARK BROWN": 55
             }
@@ -6441,11 +6423,11 @@
           },
           "L": {
             "skuCount": 3,
-            "units": 87,
+            "units": 86,
             "colors": {
               "01 OFF WHITE": 28,
               "09 BLACK": 28,
-              "38 DARK BROWN": 31
+              "38 DARK BROWN": 30
             }
           },
           "XL": {
@@ -6461,29 +6443,29 @@
         "旺角店": {
           "S": {
             "skuCount": 3,
-            "units": 181,
+            "units": 178,
             "colors": {
-              "01 OFF WHITE": 77,
+              "01 OFF WHITE": 75,
               "09 BLACK": 45,
-              "38 DARK BROWN": 59
+              "38 DARK BROWN": 58
             }
           },
           "M": {
             "skuCount": 3,
-            "units": 160,
+            "units": 159,
             "colors": {
-              "01 OFF WHITE": 61,
+              "01 OFF WHITE": 60,
               "09 BLACK": 38,
               "38 DARK BROWN": 61
             }
           },
           "L": {
             "skuCount": 3,
-            "units": 150,
+            "units": 149,
             "colors": {
               "01 OFF WHITE": 61,
               "09 BLACK": 39,
-              "38 DARK BROWN": 50
+              "38 DARK BROWN": 49
             }
           },
           "XL": {
@@ -6499,9 +6481,9 @@
         "美麗華店": {
           "S": {
             "skuCount": 3,
-            "units": 107,
+            "units": 105,
             "colors": {
-              "01 OFF WHITE": 39,
+              "01 OFF WHITE": 37,
               "09 BLACK": 19,
               "38 DARK BROWN": 49
             }
@@ -6564,9 +6546,9 @@
           },
           "XL": {
             "skuCount": 3,
-            "units": 35,
+            "units": 34,
             "colors": {
-              "01 OFF WHITE": 14,
+              "01 OFF WHITE": 13,
               "09 BLACK": 13,
               "38 DARK BROWN": 8
             }
@@ -6616,7 +6598,7 @@
         "09 BLACK": "https://www.gu-global.com/hk/hmall/test/u0000000006113/sku/561/GCL09.jpg",
         "38 DARK BROWN": "https://www.gu-global.com/hk/hmall/test/u0000000006113/sku/561/GCL38.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "361477",
@@ -6650,7 +6632,7 @@
         "新城市廣場店": 1,
         "旺角店": 5,
         "美麗華店": 0,
-        "荷里活廣場店": 24,
+        "荷里活廣場店": 23,
         "青衣城店": 6
       },
       "stockStatus": "complete",
@@ -6739,9 +6721,9 @@
         "荷里活廣場店": {
           "S": {
             "skuCount": 1,
-            "units": 7,
+            "units": 6,
             "colors": {
-              "54 GREEN": 7
+              "54 GREEN": 6
             }
           },
           "M": {
@@ -6768,7 +6750,7 @@
         "39 DARK BROWN": "https://www.gu-global.com/hk/hmall/test/u0000000006189/sku/561/GCL39.jpg",
         "54 GREEN": "https://www.gu-global.com/hk/hmall/test/u0000000006189/sku/561/GCL54.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "357497",
@@ -6824,7 +6806,7 @@
         "38 DARK BROWN": "https://www.gu-global.com/hk/hmall/test/u0000000005259/sku/561/GCL38.jpg",
         "63 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000005259/sku/561/GCL63.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359617",
@@ -6843,7 +6825,7 @@
         "康城店": 1,
         "德福廣場店": 1,
         "新城市廣場店": 0,
-        "旺角店": 5,
+        "旺角店": 4,
         "美麗華店": 0,
         "荷里活廣場店": 1,
         "青衣城店": 1
@@ -6856,7 +6838,7 @@
         "康城店": 1,
         "德福廣場店": 1,
         "新城市廣場店": 0,
-        "旺角店": 65,
+        "旺角店": 62,
         "美麗華店": 0,
         "荷里活廣場店": 1,
         "青衣城店": 1
@@ -6894,19 +6876,18 @@
         "旺角店": {
           "S": {
             "skuCount": 2,
-            "units": 48,
+            "units": 46,
             "colors": {
               "12 PINK": 40,
-              "68 BLUE": 8
+              "68 BLUE": 6
             }
           },
           "M": {
-            "skuCount": 3,
-            "units": 17,
+            "skuCount": 2,
+            "units": 16,
             "colors": {
               "01 OFF WHITE": 2,
-              "12 PINK": 14,
-              "68 BLUE": 1
+              "12 PINK": 14
             }
           }
         },
@@ -6934,7 +6915,7 @@
         "12 PINK": "https://www.gu-global.com/hk/hmall/test/u0000000006013/sku/561/GCL12.jpg",
         "68 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000006013/sku/561/GCL68.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "361265",
@@ -7026,7 +7007,7 @@
         "11 PINK": "https://www.gu-global.com/hk/hmall/test/u0000000006221/sku/561/GCL11.jpg",
         "39 DARK BROWN": "https://www.gu-global.com/hk/hmall/test/u0000000006221/sku/561/GCL39.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "360816",
@@ -7052,7 +7033,7 @@
       },
       "stockUnits": {
         "啟德零售館店": 76,
-        "太古城店": 93,
+        "太古城店": 92,
         "奧海城店": 82,
         "屯門市廣場店": 108,
         "康城店": 61,
@@ -7121,9 +7102,9 @@
           },
           "M": {
             "skuCount": 4,
-            "units": 20,
+            "units": 19,
             "colors": {
-              "01 OFF WHITE": 12,
+              "01 OFF WHITE": 11,
               "42 YELLOW": 3,
               "64 BLUE": 2,
               "69 NAVY": 3
@@ -7535,7 +7516,7 @@
         "64 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000006456/sku/561/GCL64.jpg",
         "69 NAVY": "https://www.gu-global.com/hk/hmall/test/u0000000006456/sku/561/GCL69.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "361822",
@@ -7613,7 +7594,7 @@
         "12 PINK": "https://www.gu-global.com/hk/hmall/test/u0000000006229/sku/561/GCL12.jpg",
         "68 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000006229/sku/561/GCL68.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "360817",
@@ -7643,12 +7624,12 @@
         "奧海城店": 60,
         "屯門市廣場店": 62,
         "康城店": 68,
-        "德福廣場店": 96,
+        "德福廣場店": 95,
         "新城市廣場店": 76,
-        "旺角店": 67,
+        "旺角店": 66,
         "美麗華店": 112,
         "荷里活廣場店": 76,
-        "青衣城店": 72
+        "青衣城店": 71
       },
       "stockStatus": "complete",
       "skuCount": 18,
@@ -7846,11 +7827,11 @@
         "德福廣場店": {
           "S": {
             "skuCount": 3,
-            "units": 39,
+            "units": 38,
             "colors": {
               "01 OFF WHITE": 7,
               "66 BLUE": 14,
-              "69 NAVY": 18
+              "69 NAVY": 17
             }
           },
           "M": {
@@ -7922,10 +7903,10 @@
         "旺角店": {
           "S": {
             "skuCount": 3,
-            "units": 12,
+            "units": 11,
             "colors": {
               "01 OFF WHITE": 1,
-              "66 BLUE": 8,
+              "66 BLUE": 7,
               "69 NAVY": 3
             }
           },
@@ -8052,11 +8033,11 @@
           },
           "M": {
             "skuCount": 3,
-            "units": 25,
+            "units": 24,
             "colors": {
               "01 OFF WHITE": 9,
               "66 BLUE": 6,
-              "69 NAVY": 10
+              "69 NAVY": 9
             }
           },
           "L": {
@@ -8084,7 +8065,7 @@
         "66 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000006455/sku/561/GCL66.jpg",
         "69 NAVY": "https://www.gu-global.com/hk/hmall/test/u0000000006455/sku/561/GCL69.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359090",
@@ -8166,7 +8147,7 @@
         "07 GRAY": "https://www.gu-global.com/hk/hmall/test/u0000000006098/sku/561/GCL07.jpg",
         "09 BLACK": "https://www.gu-global.com/hk/hmall/test/u0000000006098/sku/561/GCL09.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "360044",
@@ -8184,7 +8165,7 @@
         "屯門市廣場店": 4,
         "康城店": 1,
         "德福廣場店": 1,
-        "新城市廣場店": 3,
+        "新城市廣場店": 2,
         "旺角店": 9,
         "美麗華店": 0,
         "荷里活廣場店": 1,
@@ -8192,13 +8173,13 @@
       },
       "stockUnits": {
         "啟德零售館店": 0,
-        "太古城店": 3,
+        "太古城店": 2,
         "奧海城店": 0,
-        "屯門市廣場店": 20,
+        "屯門市廣場店": 19,
         "康城店": 1,
         "德福廣場店": 1,
-        "新城市廣場店": 13,
-        "旺角店": 132,
+        "新城市廣場店": 12,
+        "旺角店": 130,
         "美麗華店": 0,
         "荷里活廣場店": 1,
         "青衣城店": 0
@@ -8209,9 +8190,9 @@
         "太古城店": {
           "XL": {
             "skuCount": 1,
-            "units": 3,
+            "units": 2,
             "colors": {
-              "40 CREAM": 3
+              "40 CREAM": 2
             }
           }
         },
@@ -8225,9 +8206,9 @@
           },
           "M": {
             "skuCount": 1,
-            "units": 2,
+            "units": 1,
             "colors": {
-              "01 OFF WHITE": 2
+              "01 OFF WHITE": 1
             }
           },
           "L": {
@@ -8271,22 +8252,15 @@
               "01 OFF WHITE": 1,
               "40 CREAM": 11
             }
-          },
-          "L": {
-            "skuCount": 1,
-            "units": 1,
-            "colors": {
-              "40 CREAM": 1
-            }
           }
         },
         "旺角店": {
           "S": {
             "skuCount": 2,
-            "units": 74,
+            "units": 73,
             "colors": {
               "01 OFF WHITE": 54,
-              "40 CREAM": 20
+              "40 CREAM": 19
             }
           },
           "M": {
@@ -8299,9 +8273,9 @@
           },
           "L": {
             "skuCount": 2,
-            "units": 36,
+            "units": 35,
             "colors": {
-              "01 OFF WHITE": 16,
+              "01 OFF WHITE": 15,
               "40 CREAM": 20
             }
           },
@@ -8335,7 +8309,7 @@
         "01 OFF WHITE": "https://www.gu-global.com/hk/hmall/test/u0000000006007/sku/561/GCL01.jpg",
         "40 CREAM": "https://www.gu-global.com/hk/hmall/test/u0000000006007/sku/561/GCL40.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359615",
@@ -8397,7 +8371,7 @@
       "colorImages": {
         "01 OFF WHITE": "https://www.gu-global.com/hk/hmall/test/u0000000006173/sku/561/GCL01.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "361271",
@@ -8514,7 +8488,7 @@
         "09 BLACK": "https://www.gu-global.com/hk/hmall/test/u0000000006232/sku/561/GCL09.jpg",
         "16 RED": "https://www.gu-global.com/hk/hmall/test/u0000000006232/sku/561/GCL16.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "360278",
@@ -8541,7 +8515,7 @@
       "stockUnits": {
         "啟德零售館店": 44,
         "太古城店": 54,
-        "奧海城店": 43,
+        "奧海城店": 42,
         "屯門市廣場店": 49,
         "康城店": 40,
         "德福廣場店": 47,
@@ -8638,9 +8612,9 @@
           },
           "XL": {
             "skuCount": 1,
-            "units": 8,
+            "units": 7,
             "colors": {
-              "09 BLACK": 8
+              "09 BLACK": 7
             }
           }
         },
@@ -8896,7 +8870,7 @@
         "09 BLACK": "https://www.gu-global.com/hk/hmall/test/u0000000005956/sku/561/GCL09.jpg",
         "30 NATURAL": "https://www.gu-global.com/hk/hmall/test/u0000000005956/sku/561/GCL30.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359615",
@@ -8922,15 +8896,15 @@
       },
       "stockUnits": {
         "啟德零售館店": 21,
-        "太古城店": 7,
+        "太古城店": 6,
         "奧海城店": 11,
-        "屯門市廣場店": 14,
+        "屯門市廣場店": 13,
         "康城店": 0,
         "德福廣場店": 52,
         "新城市廣場店": 10,
         "旺角店": 0,
         "美麗華店": 15,
-        "荷里活廣場店": 38,
+        "荷里活廣場店": 37,
         "青衣城店": 0
       },
       "stockStatus": "complete",
@@ -8969,9 +8943,9 @@
           },
           "L": {
             "skuCount": 1,
-            "units": 4,
+            "units": 3,
             "colors": {
-              "60 LIGHT BLUE": 4
+              "60 LIGHT BLUE": 3
             }
           }
         },
@@ -9001,9 +8975,9 @@
         "屯門市廣場店": {
           "L": {
             "skuCount": 1,
-            "units": 3,
+            "units": 2,
             "colors": {
-              "60 LIGHT BLUE": 3
+              "60 LIGHT BLUE": 2
             }
           },
           "XL": {
@@ -9072,9 +9046,9 @@
         "荷里活廣場店": {
           "M": {
             "skuCount": 1,
-            "units": 4,
+            "units": 3,
             "colors": {
-              "60 LIGHT BLUE": 4
+              "60 LIGHT BLUE": 3
             }
           },
           "L": {
@@ -9096,7 +9070,7 @@
       "colorImages": {
         "60 LIGHT BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000006171/sku/561/GCL60.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359970",
@@ -9185,7 +9159,7 @@
         "09 BLACK": "https://www.gu-global.com/hk/hmall/test/u0000000006003/sku/561/GCL09.jpg",
         "10 PINK": "https://www.gu-global.com/hk/hmall/test/u0000000006003/sku/561/GCL10.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359527",
@@ -9319,7 +9293,7 @@
         "30 NATURAL": "https://www.gu-global.com/hk/hmall/test/u0000000006110/sku/561/GCL30.jpg",
         "42 YELLOW": "https://www.gu-global.com/hk/hmall/test/u0000000006110/sku/561/GCL42.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359529",
@@ -9375,7 +9349,7 @@
         "11 PINK": "https://www.gu-global.com/hk/hmall/test/u0000000006191/sku/561/GCL11.jpg",
         "61 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000006191/sku/561/GCL61.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359563",
@@ -9449,7 +9423,7 @@
         "09 BLACK": "https://www.gu-global.com/hk/hmall/test/u0000000005946/sku/561/GCL09.jpg",
         "63 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000005946/sku/561/GCL63.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "360385",
@@ -9483,7 +9457,7 @@
         "新城市廣場店": 0,
         "旺角店": 0,
         "美麗華店": 0,
-        "荷里活廣場店": 10,
+        "荷里活廣場店": 9,
         "青衣城店": 0
       },
       "stockStatus": "complete",
@@ -9501,9 +9475,9 @@
         "荷里活廣場店": {
           "XS": {
             "skuCount": 1,
-            "units": 3,
+            "units": 2,
             "colors": {
-              "71 PURPLE": 3
+              "71 PURPLE": 2
             }
           },
           "S": {
@@ -9525,7 +9499,7 @@
       "colorImages": {
         "71 PURPLE": "https://www.gu-global.com/hk/hmall/test/u0000000006089/sku/561/GCL71.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359475",
@@ -9551,16 +9525,16 @@
       },
       "stockUnits": {
         "啟德零售館店": 200,
-        "太古城店": 221,
+        "太古城店": 220,
         "奧海城店": 219,
         "屯門市廣場店": 222,
-        "康城店": 196,
-        "德福廣場店": 201,
-        "新城市廣場店": 229,
-        "旺角店": 227,
-        "美麗華店": 239,
-        "荷里活廣場店": 208,
-        "青衣城店": 187
+        "康城店": 194,
+        "德福廣場店": 200,
+        "新城市廣場店": 223,
+        "旺角店": 224,
+        "美麗華店": 235,
+        "荷里活廣場店": 206,
+        "青衣城店": 186
       },
       "stockStatus": "complete",
       "skuCount": 28,
@@ -9606,11 +9580,11 @@
         "太古城店": {
           "S": {
             "skuCount": 3,
-            "units": 79,
+            "units": 78,
             "colors": {
               "01 OFF WHITE": 40,
               "09 BLACK": 22,
-              "38 DARK BROWN": 17
+              "38 DARK BROWN": 16
             }
           },
           "M": {
@@ -9729,11 +9703,11 @@
           },
           "M": {
             "skuCount": 3,
-            "units": 46,
+            "units": 44,
             "colors": {
               "01 OFF WHITE": 17,
-              "09 BLACK": 18,
-              "38 DARK BROWN": 11
+              "09 BLACK": 17,
+              "38 DARK BROWN": 10
             }
           },
           "L": {
@@ -9767,10 +9741,10 @@
           },
           "M": {
             "skuCount": 3,
-            "units": 60,
+            "units": 59,
             "colors": {
               "01 OFF WHITE": 22,
-              "09 BLACK": 27,
+              "09 BLACK": 26,
               "38 DARK BROWN": 11
             }
           },
@@ -9813,27 +9787,27 @@
           },
           "M": {
             "skuCount": 3,
-            "units": 53,
+            "units": 50,
             "colors": {
-              "01 OFF WHITE": 17,
-              "09 BLACK": 23,
-              "38 DARK BROWN": 13
+              "01 OFF WHITE": 16,
+              "09 BLACK": 22,
+              "38 DARK BROWN": 12
             }
           },
           "L": {
             "skuCount": 3,
-            "units": 46,
+            "units": 44,
             "colors": {
               "01 OFF WHITE": 21,
-              "09 BLACK": 21,
+              "09 BLACK": 19,
               "38 DARK BROWN": 4
             }
           },
           "XL": {
             "skuCount": 3,
-            "units": 55,
+            "units": 54,
             "colors": {
-              "01 OFF WHITE": 33,
+              "01 OFF WHITE": 32,
               "09 BLACK": 11,
               "38 DARK BROWN": 11
             }
@@ -9842,10 +9816,10 @@
         "旺角店": {
           "S": {
             "skuCount": 3,
-            "units": 61,
+            "units": 58,
             "colors": {
-              "01 OFF WHITE": 25,
-              "09 BLACK": 21,
+              "01 OFF WHITE": 24,
+              "09 BLACK": 19,
               "38 DARK BROWN": 15
             }
           },
@@ -9880,9 +9854,9 @@
         "美麗華店": {
           "S": {
             "skuCount": 3,
-            "units": 65,
+            "units": 64,
             "colors": {
-              "01 OFF WHITE": 29,
+              "01 OFF WHITE": 28,
               "09 BLACK": 22,
               "38 DARK BROWN": 14
             }
@@ -9907,11 +9881,11 @@
           },
           "XL": {
             "skuCount": 3,
-            "units": 63,
+            "units": 60,
             "colors": {
-              "01 OFF WHITE": 28,
+              "01 OFF WHITE": 26,
               "09 BLACK": 17,
-              "38 DARK BROWN": 18
+              "38 DARK BROWN": 17
             }
           },
           "XXL": {
@@ -9925,9 +9899,9 @@
         "荷里活廣場店": {
           "S": {
             "skuCount": 3,
-            "units": 68,
+            "units": 66,
             "colors": {
-              "01 OFF WHITE": 29,
+              "01 OFF WHITE": 27,
               "09 BLACK": 18,
               "38 DARK BROWN": 21
             }
@@ -9990,10 +9964,10 @@
           },
           "XL": {
             "skuCount": 3,
-            "units": 49,
+            "units": 48,
             "colors": {
               "01 OFF WHITE": 16,
-              "09 BLACK": 18,
+              "09 BLACK": 17,
               "38 DARK BROWN": 15
             }
           }
@@ -10005,7 +9979,7 @@
         "38 DARK BROWN": "https://www.gu-global.com/hk/hmall/test/u0000000005801/sku/561/GCL38.jpg",
         "62 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000005801/sku/561/GCL62.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "360151",
@@ -10166,7 +10140,7 @@
         "37 BROWN": "https://www.gu-global.com/hk/hmall/test/u0000000005733/sku/561/GCL37.jpg",
         "56 OLIVE": "https://www.gu-global.com/hk/hmall/test/u0000000005733/sku/561/GCL56.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "360150",
@@ -10183,7 +10157,7 @@
         "奧海城店": 2,
         "屯門市廣場店": 3,
         "康城店": 1,
-        "德福廣場店": 2,
+        "德福廣場店": 1,
         "新城市廣場店": 0,
         "旺角店": 2,
         "美麗華店": 2,
@@ -10196,7 +10170,7 @@
         "奧海城店": 2,
         "屯門市廣場店": 3,
         "康城店": 2,
-        "德福廣場店": 3,
+        "德福廣場店": 2,
         "新城市廣場店": 0,
         "旺角店": 2,
         "美麗華店": 2,
@@ -10282,10 +10256,9 @@
         },
         "德福廣場店": {
           "S": {
-            "skuCount": 2,
-            "units": 3,
+            "skuCount": 1,
+            "units": 2,
             "colors": {
-              "07 GRAY": 1,
               "64 BLUE": 2
             }
           }
@@ -10344,7 +10317,7 @@
         "64 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000005724/sku/561/GCL64.jpg",
         "69 NAVY": "https://www.gu-global.com/hk/hmall/test/u0000000005724/sku/561/GCL69.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359460",
@@ -10363,23 +10336,23 @@
         "康城店": 1,
         "德福廣場店": 5,
         "新城市廣場店": 3,
-        "旺角店": 7,
+        "旺角店": 6,
         "美麗華店": 11,
         "荷里活廣場店": 10,
         "青衣城店": 7
       },
       "stockUnits": {
         "啟德零售館店": 7,
-        "太古城店": 43,
+        "太古城店": 42,
         "奧海城店": 54,
-        "屯門市廣場店": 95,
+        "屯門市廣場店": 93,
         "康城店": 1,
         "德福廣場店": 30,
         "新城市廣場店": 4,
-        "旺角店": 18,
+        "旺角店": 17,
         "美麗華店": 37,
         "荷里活廣場店": 63,
-        "青衣城店": 40
+        "青衣城店": 37
       },
       "stockStatus": "complete",
       "skuCount": 24,
@@ -10405,9 +10378,9 @@
         "太古城店": {
           "S": {
             "skuCount": 2,
-            "units": 9,
+            "units": 8,
             "colors": {
-              "09 BLACK": 5,
+              "09 BLACK": 4,
               "63 BLUE": 4
             }
           },
@@ -10506,9 +10479,9 @@
           },
           "XL": {
             "skuCount": 2,
-            "units": 37,
+            "units": 35,
             "colors": {
-              "09 BLACK": 36,
+              "09 BLACK": 34,
               "63 BLUE": 1
             }
           }
@@ -10578,10 +10551,9 @@
         },
         "旺角店": {
           "S": {
-            "skuCount": 2,
-            "units": 11,
+            "skuCount": 1,
+            "units": 10,
             "colors": {
-              "09 BLACK": 1,
               "63 BLUE": 10
             }
           },
@@ -10693,10 +10665,10 @@
           },
           "M": {
             "skuCount": 2,
-            "units": 12,
+            "units": 11,
             "colors": {
               "07 GRAY": 1,
-              "63 BLUE": 11
+              "63 BLUE": 10
             }
           },
           "L": {
@@ -10708,9 +10680,9 @@
           },
           "XL": {
             "skuCount": 2,
-            "units": 15,
+            "units": 13,
             "colors": {
-              "09 BLACK": 7,
+              "09 BLACK": 5,
               "63 BLUE": 8
             }
           }
@@ -10722,7 +10694,7 @@
         "31 BEIGE": "https://www.gu-global.com/hk/hmall/test/u0000000005903/sku/561/GCL31.jpg",
         "63 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000005903/sku/561/GCL63.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "360167",
@@ -10737,7 +10709,7 @@
         "啟德零售館店": 4,
         "太古城店": 8,
         "奧海城店": 9,
-        "屯門市廣場店": 2,
+        "屯門市廣場店": 0,
         "康城店": 5,
         "德福廣場店": 10,
         "新城市廣場店": 0,
@@ -10749,15 +10721,15 @@
       "stockUnits": {
         "啟德零售館店": 28,
         "太古城店": 101,
-        "奧海城店": 31,
-        "屯門市廣場店": 32,
+        "奧海城店": 30,
+        "屯門市廣場店": 0,
         "康城店": 19,
-        "德福廣場店": 131,
+        "德福廣場店": 130,
         "新城市廣場店": 0,
-        "旺角店": 162,
-        "美麗華店": 38,
-        "荷里活廣場店": 76,
-        "青衣城店": 72
+        "旺角店": 156,
+        "美麗華店": 37,
+        "荷里活廣場店": 75,
+        "青衣城店": 71
       },
       "stockStatus": "complete",
       "skuCount": 28,
@@ -10846,9 +10818,9 @@
           },
           "XL": {
             "skuCount": 2,
-            "units": 15,
+            "units": 14,
             "colors": {
-              "40 CREAM": 13,
+              "40 CREAM": 12,
               "57 OLIVE": 2
             }
           },
@@ -10858,22 +10830,6 @@
             "colors": {
               "06 GRAY": 1,
               "08 DARK GRAY": 1
-            }
-          }
-        },
-        "屯門市廣場店": {
-          "L": {
-            "skuCount": 1,
-            "units": 9,
-            "colors": {
-              "57 OLIVE": 9
-            }
-          },
-          "XL": {
-            "skuCount": 1,
-            "units": 23,
-            "colors": {
-              "57 OLIVE": 23
             }
           }
         },
@@ -10922,10 +10878,10 @@
           },
           "L": {
             "skuCount": 2,
-            "units": 43,
+            "units": 42,
             "colors": {
               "40 CREAM": 14,
-              "57 OLIVE": 29
+              "57 OLIVE": 28
             }
           },
           "XL": {
@@ -10941,27 +10897,27 @@
         "旺角店": {
           "S": {
             "skuCount": 4,
-            "units": 76,
+            "units": 73,
             "colors": {
-              "06 GRAY": 2,
-              "08 DARK GRAY": 24,
-              "40 CREAM": 13,
+              "06 GRAY": 1,
+              "08 DARK GRAY": 23,
+              "40 CREAM": 12,
               "57 OLIVE": 37
             }
           },
           "L": {
             "skuCount": 1,
-            "units": 21,
+            "units": 19,
             "colors": {
-              "57 OLIVE": 21
+              "57 OLIVE": 19
             }
           },
           "XL": {
             "skuCount": 2,
-            "units": 64,
+            "units": 63,
             "colors": {
               "40 CREAM": 32,
-              "57 OLIVE": 32
+              "57 OLIVE": 31
             }
           },
           "3XL": {
@@ -10989,9 +10945,9 @@
           },
           "XL": {
             "skuCount": 2,
-            "units": 16,
+            "units": 15,
             "colors": {
-              "40 CREAM": 3,
+              "40 CREAM": 2,
               "57 OLIVE": 13
             }
           }
@@ -10999,10 +10955,10 @@
         "荷里活廣場店": {
           "S": {
             "skuCount": 4,
-            "units": 31,
+            "units": 30,
             "colors": {
               "06 GRAY": 7,
-              "08 DARK GRAY": 6,
+              "08 DARK GRAY": 5,
               "40 CREAM": 7,
               "57 OLIVE": 11
             }
@@ -11027,11 +10983,11 @@
         "青衣城店": {
           "S": {
             "skuCount": 4,
-            "units": 24,
+            "units": 23,
             "colors": {
               "06 GRAY": 4,
               "08 DARK GRAY": 2,
-              "40 CREAM": 9,
+              "40 CREAM": 8,
               "57 OLIVE": 9
             }
           },
@@ -11059,7 +11015,7 @@
         "40 CREAM": "https://www.gu-global.com/hk/hmall/test/u0000000005927/sku/561/GCL40.jpg",
         "57 OLIVE": "https://www.gu-global.com/hk/hmall/test/u0000000005927/sku/561/GCL57.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359459",
@@ -11088,13 +11044,13 @@
         "太古城店": 131,
         "奧海城店": 117,
         "屯門市廣場店": 226,
-        "康城店": 123,
+        "康城店": 124,
         "德福廣場店": 234,
-        "新城市廣場店": 176,
-        "旺角店": 180,
-        "美麗華店": 219,
-        "荷里活廣場店": 171,
-        "青衣城店": 153
+        "新城市廣場店": 175,
+        "旺角店": 177,
+        "美麗華店": 218,
+        "荷里活廣場店": 170,
+        "青衣城店": 152
       },
       "stockStatus": "complete",
       "skuCount": 35,
@@ -11332,9 +11288,9 @@
           },
           "L": {
             "skuCount": 4,
-            "units": 30,
+            "units": 31,
             "colors": {
-              "01 OFF WHITE": 7,
+              "01 OFF WHITE": 8,
               "09 BLACK": 6,
               "37 BROWN": 7,
               "56 OLIVE": 10
@@ -11444,9 +11400,9 @@
           },
           "M": {
             "skuCount": 4,
-            "units": 37,
+            "units": 36,
             "colors": {
-              "01 OFF WHITE": 3,
+              "01 OFF WHITE": 2,
               "09 BLACK": 8,
               "37 BROWN": 15,
               "56 OLIVE": 11
@@ -11497,12 +11453,12 @@
           },
           "S": {
             "skuCount": 5,
-            "units": 46,
+            "units": 44,
             "colors": {
-              "01 OFF WHITE": 10,
+              "01 OFF WHITE": 9,
               "09 BLACK": 8,
               "10 PINK": 8,
-              "37 BROWN": 12,
+              "37 BROWN": 11,
               "56 OLIVE": 8
             }
           },
@@ -11518,13 +11474,13 @@
           },
           "L": {
             "skuCount": 5,
-            "units": 22,
+            "units": 21,
             "colors": {
               "01 OFF WHITE": 3,
               "09 BLACK": 8,
               "10 PINK": 1,
               "37 BROWN": 4,
-              "56 OLIVE": 6
+              "56 OLIVE": 5
             }
           },
           "XL": {
@@ -11567,13 +11523,13 @@
           },
           "S": {
             "skuCount": 5,
-            "units": 71,
+            "units": 70,
             "colors": {
               "01 OFF WHITE": 15,
               "09 BLACK": 12,
               "10 PINK": 12,
               "37 BROWN": 19,
-              "56 OLIVE": 13
+              "56 OLIVE": 12
             }
           },
           "M": {
@@ -11651,13 +11607,13 @@
           },
           "XL": {
             "skuCount": 5,
-            "units": 27,
+            "units": 26,
             "colors": {
               "01 OFF WHITE": 6,
               "09 BLACK": 7,
               "10 PINK": 2,
               "37 BROWN": 7,
-              "56 OLIVE": 5
+              "56 OLIVE": 4
             }
           }
         },
@@ -11685,10 +11641,10 @@
           },
           "L": {
             "skuCount": 5,
-            "units": 35,
+            "units": 34,
             "colors": {
               "01 OFF WHITE": 9,
-              "09 BLACK": 8,
+              "09 BLACK": 7,
               "10 PINK": 2,
               "37 BROWN": 7,
               "56 OLIVE": 9
@@ -11714,7 +11670,7 @@
         "37 BROWN": "https://www.gu-global.com/hk/hmall/test/u0000000005732/sku/561/GCL37.jpg",
         "56 OLIVE": "https://www.gu-global.com/hk/hmall/test/u0000000005732/sku/561/GCL56.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359066",
@@ -11829,7 +11785,7 @@
         "357372 / 69 NAVY": "https://www.gu-global.com/hk/hmall/test/u0000000005421/sku/561/GCL69.jpg",
         "69 NAVY": "https://www.gu-global.com/hk/hmall/test/u0000000005421/sku/561/GCL69.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "360140",
@@ -11857,9 +11813,9 @@
         "啟德零售館店": 0,
         "太古城店": 60,
         "奧海城店": 29,
-        "屯門市廣場店": 42,
+        "屯門市廣場店": 41,
         "康城店": 0,
-        "德福廣場店": 59,
+        "德福廣場店": 58,
         "新城市廣場店": 3,
         "旺角店": 195,
         "美麗華店": 40,
@@ -11926,10 +11882,10 @@
         "屯門市廣場店": {
           "S": {
             "skuCount": 2,
-            "units": 8,
+            "units": 7,
             "colors": {
               "08 DARK GRAY": 1,
-              "09 BLACK": 7
+              "09 BLACK": 6
             }
           },
           "M": {
@@ -11952,9 +11908,9 @@
         "德福廣場店": {
           "S": {
             "skuCount": 2,
-            "units": 9,
+            "units": 8,
             "colors": {
-              "08 DARK GRAY": 5,
+              "08 DARK GRAY": 4,
               "09 BLACK": 4
             }
           },
@@ -12096,7 +12052,7 @@
         "358372 / 08 DARK GRAY": "https://www.gu-global.com/hk/hmall/test/u0000000005802/sku/561/GCL08.jpg",
         "358372 / 09 BLACK": "https://www.gu-global.com/hk/hmall/test/u0000000005802/sku/561/GCL09.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "358737",
@@ -12108,7 +12064,7 @@
       "image": "https://www.gu-global.com/hk/hmall/test/u0000000005821/main/first/561/1.jpg",
       "url": "https://www.gu-global.com/hk/zh_HK/product-detail.html?productCode=u0000000005821",
       "stock": {
-        "啟德零售館店": 11,
+        "啟德零售館店": 10,
         "太古城店": 11,
         "奧海城店": 9,
         "屯門市廣場店": 6,
@@ -12121,16 +12077,16 @@
         "青衣城店": 8
       },
       "stockUnits": {
-        "啟德零售館店": 102,
-        "太古城店": 103,
+        "啟德零售館店": 99,
+        "太古城店": 101,
         "奧海城店": 136,
-        "屯門市廣場店": 142,
+        "屯門市廣場店": 137,
         "康城店": 114,
-        "德福廣場店": 127,
+        "德福廣場店": 123,
         "新城市廣場店": 74,
         "旺角店": 67,
-        "美麗華店": 147,
-        "荷里活廣場店": 139,
+        "美麗華店": 146,
+        "荷里活廣場店": 136,
         "青衣城店": 97
       },
       "stockStatus": "complete",
@@ -12139,17 +12095,17 @@
         "啟德零售館店": {
           "S": {
             "skuCount": 1,
-            "units": 4,
+            "units": 3,
             "colors": {
-              "00 WHITE": 4
+              "00 WHITE": 3
             }
           },
           "M": {
             "skuCount": 3,
-            "units": 36,
+            "units": 35,
             "colors": {
               "00 WHITE": 15,
-              "09 BLACK": 9,
+              "09 BLACK": 8,
               "31 BEIGE": 12
             }
           },
@@ -12163,12 +12119,11 @@
             }
           },
           "XL": {
-            "skuCount": 4,
-            "units": 27,
+            "skuCount": 3,
+            "units": 26,
             "colors": {
               "00 WHITE": 12,
               "31 BEIGE": 9,
-              "42 YELLOW": 1,
               "62 BLUE": 5
             }
           }
@@ -12201,11 +12156,11 @@
           },
           "XL": {
             "skuCount": 4,
-            "units": 28,
+            "units": 26,
             "colors": {
               "00 WHITE": 9,
-              "09 BLACK": 2,
-              "31 BEIGE": 14,
+              "09 BLACK": 1,
+              "31 BEIGE": 13,
               "62 BLUE": 3
             }
           }
@@ -12255,11 +12210,11 @@
           },
           "L": {
             "skuCount": 3,
-            "units": 68,
+            "units": 63,
             "colors": {
-              "00 WHITE": 36,
-              "09 BLACK": 5,
-              "31 BEIGE": 27
+              "00 WHITE": 35,
+              "09 BLACK": 2,
+              "31 BEIGE": 26
             }
           },
           "XL": {
@@ -12319,28 +12274,28 @@
           },
           "M": {
             "skuCount": 3,
-            "units": 24,
+            "units": 22,
             "colors": {
-              "00 WHITE": 19,
+              "00 WHITE": 17,
               "09 BLACK": 4,
               "31 BEIGE": 1
             }
           },
           "L": {
             "skuCount": 4,
-            "units": 58,
+            "units": 57,
             "colors": {
               "00 WHITE": 27,
               "09 BLACK": 2,
               "31 BEIGE": 21,
-              "62 BLUE": 8
+              "62 BLUE": 7
             }
           },
           "XL": {
             "skuCount": 3,
-            "units": 43,
+            "units": 42,
             "colors": {
-              "00 WHITE": 20,
+              "00 WHITE": 19,
               "31 BEIGE": 14,
               "62 BLUE": 9
             }
@@ -12425,10 +12380,10 @@
           },
           "L": {
             "skuCount": 3,
-            "units": 69,
+            "units": 68,
             "colors": {
               "00 WHITE": 33,
-              "09 BLACK": 9,
+              "09 BLACK": 8,
               "31 BEIGE": 27
             }
           },
@@ -12444,20 +12399,20 @@
         "荷里活廣場店": {
           "M": {
             "skuCount": 3,
-            "units": 37,
+            "units": 36,
             "colors": {
               "00 WHITE": 27,
-              "09 BLACK": 3,
+              "09 BLACK": 2,
               "31 BEIGE": 7
             }
           },
           "L": {
             "skuCount": 3,
-            "units": 59,
+            "units": 57,
             "colors": {
               "00 WHITE": 26,
               "09 BLACK": 9,
-              "31 BEIGE": 24
+              "31 BEIGE": 22
             }
           },
           "XL": {
@@ -12505,7 +12460,7 @@
         "42 YELLOW": "https://www.gu-global.com/hk/hmall/test/u0000000005821/sku/561/GCL42.jpg",
         "62 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000005821/sku/561/GCL62.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359473",
@@ -12533,14 +12488,14 @@
         "啟德零售館店": 1,
         "太古城店": 90,
         "奧海城店": 82,
-        "屯門市廣場店": 76,
+        "屯門市廣場店": 72,
         "康城店": 0,
-        "德福廣場店": 133,
-        "新城市廣場店": 25,
+        "德福廣場店": 132,
+        "新城市廣場店": 24,
         "旺角店": 0,
-        "美麗華店": 136,
+        "美麗華店": 134,
         "荷里活廣場店": 65,
-        "青衣城店": 74
+        "青衣城店": 73
       },
       "stockStatus": "complete",
       "skuCount": 28,
@@ -12603,16 +12558,16 @@
         "屯門市廣場店": {
           "S": {
             "skuCount": 1,
-            "units": 69,
+            "units": 68,
             "colors": {
-              "01 OFF WHITE": 69
+              "01 OFF WHITE": 68
             }
           },
           "M": {
             "skuCount": 1,
-            "units": 6,
+            "units": 3,
             "colors": {
-              "01 OFF WHITE": 6
+              "01 OFF WHITE": 3
             }
           },
           "L": {
@@ -12626,10 +12581,10 @@
         "德福廣場店": {
           "S": {
             "skuCount": 2,
-            "units": 84,
+            "units": 83,
             "colors": {
               "01 OFF WHITE": 70,
-              "09 BLACK": 14
+              "09 BLACK": 13
             }
           },
           "M": {
@@ -12651,9 +12606,9 @@
         "新城市廣場店": {
           "S": {
             "skuCount": 1,
-            "units": 22,
+            "units": 21,
             "colors": {
-              "01 OFF WHITE": 22
+              "01 OFF WHITE": 21
             }
           },
           "M": {
@@ -12674,16 +12629,16 @@
         "美麗華店": {
           "S": {
             "skuCount": 1,
-            "units": 101,
+            "units": 100,
             "colors": {
-              "01 OFF WHITE": 101
+              "01 OFF WHITE": 100
             }
           },
           "M": {
             "skuCount": 1,
-            "units": 34,
+            "units": 33,
             "colors": {
-              "01 OFF WHITE": 34
+              "01 OFF WHITE": 33
             }
           },
           "L": {
@@ -12720,9 +12675,9 @@
           },
           "M": {
             "skuCount": 1,
-            "units": 27,
+            "units": 26,
             "colors": {
-              "01 OFF WHITE": 27
+              "01 OFF WHITE": 26
             }
           },
           "L": {
@@ -12740,7 +12695,7 @@
         "63 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000005773/sku/561/GCL63.jpg",
         "88": "https://www.gu-global.com/hk/hmall/test/u0000000005773/sku/561/GCL88.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359835",
@@ -12757,10 +12712,10 @@
         "奧海城店": 4,
         "屯門市廣場店": 2,
         "康城店": 0,
-        "德福廣場店": 2,
+        "德福廣場店": 1,
         "新城市廣場店": 3,
         "旺角店": 0,
-        "美麗華店": 5,
+        "美麗華店": 4,
         "荷里活廣場店": 6,
         "青衣城店": 4
       },
@@ -12768,13 +12723,13 @@
         "啟德零售館店": 0,
         "太古城店": 54,
         "奧海城店": 30,
-        "屯門市廣場店": 79,
+        "屯門市廣場店": 78,
         "康城店": 0,
-        "德福廣場店": 3,
-        "新城市廣場店": 50,
+        "德福廣場店": 2,
+        "新城市廣場店": 49,
         "旺角店": 0,
-        "美麗華店": 69,
-        "荷里活廣場店": 76,
+        "美麗華店": 66,
+        "荷里活廣場店": 74,
         "青衣城店": 45
       },
       "stockStatus": "complete",
@@ -12812,10 +12767,10 @@
         "屯門市廣場店": {
           "S": {
             "skuCount": 2,
-            "units": 79,
+            "units": 78,
             "colors": {
               "01 OFF WHITE": 31,
-              "07 GRAY": 48
+              "07 GRAY": 47
             }
           }
         },
@@ -12826,22 +12781,15 @@
             "colors": {
               "01 OFF WHITE": 2
             }
-          },
-          "XL": {
-            "skuCount": 1,
-            "units": 1,
-            "colors": {
-              "40 CREAM": 1
-            }
           }
         },
         "新城市廣場店": {
           "S": {
             "skuCount": 3,
-            "units": 50,
+            "units": 49,
             "colors": {
               "01 OFF WHITE": 18,
-              "07 GRAY": 31,
+              "07 GRAY": 30,
               "09 BLACK": 1
             }
           }
@@ -12849,18 +12797,11 @@
         "美麗華店": {
           "S": {
             "skuCount": 3,
-            "units": 67,
+            "units": 65,
             "colors": {
-              "01 OFF WHITE": 28,
-              "07 GRAY": 38,
+              "01 OFF WHITE": 27,
+              "07 GRAY": 37,
               "40 CREAM": 1
-            }
-          },
-          "M": {
-            "skuCount": 1,
-            "units": 1,
-            "colors": {
-              "01 OFF WHITE": 1
             }
           },
           "XL": {
@@ -12874,11 +12815,11 @@
         "荷里活廣場店": {
           "S": {
             "skuCount": 4,
-            "units": 68,
+            "units": 66,
             "colors": {
               "01 OFF WHITE": 22,
               "07 GRAY": 41,
-              "09 BLACK": 4,
+              "09 BLACK": 2,
               "40 CREAM": 1
             }
           },
@@ -12922,7 +12863,7 @@
         "09 BLACK": "https://www.gu-global.com/hk/hmall/test/u0000000005845/sku/561/GCL09.jpg",
         "40 CREAM": "https://www.gu-global.com/hk/hmall/test/u0000000005845/sku/561/GCL40.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "360371",
@@ -12948,16 +12889,16 @@
       },
       "stockUnits": {
         "啟德零售館店": 45,
-        "太古城店": 58,
-        "奧海城店": 54,
-        "屯門市廣場店": 95,
-        "康城店": 53,
-        "德福廣場店": 121,
-        "新城市廣場店": 90,
-        "旺角店": 68,
-        "美麗華店": 88,
-        "荷里活廣場店": 47,
-        "青衣城店": 75
+        "太古城店": 57,
+        "奧海城店": 51,
+        "屯門市廣場店": 94,
+        "康城店": 52,
+        "德福廣場店": 120,
+        "新城市廣場店": 86,
+        "旺角店": 66,
+        "美麗華店": 86,
+        "荷里活廣場店": 46,
+        "青衣城店": 74
       },
       "stockStatus": "complete",
       "skuCount": 21,
@@ -12994,10 +12935,10 @@
           },
           "M": {
             "skuCount": 3,
-            "units": 22,
+            "units": 21,
             "colors": {
               "08 DARK GRAY": 5,
-              "63 BLUE": 9,
+              "63 BLUE": 8,
               "69 NAVY": 8
             }
           },
@@ -13022,11 +12963,11 @@
           },
           "M": {
             "skuCount": 3,
-            "units": 20,
+            "units": 17,
             "colors": {
-              "08 DARK GRAY": 6,
-              "63 BLUE": 7,
-              "69 NAVY": 7
+              "08 DARK GRAY": 5,
+              "63 BLUE": 6,
+              "69 NAVY": 6
             }
           },
           "L": {
@@ -13060,9 +13001,9 @@
           },
           "L": {
             "skuCount": 1,
-            "units": 4,
+            "units": 3,
             "colors": {
-              "08 DARK GRAY": 4
+              "08 DARK GRAY": 3
             }
           },
           "3XL": {
@@ -13076,9 +13017,9 @@
         "康城店": {
           "S": {
             "skuCount": 3,
-            "units": 28,
+            "units": 27,
             "colors": {
-              "08 DARK GRAY": 8,
+              "08 DARK GRAY": 7,
               "63 BLUE": 6,
               "69 NAVY": 14
             }
@@ -13104,9 +13045,9 @@
         "德福廣場店": {
           "S": {
             "skuCount": 3,
-            "units": 51,
+            "units": 50,
             "colors": {
-              "08 DARK GRAY": 15,
+              "08 DARK GRAY": 14,
               "63 BLUE": 22,
               "69 NAVY": 14
             }
@@ -13131,11 +13072,11 @@
         "新城市廣場店": {
           "S": {
             "skuCount": 3,
-            "units": 46,
+            "units": 43,
             "colors": {
-              "08 DARK GRAY": 17,
-              "63 BLUE": 10,
-              "69 NAVY": 19
+              "08 DARK GRAY": 16,
+              "63 BLUE": 9,
+              "69 NAVY": 18
             }
           },
           "M": {
@@ -13149,9 +13090,9 @@
           },
           "L": {
             "skuCount": 1,
-            "units": 4,
+            "units": 3,
             "colors": {
-              "08 DARK GRAY": 4
+              "08 DARK GRAY": 3
             }
           },
           "3XL": {
@@ -13165,19 +13106,19 @@
         "旺角店": {
           "S": {
             "skuCount": 3,
-            "units": 38,
+            "units": 37,
             "colors": {
               "08 DARK GRAY": 13,
               "63 BLUE": 15,
-              "69 NAVY": 10
+              "69 NAVY": 9
             }
           },
           "M": {
             "skuCount": 3,
-            "units": 27,
+            "units": 26,
             "colors": {
               "08 DARK GRAY": 9,
-              "63 BLUE": 14,
+              "63 BLUE": 13,
               "69 NAVY": 4
             }
           },
@@ -13192,11 +13133,11 @@
         "美麗華店": {
           "S": {
             "skuCount": 3,
-            "units": 53,
+            "units": 51,
             "colors": {
-              "08 DARK GRAY": 16,
+              "08 DARK GRAY": 15,
               "63 BLUE": 20,
-              "69 NAVY": 17
+              "69 NAVY": 16
             }
           },
           "M": {
@@ -13221,10 +13162,10 @@
           },
           "M": {
             "skuCount": 3,
-            "units": 25,
+            "units": 24,
             "colors": {
               "08 DARK GRAY": 5,
-              "63 BLUE": 10,
+              "63 BLUE": 9,
               "69 NAVY": 10
             }
           }
@@ -13232,9 +13173,9 @@
         "青衣城店": {
           "S": {
             "skuCount": 3,
-            "units": 40,
+            "units": 39,
             "colors": {
-              "08 DARK GRAY": 16,
+              "08 DARK GRAY": 15,
               "63 BLUE": 11,
               "69 NAVY": 13
             }
@@ -13262,7 +13203,7 @@
         "63 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000006018/sku/561/GCL63.jpg",
         "69 NAVY": "https://www.gu-global.com/hk/hmall/test/u0000000006018/sku/561/GCL69.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359984",
@@ -13338,7 +13279,7 @@
         "31 BEIGE": "https://www.gu-global.com/hk/hmall/test/u0000000005905/sku/561/GCL31.jpg",
         "63 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000005905/sku/561/GCL63.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359975",
@@ -13443,7 +13384,7 @@
         "64 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000005725/sku/561/GCL64.jpg",
         "69 NAVY": "https://www.gu-global.com/hk/hmall/test/u0000000005725/sku/561/GCL69.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359457",
@@ -13457,7 +13398,7 @@
       "stock": {
         "啟德零售館店": 14,
         "太古城店": 14,
-        "奧海城店": 15,
+        "奧海城店": 14,
         "屯門市廣場店": 13,
         "康城店": 13,
         "德福廣場店": 14,
@@ -13468,17 +13409,17 @@
         "青衣城店": 12
       },
       "stockUnits": {
-        "啟德零售館店": 129,
+        "啟德零售館店": 128,
         "太古城店": 139,
-        "奧海城店": 113,
-        "屯門市廣場店": 100,
+        "奧海城店": 112,
+        "屯門市廣場店": 98,
         "康城店": 152,
         "德福廣場店": 167,
-        "新城市廣場店": 125,
+        "新城市廣場店": 124,
         "旺角店": 241,
-        "美麗華店": 239,
-        "荷里活廣場店": 163,
-        "青衣城店": 114
+        "美麗華店": 237,
+        "荷里活廣場店": 162,
+        "青衣城店": 113
       },
       "stockStatus": "complete",
       "skuCount": 21,
@@ -13502,11 +13443,11 @@
           },
           "M": {
             "skuCount": 3,
-            "units": 30,
+            "units": 29,
             "colors": {
               "07 GRAY": 12,
               "64 BLUE": 13,
-              "69 NAVY": 5
+              "69 NAVY": 4
             }
           },
           "L": {
@@ -13631,13 +13572,6 @@
               "69 NAVY": 13
             }
           },
-          "XXL": {
-            "skuCount": 1,
-            "units": 1,
-            "colors": {
-              "64 BLUE": 1
-            }
-          },
           "3XL": {
             "skuCount": 1,
             "units": 1,
@@ -13665,9 +13599,9 @@
           },
           "M": {
             "skuCount": 3,
-            "units": 26,
+            "units": 25,
             "colors": {
-              "07 GRAY": 8,
+              "07 GRAY": 7,
               "64 BLUE": 7,
               "69 NAVY": 11
             }
@@ -13683,11 +13617,11 @@
           },
           "XL": {
             "skuCount": 3,
-            "units": 31,
+            "units": 30,
             "colors": {
               "07 GRAY": 8,
               "64 BLUE": 9,
-              "69 NAVY": 14
+              "69 NAVY": 13
             }
           }
         },
@@ -13798,11 +13732,11 @@
           },
           "S": {
             "skuCount": 3,
-            "units": 31,
+            "units": 30,
             "colors": {
               "07 GRAY": 8,
               "64 BLUE": 9,
-              "69 NAVY": 14
+              "69 NAVY": 13
             }
           },
           "M": {
@@ -13914,20 +13848,20 @@
           },
           "L": {
             "skuCount": 3,
-            "units": 47,
+            "units": 46,
             "colors": {
               "07 GRAY": 15,
-              "64 BLUE": 17,
+              "64 BLUE": 16,
               "69 NAVY": 15
             }
           },
           "XL": {
             "skuCount": 3,
-            "units": 49,
+            "units": 48,
             "colors": {
               "07 GRAY": 18,
               "64 BLUE": 16,
-              "69 NAVY": 15
+              "69 NAVY": 14
             }
           }
         },
@@ -13943,11 +13877,11 @@
           },
           "M": {
             "skuCount": 3,
-            "units": 47,
+            "units": 46,
             "colors": {
               "07 GRAY": 13,
               "64 BLUE": 19,
-              "69 NAVY": 15
+              "69 NAVY": 14
             }
           },
           "L": {
@@ -13972,11 +13906,11 @@
         "青衣城店": {
           "S": {
             "skuCount": 3,
-            "units": 31,
+            "units": 30,
             "colors": {
               "07 GRAY": 9,
               "64 BLUE": 12,
-              "69 NAVY": 10
+              "69 NAVY": 9
             }
           },
           "M": {
@@ -14013,7 +13947,7 @@
         "64 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000005722/sku/561/GCL64.jpg",
         "69 NAVY": "https://www.gu-global.com/hk/hmall/test/u0000000005722/sku/561/GCL69.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359989",
@@ -14127,7 +14061,7 @@
         "37 BROWN": "https://www.gu-global.com/hk/hmall/test/u0000000005734/sku/561/GCL37.jpg",
         "56 OLIVE": "https://www.gu-global.com/hk/hmall/test/u0000000005734/sku/561/GCL56.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "360148",
@@ -14153,15 +14087,15 @@
       },
       "stockUnits": {
         "啟德零售館店": 0,
-        "太古城店": 93,
-        "奧海城店": 79,
-        "屯門市廣場店": 151,
+        "太古城店": 91,
+        "奧海城店": 77,
+        "屯門市廣場店": 150,
         "康城店": 0,
-        "德福廣場店": 114,
+        "德福廣場店": 113,
         "新城市廣場店": 5,
         "旺角店": 107,
-        "美麗華店": 48,
-        "荷里活廣場店": 44,
+        "美麗華店": 47,
+        "荷里活廣場店": 42,
         "青衣城店": 68
       },
       "stockStatus": "complete",
@@ -14178,17 +14112,17 @@
           },
           "M": {
             "skuCount": 2,
-            "units": 34,
+            "units": 33,
             "colors": {
               "08 DARK GRAY": 28,
-              "69 NAVY": 6
+              "69 NAVY": 5
             }
           },
           "L": {
             "skuCount": 1,
-            "units": 8,
+            "units": 7,
             "colors": {
-              "08 DARK GRAY": 8
+              "08 DARK GRAY": 7
             }
           }
         },
@@ -14218,9 +14152,9 @@
           },
           "XL": {
             "skuCount": 1,
-            "units": 8,
+            "units": 6,
             "colors": {
-              "08 DARK GRAY": 8
+              "08 DARK GRAY": 6
             }
           }
         },
@@ -14250,9 +14184,9 @@
           },
           "L": {
             "skuCount": 1,
-            "units": 13,
+            "units": 12,
             "colors": {
-              "08 DARK GRAY": 13
+              "08 DARK GRAY": 12
             }
           },
           "XL": {
@@ -14275,9 +14209,9 @@
           },
           "M": {
             "skuCount": 2,
-            "units": 37,
+            "units": 36,
             "colors": {
-              "08 DARK GRAY": 35,
+              "08 DARK GRAY": 34,
               "69 NAVY": 2
             }
           },
@@ -14356,9 +14290,9 @@
           },
           "M": {
             "skuCount": 1,
-            "units": 10,
+            "units": 9,
             "colors": {
-              "08 DARK GRAY": 10
+              "08 DARK GRAY": 9
             }
           },
           "L": {
@@ -14379,10 +14313,10 @@
         "荷里活廣場店": {
           "S": {
             "skuCount": 2,
-            "units": 21,
+            "units": 20,
             "colors": {
               "08 DARK GRAY": 14,
-              "69 NAVY": 7
+              "69 NAVY": 6
             }
           },
           "M": {
@@ -14394,9 +14328,9 @@
           },
           "L": {
             "skuCount": 1,
-            "units": 3,
+            "units": 2,
             "colors": {
-              "08 DARK GRAY": 3
+              "08 DARK GRAY": 2
             }
           },
           "XL": {
@@ -14444,7 +14378,7 @@
         "62 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000005730/sku/561/GCL62.jpg",
         "69 NAVY": "https://www.gu-global.com/hk/hmall/test/u0000000005730/sku/561/GCL69.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359456",
@@ -14458,7 +14392,7 @@
       "stock": {
         "啟德零售館店": 0,
         "太古城店": 0,
-        "奧海城店": 1,
+        "奧海城店": 0,
         "屯門市廣場店": 1,
         "康城店": 0,
         "德福廣場店": 0,
@@ -14471,7 +14405,7 @@
       "stockUnits": {
         "啟德零售館店": 0,
         "太古城店": 0,
-        "奧海城店": 1,
+        "奧海城店": 0,
         "屯門市廣場店": 1,
         "康城店": 0,
         "德福廣場店": 0,
@@ -14484,15 +14418,6 @@
       "stockStatus": "complete",
       "skuCount": 28,
       "stockBySize": {
-        "奧海城店": {
-          "XL": {
-            "skuCount": 1,
-            "units": 1,
-            "colors": {
-              "62 BLUE": 1
-            }
-          }
-        },
         "屯門市廣場店": {
           "L": {
             "skuCount": 1,
@@ -14527,7 +14452,7 @@
         "62 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000005559/sku/561/GCL62.jpg",
         "65 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000005559/sku/561/GCL65.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359085",
@@ -14595,7 +14520,7 @@
         "65 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000005588/sku/561/GCL65.jpg",
         "67 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000005588/sku/561/GCL67.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359976",
@@ -14678,7 +14603,7 @@
         "31 BEIGE": "https://www.gu-global.com/hk/hmall/test/u0000000005907/sku/561/GCL31.jpg",
         "63 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000005907/sku/561/GCL63.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359088",
@@ -14761,7 +14686,7 @@
         "65 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000005577/sku/561/GCL65.jpg",
         "67 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000005577/sku/561/GCL67.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359086",
@@ -14820,7 +14745,7 @@
         "65 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000005591/sku/561/GCL65.jpg",
         "67 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000005591/sku/561/GCL67.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "360330",
@@ -14834,7 +14759,7 @@
       "stock": {
         "啟德零售館店": 0,
         "太古城店": 0,
-        "奧海城店": 1,
+        "奧海城店": 2,
         "屯門市廣場店": 0,
         "康城店": 0,
         "德福廣場店": 0,
@@ -14847,7 +14772,7 @@
       "stockUnits": {
         "啟德零售館店": 0,
         "太古城店": 0,
-        "奧海城店": 1,
+        "奧海城店": 2,
         "屯門市廣場店": 0,
         "康城店": 0,
         "德福廣場店": 0,
@@ -14867,6 +14792,13 @@
             "colors": {
               "40 CREAM": 1
             }
+          },
+          "S": {
+            "skuCount": 1,
+            "units": 1,
+            "colors": {
+              "08 DARK GRAY": 1
+            }
           }
         },
         "旺角店": {
@@ -14885,7 +14817,7 @@
         "40 CREAM": "https://www.gu-global.com/hk/hmall/test/u0000000005939/sku/561/GCL40.jpg",
         "57 OLIVE": "https://www.gu-global.com/hk/hmall/test/u0000000005939/sku/561/GCL57.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "360831",
@@ -14978,7 +14910,7 @@
         "66 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000006364/sku/561/GCL66.jpg",
         "69 NAVY": "https://www.gu-global.com/hk/hmall/test/u0000000006364/sku/561/GCL69.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359068",
@@ -15027,7 +14959,7 @@
         "358415 / 69 NAVY": "https://www.gu-global.com/hk/hmall/test/u0000000005420/sku/561/GCL69.jpg",
         "69 NAVY": "https://www.gu-global.com/hk/hmall/test/u0000000005420/sku/561/GCL69.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "352152",
@@ -15091,7 +15023,7 @@
         "67 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000003068/sku/561/GCL67.jpg",
         "69 NAVY": "https://www.gu-global.com/hk/hmall/test/u0000000003068/sku/561/GCL69.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359070",
@@ -15200,7 +15132,7 @@
         "357921 / 30 NATURAL": "https://www.gu-global.com/hk/hmall/test/u0000000005530/sku/561/GCL30.jpg",
         "42 YELLOW": "https://www.gu-global.com/hk/hmall/test/u0000000005530/sku/561/GCL42.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359974",
@@ -15265,7 +15197,7 @@
         "62 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000005556/sku/561/GCL62.jpg",
         "65 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000005556/sku/561/GCL65.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359995",
@@ -15309,7 +15241,7 @@
         "50 LIGHT GREEN": "https://www.gu-global.com/hk/hmall/test/u0000000006669/sku/561/GCL50.jpg",
         "71 PURPLE": "https://www.gu-global.com/hk/hmall/test/u0000000006669/sku/561/GCL71.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "360234",
@@ -15330,20 +15262,20 @@
         "新城市廣場店": 2,
         "旺角店": 5,
         "美麗華店": 2,
-        "荷里活廣場店": 3,
+        "荷里活廣場店": 1,
         "青衣城店": 0
       },
       "stockUnits": {
         "啟德零售館店": 18,
         "太古城店": 6,
         "奧海城店": 0,
-        "屯門市廣場店": 4,
+        "屯門市廣場店": 3,
         "康城店": 0,
-        "德福廣場店": 29,
+        "德福廣場店": 27,
         "新城市廣場店": 5,
-        "旺角店": 108,
-        "美麗華店": 40,
-        "荷里活廣場店": 16,
+        "旺角店": 107,
+        "美麗華店": 39,
+        "荷里活廣場店": 10,
         "青衣城店": 0
       },
       "stockStatus": "complete",
@@ -15390,11 +15322,11 @@
               "38 DARK BROWN": 1
             }
           },
-          "XL": {
+          "XXL": {
             "skuCount": 1,
-            "units": 2,
+            "units": 1,
             "colors": {
-              "01 OFF WHITE": 2
+              "38 DARK BROWN": 1
             }
           }
         },
@@ -15408,11 +15340,11 @@
           },
           "XL": {
             "skuCount": 3,
-            "units": 10,
+            "units": 8,
             "colors": {
               "01 OFF WHITE": 1,
               "09 BLACK": 3,
-              "38 DARK BROWN": 6
+              "38 DARK BROWN": 4
             }
           },
           "XXL": {
@@ -15463,9 +15395,9 @@
           },
           "XL": {
             "skuCount": 2,
-            "units": 9,
+            "units": 8,
             "colors": {
-              "09 BLACK": 7,
+              "09 BLACK": 6,
               "38 DARK BROWN": 2
             }
           }
@@ -15480,9 +15412,9 @@
           },
           "L": {
             "skuCount": 1,
-            "units": 34,
+            "units": 33,
             "colors": {
-              "09 BLACK": 34
+              "09 BLACK": 33
             }
           }
         },
@@ -15493,14 +15425,6 @@
             "colors": {
               "09 BLACK": 10
             }
-          },
-          "XL": {
-            "skuCount": 2,
-            "units": 6,
-            "colors": {
-              "01 OFF WHITE": 1,
-              "38 DARK BROWN": 5
-            }
           }
         }
       },
@@ -15509,7 +15433,7 @@
         "09 BLACK": "https://www.gu-global.com/hk/hmall/test/u0000000006035/sku/561/GCL09.jpg",
         "38 DARK BROWN": "https://www.gu-global.com/hk/hmall/test/u0000000006035/sku/561/GCL38.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359656",
@@ -15539,8 +15463,8 @@
         "奧海城店": 0,
         "屯門市廣場店": 61,
         "康城店": 0,
-        "德福廣場店": 44,
-        "新城市廣場店": 121,
+        "德福廣場店": 43,
+        "新城市廣場店": 119,
         "旺角店": 126,
         "美麗華店": 0,
         "荷里活廣場店": 0,
@@ -15592,9 +15516,9 @@
           },
           "XL": {
             "skuCount": 1,
-            "units": 22,
+            "units": 21,
             "colors": {
-              "01 OFF WHITE": 22
+              "01 OFF WHITE": 21
             }
           },
           "XXL": {
@@ -15615,16 +15539,16 @@
           },
           "L": {
             "skuCount": 1,
-            "units": 48,
+            "units": 47,
             "colors": {
-              "01 OFF WHITE": 48
+              "01 OFF WHITE": 47
             }
           },
           "XL": {
             "skuCount": 1,
-            "units": 57,
+            "units": 56,
             "colors": {
-              "01 OFF WHITE": 57
+              "01 OFF WHITE": 56
             }
           }
         },
@@ -15674,7 +15598,7 @@
         "09 BLACK": "https://www.gu-global.com/hk/hmall/test/u0000000005893/sku/561/GCL09.jpg",
         "56 OLIVE": "https://www.gu-global.com/hk/hmall/test/u0000000005893/sku/561/GCL56.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359754",
@@ -15759,7 +15683,7 @@
         "65 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000006161/sku/561/GCL65.jpg",
         "69 NAVY": "https://www.gu-global.com/hk/hmall/test/u0000000006161/sku/561/GCL69.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "360321",
@@ -16055,7 +15979,7 @@
         "357257 / 09 BLACK": "https://www.gu-global.com/hk/hmall/test/u0000000005562/sku/561/GCL09.jpg",
         "63 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000005562/sku/561/GCL63.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359990",
@@ -16075,7 +15999,7 @@
         "德福廣場店": 0,
         "新城市廣場店": 1,
         "旺角店": 2,
-        "美麗華店": 2,
+        "美麗華店": 1,
         "荷里活廣場店": 0,
         "青衣城店": 1
       },
@@ -16088,7 +16012,7 @@
         "德福廣場店": 0,
         "新城市廣場店": 1,
         "旺角店": 6,
-        "美麗華店": 3,
+        "美麗華店": 2,
         "荷里活廣場店": 0,
         "青衣城店": 1
       },
@@ -16136,13 +16060,6 @@
             "colors": {
               "42 YELLOW": 2
             }
-          },
-          "XL": {
-            "skuCount": 1,
-            "units": 1,
-            "colors": {
-              "38 DARK BROWN": 1
-            }
           }
         },
         "青衣城店": {
@@ -16159,7 +16076,7 @@
         "38 DARK BROWN": "https://www.gu-global.com/hk/hmall/test/u0000000006629/sku/561/GCL38.jpg",
         "42 YELLOW": "https://www.gu-global.com/hk/hmall/test/u0000000006629/sku/561/GCL42.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "358783",
@@ -16267,7 +16184,7 @@
         "03 GRAY": "https://www.gu-global.com/hk/hmall/test/u0000000005911/sku/561/GCL03.jpg",
         "09 BLACK": "https://www.gu-global.com/hk/hmall/test/u0000000005911/sku/561/GCL09.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "360320",
@@ -16366,7 +16283,7 @@
         "38 DARK BROWN": "https://www.gu-global.com/hk/hmall/test/u0000000005923/sku/561/GCL38.jpg",
         "52 GREEN": "https://www.gu-global.com/hk/hmall/test/u0000000005923/sku/561/GCL52.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359607",
@@ -16420,7 +16337,7 @@
         "42 YELLOW": "https://www.gu-global.com/hk/hmall/test/u0000000005841/sku/561/GCL42.jpg",
         "63 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000005841/sku/561/GCL63.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "361442",
@@ -16451,7 +16368,7 @@
         "屯門市廣場店": 54,
         "康城店": 0,
         "德福廣場店": 0,
-        "新城市廣場店": 89,
+        "新城市廣場店": 88,
         "旺角店": 80,
         "美麗華店": 88,
         "荷里活廣場店": 0,
@@ -16505,11 +16422,11 @@
         "新城市廣場店": {
           "S": {
             "skuCount": 4,
-            "units": 29,
+            "units": 28,
             "colors": {
               "01 OFF WHITE": 7,
               "09 BLACK": 6,
-              "11 PINK": 8,
+              "11 PINK": 7,
               "40 CREAM": 8
             }
           },
@@ -16633,7 +16550,7 @@
         "11 PINK": "https://www.gu-global.com/hk/hmall/test/u0000000006460/sku/561/GCL11.jpg",
         "40 CREAM": "https://www.gu-global.com/hk/hmall/test/u0000000006460/sku/561/GCL40.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "361444",
@@ -16848,7 +16765,7 @@
         "40 CREAM": "https://www.gu-global.com/hk/hmall/test/u0000000006459/sku/561/GCL40.jpg",
         "61 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000006459/sku/561/GCL61.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359724",
@@ -16882,8 +16799,8 @@
         "新城市廣場店": 26,
         "旺角店": 120,
         "美麗華店": 16,
-        "荷里活廣場店": 241,
-        "青衣城店": 36
+        "荷里活廣場店": 240,
+        "青衣城店": 34
       },
       "stockStatus": "complete",
       "skuCount": 4,
@@ -16991,10 +16908,10 @@
         "荷里活廣場店": {
           "ONE SIZE": {
             "skuCount": 4,
-            "units": 241,
+            "units": 240,
             "colors": {
               "01 OFF WHITE": 113,
-              "09 BLACK": 103,
+              "09 BLACK": 102,
               "11 PINK": 12,
               "70 LIGHT PURPLE": 13
             }
@@ -17003,10 +16920,10 @@
         "青衣城店": {
           "ONE SIZE": {
             "skuCount": 4,
-            "units": 36,
+            "units": 34,
             "colors": {
-              "01 OFF WHITE": 13,
-              "09 BLACK": 8,
+              "01 OFF WHITE": 12,
+              "09 BLACK": 7,
               "11 PINK": 10,
               "70 LIGHT PURPLE": 5
             }
@@ -17019,7 +16936,7 @@
         "11 PINK": "https://www.gu-global.com/hk/hmall/test/u0000000005895/sku/561/GCL11.jpg",
         "70 LIGHT PURPLE": "https://www.gu-global.com/hk/hmall/test/u0000000005895/sku/561/GCL70.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359749",
@@ -17040,7 +16957,7 @@
         "新城市廣場店": 1,
         "旺角店": 3,
         "美麗華店": 2,
-        "荷里活廣場店": 3,
+        "荷里活廣場店": 2,
         "青衣城店": 1
       },
       "stockUnits": {
@@ -17051,10 +16968,10 @@
         "康城店": 3,
         "德福廣場店": 9,
         "新城市廣場店": 32,
-        "旺角店": 44,
+        "旺角店": 43,
         "美麗華店": 15,
-        "荷里活廣場店": 28,
-        "青衣城店": 13
+        "荷里活廣場店": 26,
+        "青衣城店": 12
       },
       "stockStatus": "complete",
       "skuCount": 3,
@@ -17129,9 +17046,9 @@
         "旺角店": {
           "ONE SIZE": {
             "skuCount": 3,
-            "units": 44,
+            "units": 43,
             "colors": {
-              "32 BEIGE": 21,
+              "32 BEIGE": 20,
               "40 CREAM": 4,
               "65 BLUE": 19
             }
@@ -17149,10 +17066,9 @@
         },
         "荷里活廣場店": {
           "ONE SIZE": {
-            "skuCount": 3,
-            "units": 28,
+            "skuCount": 2,
+            "units": 26,
             "colors": {
-              "32 BEIGE": 2,
               "40 CREAM": 18,
               "65 BLUE": 8
             }
@@ -17161,9 +17077,9 @@
         "青衣城店": {
           "ONE SIZE": {
             "skuCount": 1,
-            "units": 13,
+            "units": 12,
             "colors": {
-              "65 BLUE": 13
+              "65 BLUE": 12
             }
           }
         }
@@ -17173,7 +17089,7 @@
         "40 CREAM": "https://www.gu-global.com/hk/hmall/test/u0000000006474/sku/561/GCL40.jpg",
         "65 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000006474/sku/561/GCL65.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359164",
@@ -17207,7 +17123,7 @@
         "新城市廣場店": 1,
         "旺角店": 3,
         "美麗華店": 0,
-        "荷里活廣場店": 27,
+        "荷里活廣場店": 26,
         "青衣城店": 0
       },
       "stockStatus": "complete",
@@ -17282,10 +17198,10 @@
         "荷里活廣場店": {
           "ONE SIZE": {
             "skuCount": 4,
-            "units": 27,
+            "units": 26,
             "colors": {
               "15 RED": 3,
-              "32 BEIGE": 5,
+              "32 BEIGE": 4,
               "41 YELLOW": 15,
               "63 BLUE": 4
             }
@@ -17298,7 +17214,7 @@
         "41 YELLOW": "https://www.gu-global.com/hk/hmall/test/u0000000006478/sku/561/GCL41.jpg",
         "63 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000006478/sku/561/GCL63.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359584",
@@ -17460,7 +17376,7 @@
       "colorImages": {
         "10 PINK": "https://www.gu-global.com/hk/hmall/test/u0000000006557/sku/561/GCL10.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359720",
@@ -17491,7 +17407,7 @@
         "屯門市廣場店": 0,
         "康城店": 0,
         "德福廣場店": 1,
-        "新城市廣場店": 22,
+        "新城市廣場店": 21,
         "旺角店": 0,
         "美麗華店": 10,
         "荷里活廣場店": 7,
@@ -17541,10 +17457,10 @@
         "新城市廣場店": {
           "ONE SIZE": {
             "skuCount": 2,
-            "units": 22,
+            "units": 21,
             "colors": {
               "09 BLACK": 9,
-              "30 NATURAL": 13
+              "30 NATURAL": 12
             }
           }
         },
@@ -17583,7 +17499,7 @@
         "09 BLACK": "https://www.gu-global.com/hk/hmall/test/u0000000005642/sku/561/GCL09.jpg",
         "30 NATURAL": "https://www.gu-global.com/hk/hmall/test/u0000000005642/sku/561/GCL30.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359162",
@@ -17726,7 +17642,7 @@
       "colorImages": {
         "11 PINK": "https://www.gu-global.com/hk/hmall/test/u0000000006484/sku/561/GCL11.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "353160",
@@ -17794,7 +17710,7 @@
         "81": "https://www.gu-global.com/hk/hmall/test/u0000000003764/sku/561/GCL81.jpg",
         "85": "https://www.gu-global.com/hk/hmall/test/u0000000003764/sku/561/GCL85.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359719",
@@ -17939,7 +17855,7 @@
         "01 OFF WHITE": "https://www.gu-global.com/hk/hmall/test/u0000000005645/sku/561/GCL01.jpg",
         "09 BLACK": "https://www.gu-global.com/hk/hmall/test/u0000000005645/sku/561/GCL09.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359163",
@@ -17970,7 +17886,7 @@
         "屯門市廣場店": 52,
         "康城店": 37,
         "德福廣場店": 65,
-        "新城市廣場店": 90,
+        "新城市廣場店": 89,
         "旺角店": 90,
         "美麗華店": 119,
         "荷里活廣場店": 53,
@@ -18036,9 +17952,9 @@
         "新城市廣場店": {
           "ONE SIZE": {
             "skuCount": 1,
-            "units": 90,
+            "units": 89,
             "colors": {
-              "63 BLUE": 90
+              "63 BLUE": 89
             }
           }
         },
@@ -18082,7 +17998,7 @@
       "colorImages": {
         "63 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000006482/sku/561/GCL63.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "357397",
@@ -18147,7 +18063,7 @@
         "45 YELLOW": "https://www.gu-global.com/hk/hmall/test/u0000000005739/sku/561/GCL45.jpg",
         "80": "https://www.gu-global.com/hk/hmall/test/u0000000005739/sku/561/GCL80.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359161",
@@ -18180,7 +18096,7 @@
         "德福廣場店": 2,
         "新城市廣場店": 19,
         "旺角店": 27,
-        "美麗華店": 6,
+        "美麗華店": 5,
         "荷里活廣場店": 15,
         "青衣城店": 18
       },
@@ -18260,9 +18176,9 @@
         "美麗華店": {
           "ONE SIZE": {
             "skuCount": 1,
-            "units": 6,
+            "units": 5,
             "colors": {
-              "32 BEIGE": 6
+              "32 BEIGE": 5
             }
           }
         },
@@ -18291,7 +18207,7 @@
         "41 YELLOW": "https://www.gu-global.com/hk/hmall/test/u0000000006485/sku/561/GCL41.jpg",
         "63 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000006485/sku/561/GCL63.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "357744",
@@ -18309,7 +18225,7 @@
         "屯門市廣場店": 9,
         "康城店": 10,
         "德福廣場店": 10,
-        "新城市廣場店": 6,
+        "新城市廣場店": 5,
         "旺角店": 5,
         "美麗華店": 7,
         "荷里活廣場店": 9,
@@ -18318,14 +18234,14 @@
       "stockUnits": {
         "啟德零售館店": 135,
         "太古城店": 138,
-        "奧海城店": 174,
-        "屯門市廣場店": 171,
+        "奧海城店": 173,
+        "屯門市廣場店": 170,
         "康城店": 97,
-        "德福廣場店": 170,
-        "新城市廣場店": 64,
+        "德福廣場店": 166,
+        "新城市廣場店": 63,
         "旺角店": 137,
-        "美麗華店": 140,
-        "荷里活廣場店": 136,
+        "美麗華店": 137,
+        "荷里活廣場店": 135,
         "青衣城店": 97
       },
       "stockStatus": "complete",
@@ -18414,11 +18330,11 @@
           },
           "L": {
             "skuCount": 3,
-            "units": 81,
+            "units": 80,
             "colors": {
               "03 GRAY": 34,
               "09 BLACK": 34,
-              "38 DARK BROWN": 13
+              "38 DARK BROWN": 12
             }
           },
           "XL": {
@@ -18441,9 +18357,9 @@
           },
           "M": {
             "skuCount": 3,
-            "units": 95,
+            "units": 94,
             "colors": {
-              "03 GRAY": 27,
+              "03 GRAY": 26,
               "09 BLACK": 41,
               "38 DARK BROWN": 27
             }
@@ -18513,20 +18429,20 @@
           },
           "M": {
             "skuCount": 3,
-            "units": 66,
+            "units": 64,
             "colors": {
               "03 GRAY": 8,
               "09 BLACK": 32,
-              "38 DARK BROWN": 26
+              "38 DARK BROWN": 24
             }
           },
           "L": {
             "skuCount": 3,
-            "units": 72,
+            "units": 70,
             "colors": {
-              "03 GRAY": 29,
+              "03 GRAY": 28,
               "09 BLACK": 23,
-              "38 DARK BROWN": 20
+              "38 DARK BROWN": 19
             }
           },
           "XL": {
@@ -18547,10 +18463,9 @@
             }
           },
           "M": {
-            "skuCount": 3,
-            "units": 39,
+            "skuCount": 2,
+            "units": 38,
             "colors": {
-              "03 GRAY": 1,
               "09 BLACK": 37,
               "38 DARK BROWN": 1
             }
@@ -18599,10 +18514,10 @@
           },
           "M": {
             "skuCount": 2,
-            "units": 74,
+            "units": 71,
             "colors": {
-              "03 GRAY": 11,
-              "09 BLACK": 63
+              "03 GRAY": 9,
+              "09 BLACK": 62
             }
           },
           "L": {
@@ -18632,9 +18547,9 @@
           },
           "M": {
             "skuCount": 3,
-            "units": 70,
+            "units": 69,
             "colors": {
-              "03 GRAY": 20,
+              "03 GRAY": 19,
               "09 BLACK": 30,
               "38 DARK BROWN": 20
             }
@@ -18698,7 +18613,7 @@
         "09 BLACK": "https://www.gu-global.com/hk/hmall/test/u0000000004727/sku/561/GCL09.jpg",
         "38 DARK BROWN": "https://www.gu-global.com/hk/hmall/test/u0000000004727/sku/561/GCL38.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359433",
@@ -18714,7 +18629,7 @@
         "太古城店": 20,
         "奧海城店": 20,
         "屯門市廣場店": 18,
-        "康城店": 19,
+        "康城店": 18,
         "德福廣場店": 23,
         "新城市廣場店": 15,
         "旺角店": 10,
@@ -18727,9 +18642,9 @@
         "太古城店": 150,
         "奧海城店": 146,
         "屯門市廣場店": 148,
-        "康城店": 131,
+        "康城店": 129,
         "德福廣場店": 208,
-        "新城市廣場店": 73,
+        "新城市廣場店": 72,
         "旺角店": 111,
         "美麗華店": 89,
         "荷里活廣場店": 128,
@@ -18917,10 +18832,9 @@
         },
         "康城店": {
           "S": {
-            "skuCount": 5,
-            "units": 10,
+            "skuCount": 4,
+            "units": 9,
             "colors": {
-              "09 BLACK": 1,
               "16 RED": 2,
               "31 BEIGE": 3,
               "38 DARK BROWN": 2,
@@ -18940,9 +18854,9 @@
           },
           "L": {
             "skuCount": 5,
-            "units": 54,
+            "units": 53,
             "colors": {
-              "09 BLACK": 9,
+              "09 BLACK": 8,
               "16 RED": 9,
               "31 BEIGE": 12,
               "38 DARK BROWN": 15,
@@ -19033,9 +18947,9 @@
           },
           "L": {
             "skuCount": 3,
-            "units": 22,
+            "units": 21,
             "colors": {
-              "09 BLACK": 7,
+              "09 BLACK": 6,
               "31 BEIGE": 6,
               "88": 9
             }
@@ -19218,7 +19132,7 @@
         "38 DARK BROWN": "https://www.gu-global.com/hk/hmall/test/u0000000005776/sku/561/GCL38.jpg",
         "88": "https://www.gu-global.com/hk/hmall/test/u0000000005776/sku/561/GCL88.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "361741",
@@ -19247,9 +19161,9 @@
         "太古城店": 86,
         "奧海城店": 62,
         "屯門市廣場店": 86,
-        "康城店": 30,
+        "康城店": 29,
         "德福廣場店": 74,
-        "新城市廣場店": 58,
+        "新城市廣場店": 57,
         "旺角店": 64,
         "美麗華店": 56,
         "荷里活廣場店": 85,
@@ -19395,10 +19309,10 @@
         "康城店": {
           "S": {
             "skuCount": 2,
-            "units": 8,
+            "units": 7,
             "colors": {
               "17 RED": 6,
-              "88": 2
+              "88": 1
             }
           },
           "M": {
@@ -19461,9 +19375,9 @@
         "新城市廣場店": {
           "S": {
             "skuCount": 2,
-            "units": 6,
+            "units": 5,
             "colors": {
-              "17 RED": 5,
+              "17 RED": 4,
               "88": 1
             }
           },
@@ -19620,7 +19534,7 @@
         "17 RED": "https://www.gu-global.com/hk/hmall/test/u0000000006210/sku/561/GCL17.jpg",
         "88": "https://www.gu-global.com/hk/hmall/test/u0000000006210/sku/561/GCL88.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "358755",
@@ -19703,7 +19617,7 @@
         "09 BLACK": "https://www.gu-global.com/hk/hmall/test/u0000000005677/sku/561/GCL09.jpg",
         "10 PINK": "https://www.gu-global.com/hk/hmall/test/u0000000005677/sku/561/GCL10.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "360844",
@@ -19782,7 +19696,7 @@
         "09 BLACK": "https://www.gu-global.com/hk/hmall/test/u0000000006360/sku/561/GCL09.jpg",
         "36 BROWN": "https://www.gu-global.com/hk/hmall/test/u0000000006360/sku/561/GCL36.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "361194",
@@ -19980,7 +19894,7 @@
         "09 BLACK": "https://www.gu-global.com/hk/hmall/test/u0000000006488/sku/561/GCL09.jpg",
         "55 GREEN": "https://www.gu-global.com/hk/hmall/test/u0000000006488/sku/561/GCL55.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359122",
@@ -20138,7 +20052,7 @@
         "17 RED": "https://www.gu-global.com/hk/hmall/test/u0000000005488/sku/561/GCL17.jpg",
         "36 BROWN": "https://www.gu-global.com/hk/hmall/test/u0000000005488/sku/561/GCL36.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "360305",
@@ -20263,7 +20177,7 @@
       "colorImages": {
         "30 NATURAL": "https://www.gu-global.com/hk/hmall/test/u0000000006177/sku/561/GCL30.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359681",
@@ -20290,8 +20204,8 @@
       "stockUnits": {
         "啟德零售館店": 39,
         "太古城店": 24,
-        "奧海城店": 21,
-        "屯門市廣場店": 36,
+        "奧海城店": 20,
+        "屯門市廣場店": 35,
         "康城店": 0,
         "德福廣場店": 53,
         "新城市廣場店": 0,
@@ -20324,9 +20238,9 @@
         "奧海城店": {
           "ONE SIZE": {
             "skuCount": 2,
-            "units": 21,
+            "units": 20,
             "colors": {
-              "09 BLACK": 20,
+              "09 BLACK": 19,
               "32 BEIGE": 1
             }
           }
@@ -20334,9 +20248,9 @@
         "屯門市廣場店": {
           "ONE SIZE": {
             "skuCount": 2,
-            "units": 36,
+            "units": 35,
             "colors": {
-              "09 BLACK": 35,
+              "09 BLACK": 34,
               "32 BEIGE": 1
             }
           }
@@ -20384,7 +20298,7 @@
         "31 BEIGE": "https://www.gu-global.com/hk/hmall/test/u0000000006043/sku/561/GCL31.jpg",
         "32 BEIGE": "https://www.gu-global.com/hk/hmall/test/u0000000006043/sku/561/GCL32.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359837",
@@ -20491,7 +20405,7 @@
       "colorImages": {
         "85": "https://www.gu-global.com/hk/hmall/test/u0000000005514/sku/561/GCL85.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359841",
@@ -20519,7 +20433,7 @@
         "啟德零售館店": 8,
         "太古城店": 0,
         "奧海城店": 8,
-        "屯門市廣場店": 8,
+        "屯門市廣場店": 7,
         "康城店": 16,
         "德福廣場店": 15,
         "新城市廣場店": 0,
@@ -20552,9 +20466,9 @@
         "屯門市廣場店": {
           "L": {
             "skuCount": 1,
-            "units": 8,
+            "units": 7,
             "colors": {
-              "85": 8
+              "85": 7
             }
           }
         },
@@ -20623,7 +20537,7 @@
       "colorImages": {
         "85": "https://www.gu-global.com/hk/hmall/test/u0000000005503/sku/561/GCL85.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "357520",
@@ -20688,7 +20602,7 @@
         "52 GREEN": "https://www.gu-global.com/hk/hmall/test/u0000000004857/sku/561/GCL52.jpg",
         "65 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000004857/sku/561/GCL65.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359840",
@@ -20715,13 +20629,13 @@
       "stockUnits": {
         "啟德零售館店": 0,
         "太古城店": 5,
-        "奧海城店": 35,
+        "奧海城店": 34,
         "屯門市廣場店": 9,
-        "康城店": 17,
+        "康城店": 16,
         "德福廣場店": 1,
         "新城市廣場店": 0,
         "旺角店": 12,
-        "美麗華店": 13,
+        "美麗華店": 12,
         "荷里活廣場店": 1,
         "青衣城店": 2
       },
@@ -20740,9 +20654,9 @@
         "奧海城店": {
           "ONE SIZE": {
             "skuCount": 2,
-            "units": 35,
+            "units": 34,
             "colors": {
-              "85": 34,
+              "85": 33,
               "86 other": 1
             }
           }
@@ -20759,9 +20673,9 @@
         "康城店": {
           "ONE SIZE": {
             "skuCount": 1,
-            "units": 17,
+            "units": 16,
             "colors": {
-              "85": 17
+              "85": 16
             }
           }
         },
@@ -20786,9 +20700,9 @@
         "美麗華店": {
           "ONE SIZE": {
             "skuCount": 1,
-            "units": 13,
+            "units": 12,
             "colors": {
-              "85": 13
+              "85": 12
             }
           }
         },
@@ -20815,7 +20729,7 @@
         "85": "https://www.gu-global.com/hk/hmall/test/u0000000005480/sku/561/GCL85.jpg",
         "86 other": "https://www.gu-global.com/hk/hmall/test/u0000000005480/sku/561/GCL86.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "353201",
@@ -20859,7 +20773,7 @@
         "85": "https://www.gu-global.com/hk/hmall/test/u0000000003825/sku/561/GCL85.jpg",
         "86 other": "https://www.gu-global.com/hk/hmall/test/u0000000003825/sku/561/GCL86.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "360004",
@@ -20884,15 +20798,15 @@
         "青衣城店": 2
       },
       "stockUnits": {
-        "啟德零售館店": 67,
+        "啟德零售館店": 66,
         "太古城店": 111,
         "奧海城店": 69,
-        "屯門市廣場店": 110,
+        "屯門市廣場店": 109,
         "康城店": 60,
-        "德福廣場店": 117,
+        "德福廣場店": 116,
         "新城市廣場店": 91,
         "旺角店": 90,
-        "美麗華店": 115,
+        "美麗華店": 113,
         "荷里活廣場店": 84,
         "青衣城店": 69
       },
@@ -20902,9 +20816,9 @@
         "啟德零售館店": {
           "ONE SIZE": {
             "skuCount": 2,
-            "units": 67,
+            "units": 66,
             "colors": {
-              "01 OFF WHITE": 43,
+              "01 OFF WHITE": 42,
               "15 RED": 24
             }
           }
@@ -20932,10 +20846,10 @@
         "屯門市廣場店": {
           "ONE SIZE": {
             "skuCount": 2,
-            "units": 110,
+            "units": 109,
             "colors": {
               "01 OFF WHITE": 70,
-              "15 RED": 40
+              "15 RED": 39
             }
           }
         },
@@ -20952,10 +20866,10 @@
         "德福廣場店": {
           "ONE SIZE": {
             "skuCount": 2,
-            "units": 117,
+            "units": 116,
             "colors": {
               "01 OFF WHITE": 66,
-              "15 RED": 51
+              "15 RED": 50
             }
           }
         },
@@ -20982,9 +20896,9 @@
         "美麗華店": {
           "ONE SIZE": {
             "skuCount": 2,
-            "units": 115,
+            "units": 113,
             "colors": {
-              "01 OFF WHITE": 70,
+              "01 OFF WHITE": 68,
               "15 RED": 45
             }
           }
@@ -21014,7 +20928,7 @@
         "01 OFF WHITE": "https://www.gu-global.com/hk/hmall/test/u0000000006052/sku/561/GCL01.jpg",
         "15 RED": "https://www.gu-global.com/hk/hmall/test/u0000000006052/sku/561/GCL15.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "353195",
@@ -21060,7 +20974,7 @@
         "52 GREEN": "https://www.gu-global.com/hk/hmall/test/u0000000003818/sku/561/GCL52.jpg",
         "65 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000003818/sku/561/GCL65.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359838",
@@ -21105,7 +21019,7 @@
         "52 GREEN": "https://www.gu-global.com/hk/hmall/test/u0000000005492/sku/561/GCL52.jpg",
         "63 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000005492/sku/561/GCL63.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "357851",
@@ -21185,7 +21099,7 @@
       "colorImages": {
         "85": "https://www.gu-global.com/hk/hmall/test/u0000000004878/sku/561/GCL85.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "357847",
@@ -21230,7 +21144,7 @@
         "36 BROWN": "https://www.gu-global.com/hk/hmall/test/u0000000004813/sku/561/GCL36.jpg",
         "52 GREEN": "https://www.gu-global.com/hk/hmall/test/u0000000004813/sku/561/GCL52.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359839",
@@ -21295,7 +21209,7 @@
         "52 GREEN": "https://www.gu-global.com/hk/hmall/test/u0000000005497/sku/561/GCL52.jpg",
         "65 BLUE": "https://www.gu-global.com/hk/hmall/test/u0000000005497/sku/561/GCL65.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     },
     {
       "id": "359744",
@@ -21349,7 +21263,7 @@
         "30 NATURAL": "https://www.gu-global.com/hk/hmall/test/u0000000005501/sku/561/GCL30.jpg",
         "37 BROWN": "https://www.gu-global.com/hk/hmall/test/u0000000005501/sku/561/GCL37.jpg"
       },
-      "stockUpdatedAt": "2026-08-18T08:54:40+00:00"
+      "stockUpdatedAt": "2026-08-18T10:47:38+00:00"
     }
   ],
   "stores": [
@@ -21430,7 +21344,7 @@
     "staleProducts": 0,
     "unavailableProducts": 0,
     "storeCount": 11,
-    "durationSeconds": 56.9,
+    "durationSeconds": 57.4,
     "detailErrorSamples": [],
     "stockErrorSamples": []
   },
