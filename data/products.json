@@ -16957,21 +16957,44 @@
   "diagnostics": [
     {
       "engine": "playwright-firefox",
-      "status": 200,
-      "finalUrl": "https://www.gu-global.com/hk/zh_HK/c/women-saleitems.html",
-      "title": "WOMEN 減價商品 Sale items - GU香港",
+      "status": 503,
+      "finalUrl": "https://www.gu-global.com/hk/public/waitingpage/index.html",
+      "title": "GU網絡旗艦店系統現正維護中",
       "productLinkCounts": [
-        24,
-        48,
-        72,
-        96,
-        96,
-        96,
-        96,
-        96
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ],
-      "candidateProducts": 96,
-      "bodyPreview": "WOMEN\nMEN\nKIDS・TEEN\n所有減價商品 Sale items\n上衣 / 外套\n裙裝 / 褲裝\n連身裙\n內搭 / 居家服\n配飾\nWOMEN\nMEN\nKIDS．TEEN\n減價商品 Sale items\n特別行政區\n地域\n地區\n門店自提\n返回上頁確定\n請選擇門店\n選擇門店\n僅展示網絡旗艦店庫存\n商品分類\n尺碼\n顏色\n價格\n商品性質\n96 件\n排序\n女裝, S-XL\nLoop Yarn Full-Zip Hoodie 359519\nHK$79.00\n\n減價商品\n\n4.6(19)\n女裝, S-3XL\n2 Piece Tulle Tunic 360032\nHK$59.00\n\n減價商品\n\n4.8(202)\n女裝, XS-M\nDraped Neck T-Shirt/OS 359619\nHK$59.00\n\n減價商品\n\n4.9(30)\n女裝, XS-3XL\nMetal Button Cardigan/S 359643\nHK$99.00\n\n減價商品\n\n4.8(8)\n女裝, S-XXL\nSoft Sheer Henley Neck T-Shirt/OS 360251\nHK$59.00\n\n減價商品\n\n4.8(27)\n女裝, XS-3XL\nCamisole Tunic 359821\nHK$149.00\n\n減價商品\n\n4.7(61)\n女裝, XXL-3XL\nCamisole Tunic 359821\nHK$79.00\n\n減價商品\n\n女裝, XS-XXL\nCrew Neck Cardigan/S/ST 360816\nHK$99.00\n\n減價商品\n\n女裝, XS-XXL\nCocoon Sleeve Pullover/3/4Slv/MN 360857\nHK$99.00\n\n減價商品\n\n5.0(1)\n女裝, XS-XXL\nWarm Padded Jacket 357497\nHK$249.00\n\n減價商品\n\n4.8(38)\n女裝, XS-XXL\nCrew Neck Sweater/Sleeveless/ST 360817\nHK$99.00\n\n減價商品\n\n女裝, S/M\nSuper Oversized T-Shirt/ST 361822\nHK$39.00\n\n網店及指定店舖商品\n\n4.0(1)\n女裝, S-XL\nSoft Sheer Tanktop 362635\nHK$39.00\n\n減價商品\n\n女裝, XS-XL\nKnitted Short Square Neck Tank Top 359991\nHK$59.00\n\n減價商品\n\n5.0(6)\n女裝, XS-XL\nFlower Printed Camisole Tunic 360278\nHK$149.00\n\n減價商品\n\n4.6(57)\n女裝, L-XXL\nDolman Sleeve T-Shirt 359596\nHK$39.00\n\n減價商品\n"
+      "candidateProducts": 0,
+      "bodyPreview": "GU 網絡旗艦店系統現正維護中\n為了提供更好的購物體驗，系統正在維護中，維護期間網絡旗艦店將暫停服務，不便之處，敬請原諒。\n如有任何問題，可參閱FAQ: https://faq-hk.gu-global.com/\n或聯絡GU客服中心，電話800-930-132\n或使用郵箱聯絡: https://faq-hk.gu-global.com/contactus"
     }
-  ]
+  ],
+  "warning": "Playwright Firefox exposed no recognised GU product cards; retained previous snapshot."
 }
