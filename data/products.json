@@ -22876,22 +22876,44 @@
   "diagnostics": [
     {
       "engine": "playwright-firefox",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://www.gu-global.com/hk/zh_HK/c/women-saleitems.html",
-      "title": "WOMEN 減價商品 Sale items - GU香港",
+      "title": "Access Denied",
       "productLinkCounts": [
-        24,
-        48,
-        72,
-        96,
-        107,
-        107,
-        107,
-        107,
-        107
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ],
-      "candidateProducts": 107,
-      "bodyPreview": "GOLDEN WEEK 開催！09.30 - 10.11 期間限定，門店自提滿 $300 即減 $20！\nWOMEN\nMEN\nKIDS・TEEN\n所有減價商品 Sale items\n上衣 / 外套\n裙裝 / 褲裝\n連身裙\n內搭 / 居家服\n配飾\nWOMEN\nMEN\nKIDS．TEEN\n減價商品 Sale items\n特別行政區\n地域\n地區\n門店自提\n返回上頁確定\n請選擇門店\n選擇門店\n僅展示網絡旗艦店庫存\n商品分類\n尺碼\n顏色\n價格\n商品性質\n107 件\n排序\n女裝, XS-XXL\nDouble Breasted Oversized Jacket/MN 360872\nHK$249.00\n\n減價商品\n\n女裝, M-XXL\n2 Piece Tulle Tunic 360032\nHK$59.00\n\n減價商品\n\n4.8(202)\n女裝, XS-XXL\nBalloon Sleeve Zip Up Jacket/MN 360907\nHK$149.00\n\n減價商品\n\n4.7(6)\n女裝, XS-XXL\nFine Gauge Knit Polo Shirt/S/MN 360832\nHK$99.00\n\n減價商品\n\n5.0(2)\n女裝, S-3XL\nMetal Button Cardigan/S 359643\nHK$79.00\n\n減價商品\n\n4.8(8)\n女裝, XS-XXL\nWarm Padded Jacket 357497\nHK$249.00\n\n減價商品\n\n4.8(38)\n女裝, XS-XXL\nCropped Shirt/UL 360853\nHK$99.00\n\n減價商品\n\n女裝, XS-3XL\nCamisole Tunic 359821\nHK$149.00\n\n減價商品\n\n4.7(61)\n女裝, S-XL\nWrapped Sweater/S/CZ 361501\nHK$79.00\n\n網店及指定店舖商品\n\n女裝, S/M-L/XL\nBalmacaan Tent Line Coat/CL (Super Oversized Fit)​ 361845\nHK$299.00\n\n減價商品\n\n女裝, M-XL\nCocoon Sleeve Pullover/3/4Slv/MN 360857\nHK$79.00\n\n減價商品\n\n5.0(2)\n女裝, XS-XXL\nRib Stitched Knitted Vest/UL 360798\nHK$99.00\n\n網店及指定店舖商品\n\n女裝, XS-L\nCrew Neck Sweater/Sleeveless/ST 360817\nHK$79.00\n\n減價商品\n\n女裝, XS-XXL\nFaux Leather Baby Jacket/8/MN 360874\nHK$249.00\n\n減價商品\n\n女裝, XS-XXL\nOxford Short Shirt/CL 3614"
+      "candidateProducts": 0,
+      "bodyPreview": "Access Denied\nYou don't have permission to access \"http://www.gu-global.com/hk/zh_HK/c/women-saleitems.html\" on this server.\n\nReference #18.a5423917.1791744852.a0fa8917\n\nhttps://errors.edgesuite.net/18.a5423917.1791744852.a0fa8917"
     }
-  ]
+  ],
+  "warning": "Playwright Firefox exposed no recognised GU product cards; retained previous snapshot."
 }
