@@ -27934,22 +27934,44 @@
   "diagnostics": [
     {
       "engine": "playwright-firefox",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://www.gu-global.com/hk/zh_HK/c/women-saleitems.html",
-      "title": "WOMEN 減價商品 Sale items - GU香港",
+      "title": "Access Denied",
       "productLinkCounts": [
-        24,
-        48,
-        72,
-        96,
-        120,
-        120,
-        120,
-        120,
-        120
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ],
-      "candidateProducts": 120,
-      "bodyPreview": "【網店獨家早鳥優惠開催】美麗華旗艦店週年禮！選擇美麗華旗艦店門店自取，滿 $300 即減 $30！\nWOMEN\nMEN\nKIDS・TEEN\n所有減價商品 Sale items\n今週降價 ( 10/13 起 )\n上衣 / 外套\n裙裝 / 褲裝\n連身裙\n內搭 / 居家服\n配飾\nWOMEN\nMEN\nKIDS．TEEN\n減價商品 Sale items\n特別行政區\n地域\n地區\n門店自提\n返回上頁確定\n請選擇門店\n選擇門店\n僅展示網絡旗艦店庫存\n商品分類\n尺碼\n顏色\n價格\n商品性質\n120 件\n排序\n女裝, XS-3XL\nSoft Sheer Cardigan/PF 360957\nHK$59.00\n\n減價商品\n\n女裝, XS-3XL\nRandom Pleated Skirt/CL 361455\nHK$149.00\n\n減價商品\n\n女裝, S-3XL\nSide Button Pleated Skirt/MN 361029\nHK$149.00\n\n減價商品\n\n女裝, XS-3XL\nChino Pleated Midi Skirt/UL 361461\nHK$79.00\n\n減價商品\n\n女裝, XS-XXL\nBalloon Pants/Checked/UL 362867\nHK$149.00\n\n減價商品\n\n女裝, XS-XXL\nDraped Balloon Pants 362871\nHK$99.00\n\n減價商品\n\n4.8(17)\n女裝, XS-3XL\nSide Button Pleated Checked Skirt/PF 361413\nHK$149.00\n\n減價商品\n\n女裝, XS-3XL\nStraight Ankle Jeans/PF 360460\nHK$149.00\n\n減價商品\n\n4.5(4)\n女裝, XS-3XL\nRandom Pleated Checked Skirt/CL 361518\nHK$149.00\n\n減價商品\n\n女裝, S/M-L/XL\nSheer Wrap Skirt/CZ 361462\nHK$59.00\n\n網店及指定店舖商品\n\n女裝, XS-XXL\nUltra Stretch Skinny Jeans/MN 361216\nHK$149.00\n\n減價商品\n\n女裝, XS-L\nStraight Ankle Jeans 較長版 (72cm) 359973\nHK$149.00\n\n網店獨家\n\n5.0(1)\n女裝, S-XXL\nBralette/Non-Wire/CZ 360586\nHK$59.00\n\n減價商品\n\n4.0(1)\n女裝, XS-XXL\nBoxer Briefs/CZ 360588\nHK$39.00\n\n減價商品\n\n女裝, XS-XXL\nBralette/Checked/Non-Wire/CZ 360587\nHK$59.00\n\n減價商品\n\n女裝, S\nBralet"
+      "candidateProducts": 0,
+      "bodyPreview": "Access Denied\nYou don't have permission to access \"http://www.gu-global.com/hk/zh_HK/c/women-saleitems.html\" on this server.\n\nReference #18.adbd7768.1792134523.6f866e3\n\nhttps://errors.edgesuite.net/18.adbd7768.1792134523.6f866e3"
     }
-  ]
+  ],
+  "warning": "Playwright Firefox exposed no recognised GU product cards; retained previous snapshot."
 }
