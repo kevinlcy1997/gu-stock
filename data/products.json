@@ -29747,26 +29747,44 @@
   "diagnostics": [
     {
       "engine": "playwright-firefox",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://www.gu-global.com/hk/zh_HK/c/women-saleitems.html",
-      "title": "WOMEN 減價商品 Sale items - GU香港",
+      "title": "Access Denied",
       "productLinkCounts": [
-        24,
-        24,
-        48,
-        48,
-        72,
-        96,
-        96,
-        120,
-        127,
-        127,
-        127,
-        127,
-        127
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ],
-      "candidateProducts": 127,
-      "bodyPreview": "WOMEN\nMEN\nKIDS・TEEN\n所有減價商品 Sale items\n今週降價 ( 10/20 起 )\n上衣 / 外套\n裙裝 / 褲裝\n連身裙\n內搭 / 居家服\n配飾\nWOMEN\nMEN\nKIDS．TEEN\n減價商品 Sale items\n特別行政區\n地域\n地區\n門店自提\n返回上頁確定\n請選擇門店\n選擇門店\n僅展示網絡旗艦店庫存\n商品分類\n尺碼\n顏色\n價格\n商品性質\n127 件\n排序\n女裝, XS-XXL\nDouble Breasted Oversized Jacket/MN 360872\nHK$199.00\n\n減價商品\n\n女裝, XS-XXL\nBalloon Sleeve Zip Up Jacket/MN 360907\nHK$99.00\n\n減價商品\n\n4.7(6)\n女裝, S/M-L/XL\nBalmacaan Tent Line Coat/CL (Super Oversized Fit)​ 361845\nHK$199.00\n\n減價商品\n\n女裝, L-XL\n2 Piece Tulle Tunic 360032\nHK$39.00\n\n減價商品\n\n4.8(202)\n女裝, XS-XXL\nFaux Leather Baby Jacket/8/MN 360874\nHK$199.00\n\n減價商品\n\n女裝, L\nKnitted Full-Zip Hoodie/CZ 361049\nHK$99.00\n\n網店及指定店舖商品\n\n女裝, S-XL\nCropped Jacket/MN 360873\nHK$149.00\n\n網店及指定店舖商品\n\n女裝, XS-XXL\nSoft Sheer Cardigan/PF 360957\nHK$59.00\n\n減價商品\n\n女裝, XS-XXL\nSweat Oversized Tunic/UL 361267\nHK$149.00\n\n減價商品\n\n女裝, S-3XL\nRandom Pleated Skirt/CL 361455\nHK$149.00\n\n減價商品\n\n女裝, XS-3XL\nSide Button Pleated Skirt/MN 361029\nHK$149.00\n\n減價商品\n\n女裝, XS-3XL\nChino Pleated Barrel Pants/UL 361024\nHK$149.00\n\n減價商品\n\n4.0(1)\n女裝, XS-3XL\nChino Pleated Midi Skirt/UL 361461\nHK$79.00\n\n減價商品\n\n女裝, XS-XXL\nDraped Balloon Pants 362871\nHK$79.00\n\n減價商品\n\n4.8(17)\n女裝, XS-3XL\nStraight Ankle Jeans/PF 360460\nHK$149.00\n\n減價商品\n\n4.5(4)\n女裝, XS-XXL\nBalloon Midi Sk"
+      "candidateProducts": 0,
+      "bodyPreview": "Access Denied\nYou don't have permission to access \"http://www.gu-global.com/hk/zh_HK/c/women-saleitems.html\" on this server.\n\nReference #18.570c3417.1793077383.8a0c279c\n\nhttps://errors.edgesuite.net/18.570c3417.1793077383.8a0c279c"
     }
-  ]
+  ],
+  "warning": "Playwright Firefox exposed no recognised GU product cards; retained previous snapshot."
 }
