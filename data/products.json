@@ -33305,23 +33305,44 @@
   "diagnostics": [
     {
       "engine": "playwright-firefox",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://www.gu-global.com/hk/zh_HK/c/women-saleitems.html",
-      "title": "WOMEN 減價商品 Sale items - GU香港",
+      "title": "Access Denied",
       "productLinkCounts": [
-        24,
-        48,
-        72,
-        96,
-        120,
-        136,
-        136,
-        136,
-        136,
-        136
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ],
-      "candidateProducts": 136,
-      "bodyPreview": "WOMEN\nMEN\nKIDS・TEEN\n所有減價商品 Sale items\n今週降價 ( 10/27 起 )\n上衣 / 外套\n裙裝 / 褲裝\n連身裙\n內搭 / 居家服\n配飾\nWOMEN\nMEN\nKIDS．TEEN\n減價商品 Sale items\n特別行政區\n地域\n地區\n門店自提\n返回上頁確定\n請選擇門店\n選擇門店\n僅展示網絡旗艦店庫存\n商品分類\n尺碼\n顏色\n價格\n商品性質\n136 件\n排序\n女裝, XS-XXL\nSmooth Sweat High Neck T-Shirt/L/PF 361506\nHK$99.00\n\n減價商品\n\n女裝, XL-3XL\nMetal Button Cardigan/S 359643\nHK$59.00\n\n減價商品\n\n4.8(8)\n女裝, XS-XXL\nSmooth Sweat T-Shirt/L/PF 361505\nHK$99.00\n\n減價商品\n\n女裝, XS\nCrew Neck Cardigan/S/ST 360816\nHK$59.00\n\n減價商品\n\n男女通用, XS-XL\nSweat Relaxed Knee Length Shorts 358972\nHK$59.00\n\n新到商品\n\n男女通用, XS-XXL\nCotton Color Crew Neck T-Shirt 358959\nHK$29.00\n\n減價商品\n\n女裝, XS-3XL\nBarrel Ankle Pants 359459\nHK$79.00\n\n減價商品\n\n4.9(109)\n女裝, XS-XXL\nDraped Balloon Pants 362871\nHK$79.00\n\n減價商品\n\n4.8(17)\n女裝, XS-XXL\nSweat Mini Skirt/UL 361783\nHK$99.00\n\n減價商品\n\n男女通用, S-3XL\nJorts 359238\nHK$59.00\n\n減價商品\n\n女裝, XS-3XL\nBarrel Ankle Pants 較短版 (57cm) 360151\nHK$79.00\n\n網店獨家\n\n4.8(20)\n女裝, XS-XXL\nBarrel Ankle Pants 較長版 (69cm) 359989\nHK$79.00\n\n網店獨家\n\n4.9(18)\n女裝, L-XXL\nDraped Flared Shirt/S 358737\nHK$39.00\n\n減價商品\n\n4.6(12)\n男女通用, XS-3XL\nDenim wide cargo pants/UL 360421\nHK$79.00\n\n減價商品\n\n女裝, S-XL\nKnitted Pleated Mini Skirt/ST 360831\nHK$59.00\n\n網店及指定店舖商品\n\n女裝, XS-XXL\nFlannel Checked Mini Shirt Dress/PF 361313\nHK$149.00"
+      "candidateProducts": 0,
+      "bodyPreview": "Access Denied\nYou don't have permission to access \"http://www.gu-global.com/hk/zh_HK/c/women-saleitems.html\" on this server.\n\nReference #18.caab3717.1793205436.e842a3a5\n\nhttps://errors.edgesuite.net/18.caab3717.1793205436.e842a3a5"
     }
-  ]
+  ],
+  "warning": "Playwright Firefox exposed no recognised GU product cards; retained previous snapshot."
 }
