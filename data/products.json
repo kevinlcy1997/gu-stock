@@ -33159,24 +33159,44 @@
   "diagnostics": [
     {
       "engine": "playwright-firefox",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://www.gu-global.com/hk/zh_HK/c/women-saleitems.html",
-      "title": "WOMEN 減價商品 Sale items - GU香港",
+      "title": "Access Denied",
       "productLinkCounts": [
-        24,
-        48,
-        72,
-        96,
-        120,
-        144,
-        147,
-        147,
-        147,
-        147,
-        147
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ],
-      "candidateProducts": 147,
-      "bodyPreview": "【 11.11 秋冬最強禮遇】人氣商品低至 $59 起！門店自提滿 $500 減 $50 ，兼送雙面雙色購物袋！\nWOMEN\nMEN\nKIDS・TEEN\n所有減價商品 Sale items\n今週降價 ( 11/3 起 )\n上衣 / 外套\n裙裝 / 褲裝\n連身裙\n內搭 / 居家服\n配飾\nWOMEN\nMEN\nKIDS．TEEN\n減價商品 Sale items\n特別行政區\n地域\n地區\n門店自提\n返回上頁確定\n請選擇門店\n選擇門店\n僅展示網絡旗艦店庫存\n商品分類\n尺碼\n顏色\n價格\n商品性質\n147 件\n排序\n女裝, S/M-L/XL\nBalmacaan Tent Line Coat/CL (Super Oversized Fit)​ 361845\nHK$149.00\n\n減價商品\n\n女裝, S-XL\nFine Gauge Knit Ribbed Sweater/MN 361375\nHK$99.00\n\n網店及指定店舖商品\n\n女裝, XS-XL\nFine Gauge Knit Polo Shirt/S/MN 360832\nHK$79.00\n\n減價商品\n\n5.0(2)\n女裝, XS-XXL\nFaux Leather Baby Jacket/8/MN 360874\nHK$149.00\n\n減價商品\n\n女裝, XS-XXL\nRib Stitched Knitted Vest/UL 360798\nHK$79.00\n\n網店及指定店舖商品\n\n女裝, XS-XL\nSweat Hoodie/by rokh 361685\nHK$179.00\n\n減價商品\n\n女裝, S-L\nFleece Jacket/Flower/by rokh 361295\nHK$199.00\n\n減價商品\n\n女裝, XS-M\nPolo Cardigan/by rokh 361318\nHK$199.00\n\n減價商品\n\n女裝, XS-XXL\nSweat Hoodie/by rokh 361685\nHK$179.00\n\n減價商品\n\n女裝, XS-XXL\nBow Tie Striped Blouse/CL 361657\nHK$99.00\n\n減價商品\n\n女裝, S-XL\nFine Gauge Knit Ribbon Cardigan/CL 361671\nHK$99.00\n\n網店及指定店舖商品\n\n女裝, XS-XXL\nDolman Sleeve Sheer Shirt/Flower/PF 361328\nHK$79.00\n\n減價商品\n\n5.0(4)\n女裝, S-L\nCropped Jacket/MN 360873\nHK$99.00\n\n網店及指定店舖商品\n\n女裝, XS-XXL\nBow Tie Checked Blouse/CL 362878\nHK$99.00\n\n減價商品\n\n女裝, XS-XXL\nSweat Oversized Tunic/"
+      "candidateProducts": 0,
+      "bodyPreview": "Access Denied\nYou don't have permission to access \"http://www.gu-global.com/hk/zh_HK/c/women-saleitems.html\" on this server.\n\nReference #18.9551c317.1794155989.36e347c7\n\nhttps://errors.edgesuite.net/18.9551c317.1794155989.36e347c7"
     }
-  ]
+  ],
+  "warning": "Playwright Firefox exposed no recognised GU product cards; retained previous snapshot."
 }
